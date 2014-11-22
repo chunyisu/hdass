@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classAnalyzer_1_1Base2D" kind="class" prot="public">
+    <compoundname>Analyzer::Base2D</compoundname>
+    <basecompoundref refid="classAnalyzer_1_1Base" prot="public" virt="non-virtual">Analyzer::Base&lt; QWidget &gt;</basecompoundref>
+    <derivedcompoundref refid="classSonogram" prot="public" virt="non-virtual">Sonogram</derivedcompoundref>
+    <includes refid="analyzerbase_8h" local="no">analyzerbase.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonograma6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QPixmap *</type>
+        <definition>const QPixmap* Analyzer::Base2D::background</definition>
+        <argsstring>() const </argsstring>
+        <name>background</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="75" bodystart="75" bodyend="75"/>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" compoundref="analyzerbase_8h" startline="96">m_background</references>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb1" compoundref="analyzerbase_8h" startline="87" endline="87">eraseCanvas</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonograma7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QPixmap *</type>
+        <definition>const QPixmap* Analyzer::Base2D::canvas</definition>
+        <argsstring>() const </argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="76" bodystart="76" bodyend="76"/>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" compoundref="analyzerbase_8h" startline="97">m_canvas</references>
+        <referencedby refid="classSonogram_1Sonograma3" compoundref="sonogram_8cpp" startline="36" endline="59">Sonogram::analyze</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" compoundref="analyzerbase_8h" startline="79" endline="79">draw</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb1" compoundref="analyzerbase_8h" startline="87" endline="87">eraseCanvas</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb2" compoundref="analyzerbase_8h" startline="89" endline="89">paintEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Analyzer::Base&lt; QWidget  &gt;::timeout</definition>
+        <argsstring>() const</argsstring>
+        <name>timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="42" bodystart="42" bodyend="42"/>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" compoundref="analyzerbase_8cpp" startline="150" endline="156">Base2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Analyzer::Base&lt; QWidget  &gt;::height</definition>
+        <argsstring>() const</argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="43" bodystart="43" bodyend="43"/>
+        <referencedby refid="classSonogram_1Sonograma3" compoundref="sonogram_8cpp" startline="36" endline="59">Sonogram::analyze</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Analyzer::Base2D::Base2D</definition>
+        <argsstring>(QWidget *, uint timeout, uint scopeSize=7)</argsstring>
+        <name>Base2D</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <defname>parent</defname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>timeout</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>scopeSize</declname>
+          <defval>7</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="82" bodystart="150" bodyend="156"/>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" compoundref="analyzerbase_8h" startline="79" endline="79">draw</references>
+        <references refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" compoundref="analyzerbase_8h" startline="42" endline="42">Analyzer::Base&lt; QWidget &gt;::timeout</references>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void Analyzer::Base2D::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <reimplementedby refid="classSonogram_1Sonograma2">init</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="84" bodystart="84" bodyend="84"/>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb5" compoundref="analyzerbase_8cpp" startline="159" endline="168">polish</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPixmap *</type>
+        <definition>QPixmap* Analyzer::Base2D::canvas</definition>
+        <argsstring>()</argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="86" bodystart="86" bodyend="86"/>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" compoundref="analyzerbase_8h" startline="97">m_canvas</references>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::eraseCanvas</definition>
+        <argsstring>()</argsstring>
+        <name>eraseCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="87" bodystart="87" bodyend="87"/>
+        <references refid="classAnalyzer_1_1Base2D_1Sonograma6" compoundref="analyzerbase_8h" startline="75" endline="75">background</references>
+        <references refid="classAnalyzer_1_1Base2D_1Sonograma7" compoundref="analyzerbase_8h" startline="76" endline="76">canvas</references>
+        <referencedby refid="classSonogram_1Sonograma2" compoundref="sonogram_8cpp" startline="30" endline="33">Sonogram::init</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb3" compoundref="analyzerbase_8cpp" startline="171" endline="192">resizeEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::paintEvent</definition>
+        <argsstring>(QPaintEvent *)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="89" bodystart="89" bodyend="89"/>
+        <references refid="classAnalyzer_1_1Base2D_1Sonograma7" compoundref="analyzerbase_8h" startline="76" endline="76">canvas</references>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" compoundref="analyzerbase_8h" startline="97">m_canvas</references>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::resizeEvent</definition>
+        <argsstring>(QResizeEvent *)</argsstring>
+        <name>resizeEvent</name>
+        <param>
+          <type>QResizeEvent *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="90" bodystart="171" bodyend="192"/>
+        <references refid="classAnalyzer_1_1Base2D_1Sonogramb1" compoundref="analyzerbase_8h" startline="87" endline="87">eraseCanvas</references>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" compoundref="analyzerbase_8h" startline="96">m_background</references>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" compoundref="analyzerbase_8h" startline="97">m_canvas</references>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::paletteChange</definition>
+        <argsstring>(const class QPalette &amp;)</argsstring>
+        <name>paletteChange</name>
+        <param>
+          <type>const class QPalette &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base2D_1Sonogramb5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::polish</definition>
+        <argsstring>()</argsstring>
+        <name>polish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="93" bodystart="159" bodyend="168"/>
+        <references refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" compoundref="analyzerbase_8h" startline="84" endline="84">init</references>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base&lt; QWidget  &gt;::drawFrame</definition>
+        <argsstring>()</argsstring>
+        <name>drawFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="48"/>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" compoundref="analyzerbase_8h" startline="79" endline="79">draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void Analyzer::Base&lt; QWidget  &gt;::transform</definition>
+        <argsstring>(Scope &amp;)</argsstring>
+        <name>transform</name>
+        <reimplementedby refid="classSonogram_1Sonograma4">transform</reimplementedby>
+        <param>
+          <type><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>virtual void</type>
+        <definition>virtual void Analyzer::Base&lt; QWidget  &gt;::analyze</definition>
+        <argsstring>(const Scope &amp;)=0</argsstring>
+        <name>analyze</name>
+        <reimplementedby refid="classSonogram_1Sonograma3">analyze</reimplementedby>
+        <param>
+          <type>const <ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void Analyzer::Base&lt; QWidget  &gt;::paused</definition>
+        <argsstring>()</argsstring>
+        <name>paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void Analyzer::Base&lt; QWidget  &gt;::demo</definition>
+        <argsstring>()</argsstring>
+        <name>demo</name>
+        <reimplementedby refid="classSonogram_1Sonograma5">demo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base&lt; QWidget  &gt;::changeTimeout</definition>
+        <argsstring>(uint newTimeout)</argsstring>
+        <name>changeTimeout</name>
+        <param>
+          <type>uint</type>
+          <declname>newTimeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="55" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QTimer</type>
+        <definition>QTimer Analyzer::Base&lt; QWidget  &gt;::m_timer</definition>
+        <argsstring></argsstring>
+        <name>m_timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="64" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" prot="protected" static="no" volatile="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Analyzer::Base&lt; QWidget  &gt;::m_timeout</definition>
+        <argsstring></argsstring>
+        <name>m_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="65" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" prot="protected" static="no" volatile="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Analyzer::Base&lt; QWidget  &gt;::m_height</definition>
+        <argsstring></argsstring>
+        <name>m_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="66" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" prot="protected" static="no" volatile="no" mutable="no">
+        <type><ref refid="classFHT" kindref="compound">FHT</ref></type>
+        <definition>FHT Analyzer::Base&lt; QWidget  &gt;::m_fht</definition>
+        <argsstring></argsstring>
+        <name>m_fht</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="67" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap Analyzer::Base2D::m_background</definition>
+        <argsstring></argsstring>
+        <name>m_background</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="96" bodystart="96" bodyend="-1"/>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonograma6" compoundref="analyzerbase_8h" startline="75" endline="75">background</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb3" compoundref="analyzerbase_8cpp" startline="171" endline="192">resizeEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap Analyzer::Base2D::m_canvas</definition>
+        <argsstring></argsstring>
+        <name>m_canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="97" bodystart="97" bodyend="-1"/>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonograma7" compoundref="analyzerbase_8h" startline="76" endline="76">canvas</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb2" compoundref="analyzerbase_8h" startline="89" endline="89">paintEvent</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Sonogramb3" compoundref="analyzerbase_8cpp" startline="171" endline="192">resizeEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::Base2D::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="79" bodystart="79" bodyend="79"/>
+        <references refid="classAnalyzer_1_1Base2D_1Sonograma7" compoundref="analyzerbase_8h" startline="76" endline="76">canvas</references>
+        <references refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1">Analyzer::Base&lt; QWidget &gt;::drawFrame</references>
+        <referencedby refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" compoundref="analyzerbase_8cpp" startline="150" endline="156">Base2D</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="342">
+        <label>Analyzer::Base&lt; QWidget &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+        <childnode refid="343" relation="public-inheritance">
+        </childnode>
+        <childnode refid="344" relation="template-instance">
+          <edgelabel>&lt; QWidget &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="341">
+        <label>Analyzer::Base2D</label>
+        <link refid="classAnalyzer_1_1Base2D"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="343">
+        <label>QWidget </label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="345">
+        <label>Sonogram</label>
+        <link refid="classSonogram"/>
+        <childnode refid="341" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>Analyzer::Base&lt; W &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="347">
+        <label>Analyzer::Base&lt; QWidget &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>m_fht</edgelabel>
+        </childnode>
+        <childnode refid="350" relation="template-instance">
+          <edgelabel>&lt; QWidget &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="346">
+        <label>Analyzer::Base2D</label>
+        <link refid="classAnalyzer_1_1Base2D"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="348">
+        <label>QWidget </label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="349">
+        <label>FHT</label>
+        <link refid="classFHT"/>
+      </node>
+      <node id="350">
+        <label>Analyzer::Base&lt; W &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+        <childnode refid="349" relation="usage">
+          <edgelabel>m_fht</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="72" bodystart="71" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" prot="protected" virt="pure-virtual"><scope>Analyzer::Base2D</scope><name>analyze</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonograma6" prot="public" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>background</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb0" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>Base</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>Base2D</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonograma7" prot="public" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>canvas</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb0" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>canvas</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>changeTimeout</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" prot="protected" virt="virtual"><scope>Analyzer::Base2D</scope><name>demo</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" prot="private" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>draw</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>drawFrame</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb1" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>eraseCanvas</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" prot="public" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>height</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" prot="protected" virt="virtual"><scope>Analyzer::Base2D</scope><name>init</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" prot="private" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_background</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" prot="private" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_canvas</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_fht</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_height</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_timeout</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>m_timer</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb2" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>paintEvent</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb4" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>paletteChange</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" prot="protected" virt="virtual"><scope>Analyzer::Base2D</scope><name>paused</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb5" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>polish</name></member>
+      <member refid="classAnalyzer_1_1Base2D_1Sonogramb3" prot="protected" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>resizeEvent</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" prot="public" virt="non-virtual"><scope>Analyzer::Base2D</scope><name>timeout</name></member>
+      <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" prot="protected" virt="virtual"><scope>Analyzer::Base2D</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

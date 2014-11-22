@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classKStartupLogo" kind="class" prot="public">
+    <compoundname>KStartupLogo</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="kstartuplogo_8h" local="no">kstartuplogo.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKStartupLogo_1KStartupLogoa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KStartupLogo::KStartupLogo</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>KStartupLogo</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="35" bodystart="23" bodyend="34"/>
+        <references refid="classKStartupLogo_1KStartupLogop2" compoundref="kstartuplogo_8h" startline="47">LogoCloseTime</references>
+        <references refid="classKStartupLogo_1KStartupLogop1" compoundref="kstartuplogo_8h" startline="46">LogoCloseTimer</references>
+        <references refid="classKStartupLogo_1KStartupLogoi0" compoundref="kstartuplogo_8cpp" startline="45" endline="50">slotCloseLogo</references>
+      </memberdef>
+      <memberdef kind="function" id="classKStartupLogo_1KStartupLogoa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KStartupLogo::~KStartupLogo</definition>
+        <argsstring>()</argsstring>
+        <name>~KStartupLogo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="36" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classKStartupLogo_1KStartupLogoa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KStartupLogo::setHideEnabled</definition>
+        <argsstring>(bool bEnabled)</argsstring>
+        <name>setHideEnabled</name>
+        <param>
+          <type>bool</type>
+          <declname>bEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="38" bodystart="38" bodyend="38"/>
+        <references refid="classKStartupLogo_1KStartupLogop0" compoundref="kstartuplogo_8h" startline="45">m_bReadyToHide</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classKStartupLogo_1KStartupLogoi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void KStartupLogo::slotCloseLogo</definition>
+        <argsstring>()</argsstring>
+        <name>slotCloseLogo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="40" bodystart="45" bodyend="50"/>
+        <references refid="classKStartupLogo_1KStartupLogol0" compoundref="kstartuplogo_8moc" startline="84" endline="87">signalTriggerMainWidget</references>
+        <referencedby refid="classKStartupLogo_1KStartupLogoa0" compoundref="kstartuplogo_8cpp" startline="23" endline="34">KStartupLogo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classKStartupLogo_1KStartupLogol0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void KStartupLogo::signalTriggerMainWidget</definition>
+        <argsstring>()</argsstring>
+        <name>signalTriggerMainWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="42" bodystart="84" bodyend="87"/>
+        <referencedby refid="classKStartupLogo_1KStartupLogoi0" compoundref="kstartuplogo_8cpp" startline="45" endline="50">slotCloseLogo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classKStartupLogo_1KStartupLogob0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>void KStartupLogo::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *)</argsstring>
+        <name>mousePressEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="44" bodystart="40" bodyend="43"/>
+        <references refid="classKStartupLogo_1KStartupLogop0" compoundref="kstartuplogo_8h" startline="45">m_bReadyToHide</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classKStartupLogo_1KStartupLogop0" prot="protected" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KStartupLogo::m_bReadyToHide</definition>
+        <argsstring></argsstring>
+        <name>m_bReadyToHide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classKStartupLogo_1KStartupLogob0" compoundref="kstartuplogo_8cpp" startline="40" endline="43">mousePressEvent</referencedby>
+        <referencedby refid="classKStartupLogo_1KStartupLogoa2" compoundref="kstartuplogo_8h" startline="38" endline="38">setHideEnabled</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classKStartupLogo_1KStartupLogop1" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* KStartupLogo::LogoCloseTimer</definition>
+        <argsstring></argsstring>
+        <name>LogoCloseTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="46" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classKStartupLogo_1KStartupLogoa0" compoundref="kstartuplogo_8cpp" startline="23" endline="34">KStartupLogo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classKStartupLogo_1KStartupLogop2" prot="protected" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int KStartupLogo::LogoCloseTime</definition>
+        <argsstring></argsstring>
+        <name>LogoCloseTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="47" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classKStartupLogo_1KStartupLogoa0" compoundref="kstartuplogo_8cpp" startline="23" endline="34">KStartupLogo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para></para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="491">
+        <label>KStartupLogo</label>
+        <link refid="classKStartupLogo"/>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="494">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="493">
+        <label>KStartupLogo</label>
+        <link refid="classKStartupLogo"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/kstartuplogo.h" line="31" bodystart="31" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classKStartupLogo_1KStartupLogoa0" prot="public" virt="non-virtual"><scope>KStartupLogo</scope><name>KStartupLogo</name></member>
+      <member refid="classKStartupLogo_1KStartupLogop2" prot="protected" virt="non-virtual"><scope>KStartupLogo</scope><name>LogoCloseTime</name></member>
+      <member refid="classKStartupLogo_1KStartupLogop1" prot="protected" virt="non-virtual"><scope>KStartupLogo</scope><name>LogoCloseTimer</name></member>
+      <member refid="classKStartupLogo_1KStartupLogop0" prot="protected" virt="non-virtual"><scope>KStartupLogo</scope><name>m_bReadyToHide</name></member>
+      <member refid="classKStartupLogo_1KStartupLogob0" prot="protected" virt="virtual"><scope>KStartupLogo</scope><name>mousePressEvent</name></member>
+      <member refid="classKStartupLogo_1KStartupLogoa2" prot="public" virt="non-virtual"><scope>KStartupLogo</scope><name>setHideEnabled</name></member>
+      <member refid="classKStartupLogo_1KStartupLogol0" prot="public" virt="non-virtual"><scope>KStartupLogo</scope><name>signalTriggerMainWidget</name></member>
+      <member refid="classKStartupLogo_1KStartupLogoi0" prot="public" virt="non-virtual"><scope>KStartupLogo</scope><name>slotCloseLogo</name></member>
+      <member refid="classKStartupLogo_1KStartupLogoa1" prot="public" virt="non-virtual"><scope>KStartupLogo</scope><name>~KStartupLogo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

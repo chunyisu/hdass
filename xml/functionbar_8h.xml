@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="functionbar_8h" kind="file">
+    <compoundname>functionbar.h</compoundname>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes refid="global__define_8h" local="yes">global_define.h</includes>
+    <includes refid="enum_8h" local="yes">enum.h</includes>
+    <includes refid="src_2subbaralbumclock_8h" local="yes">subbaralbumclock.h</includes>
+    <includes refid="subbarinternet_8h" local="yes">subbarinternet.h</includes>
+    <includes refid="src_2subbarplayer_8h" local="yes">subbarplayer.h</includes>
+    <includes refid="subbarmanagement_8h" local="yes">subbarmanagement.h</includes>
+    <includes refid="subbarsetting_8h" local="yes">subbarsetting.h</includes>
+    <includes refid="subbarclose_8h" local="yes">subbarclose.h</includes>
+    <includedby refid="functionbar_8moc" local="yes">functionbar.moc</includedby>
+    <includedby refid="hdass08_8h" local="yes">hdass08.h</includedby>
+    <includedby refid="functionbar_8cpp" local="yes">functionbar.cpp</includedby>
+    <incdepgraph>
+      <node id="3187">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="3165">
+        <label>functionbar.h</label>
+        <link refid="functionbar.h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3168" relation="include">
+        </childnode>
+        <childnode refid="3172" relation="include">
+        </childnode>
+        <childnode refid="3173" relation="include">
+        </childnode>
+        <childnode refid="3176" relation="include">
+        </childnode>
+        <childnode refid="3177" relation="include">
+        </childnode>
+        <childnode refid="3190" relation="include">
+        </childnode>
+        <childnode refid="3191" relation="include">
+        </childnode>
+        <childnode refid="3192" relation="include">
+        </childnode>
+      </node>
+      <node id="3180">
+        <label>qtimer.h</label>
+      </node>
+      <node id="3173">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3174" relation="include">
+        </childnode>
+        <childnode refid="3168" relation="include">
+        </childnode>
+      </node>
+      <node id="3183">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="3184" relation="include">
+        </childnode>
+        <childnode refid="3186" relation="include">
+        </childnode>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3182" relation="include">
+        </childnode>
+      </node>
+      <node id="3175">
+        <label>qbutton.h</label>
+      </node>
+      <node id="3171">
+        <label>qstring.h</label>
+      </node>
+      <node id="3174">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="3175" relation="include">
+        </childnode>
+      </node>
+      <node id="3179">
+        <label>qslider.h</label>
+      </node>
+      <node id="3170">
+        <label>qobject.h</label>
+      </node>
+      <node id="3182">
+        <label>kurl.h</label>
+      </node>
+      <node id="3184">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="3182" relation="include">
+        </childnode>
+        <childnode refid="3185" relation="include">
+        </childnode>
+      </node>
+      <node id="3192">
+        <label>subbarclose.h</label>
+        <link refid="subbarclose_8h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+      </node>
+      <node id="3190">
+        <label>subbarmanagement.h</label>
+        <link refid="subbarmanagement_8h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3174" relation="include">
+        </childnode>
+      </node>
+      <node id="3172">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="3181">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="3185">
+        <label>klocale.h</label>
+      </node>
+      <node id="3188">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="3186">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="3187" relation="include">
+        </childnode>
+        <childnode refid="3188" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3180" relation="include">
+        </childnode>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3189" relation="include">
+        </childnode>
+      </node>
+      <node id="3189">
+        <label>vector</label>
+      </node>
+      <node id="3178">
+        <label>qvariant.h</label>
+      </node>
+      <node id="3191">
+        <label>subbarsetting.h</label>
+        <link refid="subbarsetting_8h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+      </node>
+      <node id="3168">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="3169" relation="include">
+        </childnode>
+      </node>
+      <node id="3176">
+        <label>subbarinternet.h</label>
+        <link refid="subbarinternet_8h"/>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3174" relation="include">
+        </childnode>
+      </node>
+      <node id="3169">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="3170" relation="include">
+        </childnode>
+        <childnode refid="3171" relation="include">
+        </childnode>
+        <childnode refid="3172" relation="include">
+        </childnode>
+      </node>
+      <node id="3166">
+        <label>qwidget.h</label>
+      </node>
+      <node id="3177">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="3178" relation="include">
+        </childnode>
+        <childnode refid="3179" relation="include">
+        </childnode>
+        <childnode refid="3180" relation="include">
+        </childnode>
+        <childnode refid="3166" relation="include">
+        </childnode>
+        <childnode refid="3174" relation="include">
+        </childnode>
+        <childnode refid="3181" relation="include">
+        </childnode>
+        <childnode refid="3182" relation="include">
+        </childnode>
+        <childnode refid="3167" relation="include">
+        </childnode>
+        <childnode refid="3183" relation="include">
+        </childnode>
+        <childnode refid="3186" relation="include">
+        </childnode>
+      </node>
+      <node id="3167">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3193">
+        <label>functionbar.h</label>
+        <link refid="functionbar.h"/>
+        <childnode refid="3194" relation="include">
+        </childnode>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3195" relation="include">
+        </childnode>
+      </node>
+      <node id="3198">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="3199">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="3195">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="3200">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="3194">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="3195" relation="include">
+        </childnode>
+      </node>
+      <node id="3196">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="3197" relation="include">
+        </childnode>
+        <childnode refid="3198" relation="include">
+        </childnode>
+        <childnode refid="3199" relation="include">
+        </childnode>
+        <childnode refid="3200" relation="include">
+        </childnode>
+      </node>
+      <node id="3197">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="3198" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classFunctionBar">FunctionBar</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FUNCTIONBAR_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FUNCTIONBAR_H</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="global__define_8h" kindref="compound">global_define.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enum_8h" kindref="compound">enum.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="src_2subbaralbumclock_8h" kindref="compound">subbaralbumclock.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarinternet_8h" kindref="compound">subbarinternet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="src_2subbarplayer_8h" kindref="compound">subbarplayer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarmanagement_8h" kindref="compound">subbarmanagement.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarsetting_8h" kindref="compound">subbarsetting.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarclose_8h" kindref="compound">subbarclose.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classFunctionBar" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classFunctionBar" kindref="compound">FunctionBar</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFunctionBar_1FunctionBara0" kindref="member">FunctionBar</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFunctionBar_1FunctionBara1" kindref="member">~FunctionBar</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFunctionBar_1FunctionBara2" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="45" refid="classFunctionBar_1FunctionBaro1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarAlbumClock" kindref="compound">SubBarAlbumClock</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro0" kindref="member">BarAC</ref>,*<ref refid="classFunctionBar_1FunctionBaro1" kindref="member">BarID</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classFunctionBar_1FunctionBaro2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarInternet" kindref="compound">SubBarInternet</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro2" kindref="member">BarInternet</ref>;</highlight></codeline>
+<codeline lineno="47" refid="classFunctionBar_1FunctionBaro3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarPlayer" kindref="compound">SubBarPlayer</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>;</highlight></codeline>
+<codeline lineno="48" refid="classFunctionBar_1FunctionBaro4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarManagement" kindref="compound">SubBarManagement</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>;</highlight></codeline>
+<codeline lineno="49" refid="classFunctionBar_1FunctionBaro5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarSetting" kindref="compound">SubBarSetting</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro5" kindref="member">BarSetting</ref>;</highlight></codeline>
+<codeline lineno="50" refid="classFunctionBar_1FunctionBaro6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarClose" kindref="compound">SubBarClose</ref><sp/>*<ref refid="classFunctionBar_1FunctionBaro6" kindref="member">BarClose</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFunctionBar_1FunctionBari0" kindref="member">slotChangeFunctionSubBar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFunctionBar_1FunctionBarl0" kindref="member">siganlChangeDisplayAreaMode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56" refid="classFunctionBar_1FunctionBarr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixBackground;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/functionbar.h"/>
+  </compounddef>
+</doxygen>

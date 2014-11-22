@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classFHT" kind="class" prot="public">
+    <compoundname>FHT</compoundname>
+    <includes refid="fht_8h" local="no">fht.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFHT_1FHTa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FHT::FHT</definition>
+        <argsstring>(int)</argsstring>
+        <name>FHT</name>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare transform for data sets with <formula id="0">$2^n$</formula> numbers, whereby <formula id="1">$n$</formula> should be at least 3. Values of more than 3 need a trigonometry table. <simplesect kind="see"><para><ref refid="classFHT_1FHTd0" kindref="member">makeCasTable()</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="58" bodystart="26" bodyend="43"/>
+        <references refid="classFHT_1FHTr2" compoundref="fht_8h" startline="36">m_buf</references>
+        <references refid="classFHT_1FHTr0" compoundref="fht_8h" startline="34">m_exp2</references>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTr3" compoundref="fht_8h" startline="37">m_tab</references>
+        <references refid="classFHT_1FHTd0" compoundref="fht_8cpp" startline="54" endline="67">makeCasTable</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FHT::~FHT</definition>
+        <argsstring>()</argsstring>
+        <name>~FHT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="60" bodystart="46" bodyend="51"/>
+        <references refid="classFHT_1FHTr2" compoundref="fht_8h" startline="36">m_buf</references>
+        <references refid="classFHT_1FHTr4" compoundref="fht_8h" startline="38">m_log</references>
+        <references refid="classFHT_1FHTr3" compoundref="fht_8h" startline="37">m_tab</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FHT::sizeExp</definition>
+        <argsstring>() const </argsstring>
+        <name>sizeExp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="61" bodystart="61" bodyend="61"/>
+        <references refid="classFHT_1FHTr0" compoundref="fht_8h" startline="34">m_exp2</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int FHT::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="62" bodystart="62" bodyend="62"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <referencedby refid="classSonogram_1Sonograma5" compoundref="sonogram_8cpp" startline="73" endline="76">Sonogram::demo</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" compoundref="analyzerbase_8cpp" startline="74" endline="91">Analyzer::Base&lt; W &gt;::transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float *</type>
+        <definition>float * FHT::copy</definition>
+        <argsstring>(float *, float *)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>float *</type>
+          <defname>d</defname>
+        </param>
+        <param>
+          <type>float *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="63" bodystart="70" bodyend="73"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" compoundref="analyzerbase_8cpp" startline="74" endline="91">Analyzer::Base&lt; W &gt;::transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float *</type>
+        <definition>float * FHT::clear</definition>
+        <argsstring>(float *)</argsstring>
+        <name>clear</name>
+        <param>
+          <type>float *</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="64" bodystart="76" bodyend="79"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::scale</definition>
+        <argsstring>(float *, float)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="65" bodystart="82" bodyend="86"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <referencedby refid="classSonogram_1Sonograma4" compoundref="sonogram_8cpp" startline="62" endline="70">Sonogram::transform</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" compoundref="analyzerbase_8cpp" startline="74" endline="91">Analyzer::Base&lt; W &gt;::transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::ewma</definition>
+        <argsstring>(float *d, float *s, float w)</argsstring>
+        <name>ewma</name>
+        <param>
+          <type>float *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponentially Weighted Moving Average (EWMA) filter. <parameterlist kind="param"><parametername>d</parametername>
+<parameterdescription>
+<para>is the filtered data. </para></parameterdescription><parametername>s</parametername>
+<parameterdescription>
+<para>is fresh input. </para></parameterdescription><parametername>w</parametername>
+<parameterdescription>
+<para>is the weighting factor.</para></parameterdescription></parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="73" bodystart="89" bodyend="93"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::pattern</definition>
+        <argsstring>(float *d, bool rect)</argsstring>
+        <name>pattern</name>
+        <param>
+          <type>float *</type>
+          <declname>d</declname>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test routine to create wobbling sine or rectangle wave. <parameterlist kind="param"><parametername>d</parametername>
+<parameterdescription>
+<para>destination vector. </para></parameterdescription><parametername>rect</parametername>
+<parameterdescription>
+<para>rectangle if true, sine otherwise.</para></parameterdescription></parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="80" bodystart="97" bodyend="113"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="fht_8cpp_1a0" compoundref="fht_8cpp" startline="96" endline="96">sind</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::logSpectrum</definition>
+        <argsstring>(float *out, float *p)</argsstring>
+        <name>logSpectrum</name>
+        <param>
+          <type>float *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Logarithmic audio spectrum. Maps semi-logarithmic spectrum to logarithmic frequency scale, interpolates missing values. A logarithmic index map is calculated at the first run only. <parameterlist kind="param"><parametername>p</parametername>
+<parameterdescription>
+<para>is the input array. </para></parameterdescription><parametername>out</parametername>
+<parameterdescription>
+<para>is the spectrum.</para></parameterdescription></parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="89" bodystart="116" bodyend="140"/>
+        <references refid="classFHT_1FHTr4" compoundref="fht_8h" startline="38">m_log</references>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTa10" compoundref="fht_8cpp" startline="143" endline="151">semiLogSpectrum</references>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" compoundref="analyzerbase_8cpp" startline="74" endline="91">Analyzer::Base&lt; W &gt;::transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::semiLogSpectrum</definition>
+        <argsstring>(float *)</argsstring>
+        <name>semiLogSpectrum</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Semi-logarithmic audio spectrum.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="94" bodystart="143" bodyend="151"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTa13" compoundref="fht_8cpp" startline="170" endline="180">power2</references>
+        <referencedby refid="classFHT_1FHTa9" compoundref="fht_8cpp" startline="116" endline="140">logSpectrum</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::spectrum</definition>
+        <argsstring>(float *)</argsstring>
+        <name>spectrum</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fourier spectrum.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="99" bodystart="154" bodyend="159"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTa13" compoundref="fht_8cpp" startline="170" endline="180">power2</references>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::power</definition>
+        <argsstring>(float *)</argsstring>
+        <name>power</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates a mathematically correct FFT power spectrum. If further scaling is applied later, use power2 instead and factor the 0.5 in the final scaling factor. <simplesect kind="see"><para><ref refid="classFHT_1FHTa13" kindref="member">FHT::power2()</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="107" bodystart="162" bodyend="167"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTa13" compoundref="fht_8cpp" startline="170" endline="180">power2</references>
+        <referencedby refid="classSonogram_1Sonograma4" compoundref="sonogram_8cpp" startline="62" endline="70">Sonogram::transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::power2</definition>
+        <argsstring>(float *)</argsstring>
+        <name>power2</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates an FFT power spectrum with doubled values as a result. The values need to be multiplied by 0.5 to be exact. Note that you only get <formula id="2">$2^{n-1}$</formula> power values for a data set of <formula id="0">$2^n$</formula> input values. <simplesect kind="see"><para><ref refid="classFHT_1FHTa12" kindref="member">FHT::power()</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="116" bodystart="170" bodyend="180"/>
+        <references refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</references>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <referencedby refid="classFHT_1FHTa12" compoundref="fht_8cpp" startline="162" endline="167">power</referencedby>
+        <referencedby refid="classFHT_1FHTa10" compoundref="fht_8cpp" startline="143" endline="151">semiLogSpectrum</referencedby>
+        <referencedby refid="classFHT_1FHTa11" compoundref="fht_8cpp" startline="154" endline="159">spectrum</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::transform8</definition>
+        <argsstring>(float *)</argsstring>
+        <name>transform8</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Discrete Hartley transform of data sets with 8 values.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="121" bodystart="192" bodyend="218"/>
+        <referencedby refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</referencedby>
+        <referencedby refid="classFHT_1FHTa15" compoundref="fht_8cpp" startline="183" endline="189">transform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTa15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::transform</definition>
+        <argsstring>(float *)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="123" bodystart="183" bodyend="189"/>
+        <references refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</references>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTa14" compoundref="fht_8cpp" startline="192" endline="218">transform8</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classFHT_1FHTd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::makeCasTable</definition>
+        <argsstring>()</argsstring>
+        <name>makeCasTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a table of CAS (cosine and sine) values. Has only to be done in the constructor and saves from calculating the same values over and over while transforming.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="45" bodystart="54" bodyend="67"/>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTr3" compoundref="fht_8h" startline="37">m_tab</references>
+        <referencedby refid="classFHT_1FHTa0" compoundref="fht_8cpp" startline="26" endline="43">FHT</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classFHT_1FHTd1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FHT::_transform</definition>
+        <argsstring>(float *, int, int)</argsstring>
+        <name>_transform</name>
+        <param>
+          <type>float *</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>k</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recursive in-place Hartley transform. For internal use only!</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="50" bodystart="221" bodyend="261"/>
+        <references refid="classFHT_1FHTr2" compoundref="fht_8h" startline="36">m_buf</references>
+        <references refid="classFHT_1FHTr1" compoundref="fht_8h" startline="35">m_num</references>
+        <references refid="classFHT_1FHTr3" compoundref="fht_8h" startline="37">m_tab</references>
+        <references refid="classFHT_1FHTa14" compoundref="fht_8cpp" startline="192" endline="218">transform8</references>
+        <referencedby refid="classFHT_1FHTa13" compoundref="fht_8cpp" startline="170" endline="180">power2</referencedby>
+        <referencedby refid="classFHT_1FHTa15" compoundref="fht_8cpp" startline="183" endline="189">transform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFHT_1FHTr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int FHT::m_exp2</definition>
+        <argsstring></argsstring>
+        <name>m_exp2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="34" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classFHT_1FHTa0" compoundref="fht_8cpp" startline="26" endline="43">FHT</referencedby>
+        <referencedby refid="classFHT_1FHTa2" compoundref="fht_8h" startline="61" endline="61">sizeExp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFHT_1FHTr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int FHT::m_num</definition>
+        <argsstring></argsstring>
+        <name>m_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="35" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</referencedby>
+        <referencedby refid="classFHT_1FHTa5" compoundref="fht_8cpp" startline="76" endline="79">clear</referencedby>
+        <referencedby refid="classFHT_1FHTa4" compoundref="fht_8cpp" startline="70" endline="73">copy</referencedby>
+        <referencedby refid="classFHT_1FHTa7" compoundref="fht_8cpp" startline="89" endline="93">ewma</referencedby>
+        <referencedby refid="classFHT_1FHTa0" compoundref="fht_8cpp" startline="26" endline="43">FHT</referencedby>
+        <referencedby refid="classFHT_1FHTa9" compoundref="fht_8cpp" startline="116" endline="140">logSpectrum</referencedby>
+        <referencedby refid="classFHT_1FHTd0" compoundref="fht_8cpp" startline="54" endline="67">makeCasTable</referencedby>
+        <referencedby refid="classFHT_1FHTa8" compoundref="fht_8cpp" startline="97" endline="113">pattern</referencedby>
+        <referencedby refid="classFHT_1FHTa12" compoundref="fht_8cpp" startline="162" endline="167">power</referencedby>
+        <referencedby refid="classFHT_1FHTa13" compoundref="fht_8cpp" startline="170" endline="180">power2</referencedby>
+        <referencedby refid="classFHT_1FHTa6" compoundref="fht_8cpp" startline="82" endline="86">scale</referencedby>
+        <referencedby refid="classFHT_1FHTa10" compoundref="fht_8cpp" startline="143" endline="151">semiLogSpectrum</referencedby>
+        <referencedby refid="classFHT_1FHTa3" compoundref="fht_8h" startline="62" endline="62">size</referencedby>
+        <referencedby refid="classFHT_1FHTa11" compoundref="fht_8cpp" startline="154" endline="159">spectrum</referencedby>
+        <referencedby refid="classFHT_1FHTa15" compoundref="fht_8cpp" startline="183" endline="189">transform</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFHT_1FHTr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>float *</type>
+        <definition>float* FHT::m_buf</definition>
+        <argsstring></argsstring>
+        <name>m_buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="36" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</referencedby>
+        <referencedby refid="classFHT_1FHTa0" compoundref="fht_8cpp" startline="26" endline="43">FHT</referencedby>
+        <referencedby refid="classFHT_1FHTa1" compoundref="fht_8cpp" startline="46" endline="51">~FHT</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFHT_1FHTr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>float *</type>
+        <definition>float* FHT::m_tab</definition>
+        <argsstring></argsstring>
+        <name>m_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="37" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classFHT_1FHTd1" compoundref="fht_8cpp" startline="221" endline="261">_transform</referencedby>
+        <referencedby refid="classFHT_1FHTa0" compoundref="fht_8cpp" startline="26" endline="43">FHT</referencedby>
+        <referencedby refid="classFHT_1FHTd0" compoundref="fht_8cpp" startline="54" endline="67">makeCasTable</referencedby>
+        <referencedby refid="classFHT_1FHTa1" compoundref="fht_8cpp" startline="46" endline="51">~FHT</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFHT_1FHTr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>int *</type>
+        <definition>int* FHT::m_log</definition>
+        <argsstring></argsstring>
+        <name>m_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/fht.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classFHT_1FHTa9" compoundref="fht_8cpp" startline="116" endline="140">logSpectrum</referencedby>
+        <referencedby refid="classFHT_1FHTa1" compoundref="fht_8cpp" startline="46" endline="51">~FHT</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Implementation of the Hartley Transform after Bracewell&apos;s discrete algorithm. The algorithm is subject to US patent No. 4,646,256 (1987) but was put into public domain by the Board of Trustees of Stanford University in 1994 and is now freely available[1].</para><para>[1] Computer in Physics, Vol. 9, No. 4, Jul/Aug 1995 pp 373-379 </para>    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/fht.h" line="33" bodystart="32" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classFHT_1FHTd1" prot="private" virt="non-virtual"><scope>FHT</scope><name>_transform</name></member>
+      <member refid="classFHT_1FHTa5" prot="public" virt="non-virtual"><scope>FHT</scope><name>clear</name></member>
+      <member refid="classFHT_1FHTa4" prot="public" virt="non-virtual"><scope>FHT</scope><name>copy</name></member>
+      <member refid="classFHT_1FHTa7" prot="public" virt="non-virtual"><scope>FHT</scope><name>ewma</name></member>
+      <member refid="classFHT_1FHTa0" prot="public" virt="non-virtual"><scope>FHT</scope><name>FHT</name></member>
+      <member refid="classFHT_1FHTa9" prot="public" virt="non-virtual"><scope>FHT</scope><name>logSpectrum</name></member>
+      <member refid="classFHT_1FHTr2" prot="private" virt="non-virtual"><scope>FHT</scope><name>m_buf</name></member>
+      <member refid="classFHT_1FHTr0" prot="private" virt="non-virtual"><scope>FHT</scope><name>m_exp2</name></member>
+      <member refid="classFHT_1FHTr4" prot="private" virt="non-virtual"><scope>FHT</scope><name>m_log</name></member>
+      <member refid="classFHT_1FHTr1" prot="private" virt="non-virtual"><scope>FHT</scope><name>m_num</name></member>
+      <member refid="classFHT_1FHTr3" prot="private" virt="non-virtual"><scope>FHT</scope><name>m_tab</name></member>
+      <member refid="classFHT_1FHTd0" prot="private" virt="non-virtual"><scope>FHT</scope><name>makeCasTable</name></member>
+      <member refid="classFHT_1FHTa8" prot="public" virt="non-virtual"><scope>FHT</scope><name>pattern</name></member>
+      <member refid="classFHT_1FHTa12" prot="public" virt="non-virtual"><scope>FHT</scope><name>power</name></member>
+      <member refid="classFHT_1FHTa13" prot="public" virt="non-virtual"><scope>FHT</scope><name>power2</name></member>
+      <member refid="classFHT_1FHTa6" prot="public" virt="non-virtual"><scope>FHT</scope><name>scale</name></member>
+      <member refid="classFHT_1FHTa10" prot="public" virt="non-virtual"><scope>FHT</scope><name>semiLogSpectrum</name></member>
+      <member refid="classFHT_1FHTa3" prot="public" virt="non-virtual"><scope>FHT</scope><name>size</name></member>
+      <member refid="classFHT_1FHTa2" prot="public" virt="non-virtual"><scope>FHT</scope><name>sizeExp</name></member>
+      <member refid="classFHT_1FHTa11" prot="public" virt="non-virtual"><scope>FHT</scope><name>spectrum</name></member>
+      <member refid="classFHT_1FHTa15" prot="public" virt="non-virtual"><scope>FHT</scope><name>transform</name></member>
+      <member refid="classFHT_1FHTa14" prot="public" virt="non-virtual"><scope>FHT</scope><name>transform8</name></member>
+      <member refid="classFHT_1FHTa1" prot="public" virt="non-virtual"><scope>FHT</scope><name>~FHT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

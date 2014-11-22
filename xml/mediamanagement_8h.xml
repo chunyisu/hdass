@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="mediamanagement_8h" kind="file">
+    <compoundname>mediamanagement.h</compoundname>
+    <includes local="no">qfileinfo.h</includes>
+    <includes local="no">qsplitter.h</includes>
+    <includes local="no">qdir.h</includes>
+    <includes local="no">kurl.h</includes>
+    <includes refid="dirview_8h" local="yes">dirview.h</includes>
+    <includes refid="qfileiconview_8h" local="yes">qfileiconview.h</includes>
+    <includes refid="imagedetial_8h" local="yes">imagedetial.h</includes>
+    <includedby refid="displayarea_8h" local="yes">displayarea.h</includedby>
+    <includedby refid="mediamanagement_8moc" local="yes">mediamanagement.moc</includedby>
+    <includedby refid="mediamanagement_8cpp" local="yes">mediamanagement.cpp</includedby>
+    <incdepgraph>
+      <node id="4161">
+        <label>qlistview.h</label>
+      </node>
+      <node id="4164">
+        <label>qtimer.h</label>
+      </node>
+      <node id="4157">
+        <label>qsplitter.h</label>
+      </node>
+      <node id="4163">
+        <label>qfile.h</label>
+      </node>
+      <node id="4167">
+        <label>qiconview.h</label>
+      </node>
+      <node id="4162">
+        <label>qstring.h</label>
+      </node>
+      <node id="4159">
+        <label>kurl.h</label>
+      </node>
+      <node id="4166">
+        <label>qiconset.h</label>
+      </node>
+      <node id="4169">
+        <label>imagedetial.h</label>
+        <link refid="imagedetial_8h"/>
+        <childnode refid="4159" relation="include">
+        </childnode>
+        <childnode refid="4170" relation="include">
+        </childnode>
+      </node>
+      <node id="4172">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="4168">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="4158">
+        <label>qdir.h</label>
+      </node>
+      <node id="4165">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview_8h"/>
+        <childnode refid="4166" relation="include">
+        </childnode>
+        <childnode refid="4162" relation="include">
+        </childnode>
+        <childnode refid="4156" relation="include">
+        </childnode>
+        <childnode refid="4158" relation="include">
+        </childnode>
+        <childnode refid="4164" relation="include">
+        </childnode>
+        <childnode refid="4167" relation="include">
+        </childnode>
+        <childnode refid="4159" relation="include">
+        </childnode>
+        <childnode refid="4168" relation="include">
+        </childnode>
+      </node>
+      <node id="4160">
+        <label>dirview.h</label>
+        <link refid="dirview_8h"/>
+        <childnode refid="4161" relation="include">
+        </childnode>
+        <childnode refid="4162" relation="include">
+        </childnode>
+        <childnode refid="4163" relation="include">
+        </childnode>
+        <childnode refid="4156" relation="include">
+        </childnode>
+        <childnode refid="4164" relation="include">
+        </childnode>
+      </node>
+      <node id="4171">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4156">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="4155">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement.h"/>
+        <childnode refid="4156" relation="include">
+        </childnode>
+        <childnode refid="4157" relation="include">
+        </childnode>
+        <childnode refid="4158" relation="include">
+        </childnode>
+        <childnode refid="4159" relation="include">
+        </childnode>
+        <childnode refid="4160" relation="include">
+        </childnode>
+        <childnode refid="4165" relation="include">
+        </childnode>
+        <childnode refid="4169" relation="include">
+        </childnode>
+      </node>
+      <node id="4170">
+        <label>hdassalbum.h</label>
+        <link refid="hdassalbum_8h"/>
+        <childnode refid="4171" relation="include">
+        </childnode>
+        <childnode refid="4159" relation="include">
+        </childnode>
+        <childnode refid="4172" relation="include">
+        </childnode>
+        <childnode refid="4173" relation="include">
+        </childnode>
+        <childnode refid="4163" relation="include">
+        </childnode>
+        <childnode refid="4162" relation="include">
+        </childnode>
+        <childnode refid="4164" relation="include">
+        </childnode>
+      </node>
+      <node id="4173">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4183">
+        <label>mediamanagement.moc</label>
+        <link refid="mediamanagement_8moc"/>
+        <childnode refid="4184" relation="include">
+        </childnode>
+      </node>
+      <node id="4175">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="4176" relation="include">
+        </childnode>
+        <childnode refid="4178" relation="include">
+        </childnode>
+        <childnode refid="4177" relation="include">
+        </childnode>
+      </node>
+      <node id="4180">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4176">
+        <label>displayarea.moc</label>
+        <link refid="displayarea_8moc"/>
+        <childnode refid="4177" relation="include">
+        </childnode>
+      </node>
+      <node id="4181">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4182">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4184">
+        <label>mediamanagement.cpp</label>
+        <link refid="mediamanagement_8cpp"/>
+      </node>
+      <node id="4178">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4179" relation="include">
+        </childnode>
+        <childnode refid="4180" relation="include">
+        </childnode>
+        <childnode refid="4181" relation="include">
+        </childnode>
+        <childnode refid="4182" relation="include">
+        </childnode>
+      </node>
+      <node id="4174">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement.h"/>
+        <childnode refid="4175" relation="include">
+        </childnode>
+        <childnode refid="4183" relation="include">
+        </childnode>
+        <childnode refid="4184" relation="include">
+        </childnode>
+      </node>
+      <node id="4177">
+        <label>displayarea.cpp</label>
+        <link refid="displayarea_8cpp"/>
+      </node>
+      <node id="4179">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4180" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classmediamanagement">mediamanagement</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2004<sp/>by<sp/>root<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>root@colicoli<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MEDIAMANAGEMENT_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MEDIAMANAGEMENT_H</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfileinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qsplitter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdir.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dirview_8h" kindref="compound">dirview.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="qfileiconview_8h" kindref="compound">qfileiconview.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="imagedetial_8h" kindref="compound">imagedetial.h</ref>&quot;</highlight></codeline>
+<codeline lineno="33" refid="classmediamanagement" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmediamanagement" kindref="compound">mediamanagement</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmediamanagement_1mediamanagementa0" kindref="member">mediamanagement</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmediamanagement_1mediamanagementa1" kindref="member">~mediamanagement</ref>();</highlight></codeline>
+<codeline lineno="39" refid="classmediamanagement_1mediamanagemento0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectoryView" kindref="compound">DirectoryView</ref><sp/>*<ref refid="classmediamanagement_1mediamanagemento0" kindref="member">imgDir</ref>;</highlight></codeline>
+<codeline lineno="40" refid="classmediamanagement_1mediamanagemento1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectoryView" kindref="compound">DirectoryView</ref><sp/>*<ref refid="classmediamanagement_1mediamanagemento1" kindref="member">musicDir</ref>;</highlight></codeline>
+<codeline lineno="41" refid="classmediamanagement_1mediamanagemento2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref><sp/>*<ref refid="classmediamanagement_1mediamanagemento2" kindref="member">imgFIV</ref>;</highlight></codeline>
+<codeline lineno="42" refid="classmediamanagement_1mediamanagemento3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref><sp/>*<ref refid="classmediamanagement_1mediamanagemento3" kindref="member">musicFIV</ref>;</highlight></codeline>
+<codeline lineno="43" refid="classmediamanagement_1mediamanagemento4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectory" kindref="compound">Directory</ref><sp/>*<ref refid="classmediamanagement_1mediamanagemento4" kindref="member">musicroot</ref>,*<ref refid="classmediamanagement_1mediamanagemento5" kindref="member">imgroot</ref>;</highlight></codeline>
+<codeline lineno="44" refid="classmediamanagement_1mediamanagemento6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classImageDetial" kindref="compound">ImageDetial</ref><sp/>*<sp/><ref refid="classmediamanagement_1mediamanagemento6" kindref="member">imgdetial</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi0" kindref="member">slotChangeMode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi1" kindref="member">slotDeleteItem</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi2" kindref="member">slotMkdir</ref>(QString<sp/>dirname);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi3" kindref="member">slotCut</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi4" kindref="member">slotPaste</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi5" kindref="member">slotShowImage</ref>(KURL<sp/>url);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementi6" kindref="member">slotBackToManagement</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/>signals:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementl0" kindref="member">signalImageDetial</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementl1" kindref="member">signalShowKeyboard</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementd0" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="58" refid="classmediamanagement_1mediamanagementr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/>QSplitter<sp/>*<ref refid="classmediamanagement_1mediamanagementr0" kindref="member">imagesplitter</ref>,*<ref refid="classmediamanagement_1mediamanagementr1" kindref="member">musicsplitter</ref>;</highlight></codeline>
+<codeline lineno="59" refid="classmediamanagement_1mediamanagementr2" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classmediamanagement_1mediamanagementr2" kindref="member">Mode</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/mediamanagement.h"/>
+  </compounddef>
+</doxygen>

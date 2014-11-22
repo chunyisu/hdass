@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="fht_8h" kind="file">
+    <compoundname>fht.h</compoundname>
+    <includedby refid="analyzerbase_8h" local="yes">analyzerbase.h</includedby>
+    <includedby refid="fht_8cpp" local="yes">fht.cpp</includedby>
+    <invincdepgraph>
+      <node id="3065">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="3066" relation="include">
+        </childnode>
+        <childnode refid="3068" relation="include">
+        </childnode>
+        <childnode refid="3067" relation="include">
+        </childnode>
+      </node>
+      <node id="3063">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="3064" relation="include">
+        </childnode>
+        <childnode refid="3076" relation="include">
+        </childnode>
+        <childnode refid="3077" relation="include">
+        </childnode>
+        <childnode refid="3078" relation="include">
+        </childnode>
+      </node>
+      <node id="3077">
+        <label>Myplayer.cpp</label>
+        <link refid="Myplayer_8cpp"/>
+      </node>
+      <node id="3079">
+        <label>sonogram.h</label>
+        <link refid="sonogram_8h"/>
+        <childnode refid="3080" relation="include">
+        </childnode>
+        <childnode refid="3081" relation="include">
+        </childnode>
+      </node>
+      <node id="3082">
+        <label>fht.cpp</label>
+        <link refid="fht_8cpp"/>
+      </node>
+      <node id="3078">
+        <label>subbarplayer.h</label>
+        <link refid="subbarplayer_8h"/>
+        <childnode refid="3075" relation="include">
+        </childnode>
+      </node>
+      <node id="3070">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="3071">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="3061">
+        <label>analyzerbase.moc</label>
+        <link refid="analyzerbase_8moc"/>
+        <childnode refid="3062" relation="include">
+        </childnode>
+      </node>
+      <node id="3081">
+        <label>sonogram.cpp</label>
+        <link refid="sonogram_8cpp"/>
+      </node>
+      <node id="3067">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="3072">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="3059">
+        <label>fht.h</label>
+        <link refid="fht.h"/>
+        <childnode refid="3060" relation="include">
+        </childnode>
+        <childnode refid="3082" relation="include">
+        </childnode>
+      </node>
+      <node id="3080">
+        <label>infoarea.cpp</label>
+        <link refid="infoarea_8cpp"/>
+      </node>
+      <node id="3060">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="3061" relation="include">
+        </childnode>
+        <childnode refid="3063" relation="include">
+        </childnode>
+        <childnode refid="3064" relation="include">
+        </childnode>
+        <childnode refid="3062" relation="include">
+        </childnode>
+        <childnode refid="3079" relation="include">
+        </childnode>
+        <childnode refid="3078" relation="include">
+        </childnode>
+      </node>
+      <node id="3066">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="3067" relation="include">
+        </childnode>
+      </node>
+      <node id="3075">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="3064">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="3065" relation="include">
+        </childnode>
+        <childnode refid="3073" relation="include">
+        </childnode>
+        <childnode refid="3074" relation="include">
+        </childnode>
+      </node>
+      <node id="3073">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="3074" relation="include">
+        </childnode>
+        <childnode refid="3075" relation="include">
+        </childnode>
+      </node>
+      <node id="3068">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="3069" relation="include">
+        </childnode>
+        <childnode refid="3070" relation="include">
+        </childnode>
+        <childnode refid="3071" relation="include">
+        </childnode>
+        <childnode refid="3072" relation="include">
+        </childnode>
+      </node>
+      <node id="3062">
+        <label>analyzerbase.cpp</label>
+        <link refid="analyzerbase_8cpp"/>
+      </node>
+      <node id="3076">
+        <label>Myplayer.moc</label>
+        <link refid="Myplayer_8moc"/>
+        <childnode refid="3077" relation="include">
+        </childnode>
+      </node>
+      <node id="3069">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="3070" relation="include">
+        </childnode>
+      </node>
+      <node id="3074">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classFHT">FHT</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>FHT<sp/>-<sp/>Fast<sp/>Hartley<sp/>Transform<sp/>Class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(C)<sp/>2004<sp/><sp/>Melchior<sp/>FRANZ<sp/>-<sp/>mfranz@kde.org</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>modify<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/>but</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/>GNU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Foundation,<sp/>59<sp/>Temple<sp/>Place,<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/>02111-1307,<sp/>USA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Id:<sp/>fht.h,v<sp/>1.3<sp/>2004/06/05<sp/>20:20:36<sp/>mfranz<sp/>Exp<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FHT_H</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FHT_H</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="32" refid="classFHT" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classFHT" kindref="compound">FHT</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34" refid="classFHT_1FHTr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTr0" kindref="member">m_exp2</ref>;</highlight></codeline>
+<codeline lineno="35" refid="classFHT_1FHTr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTr1" kindref="member">m_num</ref>;</highlight></codeline>
+<codeline lineno="36" refid="classFHT_1FHTr2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="classFHT_1FHTr2" kindref="member">m_buf</ref>;</highlight></codeline>
+<codeline lineno="37" refid="classFHT_1FHTr3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="classFHT_1FHTr3" kindref="member">m_tab</ref>;</highlight></codeline>
+<codeline lineno="38" refid="classFHT_1FHTr4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<ref refid="classFHT_1FHTr4" kindref="member">m_log</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTd0" kindref="member">makeCasTable</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTd1" kindref="member">_transform</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa0" kindref="member">FHT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa1" kindref="member">~FHT</ref>();</highlight></codeline>
+<codeline lineno="61" refid="classFHT_1FHTa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classFHT_1FHTa2" kindref="member">sizeExp</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classFHT_1FHTr0" kindref="member">m_exp2</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="62" refid="classFHT_1FHTa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classFHT_1FHTa3" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classFHT_1FHTr1" kindref="member">m_num</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="classFHT_1FHTa4" kindref="member">copy</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="classFHT_1FHTa5" kindref="member">clear</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa6" kindref="member">scale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa7" kindref="member">ewma</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa8" kindref="member">pattern</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*d,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rect);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa9" kindref="member">logSpectrum</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*out,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*p);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa10" kindref="member">semiLogSpectrum</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa11" kindref="member">spectrum</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa12" kindref="member">power</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa13" kindref="member">power2</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa14" kindref="member">transform8</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT_1FHTa15" kindref="member">transform</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/fht.h"/>
+  </compounddef>
+</doxygen>

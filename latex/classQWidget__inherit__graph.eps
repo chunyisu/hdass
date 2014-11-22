@@ -1,0 +1,2775 @@
+%!PS-Adobe-2.0
+%%Creator: dot version 2.2.1 (Fri May 13 08:36:00 UTC 2005)
+%%For: (root) root
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: 35 35 2935 859
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+
+EncodingVector
+  dup 306 /AE
+  dup 301 /Aacute
+  dup 302 /Acircumflex
+  dup 304 /Adieresis
+  dup 300 /Agrave
+  dup 305 /Aring
+  dup 303 /Atilde
+  dup 307 /Ccedilla
+  dup 311 /Eacute
+  dup 312 /Ecircumflex
+  dup 313 /Edieresis
+  dup 310 /Egrave
+  dup 315 /Iacute
+  dup 316 /Icircumflex
+  dup 317 /Idieresis
+  dup 314 /Igrave
+  dup 334 /Udieresis
+  dup 335 /Yacute
+  dup 376 /thorn
+  dup 337 /germandbls
+  dup 341 /aacute
+  dup 342 /acircumflex
+  dup 344 /adieresis
+  dup 346 /ae
+  dup 340 /agrave
+  dup 345 /aring
+  dup 347 /ccedilla
+  dup 351 /eacute
+  dup 352 /ecircumflex
+  dup 353 /edieresis
+  dup 350 /egrave
+  dup 355 /iacute
+  dup 356 /icircumflex
+  dup 357 /idieresis
+  dup 354 /igrave
+  dup 360 /dcroat
+  dup 361 /ntilde
+  dup 363 /oacute
+  dup 364 /ocircumflex
+  dup 366 /odieresis
+  dup 362 /ograve
+  dup 365 /otilde
+  dup 370 /oslash
+  dup 372 /uacute
+  dup 373 /ucircumflex
+  dup 374 /udieresis
+  dup 371 /ugrave
+  dup 375 /yacute
+  dup 377 /ydieresis  
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2935 859
+%%PageOrientation: Portrait
+gsave
+35 35 2900 824 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0 0 translate 0 rotate
+0.000 0.000 0.000 graphcolor
+10.00 /Helvetica set_font
+
+%	Node189
+gsave 10 dict begin
+filled
+0.000 0.000 1.000 nodecolor
+0.000 0.000 0.000 nodecolor
+newpath 1541 764 moveto
+1597 764 lineto
+1597 821 lineto
+1541 821 lineto
+closepath
+fill
+0.000 0.000 1.000 nodecolor
+newpath 1541 764 moveto
+1597 764 lineto
+1597 821 lineto
+1541 821 lineto
+closepath
+stroke
+gsave 10 dict begin
+1549 808 moveto
+(QWidget)
+[7.92 9.6 2.16 5.52 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 1541 802 moveto
+1597 802 lineto
+stroke
+gsave 10 dict begin
+1569 789 moveto 5.0 -0.5 ( ) alignedtext
+end grestore
+newpath 1541 783 moveto
+1597 783 lineto
+stroke
+gsave 10 dict begin
+1569 770 moveto 5.0 -0.5 ( ) alignedtext
+end grestore
+end grestore
+
+%	Node190
+[ /Rect [ 0 270 142 458 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classAnalyzer_1_1Base.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+0.000 1.000 1.000 nodecolor
+newpath 0 269 moveto
+142 269 lineto
+142 458 lineto
+0 458 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+8 445 moveto
+(Analyzer::Base< QWidget >)
+[6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.12 2.88 2.88 6.72 5.52 5.04 5.52 6 2.88 7.92 9.6 2.16 5.52 5.52 5.52 2.88 2.88 6]
+xshow
+end grestore
+newpath 0 439 moveto
+142 439 lineto
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+8 426 moveto
+(# m_timer)
+[5.52 2.88 8.4 5.52 2.88 2.16 8.4 5.52 3.36]
+xshow
+8 415 moveto
+(# m_timeout)
+[5.52 2.88 8.4 5.52 2.88 2.16 8.4 5.52 5.52 5.52 2.88]
+xshow
+8 404 moveto
+(# m_height)
+[5.52 2.88 8.4 5.52 5.52 5.52 2.16 5.52 5.52 2.88]
+xshow
+8 393 moveto
+(# m_fht)
+[5.52 2.88 8.4 5.52 2.88 5.52 2.88]
+xshow
+end grestore
+newpath 0 387 moveto
+142 387 lineto
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+8 374 moveto
+(+ timeout\(\))
+[6 2.88 2.88 2.16 8.4 5.52 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 363 moveto
+(+ height\(\))
+[6 2.88 5.52 5.52 2.16 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 352 moveto
+(# Base\(\))
+[5.52 2.88 6.72 5.52 5.04 5.52 3.36 3.36]
+xshow
+8 341 moveto
+(# drawFrame\(\))
+[5.52 2.88 5.52 3.36 5.28 7.2 6 3.36 5.52 8.4 5.52 3.36 3.36]
+xshow
+8 330 moveto
+(# transform\(\))
+[5.52 2.88 2.88 3.36 5.52 5.52 5.04 2.88 5.52 3.36 8.4 3.36 3.36]
+xshow
+8 319 moveto
+(# analyze\(\))
+[5.52 2.88 5.52 5.52 5.52 2.16 5.04 5.04 5.52 3.36 3.36]
+xshow
+8 308 moveto
+(# paused\(\))
+[5.52 2.88 5.52 5.52 5.52 5.04 5.52 5.52 3.36 3.36]
+xshow
+8 297 moveto
+(# demo\(\))
+[5.52 2.88 5.52 5.52 8.4 5.52 3.36 3.36]
+xshow
+8 286 moveto
+(# changeTimeout\(\))
+[5.52 2.88 5.04 5.52 5.52 5.52 5.52 5.52 6.24 2.16 8.4 5.52 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 275 moveto
+(- event\(\))
+[3.36 2.88 5.28 4.8 5.52 5.52 2.88 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node190
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 761 moveto
+1392 735 200 777 142 728 curveto
+66 663 56 543 60 458 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1532 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node193
+[ /Rect [ 160 325 310 403 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classArtsEngine_1_1ArtsConfigWidget.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 160 324 moveto
+311 324 lineto
+311 403 lineto
+160 403 lineto
+closepath
+stroke
+gsave 10 dict begin
+167 390 moveto
+(ArtsEngine::ArtsConfigWidget)
+[6.72 3.6 2.88 5.04 6.72 5.52 5.52 2.16 5.52 5.52 2.88 2.88 6.72 3.6 2.88 5.04 7.2 5.52 5.52 2.88 2.16 5.52 9.6 2.16 5.52 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 160 384 moveto
+311 384 lineto
+stroke
+gsave 10 dict begin
+168 371 moveto
+(- m_gui)
+[3.36 2.88 8.4 5.52 5.52 5.52 2.16]
+xshow
+168 360 moveto
+(- m_pArtsWidget)
+[3.36 2.88 8.4 5.52 5.52 6.72 3.6 2.88 5.04 9.6 2.16 5.52 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 160 354 moveto
+311 354 lineto
+stroke
+gsave 10 dict begin
+168 341 moveto
+(+ ArtsConfigWidget\(\))
+[6 2.88 6.72 3.6 2.88 5.04 7.2 5.52 5.52 2.88 2.16 5.52 9.6 2.16 5.52 5.52 5.52 2.88 3.36 3.36]
+xshow
+168 330 moveto
+(+ ~ArtsConfigWidget\(\))
+[6 2.88 6 6.72 3.6 2.88 5.04 7.2 5.52 5.52 2.88 2.16 5.52 9.6 2.16 5.52 5.52 5.52 2.88 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node193
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 761 moveto
+1402 738 362 770 311 728 curveto
+215 647 221 479 229 403 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1532 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node194
+[ /Rect [ 328 297 460 431 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classDisplayArea.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 328 297 moveto
+461 297 lineto
+461 431 lineto
+328 431 lineto
+closepath
+stroke
+gsave 10 dict begin
+367 418 moveto
+(DisplayArea)
+[7.2 2.16 5.04 5.52 2.16 5.28 5.04 6.72 3.36 5.52 5.52]
+xshow
+end grestore
+newpath 328 412 moveto
+461 412 lineto
+stroke
+gsave 10 dict begin
+336 399 moveto
+(+ Clock)
+[6 2.88 7.2 2.16 5.52 5.04 5.04]
+xshow
+336 388 moveto
+(+ Browser)
+[6 2.88 6.72 3.36 5.52 7.2 5.04 5.52 3.36]
+xshow
+336 377 moveto
+(+ Album)
+[6 2.88 6.72 2.16 5.52 5.52 8.4]
+xshow
+336 366 moveto
+(+ IA)
+[6 2.88 2.88 6.72]
+xshow
+336 355 moveto
+(+ Media)
+[6 2.88 8.4 5.52 5.52 2.16 5.52]
+xshow
+end grestore
+newpath 328 349 moveto
+461 349 lineto
+stroke
+gsave 10 dict begin
+336 336 moveto
+(+ DisplayArea\(\))
+[6 2.88 7.2 2.16 5.04 5.52 2.16 5.28 5.04 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+336 325 moveto
+(+ ~DisplayArea\(\))
+[6 2.88 6 7.2 2.16 5.04 5.52 2.16 5.28 5.04 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+336 314 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+336 303 moveto
+(+ slotDisplayModeChange)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 2.16 5.04 5.52 2.16 5.28 5.04 8.4 5.52 5.52 5.52 7.2 5.52 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node194
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1532 761 moveto
+1388 719 550 804 461 728 curveto
+377 655 376 515 384 431 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1533 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node195
+[ /Rect [ 478 319 558 409 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classDownFile.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 478 319 moveto
+559 319 lineto
+559 409 lineto
+478 409 lineto
+closepath
+stroke
+gsave 10 dict begin
+497 396 moveto
+(DownFile)
+[7.2 5.52 7.2 5.52 6.24 2.16 2.16 5.52]
+xshow
+end grestore
+newpath 478 390 moveto
+559 390 lineto
+stroke
+gsave 10 dict begin
+486 377 moveto
+(+ http)
+[6 2.88 5.52 2.88 2.88 5.52]
+xshow
+486 366 moveto
+(+ downloadfile)
+[6 2.88 5.52 5.52 7.2 5.52 2.16 5.52 5.52 5.52 2.88 2.16 2.16 5.52]
+xshow
+end grestore
+newpath 478 360 moveto
+559 360 lineto
+stroke
+gsave 10 dict begin
+486 347 moveto
+(+ DownFile\(\))
+[6 2.88 7.2 5.52 7.2 5.52 6.24 2.16 2.16 5.52 3.36 3.36]
+xshow
+486 336 moveto
+(+ ~DownFile\(\))
+[6 2.88 6 7.2 5.52 7.2 5.52 6.24 2.16 2.16 5.52 3.36 3.36]
+xshow
+486 325 moveto
+(+ handleDone)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.52 5.52 5.52]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node195
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 761 moveto
+1397 723 638 800 559 728 curveto
+471 646 491 487 507 409 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1532 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node196
+[ /Rect [ 576 259 716 469 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classFunction__Control__Area.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 576 258 moveto
+717 258 lineto
+717 469 lineto
+576 469 lineto
+closepath
+stroke
+gsave 10 dict begin
+594 456 moveto
+(Function_Control_Area)
+[6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 5.52 7.2 5.52 5.52 2.88 3.36 5.52 2.16 5.52 6.72 3.36 5.52 5.52]
+xshow
+end grestore
+newpath 576 450 moveto
+717 450 lineto
+stroke
+gsave 10 dict begin
+584 437 moveto
+(+ fun_btn_internet)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 2.16 5.52 2.64 5.52 3.36 5.52 5.52 2.88]
+xshow
+584 426 moveto
+(+ fun_btn_player)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 5.52 2.16 5.28 4.8 5.52 3.36]
+xshow
+584 415 moveto
+(+ fun_btn_management)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+584 404 moveto
+(+ fun_btn_albumclock)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 5.52 2.16 5.52 5.52 8.4 5.04 2.16 5.52 5.04 5.04]
+xshow
+584 393 moveto
+(+ fun_btn_setting)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 5.04 5.52 2.88 2.88 2.16 5.52 5.52]
+xshow
+584 382 moveto
+(+ fun_btn_close)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 5.04 2.16 5.52 5.04 5.52]
+xshow
+584 371 moveto
+(+ fun_btn_imagedetial)
+[6 2.88 2.88 5.52 5.52 5.52 5.52 2.88 5.52 5.52 2.16 8.4 5.52 5.52 5.52 5.52 5.52 2.88 2.16 5.52 2.16]
+xshow
+584 360 moveto
+(- btnGraphic)
+[3.36 2.88 5.52 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+584 349 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 576 343 moveto
+717 343 lineto
+stroke
+gsave 10 dict begin
+584 330 moveto
+(+ Function_Control_Area\(\))
+[6 2.88 6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 5.52 7.2 5.52 5.52 2.88 3.36 5.52 2.16 5.52 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+584 319 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+584 308 moveto
+(+ ~Function_Control_Area\(\))
+[6 2.88 6 6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 5.52 7.2 5.52 5.52 2.88 3.36 5.52 2.16 5.52 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+584 297 moveto
+(+ slotProcessChangeFunc)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 3.36 5.52 5.04 5.52 5.04 5.04 7.2 5.52 5.52 5.52 5.52 5.52 6 5.52 5.52 5.04]
+xshow
+584 286 moveto
+(+ slotChangeButton)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 5.52 2.88 2.88 5.52 5.52]
+xshow
+584 275 moveto
+(+ slotImageDetial)
+[6 2.88 5.04 2.16 5.52 2.88 2.88 8.4 5.52 5.52 5.52 7.2 5.52 2.88 2.16 5.52 2.16]
+xshow
+584 264 moveto
+(+ slotShowImageDetial)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 5.52 7.2 2.88 8.4 5.52 5.52 5.52 7.2 5.52 2.88 2.16 5.52 2.16]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node196
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 761 moveto
+1416 730 785 785 717 728 curveto
+645 665 633 553 635 469 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1532 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node197
+[ /Rect [ 734 281 880 447 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classFunctionBar.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 734 280 moveto
+881 280 lineto
+881 447 lineto
+734 447 lineto
+closepath
+stroke
+gsave 10 dict begin
+780 434 moveto
+(FunctionBar)
+[6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 6.72 5.52 3.36]
+xshow
+end grestore
+newpath 734 428 moveto
+881 428 lineto
+stroke
+gsave 10 dict begin
+742 415 moveto
+(+ BarAC)
+[6 2.88 6.72 5.52 3.36 6.24 7.2]
+xshow
+742 404 moveto
+(+ BarID)
+[6 2.88 6.72 5.52 3.36 2.88 7.2]
+xshow
+742 393 moveto
+(+ BarInternet)
+[6 2.88 6.72 5.52 3.36 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88]
+xshow
+742 382 moveto
+(+ BarPlayer)
+[6 2.88 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36]
+xshow
+742 371 moveto
+(+ BarManagement)
+[6 2.88 6.72 5.52 3.36 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+742 360 moveto
+(+ BarSetting)
+[6 2.88 6.72 5.52 3.36 6.72 5.52 2.88 2.88 2.16 5.52 5.52]
+xshow
+742 349 moveto
+(+ BarClose)
+[6 2.88 6.72 5.52 3.36 7.2 2.16 5.52 5.04 5.52]
+xshow
+742 338 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 734 332 moveto
+881 332 lineto
+stroke
+gsave 10 dict begin
+742 319 moveto
+(+ FunctionBar\(\))
+[6 2.88 6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 6.72 5.52 3.36 3.36 3.36]
+xshow
+742 308 moveto
+(+ ~FunctionBar\(\))
+[6 2.88 6 6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 6.72 5.52 3.36 3.36 3.36]
+xshow
+742 297 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+742 286 moveto
+(+ slotChangeFunctionSubBar)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6 5.52 5.52 5.04 2.88 2.16 5.52 5.52 6.72 5.52 5.52 6.72 5.52 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node197
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 761 moveto
+1433 736 935 774 881 728 curveto
+802 660 794 532 798 447 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1532 758 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node198
+[ /Rect [ 898 220 1040 508 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classhdassAlbum.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+0.000 1.000 1.000 nodecolor
+newpath 898 220 moveto
+1040 220 lineto
+1040 508 lineto
+898 508 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+941 495 moveto
+(hdassAlbum)
+[5.52 5.52 5.52 5.04 5.04 6.72 2.16 5.52 5.52 8.4]
+xshow
+end grestore
+newpath 898 489 moveto
+1040 489 lineto
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+906 476 moveto
+(+ it)
+[6 2.88 2.16 2.88]
+xshow
+906 465 moveto
+(+ AlbumList)
+[6 2.88 6.72 2.16 5.52 5.52 8.4 5.52 2.16 5.04 2.88]
+xshow
+906 454 moveto
+(+ FloderList)
+[6 2.88 6.24 2.16 5.52 5.52 5.52 3.36 5.52 2.16 5.04 2.88]
+xshow
+906 443 moveto
+(+ PixList)
+[6 2.88 6.72 2.16 5.04 5.52 2.16 5.04 2.88]
+xshow
+906 432 moveto
+(- switchtime)
+[3.36 2.88 5.04 7.2 2.16 2.88 5.04 5.52 2.88 2.16 8.4 5.52]
+xshow
+906 421 moveto
+(- AlbumListFileName)
+[3.36 2.88 6.72 2.16 5.52 5.52 8.4 5.52 2.16 5.04 2.88 6.24 2.16 2.16 5.52 7.2 5.52 8.4 5.52]
+xshow
+906 410 moveto
+(- AlbumFile)
+[3.36 2.88 6.72 2.16 5.52 5.52 8.4 6.24 2.16 2.16 5.52]
+xshow
+906 399 moveto
+(- timer)
+[3.36 2.88 2.88 2.16 8.4 5.52 3.36]
+xshow
+end grestore
+newpath 898 393 moveto
+1040 393 lineto
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+906 380 moveto
+(+ hdassAlbum\(\))
+[6 2.88 5.52 5.52 5.52 5.04 5.04 6.72 2.16 5.52 5.52 8.4 3.36 3.36]
+xshow
+906 369 moveto
+(+ ~hdassAlbum\(\))
+[6 2.88 6 5.52 5.52 5.52 5.04 5.04 6.72 2.16 5.52 5.52 8.4 3.36 3.36]
+xshow
+906 358 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+906 347 moveto
+(+ SlideShow\(\))
+[6 2.88 6.72 2.16 2.16 5.52 5.52 6.72 5.52 5.52 7.2 3.36 3.36]
+xshow
+906 336 moveto
+(+ DrawImage\(\))
+[6 2.88 7.2 3.36 5.28 7.2 2.88 8.4 5.52 5.52 5.52 3.36 3.36]
+xshow
+906 325 moveto
+(+ AddImageToAlbum)
+[6 2.88 6.72 5.52 5.52 2.88 8.4 5.52 5.52 5.52 5.28 5.52 6.72 2.16 5.52 5.52 8.4]
+xshow
+906 314 moveto
+(+ RemoveImageFromAlbum)
+[6 2.88 7.2 5.52 8.4 5.28 4.8 5.52 2.88 8.4 5.52 5.52 5.52 6 3.36 5.52 8.4 6.72 2.16 5.52 5.52 8.4]
+xshow
+906 303 moveto
+(+ ChangeMode)
+[6 2.88 7.2 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 5.52]
+xshow
+906 292 moveto
+(+ slotNextImage)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.28 5.04 2.88 2.88 8.4 5.52 5.52 5.52]
+xshow
+906 281 moveto
+(+ slotPreviousImage)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04 2.88 8.4 5.52 5.52 5.52]
+xshow
+906 270 moveto
+(+ slotPlayNStop)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 2.16 5.28 5.04 7.2 6.72 2.88 5.52 5.52]
+xshow
+906 259 moveto
+(+ slotModeChange)
+[6 2.88 5.04 2.16 5.52 2.88 8.4 5.52 5.52 5.52 7.2 5.52 5.52 5.52 5.52 5.52]
+xshow
+906 248 moveto
+(+ slotSetSwitchingTime)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 2.88 6.72 7.2 2.16 2.88 5.04 5.52 2.16 5.52 5.52 6.24 2.16 8.4 5.52]
+xshow
+906 237 moveto
+(- ReadAlbumList\(\))
+[3.36 2.88 7.2 5.52 5.52 5.52 6.72 2.16 5.52 5.52 8.4 5.52 2.16 5.04 2.88 3.36 3.36]
+xshow
+906 226 moveto
+(- SaveAlbumList\(\))
+[3.36 2.88 6.72 5.28 4.8 5.52 6.72 2.16 5.52 5.52 8.4 5.52 2.16 5.04 2.88 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node198
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1531 760 moveto
+1421 721 1122 800 1040 728 curveto
+979 674 961 585 958 508 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 764 moveto
+1541 764 lineto
+1533 757 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node200
+[ /Rect [ 1058 281 1148 447 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classhdassClock.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1058 280 moveto
+1148 280 lineto
+1148 447 lineto
+1058 447 lineto
+closepath
+stroke
+gsave 10 dict begin
+1077 434 moveto
+(hdassClock)
+[5.52 5.52 5.52 5.04 5.04 7.2 2.16 5.52 5.04 5.04]
+xshow
+end grestore
+newpath 1058 428 moveto
+1148 428 lineto
+stroke
+gsave 10 dict begin
+1066 415 moveto
+(- clickPos)
+[3.36 2.88 5.04 2.16 2.16 5.04 5.04 6.48 5.52 5.04]
+xshow
+1066 404 moveto
+(- time)
+[3.36 2.88 2.88 2.16 8.4 5.52]
+xshow
+1066 393 moveto
+(- internalTimer)
+[3.36 2.88 2.16 5.52 2.64 5.52 3.36 5.52 5.52 2.16 6.24 2.16 8.4 5.52 3.36]
+xshow
+1066 382 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 1058 376 moveto
+1148 376 lineto
+stroke
+gsave 10 dict begin
+1066 363 moveto
+(+ hdassClock\(\))
+[6 2.88 5.52 5.52 5.52 5.04 5.04 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1066 352 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+1066 341 moveto
+(+ ~hdassClock\(\))
+[6 2.88 6 5.52 5.52 5.52 5.04 5.04 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1066 330 moveto
+(+ setTime)
+[6 2.88 5.04 5.52 2.88 6.24 2.16 8.4 5.52]
+xshow
+1066 319 moveto
+(# updateMask\(\))
+[5.52 2.88 5.52 5.52 5.52 5.52 2.64 5.52 8.4 5.52 5.04 5.04 3.36 3.36]
+xshow
+1066 308 moveto
+(# paintEvent\(\))
+[5.52 2.88 5.52 5.52 2.16 5.52 2.88 6.72 4.8 5.52 5.52 2.88 3.36 3.36]
+xshow
+1066 297 moveto
+(# drawClock\(\))
+[5.52 2.88 5.52 3.36 5.28 7.2 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1066 286 moveto
+(- timeout)
+[3.36 2.88 2.88 2.16 8.4 5.52 5.52 5.52 2.88]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node200
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1532 760 moveto
+1443 730 1209 787 1148 728 curveto
+1074 656 1076 530 1087 447 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 763 moveto
+1541 764 lineto
+1533 757 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node201
+[ /Rect [ 1166 308 1284 420 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classhdassImageDetial.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1166 308 moveto
+1284 308 lineto
+1284 420 lineto
+1166 420 lineto
+closepath
+stroke
+gsave 10 dict begin
+1184 407 moveto
+(hdassImageDetial)
+[5.52 5.52 5.52 5.04 5.04 2.88 8.4 5.52 5.52 5.52 7.2 5.52 2.88 2.16 5.52 2.16]
+xshow
+end grestore
+newpath 1166 401 moveto
+1284 401 lineto
+stroke
+gsave 10 dict begin
+1174 388 moveto
+(+ currentImage)
+[6 2.88 5.04 5.52 3.36 3.36 5.52 5.52 2.88 2.88 8.4 5.52 5.52 5.52]
+xshow
+1174 377 moveto
+(+ AlbumList)
+[6 2.88 6.72 2.16 5.52 5.52 8.4 5.52 2.16 5.04 2.88]
+xshow
+end grestore
+newpath 1166 371 moveto
+1284 371 lineto
+stroke
+gsave 10 dict begin
+1174 358 moveto
+(+ hdassImageDetial\(\))
+[6 2.88 5.52 5.52 5.52 5.04 5.04 2.88 8.4 5.52 5.52 5.52 7.2 5.52 2.88 2.16 5.52 2.16 3.36 3.36]
+xshow
+1174 347 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+1174 336 moveto
+(+ ~hdassImageDetial\(\))
+[6 2.88 6 5.52 5.52 5.52 5.04 5.04 2.88 8.4 5.52 5.52 5.52 7.2 5.52 2.88 2.16 5.52 2.16 3.36 3.36]
+xshow
+1174 325 moveto
+(+ slotSetImage)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 2.88 2.88 8.4 5.52 5.52 5.52]
+xshow
+1174 314 moveto
+(+ slotResize)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.04 2.16 5.04 5.52]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node201
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1532 760 moveto
+1435 717 1364 806 1284 728 curveto
+1202 647 1206 500 1216 420 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1530 763 moveto
+1541 764 lineto
+1533 757 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node202
+[ /Rect [ 1302 209 1440 519 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classInfoArea.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1302 209 moveto
+1441 209 lineto
+1441 519 lineto
+1302 519 lineto
+closepath
+stroke
+gsave 10 dict begin
+1351 506 moveto
+(InfoArea)
+[2.88 5.52 2.88 5.52 6.72 3.36 5.52 5.52]
+xshow
+end grestore
+newpath 1302 500 moveto
+1441 500 lineto
+stroke
+gsave 10 dict begin
+1310 487 moveto
+(+ IABtnVolumeUp)
+[6 2.88 2.88 6.72 6.72 2.88 5.52 6.24 5.52 2.16 5.52 8.4 5.52 7.2 5.52]
+xshow
+1310 476 moveto
+(+ IABtnVolumeDown)
+[6 2.88 2.88 6.72 6.72 2.88 5.52 6.24 5.52 2.16 5.52 8.4 5.52 7.2 5.52 7.2 5.52]
+xshow
+1310 465 moveto
+(+ IABtnPlayListDelete)
+[6 2.88 2.88 6.72 6.72 2.88 5.52 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88 7.2 5.52 2.16 5.52 2.64 5.52]
+xshow
+1310 454 moveto
+(+ m_pAnalyzer)
+[6 2.88 8.4 5.52 5.52 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36]
+xshow
+1310 443 moveto
+(+ PlayList)
+[6 2.88 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88]
+xshow
+1310 432 moveto
+(+ curr_list)
+[6 2.88 5.04 5.52 3.36 3.36 5.52 2.16 2.16 5.04 2.88]
+xshow
+1310 421 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+1310 410 moveto
+(- BtnGraphic)
+[3.36 2.88 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+1310 399 moveto
+(- Artist)
+[3.36 2.88 6.72 3.6 2.88 2.16 5.04 2.88]
+xshow
+1310 388 moveto
+(- Album)
+[3.36 2.88 6.72 2.16 5.52 5.52 8.4]
+xshow
+1310 377 moveto
+(- Length)
+[3.36 2.88 5.52 5.52 5.52 5.52 2.88 5.52]
+xshow
+1310 366 moveto
+(- Year)
+[3.36 2.88 5.76 5.52 5.52 3.36]
+xshow
+1310 355 moveto
+(- Title)
+[3.36 2.88 6.24 2.16 2.88 2.16 5.52]
+xshow
+1310 344 moveto
+(- BitRate)
+[3.36 2.88 6.72 2.16 2.88 6.96 5.52 2.64 5.52]
+xshow
+end grestore
+newpath 1302 338 moveto
+1441 338 lineto
+stroke
+gsave 10 dict begin
+1310 325 moveto
+(+ InfoArea\(\))
+[6 2.88 2.88 5.52 2.88 5.52 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+1310 314 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+1310 303 moveto
+(+ ~InfoArea\(\))
+[6 2.88 6 2.88 5.52 2.88 5.52 6.72 3.36 5.52 5.52 3.36 3.36]
+xshow
+1310 292 moveto
+(+ slotReadListFromPlayList)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 2.16 5.04 2.88 6 3.36 5.52 8.4 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88]
+xshow
+1310 281 moveto
+(+ ReadList)
+[6 2.88 7.2 5.52 5.52 5.52 5.52 2.16 5.04 2.88]
+xshow
+1310 270 moveto
+(+ slotDeleteItems)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 2.16 5.52 2.64 5.52 2.88 2.64 5.52 8.4 5.04]
+xshow
+1310 259 moveto
+(+ slotDoubleClicked)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 2.16 5.52 7.2 2.16 2.16 5.04 4.8 5.52 5.52]
+xshow
+1310 248 moveto
+(+ slotHadleSongInfo)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 2.16 5.52 6.72 5.52 5.52 5.52 2.88 5.52 2.88 5.52]
+xshow
+1310 237 moveto
+(- InitPlayList\(\))
+[3.36 2.88 2.88 5.52 2.16 2.88 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88 3.36 3.36]
+xshow
+1310 226 moveto
+(- InitSongInfo\(\))
+[3.36 2.88 2.88 5.52 2.16 2.88 6.72 5.52 5.52 5.52 2.88 5.52 2.88 5.52 3.36 3.36]
+xshow
+1310 215 moveto
+(- ShowSongInfo\(\))
+[3.36 2.88 6.72 5.52 5.52 7.2 6.72 5.52 5.52 5.52 2.88 5.52 2.88 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node202
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1532 759 moveto
+1497 742 1470 760 1441 728 curveto
+1392 671 1373 590 1367 519 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1531 762 moveto
+1541 764 lineto
+1534 756 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node203
+[ /Rect [ 1458 33 1556 695 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classkeyboard.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1458 33 moveto
+1556 33 lineto
+1556 695 lineto
+1458 695 lineto
+closepath
+stroke
+gsave 10 dict begin
+1486 682 moveto
+(keyboard)
+[4.8 5.28 5.04 5.52 5.52 5.52 3.36 5.52]
+xshow
+end grestore
+newpath 1458 676 moveto
+1556 676 lineto
+stroke
+gsave 10 dict begin
+1466 663 moveto
+(+ strString)
+[6 2.88 5.04 2.88 3.36 6.72 2.88 3.36 2.16 5.52 5.52]
+xshow
+1466 652 moveto
+(- key_a)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 641 moveto
+(- key_b)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 630 moveto
+(- key_c)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 619 moveto
+(- key_d)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 608 moveto
+(- key_e)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 597 moveto
+(- key_f)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.88]
+xshow
+1466 586 moveto
+(- key_g)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 575 moveto
+(- key_h)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 564 moveto
+(- key_i)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.16]
+xshow
+1466 553 moveto
+(- key_j)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.16]
+xshow
+1466 542 moveto
+(- key_k)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 531 moveto
+(- key_l)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.16]
+xshow
+1466 520 moveto
+(- key_m)
+[3.36 2.88 4.8 5.28 5.04 5.52 8.4]
+xshow
+1466 509 moveto
+(- key_n)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 498 moveto
+(- key_o)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 487 moveto
+(- key_p)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 476 moveto
+(- key_q)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 465 moveto
+(- key_r)
+[3.36 2.88 4.8 5.28 5.04 5.52 3.36]
+xshow
+1466 454 moveto
+(- key_s)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 443 moveto
+(- key_t)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.88]
+xshow
+1466 432 moveto
+(- key_u)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 421 moveto
+(- key_v)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 410 moveto
+(- key_w)
+[3.36 2.88 4.8 5.28 5.04 5.52 7.2]
+xshow
+1466 399 moveto
+(- key_x)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 388 moveto
+(- key_y)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 377 moveto
+(- key_z)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04]
+xshow
+1466 366 moveto
+(- key_1)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 355 moveto
+(- key_2)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 344 moveto
+(- key_3)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 333 moveto
+(- key_4)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 322 moveto
+(- key_5)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 311 moveto
+(- key_6)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 300 moveto
+(- key_7)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 289 moveto
+(- key_8)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 278 moveto
+(- key_9)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 267 moveto
+(- key_0)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52]
+xshow
+1466 256 moveto
+(- key_comma)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04 5.52 8.4 8.4 5.52]
+xshow
+1466 245 moveto
+(- key_space)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04 5.52 5.52 5.04 5.52]
+xshow
+1466 234 moveto
+(- key_enter)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52 5.52 2.64 5.52 3.36]
+xshow
+1466 223 moveto
+(- key_change)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.04 5.52 5.52 5.52 5.52 5.52]
+xshow
+1466 212 moveto
+(- key_backspace)
+[3.36 2.88 4.8 5.28 5.04 5.52 5.52 5.52 5.04 5.04 5.04 5.52 5.52 5.04 5.52]
+xshow
+1466 201 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+1466 190 moveto
+(- pixMask)
+[3.36 2.88 5.52 2.16 5.04 8.4 5.52 5.04 5.04]
+xshow
+1466 179 moveto
+(- Label)
+[3.36 2.88 5.52 5.52 5.52 5.52 2.16]
+xshow
+1466 168 moveto
+(- upper)
+[3.36 2.88 5.52 5.52 5.52 5.52 3.36]
+xshow
+1466 157 moveto
+(- key_list)
+[3.36 2.88 4.8 5.28 5.04 5.52 2.16 2.16 5.04 2.88]
+xshow
+end grestore
+newpath 1458 151 moveto
+1556 151 lineto
+stroke
+gsave 10 dict begin
+1466 138 moveto
+(+ keyboard\(\))
+[6 2.88 4.8 5.28 5.04 5.52 5.52 5.52 3.36 5.52 3.36 3.36]
+xshow
+1466 127 moveto
+(+ ~keyboard\(\))
+[6 2.88 6 4.8 5.28 5.04 5.52 5.52 5.52 3.36 5.52 3.36 3.36]
+xshow
+1466 116 moveto
+(+ xSEtup\(\))
+[6 2.88 5.04 6.72 6.72 2.88 5.52 5.52 3.36 3.36]
+xshow
+1466 105 moveto
+(+ slotReceiveChar)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.04 5.52 2.16 4.8 5.52 7.2 5.52 5.52 3.36]
+xshow
+1466 94 moveto
+(+ slotSendString)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 5.52 5.52 6.72 2.88 3.36 2.16 5.52 5.52]
+xshow
+1466 83 moveto
+(+ slotClearStr)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 2.16 5.52 5.52 3.36 6.72 2.88 3.36]
+xshow
+1466 72 moveto
+(+ slotEnter)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 2.64 5.52 3.36]
+xshow
+1466 61 moveto
+(+ slotBackSpace)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 5.04 5.04 6.72 5.52 5.52 5.04 5.52]
+xshow
+1466 50 moveto
+(+ slotChange)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52]
+xshow
+1466 39 moveto
+(- InitKey\(\))
+[3.36 2.88 2.88 5.52 2.16 2.88 6.48 5.28 5.04 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node203
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1561 754 moveto
+1559 746 1557 737 1556 728 curveto
+1554 717 1553 706 1551 695 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1558 755 moveto
+1563 764 lineto
+1564 754 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node204
+[ /Rect [ 1574 303 1688 425 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classKStartupLogo.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1574 302 moveto
+1688 302 lineto
+1688 425 lineto
+1574 425 lineto
+closepath
+stroke
+gsave 10 dict begin
+1600 412 moveto
+(KStartupLogo)
+[6.24 6.72 2.88 5.52 3.6 2.88 5.52 5.52 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 1574 406 moveto
+1688 406 lineto
+stroke
+gsave 10 dict begin
+1582 393 moveto
+(# m_bReadyToHide)
+[5.52 2.88 8.4 5.52 5.52 7.2 5.52 5.52 5.52 5.04 5.28 5.52 7.2 2.16 5.52 5.52]
+xshow
+1582 382 moveto
+(# LogoCloseTimer)
+[5.52 2.88 5.52 5.52 5.52 5.52 7.2 2.16 5.52 5.04 5.52 6.24 2.16 8.4 5.52 3.36]
+xshow
+1582 371 moveto
+(# LogoCloseTime)
+[5.52 2.88 5.52 5.52 5.52 5.52 7.2 2.16 5.52 5.04 5.52 6.24 2.16 8.4 5.52]
+xshow
+end grestore
+newpath 1574 365 moveto
+1688 365 lineto
+stroke
+gsave 10 dict begin
+1582 352 moveto
+(+ KStartupLogo\(\))
+[6 2.88 6.24 6.72 2.88 5.52 3.6 2.88 5.52 5.52 5.52 5.52 5.52 5.52 3.36 3.36]
+xshow
+1582 341 moveto
+(+ ~KStartupLogo\(\))
+[6 2.88 6 6.24 6.72 2.88 5.52 3.6 2.88 5.52 5.52 5.52 5.52 5.52 5.52 3.36 3.36]
+xshow
+1582 330 moveto
+(+ setHideEnabled\(\))
+[6 2.88 5.04 5.52 2.88 7.2 2.16 5.52 5.52 6.72 5.52 5.52 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+1582 319 moveto
+(+ slotCloseLogo)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 2.16 5.52 5.04 5.52 5.52 5.52 5.52 5.52]
+xshow
+1582 308 moveto
+(# mousePressEvent\(\))
+[5.52 2.88 8.4 5.52 5.52 5.04 5.52 6.72 3.36 5.52 5.04 5.04 6.72 4.8 5.52 5.52 2.88 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node204
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1574 754 moveto
+1585 678 1609 515 1622 425 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1571 754 moveto
+1573 764 lineto
+1577 754 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node205
+[ /Rect [ 1706 237 1838 491 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classmediamanagement.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1706 236 moveto
+1839 236 lineto
+1839 491 lineto
+1706 491 lineto
+closepath
+stroke
+gsave 10 dict begin
+1729 478 moveto
+(mediamanagement)
+[8.4 5.52 5.52 2.16 5.52 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 1706 472 moveto
+1839 472 lineto
+stroke
+gsave 10 dict begin
+1714 459 moveto
+(+ imgDir)
+[6 2.88 2.16 8.4 5.52 7.2 2.16 3.36]
+xshow
+1714 448 moveto
+(+ musicDir)
+[6 2.88 8.4 5.52 5.04 2.16 5.04 7.2 2.16 3.36]
+xshow
+1714 437 moveto
+(+ imgFIV)
+[6 2.88 2.16 8.4 5.52 6.24 2.88 6.72]
+xshow
+1714 426 moveto
+(+ musicFIV)
+[6 2.88 8.4 5.52 5.04 2.16 5.04 6.24 2.88 6.72]
+xshow
+1714 415 moveto
+(+ musicroot)
+[6 2.88 8.4 5.52 5.04 2.16 5.04 3.36 5.52 5.52 2.88]
+xshow
+1714 404 moveto
+(+ imgroot)
+[6 2.88 2.16 8.4 5.52 3.36 5.52 5.52 2.88]
+xshow
+1714 393 moveto
+(+ imgdetial)
+[6 2.88 2.16 8.4 5.52 5.52 5.52 2.88 2.16 5.52 2.16]
+xshow
+1714 382 moveto
+(- imagesplitter)
+[3.36 2.88 2.16 8.4 5.52 5.52 5.52 5.04 5.52 2.16 2.16 2.88 2.64 5.52 3.36]
+xshow
+1714 371 moveto
+(- musicsplitter)
+[3.36 2.88 8.4 5.52 5.04 2.16 5.04 5.04 5.52 2.16 2.16 2.88 2.64 5.52 3.36]
+xshow
+1714 360 moveto
+(- Mode)
+[3.36 2.88 8.4 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 1706 354 moveto
+1839 354 lineto
+stroke
+gsave 10 dict begin
+1714 341 moveto
+(+ mediamanagement\(\))
+[6 2.88 8.4 5.52 5.52 2.16 5.52 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+1714 330 moveto
+(+ ~mediamanagement\(\))
+[6 2.88 6 8.4 5.52 5.52 2.16 5.52 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+1714 319 moveto
+(+ slotChangeMode)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 5.52]
+xshow
+1714 308 moveto
+(+ slotDeleteItem)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 2.16 5.52 2.64 5.52 2.88 2.64 5.52 8.4]
+xshow
+1714 297 moveto
+(+ slotMkdir)
+[6 2.88 5.04 2.16 5.52 2.88 8.4 5.04 5.52 2.16 3.36]
+xshow
+1714 286 moveto
+(+ slotCut)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 2.88]
+xshow
+1714 275 moveto
+(+ slotPaste)
+[6 2.88 5.04 2.16 5.52 2.88 6.48 5.52 5.04 2.64 5.52]
+xshow
+1714 264 moveto
+(+ slotShowImage)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 5.52 7.2 2.88 8.4 5.52 5.52 5.52]
+xshow
+1714 253 moveto
+(+ slotBackToManagement)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 5.52 5.04 5.04 5.28 5.52 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+1714 242 moveto
+(- xSetup\(\))
+[3.36 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node205
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1606 759 moveto
+1645 740 1674 763 1706 728 curveto
+1761 663 1777 568 1779 491 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1604 756 moveto
+1597 764 lineto
+1607 762 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node206
+[ /Rect [ 1856 176 1960 552 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classMyplayer.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1856 176 moveto
+1960 176 lineto
+1960 552 lineto
+1856 552 lineto
+closepath
+stroke
+gsave 10 dict begin
+1887 539 moveto
+(Myplayer)
+[8.4 5.04 5.52 2.16 5.28 4.8 5.52 3.36]
+xshow
+end grestore
+newpath 1856 533 moveto
+1960 533 lineto
+stroke
+gsave 10 dict begin
+1864 520 moveto
+(- m_list)
+[3.36 2.88 8.4 5.52 2.16 2.16 5.04 2.88]
+xshow
+1864 509 moveto
+(- it)
+[3.36 2.88 2.16 2.88]
+xshow
+1864 498 moveto
+(- m_Vol)
+[3.36 2.88 8.4 5.52 6.24 5.52 2.16]
+xshow
+1864 487 moveto
+(- m_repeat)
+[3.36 2.88 8.4 5.52 3.36 5.52 5.52 5.52 5.52 2.88]
+xshow
+1864 476 moveto
+(- m_random)
+[3.36 2.88 8.4 5.52 3.36 5.52 5.52 5.52 5.52 8.4]
+xshow
+1864 465 moveto
+(- state)
+[3.36 2.88 5.04 2.88 5.52 2.64 5.52]
+xshow
+end grestore
+newpath 1856 459 moveto
+1960 459 lineto
+stroke
+gsave 10 dict begin
+1864 446 moveto
+(+ Myplayer\(\))
+[6 2.88 8.4 5.04 5.52 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+1864 435 moveto
+(+ ~Myplayer\(\))
+[6 2.88 6 8.4 5.04 5.52 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+1864 424 moveto
+(+ handleMessage\(\))
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 8.4 5.52 5.04 5.04 5.52 5.52 5.52 3.36 3.36]
+xshow
+1864 413 moveto
+(+ play)
+[6 2.88 5.52 2.16 5.28 5.04]
+xshow
+1864 402 moveto
+(+ play)
+[6 2.88 5.52 2.16 5.28 5.04]
+xshow
+1864 391 moveto
+(+ pause)
+[6 2.88 5.52 5.52 5.52 5.04 5.52]
+xshow
+1864 380 moveto
+(+ stop)
+[6 2.88 5.04 2.88 5.52 5.52]
+xshow
+1864 369 moveto
+(+ next)
+[6 2.88 5.52 5.28 5.04 2.88]
+xshow
+1864 358 moveto
+(+ previous)
+[6 2.88 5.52 3.36 5.28 5.04 2.16 5.52 5.52 5.04]
+xshow
+1864 347 moveto
+(+ increase_volume)
+[6 2.88 2.16 5.52 5.04 3.36 5.52 5.52 5.04 5.52 5.52 4.8 5.52 2.16 5.52 8.4 5.52]
+xshow
+1864 336 moveto
+(+ decrease_volume)
+[6 2.88 5.52 5.52 5.04 3.36 5.52 5.52 5.04 5.52 5.52 4.8 5.52 2.16 5.52 8.4 5.52]
+xshow
+1864 325 moveto
+(+ setVolume)
+[6 2.88 5.04 5.52 2.88 6.24 5.52 2.16 5.52 8.4 5.52]
+xshow
+1864 314 moveto
+(+ handleNext)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.28 5.04 2.88]
+xshow
+1864 303 moveto
+(+ handlePrevious)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04]
+xshow
+1864 292 moveto
+(+ handlePosition)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.48 5.52 5.04 2.16 2.88 2.16 5.52 5.52]
+xshow
+1864 281 moveto
+(+ handleRepeat)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.52 5.52 5.52 5.52 2.88]
+xshow
+1864 270 moveto
+(+ handleRandom)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.96 5.52 5.52 5.52 5.52 8.4]
+xshow
+1864 259 moveto
+(+ handleSlider)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 2.16 5.52 5.52 3.36]
+xshow
+1864 248 moveto
+(+ handlePlayItem)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 5.28 5.04 2.88 2.64 5.52 8.4]
+xshow
+1864 237 moveto
+(+ initlist)
+[6 2.88 2.16 5.52 2.16 2.88 2.16 2.16 5.04 2.88]
+xshow
+1864 226 moveto
+(+ add)
+[6 2.88 5.52 5.52 5.52]
+xshow
+1864 215 moveto
+(+ clearMedia)
+[6 2.88 5.04 2.16 5.52 5.52 3.36 8.4 5.52 5.52 2.16 5.52]
+xshow
+1864 204 moveto
+(+ removeMedia)
+[6 2.88 3.36 5.52 8.4 5.28 4.8 5.52 8.4 5.52 5.52 2.16 5.52]
+xshow
+1864 193 moveto
+(- savePlaylist\(\))
+[3.36 2.88 5.04 5.28 4.8 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+1864 182 moveto
+(- restorePlaylist\(\))
+[3.36 2.88 3.36 5.52 5.04 2.88 5.52 3.36 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node206
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1606 760 moveto
+1704 717 1776 808 1856 728 curveto
+1901 682 1919 616 1924 552 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1605 757 moveto
+1597 764 lineto
+1608 763 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node207
+[ /Rect [ 1978 231 2158 497 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarAlbumClock.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 1978 231 moveto
+2159 231 lineto
+2159 497 lineto
+1978 497 lineto
+closepath
+stroke
+gsave 10 dict begin
+2024 484 moveto
+(SubBarAlbumClock)
+[6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04]
+xshow
+end grestore
+newpath 1978 478 moveto
+2159 478 lineto
+stroke
+gsave 10 dict begin
+1986 465 moveto
+(+ SubBarBtnAlbumClock)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04]
+xshow
+1986 454 moveto
+(+ SubBarBtnPrevious)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04]
+xshow
+1986 443 moveto
+(+ SubBarBtnPlayNPause)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 6.72 2.16 5.28 5.04 7.2 6.48 5.52 5.52 5.04 5.52]
+xshow
+1986 432 moveto
+(+ SubBarBtnNext)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 7.2 5.28 5.04 2.88]
+xshow
+1986 421 moveto
+(+ SubBarBtnAlbumClock)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04]
+xshow
+1986 410 moveto
+(- btnGraphic)
+[3.36 2.88 5.52 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+1986 399 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+1986 388 moveto
+(- slideshowstate)
+[3.36 2.88 5.04 2.16 2.16 5.52 5.52 5.04 5.52 5.52 7.2 5.04 2.88 5.52 2.64 5.52]
+xshow
+1986 377 moveto
+(- btnGraphic)
+[3.36 2.88 5.52 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+end grestore
+newpath 1978 371 moveto
+2159 371 lineto
+stroke
+gsave 10 dict begin
+1986 358 moveto
+(+ SubBarAlbumClock\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1986 347 moveto
+(+ ~SubBarAlbumClock\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1986 336 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+1986 325 moveto
+(+ SubBarAlbumClock\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1986 314 moveto
+(+ ~SubBarAlbumClock\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.52 5.52 8.4 7.2 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+1986 303 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+1986 292 moveto
+(+ slotChangeMode)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 5.52]
+xshow
+1986 281 moveto
+(+ slotChangePlayNPauseBtnGraphic)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 2.16 5.28 5.04 7.2 6.48 5.52 5.52 5.04 5.52 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+1986 270 moveto
+(+ slotChangeMode)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 5.52]
+xshow
+1986 259 moveto
+(+ slotChangePlayNPauseBtnGraphic)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 2.16 5.28 5.04 7.2 6.48 5.52 5.52 5.04 5.52 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+1986 248 moveto
+(- ChangeButtonGraphic\(\))
+[3.36 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 5.52 2.88 2.88 5.52 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04 3.36 3.36]
+xshow
+1986 237 moveto
+(- ChangeButtonGraphic\(\))
+[3.36 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 5.52 2.88 2.88 5.52 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node207
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1597 760 moveto
+1683 731 1906 781 1969 728 curveto
+2034 672 2056 576 2063 497 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1596 757 moveto
+1588 764 lineto
+1599 763 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node189 -> Node207
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1606 764 moveto
+1606 764 1606 764 1606 764 curveto
+1682 727 1922 783 1987 728 curveto
+2052 672 2074 576 2079 497 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1604 761 moveto
+1597 769 lineto
+1607 767 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node208
+[ /Rect [ 2176 325 2272 403 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarClose.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 2176 324 moveto
+2273 324 lineto
+2273 403 lineto
+2176 403 lineto
+closepath
+stroke
+gsave 10 dict begin
+2194 390 moveto
+(SubBarClose)
+[6.72 5.52 5.52 6.72 5.52 3.36 7.2 2.16 5.52 5.04 5.52]
+xshow
+end grestore
+newpath 2176 384 moveto
+2273 384 lineto
+stroke
+gsave 10 dict begin
+2184 371 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 2176 365 moveto
+2273 365 lineto
+stroke
+gsave 10 dict begin
+2184 352 moveto
+(+ SubBarClose\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 7.2 2.16 5.52 5.04 5.52 3.36 3.36]
+xshow
+2184 341 moveto
+(+ ~SubBarClose\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 7.2 2.16 5.52 5.04 5.52 3.36 3.36]
+xshow
+2184 330 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node208
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1607 761 moveto
+1696 739 2130 769 2176 728 curveto
+2266 643 2247 478 2233 403 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1606 758 moveto
+1597 764 lineto
+1608 764 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node209
+[ /Rect [ 2290 297 2442 431 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarInternet.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 2290 297 moveto
+2442 297 lineto
+2442 431 lineto
+2290 431 lineto
+closepath
+stroke
+gsave 10 dict begin
+2332 418 moveto
+(SubBarInternet)
+[6.72 5.52 5.52 6.72 5.52 3.36 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 2290 412 moveto
+2442 412 lineto
+stroke
+gsave 10 dict begin
+2298 399 moveto
+(+ SubBarBtnInternet_Home)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 5.52 7.2 5.52 8.4 5.52]
+xshow
+2298 388 moveto
+(+ SubBarBtnInternet_Previous)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04]
+xshow
+2298 377 moveto
+(+ SubBarBtnInternet_Next)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 5.52 7.2 5.28 5.04 2.88]
+xshow
+2298 366 moveto
+(+ SubBarBtnInternet_Search)
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.88 5.52 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 5.52 6.72 5.52 5.52 3.36 5.04 5.52]
+xshow
+2298 355 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+2298 344 moveto
+(- BtnGraphic)
+[3.36 2.88 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+end grestore
+newpath 2290 338 moveto
+2442 338 lineto
+stroke
+gsave 10 dict begin
+2298 325 moveto
+(+ SubBarInternet\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 3.36 3.36]
+xshow
+2298 314 moveto
+(+ ~SubBarInternet\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 2.88 5.52 2.64 5.52 3.36 5.52 5.52 2.88 3.36 3.36]
+xshow
+2298 303 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node209
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1607 761 moveto
+1709 735 2233 776 2290 728 curveto
+2374 655 2379 515 2374 431 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1606 758 moveto
+1597 764 lineto
+1608 764 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node210
+[ /Rect [ 2460 259 2602 469 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarManagement.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 2460 258 moveto
+2602 258 lineto
+2602 469 lineto
+2460 469 lineto
+closepath
+stroke
+gsave 10 dict begin
+2485 456 moveto
+(SubBarManagement)
+[6.72 5.52 5.52 6.72 5.52 3.36 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+end grestore
+newpath 2460 450 moveto
+2602 450 lineto
+stroke
+gsave 10 dict begin
+2468 437 moveto
+(+ SubBtnMM_Floder)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 8.4 8.4 5.52 6.24 2.16 5.52 5.52 5.52 3.36]
+xshow
+2468 426 moveto
+(+ SubBtnMM_Paste)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 8.4 8.4 5.52 6.48 5.52 5.04 2.64 5.52]
+xshow
+2468 415 moveto
+(+ SubBtnMM_Cut)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 8.4 8.4 5.52 7.2 5.52 2.88]
+xshow
+2468 404 moveto
+(+ SubBtnMM_Delete)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 8.4 8.4 5.52 7.2 5.52 2.16 5.52 2.64 5.52]
+xshow
+2468 393 moveto
+(+ SubBtnMM_MusicNImage)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 8.4 8.4 5.52 8.4 5.52 5.04 2.16 5.04 7.2 2.88 8.4 5.52 5.52 5.52]
+xshow
+2468 382 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+2468 371 moveto
+(- BtnGraphic)
+[3.36 2.88 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+2468 360 moveto
+(- MMtype)
+[3.36 2.88 8.4 8.4 2.88 5.04 5.52 5.52]
+xshow
+end grestore
+newpath 2460 354 moveto
+2602 354 lineto
+stroke
+gsave 10 dict begin
+2468 341 moveto
+(+ SubBarManagement\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+2468 330 moveto
+(+ ~SubBarManagement\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 8.4 5.52 5.52 5.52 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+2468 319 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+2468 308 moveto
+(+ slotBtnMkFloder)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 2.88 5.52 8.4 5.04 6.24 2.16 5.52 5.52 5.52 3.36]
+xshow
+2468 297 moveto
+(+ slotBtnPaste)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 2.88 5.52 6.48 5.52 5.04 2.64 5.52]
+xshow
+2468 286 moveto
+(+ slotBtnCut)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 2.88 5.52 7.2 5.52 2.88]
+xshow
+2468 275 moveto
+(+ slotBtnDelete)
+[6 2.88 5.04 2.16 5.52 2.88 6.72 2.88 5.52 7.2 5.52 2.16 5.52 2.64 5.52]
+xshow
+2468 264 moveto
+(- slotChangeBtnImage)
+[3.36 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 2.88 5.52 2.88 8.4 5.52 5.52 5.52]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node210
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1607 761 moveto
+1727 728 2389 788 2460 728 curveto
+2533 665 2545 553 2542 469 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1606 758 moveto
+1597 764 lineto
+1608 764 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node211
+[ /Rect [ 2620 0 2778 728 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarPlayer.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 2620 0 moveto
+2778 0 lineto
+2778 728 lineto
+2620 728 lineto
+closepath
+stroke
+gsave 10 dict begin
+2668 715 moveto
+(SubBarPlayer)
+[6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36]
+xshow
+end grestore
+newpath 2620 709 moveto
+2778 709 lineto
+stroke
+gsave 10 dict begin
+2628 696 moveto
+(+ m_pAnalyzer)
+[6 2.88 8.4 5.52 5.52 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36]
+xshow
+2628 685 moveto
+(+ playerPosition)
+[6 2.88 5.52 2.16 5.28 4.8 5.52 3.36 6.48 5.52 5.04 2.16 2.88 2.16 5.52 5.52]
+xshow
+2628 674 moveto
+(+ forwardTimer)
+[6 2.88 2.88 5.52 3.6 6.96 5.52 3.36 5.52 6.24 2.16 8.4 5.52 3.36]
+xshow
+2628 663 moveto
+(+ backwardTimer)
+[6 2.88 5.52 5.52 5.04 5.04 6.96 5.52 3.36 5.52 6.24 2.16 8.4 5.52 3.36]
+xshow
+2628 652 moveto
+(+ m_player)
+[6 2.88 8.4 5.52 5.52 2.16 5.28 4.8 5.52 3.36]
+xshow
+2628 641 moveto
+(+ receive_list)
+[6 2.88 3.36 5.52 5.04 5.52 2.16 4.8 5.52 5.52 2.16 2.16 5.04 2.88]
+xshow
+2628 630 moveto
+(+ SubBtnPlayer_PlayNPause)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 6.72 2.16 5.28 4.8 5.52 3.36 5.52 6.72 2.16 5.28 5.04 7.2 6.48 5.52 5.52 5.04 5.52]
+xshow
+2628 619 moveto
+(+ SubBtnPlayer_Backword)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 6.72 2.16 5.28 4.8 5.52 3.36 5.52 6.72 5.52 5.04 5.04 7.2 5.52 3.36 5.52]
+xshow
+2628 608 moveto
+(+ SubBtn_Forward)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 5.52 6 5.52 3.6 6.96 5.52 3.36 5.52]
+xshow
+2628 597 moveto
+(+ testBtn)
+[6 2.88 2.64 5.52 5.04 2.88 6.72 2.88 5.52]
+xshow
+2628 586 moveto
+(+ m_pAnalyzer)
+[6 2.88 8.4 5.52 5.52 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36]
+xshow
+2628 575 moveto
+(+ playerPosition)
+[6 2.88 5.52 2.16 5.28 4.8 5.52 3.36 6.48 5.52 5.04 2.16 2.88 2.16 5.52 5.52]
+xshow
+2628 564 moveto
+(+ forwardTimer)
+[6 2.88 2.88 5.52 3.6 6.96 5.52 3.36 5.52 6.24 2.16 8.4 5.52 3.36]
+xshow
+2628 553 moveto
+(+ backwardTimer)
+[6 2.88 5.52 5.52 5.04 5.04 6.96 5.52 3.36 5.52 6.24 2.16 8.4 5.52 3.36]
+xshow
+2628 542 moveto
+(+ m_player)
+[6 2.88 8.4 5.52 5.52 2.16 5.28 4.8 5.52 3.36]
+xshow
+2628 531 moveto
+(+ SubBtnPlayer_PlayNPause)
+[6 2.88 6.72 5.52 5.52 6.72 2.88 5.52 6.72 2.16 5.28 4.8 5.52 3.36 5.52 6.72 2.16 5.28 5.04 7.2 6.48 5.52 5.52 5.04 5.52]
+xshow
+2628 520 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+2628 509 moveto
+(- BtnGraphic)
+[3.36 2.88 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+2628 498 moveto
+(- state)
+[3.36 2.88 5.04 2.88 5.52 2.64 5.52]
+xshow
+2628 487 moveto
+(- slider)
+[3.36 2.88 5.04 2.16 2.16 5.52 5.52 3.36]
+xshow
+2628 476 moveto
+(- BtnGraphic)
+[3.36 2.88 6.72 2.88 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+end grestore
+newpath 2620 470 moveto
+2778 470 lineto
+stroke
+gsave 10 dict begin
+2628 457 moveto
+(+ SubBarPlayer\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+2628 446 moveto
+(+ ~SubBarPlayer\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+2628 435 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+2628 424 moveto
+(+ SubBarPlayer\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+2628 413 moveto
+(+ ~SubBarPlayer\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 6.72 2.16 5.28 4.8 5.52 3.36 3.36 3.36]
+xshow
+2628 402 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+2628 391 moveto
+(+ handlePosition)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.48 5.52 5.04 2.16 2.88 2.16 5.52 5.52]
+xshow
+2628 380 moveto
+(+ handleVolume)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.24 5.52 2.16 5.52 8.4 5.52]
+xshow
+2628 369 moveto
+(+ handleSliderReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 2.16 5.52 5.52 3.36 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 358 moveto
+(+ handleSliderPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 2.16 5.52 5.52 3.36 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 347 moveto
+(+ handleNextPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.28 5.04 2.88 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 336 moveto
+(+ handleNextReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.28 5.04 2.88 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 325 moveto
+(+ handlePreviousPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 314 moveto
+(+ handlePreviousReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 303 moveto
+(+ handleForward)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6 5.52 3.6 6.96 5.52 3.36 5.52]
+xshow
+2628 292 moveto
+(+ handleBackward)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 5.52 5.04 5.04 6.96 5.52 3.36 5.52]
+xshow
+2628 281 moveto
+(+ handleMessage)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 8.4 5.52 5.04 5.04 5.52 5.52 5.52]
+xshow
+2628 270 moveto
+(+ insertMedia)
+[6 2.88 2.16 5.52 5.04 5.52 3.6 2.88 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 259 moveto
+(+ removeMedia)
+[6 2.88 3.36 5.52 8.4 5.28 4.8 5.52 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 248 moveto
+(+ initMedia)
+[6 2.88 2.16 5.52 2.16 2.88 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 237 moveto
+(+ ChangeBtnPlayPauseGraphic)
+[6 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 2.88 5.52 6.72 2.16 5.28 5.04 6.48 5.52 5.52 5.04 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+2628 226 moveto
+(+ slotReceivePL)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.04 5.52 2.16 4.8 5.52 6.72 5.52]
+xshow
+2628 215 moveto
+(+ slotReadList)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 2.16 5.04 2.88]
+xshow
+2628 204 moveto
+(+ slotClickFromPlayList)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 2.16 2.16 5.04 5.04 6 3.36 5.52 8.4 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88]
+xshow
+2628 193 moveto
+(+ handlePosition)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.48 5.52 5.04 2.16 2.88 2.16 5.52 5.52]
+xshow
+2628 182 moveto
+(+ handleVolume)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.24 5.52 2.16 5.52 8.4 5.52]
+xshow
+2628 171 moveto
+(+ handleSliderReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 2.16 5.52 5.52 3.36 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 160 moveto
+(+ handleSliderPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 2.16 2.16 5.52 5.52 3.36 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 149 moveto
+(+ handleNextPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.28 5.04 2.88 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 138 moveto
+(+ handleNextReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 7.2 5.28 5.04 2.88 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 127 moveto
+(+ handlePreviousPressed)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04 6.72 3.36 5.52 5.04 5.04 5.52 5.52]
+xshow
+2628 116 moveto
+(+ handlePreviousReleased)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 3.36 5.28 5.04 2.16 5.52 5.52 5.04 7.2 5.52 2.16 5.52 5.52 5.04 5.52 5.52]
+xshow
+2628 105 moveto
+(+ handleForward)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6 5.52 3.6 6.96 5.52 3.36 5.52]
+xshow
+2628 94 moveto
+(+ handleBackward)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 6.72 5.52 5.04 5.04 6.96 5.52 3.36 5.52]
+xshow
+2628 83 moveto
+(+ handleMessage)
+[6 2.88 5.52 5.52 5.52 5.52 2.16 5.52 8.4 5.52 5.04 5.04 5.52 5.52 5.52]
+xshow
+2628 72 moveto
+(+ insertMedia)
+[6 2.88 2.16 5.52 5.04 5.52 3.6 2.88 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 61 moveto
+(+ removeMedia)
+[6 2.88 3.36 5.52 8.4 5.28 4.8 5.52 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 50 moveto
+(+ initMedia)
+[6 2.88 2.16 5.52 2.16 2.88 8.4 5.52 5.52 2.16 5.52]
+xshow
+2628 39 moveto
+(+ ChangeBtnPlayPauseGraphic)
+[6 2.88 7.2 5.52 5.52 5.52 5.52 5.52 6.72 2.88 5.52 6.72 2.16 5.28 5.04 6.48 5.52 5.52 5.04 5.52 7.92 3.36 5.52 5.52 5.52 2.16 5.04]
+xshow
+2628 28 moveto
+(+ slotReceivePL)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.04 5.52 2.16 4.8 5.52 6.72 5.52]
+xshow
+2628 17 moveto
+(+ slotReadList)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 5.52 5.52 5.52 5.52 2.16 5.04 2.88]
+xshow
+2628 6 moveto
+(+ slotClickFromPlayList)
+[6 2.88 5.04 2.16 5.52 2.88 7.2 2.16 2.16 5.04 5.04 6 3.36 5.52 8.4 6.72 2.16 5.28 5.04 5.52 2.16 5.04 2.88]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node211
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1598 761 moveto
+1736 721 2525 798 2611 728 curveto
+2614 725 2617 723 2620 720 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1597 758 moveto
+1588 764 lineto
+1599 764 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node189 -> Node211
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1606 764 moveto
+1606 764 1606 764 1606 764 curveto
+1709 717 2539 800 2629 728 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1604 761 moveto
+1597 769 lineto
+1607 767 lineto
+closepath
+stroke
+end grestore
+end grestore
+
+%	Node212
+[ /Rect [ 2796 325 2898 403 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($classSubBarSetting.html) >>
+  /Subtype /Link
+/ANN pdfmark
+gsave 10 dict begin
+newpath 2796 324 moveto
+2899 324 lineto
+2899 403 lineto
+2796 403 lineto
+closepath
+stroke
+gsave 10 dict begin
+2814 390 moveto
+(SubBarSetting)
+[6.72 5.52 5.52 6.72 5.52 3.36 6.72 5.52 2.88 2.88 2.16 5.52 5.52]
+xshow
+end grestore
+newpath 2796 384 moveto
+2899 384 lineto
+stroke
+gsave 10 dict begin
+2804 371 moveto
+(- pixBackground)
+[3.36 2.88 5.52 2.16 5.04 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52]
+xshow
+end grestore
+newpath 2796 365 moveto
+2899 365 lineto
+stroke
+gsave 10 dict begin
+2804 352 moveto
+(+ SubBarSetting\(\))
+[6 2.88 6.72 5.52 5.52 6.72 5.52 3.36 6.72 5.52 2.88 2.88 2.16 5.52 5.52 3.36 3.36]
+xshow
+2804 341 moveto
+(+ ~SubBarSetting\(\))
+[6 2.88 6 6.72 5.52 5.52 6.72 5.52 3.36 6.72 5.52 2.88 2.88 2.16 5.52 5.52 3.36 3.36]
+xshow
+2804 330 moveto
+(+ xSetup\(\))
+[6 2.88 5.04 6.72 5.52 2.88 5.52 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node189 -> Node212
+gsave 10 dict begin
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1607 761 moveto
+1734 739 2748 770 2796 728 curveto
+2888 645 2870 479 2856 403 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+newpath 1606 758 moveto
+1597 764 lineto
+1608 764 lineto
+closepath
+stroke
+end grestore
+end grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

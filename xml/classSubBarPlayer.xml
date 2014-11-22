@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSubBarPlayer" kind="class" prot="public">
+    <compoundname>SubBarPlayer</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="src_2subbarplayer_8h" local="no">subbarplayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarPlayer::SubBarPlayer</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarPlayer</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="45" bodystart="22" bodyend="30"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+        <references refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarPlayer::~SubBarPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="47" bodystart="33" bodyend="36"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="48" bodystart="38" bodyend="97"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero3" compoundref="src_2subbarplayer_8h" startline="52">backwardTimer</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri14" compoundref="src_2subbarplayer_8cpp" startline="99" endline="111">ChangeBtnPlayPauseGraphic</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero2" compoundref="src_2subbarplayer_8h" startline="51">forwardTimer</references>
+        <references refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1">GO</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri9" compoundref="src_2subbarplayer_8cpp" startline="195" endline="201">handleBackward</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri8" compoundref="src_2subbarplayer_8cpp" startline="171" endline="178">handleForward</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri10" compoundref="src_2subbarplayer_8cpp" startline="203" endline="206">handleMessage</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri0" compoundref="src_2subbarplayer_8cpp" startline="134" endline="138">handlePosition</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri3" compoundref="src_2subbarplayer_8cpp" startline="150" endline="153">handleSliderPressed</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri2" compoundref="src_2subbarplayer_8cpp" startline="144" endline="148">handleSliderReleased</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarPlayer_1SubBarPlayeri16" compoundref="src_2subbarplayer_8cpp" startline="213" endline="217">slotReadList</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero8" compoundref="subbarplayer_8h" startline="55">SubBtn_Forward</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero7" compoundref="subbarplayer_8h" startline="55">SubBtnPlayer_Backword</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero6" compoundref="src_2subbarplayer_8h" startline="55">SubBtnPlayer_PlayNPause</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera0" compoundref="src_2subbarplayer_8cpp" startline="22" endline="30">SubBarPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarPlayer::SubBarPlayer</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarPlayer</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarPlayer::~SubBarPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarPlayer_1SubBarPlayera5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+        <definition>QWidget* SubBarPlayer::m_pAnalyzer</definition>
+        <argsstring></argsstring>
+        <name>m_pAnalyzer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="49" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero1" prot="public" static="no" volatile="no" mutable="no">
+        <type>QSlider *</type>
+        <definition>QSlider* SubBarPlayer::playerPosition</definition>
+        <argsstring></argsstring>
+        <name>playerPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="50" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri9" compoundref="src_2subbarplayer_8cpp" startline="195" endline="201">handleBackward</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri8" compoundref="src_2subbarplayer_8cpp" startline="171" endline="178">handleForward</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri10" compoundref="src_2subbarplayer_8cpp" startline="203" endline="206">handleMessage</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri5" compoundref="src_2subbarplayer_8cpp" startline="163" endline="169">handleNextReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri0" compoundref="src_2subbarplayer_8cpp" startline="134" endline="138">handlePosition</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri7" compoundref="src_2subbarplayer_8cpp" startline="187" endline="193">handlePreviousReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri2" compoundref="src_2subbarplayer_8cpp" startline="144" endline="148">handleSliderReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero2" prot="public" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* SubBarPlayer::forwardTimer</definition>
+        <argsstring></argsstring>
+        <name>forwardTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="51" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri4" compoundref="src_2subbarplayer_8cpp" startline="155" endline="161">handleNextPressed</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri5" compoundref="src_2subbarplayer_8cpp" startline="163" endline="169">handleNextReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero3" prot="public" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* SubBarPlayer::backwardTimer</definition>
+        <argsstring></argsstring>
+        <name>backwardTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="52" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri6" compoundref="src_2subbarplayer_8cpp" startline="180" endline="185">handlePreviousPressed</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri7" compoundref="src_2subbarplayer_8cpp" startline="187" endline="193">handlePreviousReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classMyplayer" kindref="compound">Myplayer</ref> *</type>
+        <definition>Myplayer* SubBarPlayer::m_player</definition>
+        <argsstring></argsstring>
+        <name>m_player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="53" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri5" compoundref="src_2subbarplayer_8cpp" startline="163" endline="169">handleNextReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri7" compoundref="src_2subbarplayer_8cpp" startline="187" endline="193">handlePreviousReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri2" compoundref="src_2subbarplayer_8cpp" startline="144" endline="148">handleSliderReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri13" compoundref="src_2subbarplayer_8cpp" startline="126" endline="131">initMedia</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri11" compoundref="src_2subbarplayer_8cpp" startline="113" endline="120">insertMedia</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri12" compoundref="src_2subbarplayer_8cpp" startline="122" endline="125">removeMedia</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera0" compoundref="src_2subbarplayer_8cpp" startline="22" endline="30">SubBarPlayer</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera1" compoundref="src_2subbarplayer_8cpp" startline="33" endline="36">~SubBarPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero5" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List SubBarPlayer::receive_list</definition>
+        <argsstring></argsstring>
+        <name>receive_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="54" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri15" compoundref="src_2subbarplayer_8cpp" startline="208" endline="211">slotReceivePL</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero6" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* SubBarPlayer::SubBtnPlayer_PlayNPause</definition>
+        <argsstring></argsstring>
+        <name>SubBtnPlayer_PlayNPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="55" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri14" compoundref="src_2subbarplayer_8cpp" startline="99" endline="111">ChangeBtnPlayPauseGraphic</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero7" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarPlayer::SubBtnPlayer_Backword</definition>
+        <argsstring></argsstring>
+        <name>SubBtnPlayer_Backword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="55" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero8" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarPlayer::SubBtn_Forward</definition>
+        <argsstring></argsstring>
+        <name>SubBtn_Forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="55" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero9" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarPlayer::testBtn</definition>
+        <argsstring></argsstring>
+        <name>testBtn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="55" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero10" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+        <definition>QWidget* SubBarPlayer::m_pAnalyzer</definition>
+        <argsstring></argsstring>
+        <name>m_pAnalyzer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="49" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero11" prot="public" static="no" volatile="no" mutable="no">
+        <type>QSlider *</type>
+        <definition>QSlider* SubBarPlayer::playerPosition</definition>
+        <argsstring></argsstring>
+        <name>playerPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="50" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero12" prot="public" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* SubBarPlayer::forwardTimer</definition>
+        <argsstring></argsstring>
+        <name>forwardTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="51" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero13" prot="public" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* SubBarPlayer::backwardTimer</definition>
+        <argsstring></argsstring>
+        <name>backwardTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="52" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero14" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classMyplayer" kindref="compound">Myplayer</ref> *</type>
+        <definition>Myplayer* SubBarPlayer::m_player</definition>
+        <argsstring></argsstring>
+        <name>m_player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="53" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayero15" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* SubBarPlayer::SubBtnPlayer_PlayNPause</definition>
+        <argsstring></argsstring>
+        <name>SubBtnPlayer_PlayNPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="55" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePosition</definition>
+        <argsstring>(int)</argsstring>
+        <name>handlePosition</name>
+        <param>
+          <type>int</type>
+          <defname>position</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="64" bodystart="134" bodyend="138"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleVolume</definition>
+        <argsstring>(int)</argsstring>
+        <name>handleVolume</name>
+        <param>
+          <type>int</type>
+          <defname>volume</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="65" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleSliderReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handleSliderReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="66" bodystart="144" bodyend="148"/>
+        <references refid="classMyplayer_1Myplayeri14" compoundref="Myplayer_8cpp" startline="243" endline="251">Myplayer::handleSlider</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleSliderPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handleSliderPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="67" bodystart="150" bodyend="153"/>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleNextPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handleNextPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="68" bodystart="155" bodyend="161"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero2" compoundref="src_2subbarplayer_8h" startline="51">forwardTimer</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleNextReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handleNextReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="69" bodystart="163" bodyend="169"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero2" compoundref="src_2subbarplayer_8h" startline="51">forwardTimer</references>
+        <references refid="classMyplayer_1Myplayeri14" compoundref="Myplayer_8cpp" startline="243" endline="251">Myplayer::handleSlider</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePreviousPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handlePreviousPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="70" bodystart="180" bodyend="185"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero3" compoundref="src_2subbarplayer_8h" startline="52">backwardTimer</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePreviousReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handlePreviousReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="71" bodystart="187" bodyend="193"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero3" compoundref="src_2subbarplayer_8h" startline="52">backwardTimer</references>
+        <references refid="classMyplayer_1Myplayeri14" compoundref="Myplayer_8cpp" startline="243" endline="251">Myplayer::handleSlider</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <references refid="classSubBarPlayer_1SubBarPlayerr3" compoundref="subbarplayer_8h" startline="61">slider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleForward</definition>
+        <argsstring>()</argsstring>
+        <name>handleForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="72" bodystart="171" bodyend="178"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleBackward</definition>
+        <argsstring>()</argsstring>
+        <name>handleBackward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="73" bodystart="195" bodyend="201"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleMessage</definition>
+        <argsstring>(int m_length, int m_bitrate, QString m_title, QString m_artist, QString m_album)</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>int</type>
+          <declname>m_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m_bitrate</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_title</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_artist</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_album</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="74" bodystart="203" bodyend="206"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero1" compoundref="src_2subbarplayer_8h" startline="50">playerPosition</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::insertMedia</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>insertMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="75" bodystart="113" bodyend="120"/>
+        <references refid="classMyplayer_1Myplayeri17" compoundref="Myplayer_8cpp" startline="267" endline="284">Myplayer::add</references>
+        <references refid="classMyplayer_1Myplayeri12" compoundref="Myplayer_8cpp" startline="228" endline="231">Myplayer::handleRepeat</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::removeMedia</definition>
+        <argsstring>(KURL::List remove_list)</argsstring>
+        <name>removeMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>remove_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="76" bodystart="122" bodyend="125"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+        <references refid="classMyplayer_1Myplayeri19" compoundref="Myplayer_8cpp" startline="295" endline="322">Myplayer::removeMedia</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::initMedia</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>initMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="77" bodystart="126" bodyend="131"/>
+        <references refid="classMyplayer_1Myplayeri12" compoundref="Myplayer_8cpp" startline="228" endline="231">Myplayer::handleRepeat</references>
+        <references refid="classMyplayer_1Myplayeri16" compoundref="Myplayer_8cpp" startline="364" endline="369">Myplayer::initlist</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">m_player</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::ChangeBtnPlayPauseGraphic</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeBtnPlayPauseGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="78" bodystart="99" bodyend="111"/>
+        <references refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1">GO</references>
+        <references refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0">PAUSE</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero6" compoundref="src_2subbarplayer_8h" startline="55">SubBtnPlayer_PlayNPause</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri17" compoundref="src_2subbarplayer_8cpp" startline="218" endline="222">slotClickFromPlayList</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotReceivePL</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>slotReceivePL</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="79" bodystart="208" bodyend="211"/>
+        <references refid="classSubBarPlayer_1SubBarPlayero5" compoundref="subbarplayer_8h" startline="54">receive_list</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotReadList</definition>
+        <argsstring>()</argsstring>
+        <name>slotReadList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="80" bodystart="213" bodyend="217"/>
+        <references refid="classSubBarPlayer_1SubBarPlayerl0" compoundref="subbarplayer_8moc" startline="143" endline="146">signalRequestPL</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotClickFromPlayList</definition>
+        <argsstring>()</argsstring>
+        <name>slotClickFromPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="81" bodystart="218" bodyend="222"/>
+        <references refid="classSubBarPlayer_1SubBarPlayeri14" compoundref="src_2subbarplayer_8cpp" startline="99" endline="111">ChangeBtnPlayPauseGraphic</references>
+        <references refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1">GO</references>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePosition</definition>
+        <argsstring>(int)</argsstring>
+        <name>handlePosition</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="64"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleVolume</definition>
+        <argsstring>(int)</argsstring>
+        <name>handleVolume</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="65"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleSliderReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handleSliderReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleSliderPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handleSliderPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleNextPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handleNextPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="68"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleNextReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handleNextReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="69"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePreviousPressed</definition>
+        <argsstring>()</argsstring>
+        <name>handlePreviousPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handlePreviousReleased</definition>
+        <argsstring>()</argsstring>
+        <name>handlePreviousReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleForward</definition>
+        <argsstring>()</argsstring>
+        <name>handleForward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleBackward</definition>
+        <argsstring>()</argsstring>
+        <name>handleBackward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="73"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::handleMessage</definition>
+        <argsstring>(int m_length, int m_bitrate, QString m_title, QString m_artist, QString m_album)</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>int</type>
+          <declname>m_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m_bitrate</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_title</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_artist</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_album</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="74"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::insertMedia</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>insertMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="75"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::removeMedia</definition>
+        <argsstring>(KURL::List remove_list)</argsstring>
+        <name>removeMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>remove_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::initMedia</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>initMedia</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="77"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::ChangeBtnPlayPauseGraphic</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeBtnPlayPauseGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="78"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotReceivePL</definition>
+        <argsstring>(KURL::List list)</argsstring>
+        <name>slotReceivePL</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="79"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotReadList</definition>
+        <argsstring>()</argsstring>
+        <name>slotReadList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="80"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarPlayer_1SubBarPlayeri35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::slotClickFromPlayList</definition>
+        <argsstring>()</argsstring>
+        <name>slotClickFromPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classSubBarPlayer_1SubBarPlayerl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::signalRequestPL</definition>
+        <argsstring>()</argsstring>
+        <name>signalRequestPL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="83" bodystart="143" bodyend="146"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri16" compoundref="src_2subbarplayer_8cpp" startline="213" endline="217">slotReadList</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarPlayer_1SubBarPlayerl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarPlayer::signalRequestPL</definition>
+        <argsstring>()</argsstring>
+        <name>signalRequestPL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classSubBarPlayer_1SubBarPlayery2" prot="private" static="no">
+        <name>PLAYSTATE</name>
+        <enumvalue id="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" prot="private">
+          <name>PAUSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" prot="private">
+          <name>GO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="42" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="classSubBarPlayer_1SubBarPlayery3" prot="private" static="no">
+        <name>PLAYSTATE</name>
+        <enumvalue id="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" prot="private">
+          <name>PAUSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" prot="private">
+          <name>GO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="42" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayerr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap SubBarPlayer::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="58" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayerr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SubBarPlayer::BtnGraphic[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>BtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="59" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayerr2" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarPlayer_1SubBarPlayery2" kindref="member">PLAYSTATE</ref></type>
+        <definition>PLAYSTATE SubBarPlayer::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="60" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayerr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SubBarPlayer::slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="61" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri4" compoundref="src_2subbarplayer_8cpp" startline="155" endline="161">handleNextPressed</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri5" compoundref="src_2subbarplayer_8cpp" startline="163" endline="169">handleNextReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri0" compoundref="src_2subbarplayer_8cpp" startline="134" endline="138">handlePosition</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri6" compoundref="src_2subbarplayer_8cpp" startline="180" endline="185">handlePreviousPressed</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri7" compoundref="src_2subbarplayer_8cpp" startline="187" endline="193">handlePreviousReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri3" compoundref="src_2subbarplayer_8cpp" startline="150" endline="153">handleSliderPressed</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri2" compoundref="src_2subbarplayer_8cpp" startline="144" endline="148">handleSliderReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera0" compoundref="src_2subbarplayer_8cpp" startline="22" endline="30">SubBarPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarPlayer_1SubBarPlayerr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SubBarPlayer::BtnGraphic[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>BtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbarplayer.h" line="59" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="605">
+        <label>SubBarPlayer</label>
+        <link refid="classSubBarPlayer"/>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="606">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="609">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="607">
+        <label>SubBarPlayer</label>
+        <link refid="classSubBarPlayer"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>SubBtnPlayer_Backword</edgelabel>
+          <edgelabel>SubBtn_Forward</edgelabel>
+          <edgelabel>testBtn</edgelabel>
+          <edgelabel>SubBtnPlayer_PlayNPause</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>m_player</edgelabel>
+        </childnode>
+      </node>
+      <node id="608">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="610">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/subbarplayer.h" line="40" bodystart="39" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classSubBarPlayer_1SubBarPlayero3" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>backwardTimer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero13" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>backwardTimer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerr1" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>BtnGraphic</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerr4" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>BtnGraphic</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri14" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>ChangeBtnPlayPauseGraphic</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri32" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>ChangeBtnPlayPauseGraphic</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero2" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>forwardTimer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero12" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>forwardTimer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>GO</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri9" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleBackward</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri27" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleBackward</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri8" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleForward</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri26" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleForward</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri10" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleMessage</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri28" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleMessage</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri4" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleNextPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri22" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleNextPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri5" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleNextReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri23" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleNextReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri0" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePosition</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri18" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePosition</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri6" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePreviousPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri24" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePreviousPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri7" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePreviousReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri25" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handlePreviousReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri3" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleSliderPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri21" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleSliderPressed</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri2" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleSliderReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri20" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleSliderReleased</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri1" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleVolume</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri19" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>handleVolume</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri13" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>initMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri31" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>initMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri11" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>insertMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri29" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>insertMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero0" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>m_pAnalyzer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero10" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>m_pAnalyzer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero4" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>m_player</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero14" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>m_player</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>PAUSE</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerr0" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>pixBackground</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero1" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>playerPosition</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero11" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>playerPosition</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayery2" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>PLAYSTATE</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayery3" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>PLAYSTATE</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero5" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>receive_list</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri12" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>removeMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri30" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>removeMedia</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerl0" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>signalRequestPL</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerl1" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>signalRequestPL</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerr3" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>slider</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri17" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotClickFromPlayList</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri35" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotClickFromPlayList</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri16" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotReadList</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri34" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotReadList</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri15" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotReceivePL</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayeri33" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>slotReceivePL</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayerr2" prot="private" virt="non-virtual"><scope>SubBarPlayer</scope><name>state</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera0" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBarPlayer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera3" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBarPlayer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero8" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBtn_Forward</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero7" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBtnPlayer_Backword</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero6" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBtnPlayer_PlayNPause</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero15" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>SubBtnPlayer_PlayNPause</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayero9" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>testBtn</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera2" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>xSetup</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera5" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>xSetup</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera1" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>~SubBarPlayer</name></member>
+      <member refid="classSubBarPlayer_1SubBarPlayera4" prot="public" virt="non-virtual"><scope>SubBarPlayer</scope><name>~SubBarPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

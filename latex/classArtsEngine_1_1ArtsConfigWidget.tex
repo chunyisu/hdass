@@ -1,0 +1,112 @@
+\section{Arts\-Engine::Arts\-Config\-Widget Class Reference}
+\label{classArtsEngine_1_1ArtsConfigWidget}\index{ArtsEngine::ArtsConfigWidget@{ArtsEngine::ArtsConfigWidget}}
+Inheritance diagram for Arts\-Engine::Arts\-Config\-Widget:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=93pt]{classArtsEngine_1_1ArtsConfigWidget__inherit__graph}
+\end{center}
+\end{figure}
+Collaboration diagram for Arts\-Engine::Arts\-Config\-Widget:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=93pt]{classArtsEngine_1_1ArtsConfigWidget__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Arts\-Config\-Widget} (Arts::Object object)
+\item 
+{\bf $\sim$Arts\-Config\-Widget} ()
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+Arts::Widget {\bf m\_\-gui}
+\item 
+KArts\-Widget $\ast$ {\bf m\_\-p\-Arts\-Widget}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}!ArtsConfigWidget@{ArtsConfigWidget}}
+\index{ArtsConfigWidget@{ArtsConfigWidget}!ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Arts\-Engine::Arts\-Config\-Widget::Arts\-Config\-Widget (Arts::Object {\em object})}\label{classArtsEngine_1_1ArtsConfigWidget_ArtsEngine_1_1ArtsConfigWidgeta0}
+
+
+
+
+Definition at line 812 of file artsengine.cpp.
+
+References m\_\-gui, and m\_\-p\-Arts\-Widget.
+
+
+
+\footnotesize\begin{verbatim}813         : QWidget( 0, 0, Qt::WType_TopLevel | Qt::WDestructiveClose )
+814 {
+815     assert( kapp );
+816     setCaption( kapp->makeStdCaption( QString( object._interfaceName().c_str() ) ) );
+817 
+818     Arts::GenericGuiFactory factory;
+819     m_gui = factory.createGui( object );
+820 
+821     if ( m_gui.isNull() )
+822     {
+823         kdWarning() << "Arts::Widget gui == NULL! Returning.." << endl;
+824         return;
+825     }
+826 
+827     else
+828     {
+829         m_pArtsWidget = new KArtsWidget( m_gui, this );
+830 
+831         QBoxLayout *lay = new QHBoxLayout( this );
+832         lay->add( m_pArtsWidget );
+833     }
+834 }
+\end{verbatim}\normalsize 
+\index{ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}!~ArtsConfigWidget@{$\sim$ArtsConfigWidget}}
+\index{~ArtsConfigWidget@{$\sim$ArtsConfigWidget}!ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Arts\-Engine::Arts\-Config\-Widget::$\sim${\bf Arts\-Config\-Widget} ()}\label{classArtsEngine_1_1ArtsConfigWidget_ArtsEngine_1_1ArtsConfigWidgeta1}
+
+
+
+
+Definition at line 837 of file artsengine.cpp.
+
+References m\_\-gui, and m\_\-p\-Arts\-Widget.
+
+
+
+\footnotesize\begin{verbatim}838 {
+839     delete m_pArtsWidget;
+840     m_gui = Arts::Widget::null();
+841 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}!m_gui@{m\_\-gui}}
+\index{m_gui@{m\_\-gui}!ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Arts::Widget {\bf Arts\-Engine::Arts\-Config\-Widget::m\_\-gui}\hspace{0.3cm}{\tt  [private]}}\label{classArtsEngine_1_1ArtsConfigWidget_ArtsEngine_1_1ArtsConfigWidgetr0}
+
+
+
+
+Definition at line 106 of file artsengine.h.
+
+Referenced by Arts\-Config\-Widget(), and $\sim$Arts\-Config\-Widget().\index{ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}!m_pArtsWidget@{m\_\-pArtsWidget}}
+\index{m_pArtsWidget@{m\_\-pArtsWidget}!ArtsEngine::ArtsConfigWidget@{Arts\-Engine::Arts\-Config\-Widget}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}KArts\-Widget$\ast$ {\bf Arts\-Engine::Arts\-Config\-Widget::m\_\-p\-Arts\-Widget}\hspace{0.3cm}{\tt  [private]}}\label{classArtsEngine_1_1ArtsConfigWidget_ArtsEngine_1_1ArtsConfigWidgetr1}
+
+
+
+
+Definition at line 107 of file artsengine.h.
+
+Referenced by Arts\-Config\-Widget(), and $\sim$Arts\-Config\-Widget().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf artsengine.h}\item 
+{\bf artsengine.cpp}\end{CompactItemize}

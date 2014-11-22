@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classMetaBundle" kind="class" prot="public">
+    <compoundname>MetaBundle</compoundname>
+    <includes refid="metabundle_8h" local="no">metabundle.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MetaBundle::MetaBundle</definition>
+        <argsstring>()</argsstring>
+        <name>MetaBundle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="33" bodystart="33" bodyend="33"/>
+        <references refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MetaBundle::MetaBundle</definition>
+        <argsstring>(const KURL &amp;u)</argsstring>
+        <name>MetaBundle</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="34" bodystart="34" bodyend="34"/>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <references refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MetaBundle::MetaBundle</definition>
+        <argsstring>(const QString &amp;title, const QString &amp;streamUrl, const int bitrate, const QString &amp;genre, const QString &amp;streamName, const KURL &amp;)</argsstring>
+        <name>MetaBundle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>streamUrl</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>bitrate</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>streamName</declname>
+        </param>
+        <param>
+          <type>const KURL &amp;</type>
+          <defname>url</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="42" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MetaBundle::MetaBundle</definition>
+        <argsstring>(const KURL &amp;url, TagLib::Tag *tag, TagLib::AudioProperties *ap=0)</argsstring>
+        <name>MetaBundle</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>TagLib::Tag *</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>TagLib::AudioProperties *</type>
+          <declname>ap</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="48" bodystart="96" bodyend="109"/>
+        <references refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+        <definition>MetaBundle &amp; MetaBundle::readTags</definition>
+        <argsstring>(bool audioProperties=true)</argsstring>
+        <name>readTags</name>
+        <param>
+          <type>bool</type>
+          <declname>audioProperties</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="51" bodystart="159" bodyend="184"/>
+        <references refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</references>
+        <references refid="classMetaBundle_1MetaBundler3" compoundref="metabundle_8h" startline="83">m_album</references>
+        <references refid="classMetaBundle_1MetaBundler2" compoundref="metabundle_8h" startline="82">m_artist</references>
+        <references refid="classMetaBundle_1MetaBundler5" compoundref="metabundle_8h" startline="85">m_comment</references>
+        <references refid="classMetaBundle_1MetaBundler6" compoundref="metabundle_8h" startline="86">m_genre</references>
+        <references refid="classMetaBundle_1MetaBundler1" compoundref="metabundle_8h" startline="81">m_title</references>
+        <references refid="classMetaBundle_1MetaBundler7" compoundref="metabundle_8h" startline="87">m_track</references>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <references refid="classMetaBundle_1MetaBundler4" compoundref="metabundle_8h" startline="84">m_year</references>
+        <referencedby refid="classMetaBundle_1MetaBundlea1" compoundref="metabundle_8h" startline="34" endline="34">MetaBundle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MetaBundle::length</definition>
+        <argsstring>() const </argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="54" bodystart="54" bodyend="54"/>
+        <references refid="classMetaBundle_1MetaBundler9" compoundref="metabundle_8h" startline="94">m_length</references>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">Myplayer::handleMessage</referencedby>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">EngineController::slotMainTimer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MetaBundle::bitrate</definition>
+        <argsstring>() const </argsstring>
+        <name>bitrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="55" bodystart="55" bodyend="55"/>
+        <references refid="classMetaBundle_1MetaBundler8" compoundref="metabundle_8h" startline="93">m_bitrate</references>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">Myplayer::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MetaBundle::sampleRate</definition>
+        <argsstring>() const </argsstring>
+        <name>sampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="56" bodystart="56" bodyend="56"/>
+        <references refid="classMetaBundle_1MetaBundler10" compoundref="metabundle_8h" startline="95">m_sampleRate</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MetaBundle::exist</definition>
+        <argsstring>()</argsstring>
+        <name>exist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="57" bodystart="256" bodyend="259"/>
+        <references refid="classMetaBundle_1MetaBundler11" compoundref="metabundle_8h" startline="101">exists</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const KURL &amp;</type>
+        <definition>const KURL&amp; MetaBundle::url</definition>
+        <argsstring>() const </argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="58" bodystart="58" bodyend="58"/>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <referencedby refid="classEngineController_1EngineControlleri3" compoundref="enginecontroller_8cpp" startline="136" endline="147">EngineController::play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::title</definition>
+        <argsstring>() const </argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="59" bodystart="59" bodyend="59"/>
+        <references refid="classMetaBundle_1MetaBundler1" compoundref="metabundle_8h" startline="81">m_title</references>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">Myplayer::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea11" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::artist</definition>
+        <argsstring>() const </argsstring>
+        <name>artist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="60" bodystart="60" bodyend="60"/>
+        <references refid="classMetaBundle_1MetaBundler2" compoundref="metabundle_8h" startline="82">m_artist</references>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">Myplayer::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea12" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::album</definition>
+        <argsstring>() const </argsstring>
+        <name>album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="61" bodystart="61" bodyend="61"/>
+        <references refid="classMetaBundle_1MetaBundler3" compoundref="metabundle_8h" startline="83">m_album</references>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">Myplayer::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea13" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::year</definition>
+        <argsstring>() const </argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="62" bodystart="62" bodyend="62"/>
+        <references refid="classMetaBundle_1MetaBundler4" compoundref="metabundle_8h" startline="84">m_year</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea14" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::comment</definition>
+        <argsstring>() const </argsstring>
+        <name>comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="63" bodystart="63" bodyend="63"/>
+        <references refid="classMetaBundle_1MetaBundler5" compoundref="metabundle_8h" startline="85">m_comment</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::genre</definition>
+        <argsstring>() const </argsstring>
+        <name>genre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="64" bodystart="64" bodyend="64"/>
+        <references refid="classMetaBundle_1MetaBundler6" compoundref="metabundle_8h" startline="86">m_genre</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; MetaBundle::track</definition>
+        <argsstring>() const </argsstring>
+        <name>track</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="65" bodystart="65" bodyend="65"/>
+        <references refid="classMetaBundle_1MetaBundler7" compoundref="metabundle_8h" startline="87">m_track</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyTitle</definition>
+        <argsstring>() const </argsstring>
+        <name>prettyTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="67" bodystart="187" bodyend="197"/>
+        <references refid="classMetaBundle_1MetaBundler2" compoundref="metabundle_8h" startline="82">m_artist</references>
+        <references refid="classMetaBundle_1MetaBundler1" compoundref="metabundle_8h" startline="81">m_title</references>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea18" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyURL</definition>
+        <argsstring>() const </argsstring>
+        <name>prettyURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="68" bodystart="68" bodyend="68"/>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyBitrate</definition>
+        <argsstring>() const </argsstring>
+        <name>prettyBitrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="69" bodystart="69" bodyend="69"/>
+        <references refid="classMetaBundle_1MetaBundler8" compoundref="metabundle_8h" startline="93">m_bitrate</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyLength</definition>
+        <argsstring>() const </argsstring>
+        <name>prettyLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="70" bodystart="70" bodyend="70"/>
+        <references refid="classMetaBundle_1MetaBundler9" compoundref="metabundle_8h" startline="94">m_length</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlea21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettySampleRate</definition>
+        <argsstring>() const </argsstring>
+        <name>prettySampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="71" bodystart="71" bodyend="71"/>
+        <references refid="classMetaBundle_1MetaBundler10" compoundref="metabundle_8h" startline="95">m_sampleRate</references>
+        <references refid="classMetaBundle_1MetaBundleh0" compoundref="metabundle_8cpp" startline="250" endline="255">prettyGeneric</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlee0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyBitrate</definition>
+        <argsstring>(int)</argsstring>
+        <name>prettyBitrate</name>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="73" bodystart="244" bodyend="247"/>
+        <references refid="metabundle_8cpp_1a0" compoundref="metabundle_8cpp" startline="26">bitrateStore</references>
+        <references refid="classMetaBundle_1MetaBundleh0" compoundref="metabundle_8cpp" startline="250" endline="255">prettyGeneric</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlee1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyLength</definition>
+        <argsstring>(int)</argsstring>
+        <name>prettyLength</name>
+        <param>
+          <type>int</type>
+          <defname>seconds</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="74" bodystart="212" bodyend="221"/>
+        <references refid="classMetaBundle_1MetaBundles1" compoundref="metabundle_8h" startline="29">Irrelevant</references>
+        <references refid="classMetaBundle_1MetaBundlee2" compoundref="metabundle_8cpp" startline="224" endline="241">prettyTime</references>
+        <references refid="classMetaBundle_1MetaBundles2" compoundref="metabundle_8h" startline="30">Unavailable</references>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlee2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyTime</definition>
+        <argsstring>(int, bool showHours=true)</argsstring>
+        <name>prettyTime</name>
+        <param>
+          <type>int</type>
+          <defname>seconds</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showHours</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="75" bodystart="224" bodyend="241"/>
+        <references refid="classMetaBundle_1MetaBundlee3" compoundref="metabundle_8h" startline="76" endline="76">zeroPad</references>
+        <referencedby refid="classMetaBundle_1MetaBundlee1" compoundref="metabundle_8cpp" startline="212" endline="221">prettyLength</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlee3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::zeroPad</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>zeroPad</name>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="76" bodystart="76" bodyend="76"/>
+        <referencedby refid="classMetaBundle_1MetaBundlee2" compoundref="metabundle_8cpp" startline="224" endline="241">prettyTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundlee4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyTitle</definition>
+        <argsstring>(QString)</argsstring>
+        <name>prettyTitle</name>
+        <param>
+          <type>QString</type>
+          <defname>filename</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="77" bodystart="200" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundles0" prot="public" static="yes" volatile="no" mutable="no">
+        <type>const int</type>
+        <definition>const int MetaBundle::Undetermined</definition>
+        <argsstring></argsstring>
+        <name>Undetermined</name>
+        <initializer> -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="28" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundleh0" compoundref="metabundle_8cpp" startline="250" endline="255">prettyGeneric</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundles1" prot="public" static="yes" volatile="no" mutable="no">
+        <type>const int</type>
+        <definition>const int MetaBundle::Irrelevant</definition>
+        <argsstring></argsstring>
+        <name>Irrelevant</name>
+        <initializer> -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="29" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlee1" compoundref="metabundle_8cpp" startline="212" endline="221">prettyLength</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundles2" prot="public" static="yes" volatile="no" mutable="no">
+        <type>const int</type>
+        <definition>const int MetaBundle::Unavailable</definition>
+        <argsstring></argsstring>
+        <name>Unavailable</name>
+        <initializer>  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="30" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlee1" compoundref="metabundle_8cpp" startline="212" endline="221">prettyLength</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMetaBundle_1MetaBundled0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MetaBundle::init</definition>
+        <argsstring>(TagLib::AudioProperties *ap=0)</argsstring>
+        <name>init</name>
+        <param>
+          <type>TagLib::AudioProperties *</type>
+          <declname>ap</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="99" bodystart="112" bodyend="127"/>
+        <references refid="classMetaBundle_1MetaBundler11" compoundref="metabundle_8h" startline="101">exists</references>
+        <references refid="classMetaBundle_1MetaBundler8" compoundref="metabundle_8h" startline="93">m_bitrate</references>
+        <references refid="classMetaBundle_1MetaBundler9" compoundref="metabundle_8h" startline="94">m_length</references>
+        <references refid="classMetaBundle_1MetaBundler10" compoundref="metabundle_8h" startline="95">m_sampleRate</references>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <references refid="classMetaBundle_1MetaBundles0" compoundref="metabundle_8h" startline="28">Undetermined</references>
+        <referencedby refid="classMetaBundle_1MetaBundlea3" compoundref="metabundle_8cpp" startline="96" endline="109">MetaBundle</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMetaBundle_1MetaBundled1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MetaBundle::init</definition>
+        <argsstring>(const KFileMetaInfo &amp;info)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const KFileMetaInfo &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="100" bodystart="130" bodyend="156"/>
+        <references refid="classMetaBundle_1MetaBundler11" compoundref="metabundle_8h" startline="101">exists</references>
+        <references refid="classMetaBundle_1MetaBundler3" compoundref="metabundle_8h" startline="83">m_album</references>
+        <references refid="classMetaBundle_1MetaBundler2" compoundref="metabundle_8h" startline="82">m_artist</references>
+        <references refid="classMetaBundle_1MetaBundler8" compoundref="metabundle_8h" startline="93">m_bitrate</references>
+        <references refid="classMetaBundle_1MetaBundler5" compoundref="metabundle_8h" startline="85">m_comment</references>
+        <references refid="classMetaBundle_1MetaBundler6" compoundref="metabundle_8h" startline="86">m_genre</references>
+        <references refid="classMetaBundle_1MetaBundler9" compoundref="metabundle_8h" startline="94">m_length</references>
+        <references refid="classMetaBundle_1MetaBundler10" compoundref="metabundle_8h" startline="95">m_sampleRate</references>
+        <references refid="classMetaBundle_1MetaBundler1" compoundref="metabundle_8h" startline="81">m_title</references>
+        <references refid="classMetaBundle_1MetaBundler7" compoundref="metabundle_8h" startline="87">m_track</references>
+        <references refid="classMetaBundle_1MetaBundler0" compoundref="metabundle_8h" startline="80">m_url</references>
+        <references refid="classMetaBundle_1MetaBundler4" compoundref="metabundle_8h" startline="84">m_year</references>
+        <references refid="classMetaBundle_1MetaBundlea17" compoundref="metabundle_8cpp" startline="187" endline="197">prettyTitle</references>
+        <references refid="classMetaBundle_1MetaBundles0" compoundref="metabundle_8h" startline="28">Undetermined</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler0" prot="private" static="no" volatile="no" mutable="no">
+        <type>KURL</type>
+        <definition>KURL MetaBundle::m_url</definition>
+        <argsstring></argsstring>
+        <name>m_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="80" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea1" compoundref="metabundle_8h" startline="34" endline="34">MetaBundle</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea17" compoundref="metabundle_8cpp" startline="187" endline="197">prettyTitle</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea18" compoundref="metabundle_8h" startline="68" endline="68">prettyURL</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea9" compoundref="metabundle_8h" startline="58" endline="58">url</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="81" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea17" compoundref="metabundle_8cpp" startline="187" endline="197">prettyTitle</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea10" compoundref="metabundle_8h" startline="59" endline="59">title</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler2" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_artist</definition>
+        <argsstring></argsstring>
+        <name>m_artist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="82" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea11" compoundref="metabundle_8h" startline="60" endline="60">artist</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea17" compoundref="metabundle_8cpp" startline="187" endline="197">prettyTitle</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler3" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_album</definition>
+        <argsstring></argsstring>
+        <name>m_album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="83" bodystart="83" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea12" compoundref="metabundle_8h" startline="61" endline="61">album</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_year</definition>
+        <argsstring></argsstring>
+        <name>m_year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="84" bodystart="84" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea13" compoundref="metabundle_8h" startline="62" endline="62">year</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler5" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_comment</definition>
+        <argsstring></argsstring>
+        <name>m_comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="85" bodystart="85" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea14" compoundref="metabundle_8h" startline="63" endline="63">comment</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler6" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_genre</definition>
+        <argsstring></argsstring>
+        <name>m_genre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="86" bodystart="86" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea15" compoundref="metabundle_8h" startline="64" endline="64">genre</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler7" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString MetaBundle::m_track</definition>
+        <argsstring></argsstring>
+        <name>m_track</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="87" bodystart="87" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled1" compoundref="metabundle_8cpp" startline="130" endline="156">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea4" compoundref="metabundle_8cpp" startline="159" endline="184">readTags</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea16" compoundref="metabundle_8h" startline="65" endline="65">track</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler8" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int MetaBundle::m_bitrate</definition>
+        <argsstring></argsstring>
+        <name>m_bitrate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="93" bodystart="93" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea6" compoundref="metabundle_8h" startline="55" endline="55">bitrate</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea19" compoundref="metabundle_8h" startline="69" endline="69">prettyBitrate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler9" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int MetaBundle::m_length</definition>
+        <argsstring></argsstring>
+        <name>m_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="94" bodystart="94" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea5" compoundref="metabundle_8h" startline="54" endline="54">length</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea20" compoundref="metabundle_8h" startline="70" endline="70">prettyLength</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler10" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int MetaBundle::m_sampleRate</definition>
+        <argsstring></argsstring>
+        <name>m_sampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="95" bodystart="95" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea21" compoundref="metabundle_8h" startline="71" endline="71">prettySampleRate</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea7" compoundref="metabundle_8h" startline="56" endline="56">sampleRate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMetaBundle_1MetaBundler11" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MetaBundle::exists</definition>
+        <argsstring></argsstring>
+        <name>exists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="101" bodystart="101" bodyend="-1"/>
+        <referencedby refid="classMetaBundle_1MetaBundlea8" compoundref="metabundle_8cpp" startline="256" endline="259">exist</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundled0" compoundref="metabundle_8cpp" startline="112" endline="127">init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMetaBundle_1MetaBundleh0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString MetaBundle::prettyGeneric</definition>
+        <argsstring>(const QString &amp;, int)</argsstring>
+        <name>prettyGeneric</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/metabundle.h" line="97" bodystart="250" bodyend="255"/>
+        <references refid="classMetaBundle_1MetaBundles0" compoundref="metabundle_8h" startline="28">Undetermined</references>
+        <referencedby refid="classMetaBundle_1MetaBundlee0" compoundref="metabundle_8cpp" startline="244" endline="247">prettyBitrate</referencedby>
+        <referencedby refid="classMetaBundle_1MetaBundlea21" compoundref="metabundle_8h" startline="71" endline="71">prettySampleRate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/metabundle.h" line="24" bodystart="23" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classMetaBundle_1MetaBundlea12" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>album</name></member>
+      <member refid="classMetaBundle_1MetaBundlea11" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>artist</name></member>
+      <member refid="classMetaBundle_1MetaBundlea6" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>bitrate</name></member>
+      <member refid="classMetaBundle_1MetaBundlea14" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>comment</name></member>
+      <member refid="classMetaBundle_1MetaBundlea8" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>exist</name></member>
+      <member refid="classMetaBundle_1MetaBundler11" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>exists</name></member>
+      <member refid="classMetaBundle_1MetaBundlea15" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>genre</name></member>
+      <member refid="classMetaBundle_1MetaBundled0" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>init</name></member>
+      <member refid="classMetaBundle_1MetaBundled1" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>init</name></member>
+      <member refid="classMetaBundle_1MetaBundles1" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>Irrelevant</name></member>
+      <member refid="classMetaBundle_1MetaBundlea5" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>length</name></member>
+      <member refid="classMetaBundle_1MetaBundler3" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_album</name></member>
+      <member refid="classMetaBundle_1MetaBundler2" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_artist</name></member>
+      <member refid="classMetaBundle_1MetaBundler8" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_bitrate</name></member>
+      <member refid="classMetaBundle_1MetaBundler5" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_comment</name></member>
+      <member refid="classMetaBundle_1MetaBundler6" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_genre</name></member>
+      <member refid="classMetaBundle_1MetaBundler9" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_length</name></member>
+      <member refid="classMetaBundle_1MetaBundler10" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_sampleRate</name></member>
+      <member refid="classMetaBundle_1MetaBundler1" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_title</name></member>
+      <member refid="classMetaBundle_1MetaBundler7" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_track</name></member>
+      <member refid="classMetaBundle_1MetaBundler0" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_url</name></member>
+      <member refid="classMetaBundle_1MetaBundler4" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>m_year</name></member>
+      <member refid="classMetaBundle_1MetaBundlea0" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>MetaBundle</name></member>
+      <member refid="classMetaBundle_1MetaBundlea1" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>MetaBundle</name></member>
+      <member refid="classMetaBundle_1MetaBundlea2" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>MetaBundle</name></member>
+      <member refid="classMetaBundle_1MetaBundlea3" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>MetaBundle</name></member>
+      <member refid="classMetaBundle_1MetaBundlea19" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyBitrate</name></member>
+      <member refid="classMetaBundle_1MetaBundlee0" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyBitrate</name></member>
+      <member refid="classMetaBundle_1MetaBundleh0" prot="private" virt="non-virtual"><scope>MetaBundle</scope><name>prettyGeneric</name></member>
+      <member refid="classMetaBundle_1MetaBundlea20" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyLength</name></member>
+      <member refid="classMetaBundle_1MetaBundlee1" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyLength</name></member>
+      <member refid="classMetaBundle_1MetaBundlea21" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettySampleRate</name></member>
+      <member refid="classMetaBundle_1MetaBundlee2" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyTime</name></member>
+      <member refid="classMetaBundle_1MetaBundlea17" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyTitle</name></member>
+      <member refid="classMetaBundle_1MetaBundlee4" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyTitle</name></member>
+      <member refid="classMetaBundle_1MetaBundlea18" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>prettyURL</name></member>
+      <member refid="classMetaBundle_1MetaBundlea4" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>readTags</name></member>
+      <member refid="classMetaBundle_1MetaBundlea7" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>sampleRate</name></member>
+      <member refid="classMetaBundle_1MetaBundlea10" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>title</name></member>
+      <member refid="classMetaBundle_1MetaBundlea16" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>track</name></member>
+      <member refid="classMetaBundle_1MetaBundles2" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>Unavailable</name></member>
+      <member refid="classMetaBundle_1MetaBundles0" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>Undetermined</name></member>
+      <member refid="classMetaBundle_1MetaBundlea9" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>url</name></member>
+      <member refid="classMetaBundle_1MetaBundlea13" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>year</name></member>
+      <member refid="classMetaBundle_1MetaBundlee3" prot="public" virt="non-virtual"><scope>MetaBundle</scope><name>zeroPad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

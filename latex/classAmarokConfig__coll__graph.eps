@@ -1,0 +1,1032 @@
+%!PS-Adobe-2.0
+%%Creator: dot version 2.2.1 (Fri May 13 08:36:00 UTC 2005)
+%%For: (root) root
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: 35 35 231 2009
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+
+EncodingVector
+  dup 306 /AE
+  dup 301 /Aacute
+  dup 302 /Acircumflex
+  dup 304 /Adieresis
+  dup 300 /Agrave
+  dup 305 /Aring
+  dup 303 /Atilde
+  dup 307 /Ccedilla
+  dup 311 /Eacute
+  dup 312 /Ecircumflex
+  dup 313 /Edieresis
+  dup 310 /Egrave
+  dup 315 /Iacute
+  dup 316 /Icircumflex
+  dup 317 /Idieresis
+  dup 314 /Igrave
+  dup 334 /Udieresis
+  dup 335 /Yacute
+  dup 376 /thorn
+  dup 337 /germandbls
+  dup 341 /aacute
+  dup 342 /acircumflex
+  dup 344 /adieresis
+  dup 346 /ae
+  dup 340 /agrave
+  dup 345 /aring
+  dup 347 /ccedilla
+  dup 351 /eacute
+  dup 352 /ecircumflex
+  dup 353 /edieresis
+  dup 350 /egrave
+  dup 355 /iacute
+  dup 356 /icircumflex
+  dup 357 /idieresis
+  dup 354 /igrave
+  dup 360 /dcroat
+  dup 361 /ntilde
+  dup 363 /oacute
+  dup 364 /ocircumflex
+  dup 366 /odieresis
+  dup 362 /ograve
+  dup 365 /otilde
+  dup 370 /oslash
+  dup 372 /uacute
+  dup 373 /ucircumflex
+  dup 374 /udieresis
+  dup 371 /ugrave
+  dup 375 /yacute
+  dup 377 /ydieresis  
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 36 36 231 2009
+%%PageOrientation: Portrait
+gsave
+35 35 196 1974 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0 0 translate 0 rotate
+0.000 0.000 0.000 graphcolor
+10.00 /Helvetica set_font
+
+%	Node1
+gsave 10 dict begin
+filled
+0.000 0.000 1.000 nodecolor
+0.000 0.000 0.000 nodecolor
+newpath 0 0 moveto
+150 0 lineto
+150 1971 lineto
+0 1971 lineto
+closepath
+fill
+0.000 0.000 1.000 nodecolor
+newpath 0 0 moveto
+150 0 lineto
+150 1971 lineto
+0 1971 lineto
+closepath
+stroke
+gsave 10 dict begin
+42 1958 moveto
+(AmarokConfig)
+[6.72 8.4 5.52 3.36 5.52 5.04 7.2 5.52 5.52 2.88 2.16 5.52]
+xshow
+end grestore
+newpath 0 1952 moveto
+150 1952 lineto
+stroke
+gsave 10 dict begin
+8 1939 moveto
+(# mVersion)
+[5.52 2.88 8.4 6.24 5.52 3.36 5.04 2.16 5.52 5.52]
+xshow
+8 1928 moveto
+(# mPlayerPos)
+[5.52 2.88 8.4 6.72 2.16 5.28 4.8 5.52 3.36 6.48 5.52 5.04]
+xshow
+8 1917 moveto
+(# mPlaylistWindowPos)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.48 5.52 5.04]
+xshow
+8 1906 moveto
+(# mPlaylistWindowSize)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 2.16 5.04 5.52]
+xshow
+8 1895 moveto
+(# mSavePlaylist)
+[5.52 2.88 8.4 6.72 5.28 4.8 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88]
+xshow
+8 1884 moveto
+(# mFollowSymlinks)
+[5.52 2.88 8.4 6 5.52 2.16 2.16 5.52 7.2 6.72 5.04 8.4 2.16 2.16 5.52 5.04 5.04]
+xshow
+8 1873 moveto
+(# mTimeDisplayRemaining)
+[5.52 2.88 8.4 6.24 2.16 8.4 5.52 7.2 2.16 5.04 5.52 2.16 5.28 5.04 7.2 5.52 8.4 5.52 2.16 5.52 2.16 5.52 5.52]
+xshow
+8 1862 moveto
+(# mRepeatTrack)
+[5.52 2.88 8.4 7.2 5.52 5.52 5.52 5.52 2.88 5.28 3.36 5.52 5.04 5.04]
+xshow
+8 1851 moveto
+(# mRepeatPlaylist)
+[5.52 2.88 8.4 7.2 5.52 5.52 5.52 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88]
+xshow
+8 1840 moveto
+(# mRandomMode)
+[5.52 2.88 8.4 6.96 5.52 5.52 5.52 5.52 8.4 8.4 5.52 5.52 5.52]
+xshow
+8 1829 moveto
+(# mShowMetaInfo)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 8.4 5.52 2.88 5.52 2.88 5.52 2.88 5.52]
+xshow
+8 1818 moveto
+(# mShowTrayIcon)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 5.28 3.36 5.28 5.04 2.88 5.04 5.52 5.52]
+xshow
+8 1807 moveto
+(# mShowPlayerWindow)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 7.2]
+xshow
+8 1796 moveto
+(# mShowStatusBar)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 6.72 2.88 5.52 2.88 5.52 5.04 6.72 5.52 3.36]
+xshow
+8 1785 moveto
+(# mShowWelcomeTab)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 9.36 5.52 2.16 5.04 5.52 8.4 5.52 5.28 5.52 5.52]
+xshow
+8 1774 moveto
+(# mDirectoriesRecursively)
+[5.52 2.88 8.4 7.2 2.16 3.36 5.52 5.04 2.88 5.52 3.36 2.16 5.52 5.04 7.2 5.52 5.04 5.52 3.36 5.04 2.16 4.8 5.52 2.16 5.04]
+xshow
+8 1763 moveto
+(# mTrackDelayLength)
+[5.52 2.88 8.4 5.28 3.36 5.52 5.04 5.04 7.2 5.52 2.16 5.28 5.04 5.52 5.52 5.52 5.52 2.88 5.52]
+xshow
+8 1752 moveto
+(# mHidePlaylistWindow)
+[5.52 2.88 8.4 7.2 2.16 5.52 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2]
+xshow
+8 1741 moveto
+(# mPlaylistWindowEnabled)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 5.52 5.52 2.16 5.52 5.52]
+xshow
+8 1730 moveto
+(# mUndoLevels)
+[5.52 2.88 8.4 7.2 5.52 5.52 5.52 5.52 5.28 4.8 5.52 2.16 5.04]
+xshow
+8 1719 moveto
+(# mCurrentAnalyzer)
+[5.52 2.88 8.4 7.2 5.52 3.36 3.36 5.52 5.52 2.88 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36]
+xshow
+8 1708 moveto
+(# mRememberEffects)
+[5.52 2.88 8.4 7.2 5.52 8.4 5.52 8.4 5.52 5.52 3.36 6.72 3.12 2.64 5.52 5.04 2.88 5.04]
+xshow
+8 1697 moveto
+(# mPlaylistWindowSplitter)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 2.16 2.16 2.88 2.64 5.52 3.36]
+xshow
+8 1686 moveto
+(# mPlaylistFollowActive)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 6 5.52 2.16 2.16 5.52 7.2 6.72 5.04 2.88 2.16 4.8 5.52]
+xshow
+8 1675 moveto
+(# mShowSplashscreen)
+[5.52 2.88 8.4 6.72 5.52 5.52 7.2 6.72 5.52 2.16 5.52 5.04 5.52 5.04 5.04 3.36 5.52 5.52 5.52]
+xshow
+8 1664 moveto
+(# mMasterVolume)
+[5.52 2.88 8.4 8.4 5.52 5.04 2.64 5.52 3.36 6.24 5.52 2.16 5.52 8.4 5.52]
+xshow
+8 1653 moveto
+(# mHardwareMixer)
+[5.52 2.88 8.4 7.2 5.52 3.36 5.52 6.96 5.52 3.36 5.52 8.4 2.16 4.8 5.52 3.36]
+xshow
+8 1642 moveto
+(# mCrossfade)
+[5.52 2.88 8.4 7.2 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52]
+xshow
+8 1631 moveto
+(# mCrossfadeLength)
+[5.52 2.88 8.4 7.2 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52 5.52 5.52 5.52 5.52 2.88 5.52]
+xshow
+8 1620 moveto
+(# mSoundSystem)
+[5.52 2.88 8.4 6.72 5.52 5.52 5.52 5.52 6.72 5.04 5.04 2.64 5.52 8.4]
+xshow
+8 1609 moveto
+(# mSoundOutput)
+[5.52 2.88 8.4 6.72 5.52 5.52 5.52 5.52 7.92 5.52 2.88 5.52 5.52 2.88]
+xshow
+8 1598 moveto
+(# mSoundDevice)
+[5.52 2.88 8.4 6.72 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52]
+xshow
+8 1587 moveto
+(# mCustomSoundDevice)
+[5.52 2.88 8.4 7.2 5.52 5.04 2.88 5.52 8.4 6.72 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52]
+xshow
+8 1576 moveto
+(# mTitleStreaming)
+[5.52 2.88 8.4 6.24 2.16 2.88 2.16 5.52 6.72 2.88 3.36 5.52 5.52 8.4 2.16 5.52 5.52]
+xshow
+8 1565 moveto
+(# mOsdEnabled)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.72 5.52 5.52 5.52 2.16 5.52 5.52]
+xshow
+8 1554 moveto
+(# mOsdFont)
+[5.52 2.88 8.4 7.92 5.04 5.52 6 5.52 5.52 2.88]
+xshow
+8 1543 moveto
+(# mOsdDrawShadow)
+[5.52 2.88 8.4 7.92 5.04 5.52 7.2 3.36 5.28 7.2 6.72 5.52 5.52 5.52 5.52 7.2]
+xshow
+8 1532 moveto
+(# mOsdUseCustomColors)
+[5.52 2.88 8.4 7.92 5.04 5.52 7.2 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 7.2 5.52 2.16 5.52 3.36 5.04]
+xshow
+8 1521 moveto
+(# mOsdTextColor)
+[5.52 2.88 8.4 7.92 5.04 5.52 5.28 5.28 5.04 2.88 7.2 5.52 2.16 5.52 3.36]
+xshow
+8 1510 moveto
+(# mOsdBackgroundColor)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52 7.2 5.52 2.16 5.52 3.36]
+xshow
+8 1499 moveto
+(# mOsdDuration)
+[5.52 2.88 8.4 7.92 5.04 5.52 7.2 5.52 3.36 5.52 2.88 2.16 5.52 5.52]
+xshow
+8 1488 moveto
+(# mOsdXOffset)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88]
+xshow
+8 1477 moveto
+(# mOsdYOffset)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88]
+xshow
+8 1466 moveto
+(# mOsdScreen)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.72 5.04 3.36 5.52 5.52 5.52]
+xshow
+8 1455 moveto
+(# mOsdAlignment)
+[5.52 2.88 8.4 7.92 5.04 5.52 6.72 2.16 2.16 5.52 5.52 8.4 5.52 5.52 2.88]
+xshow
+8 1444 moveto
+(# mUseCustomFonts)
+[5.52 2.88 8.4 7.2 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 6 5.52 5.52 2.88 5.04]
+xshow
+8 1433 moveto
+(# mPlaylistWindowFont)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6 5.52 5.52 2.88]
+xshow
+8 1422 moveto
+(# mPlayerWidgetFont)
+[5.52 2.88 8.4 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6 5.52 5.52 2.88]
+xshow
+8 1411 moveto
+(# mPlayerWidgetScrollFont)
+[5.52 2.88 8.4 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6.72 5.04 3.36 5.52 2.16 2.16 6 5.52 5.52 2.88]
+xshow
+8 1400 moveto
+(# mSchemeAmarok)
+[5.52 2.88 8.4 6.72 5.04 5.52 5.52 8.4 5.52 6.72 8.4 5.52 3.36 5.52 5.04]
+xshow
+8 1389 moveto
+(# mSchemeKDE)
+[5.52 2.88 8.4 6.72 5.04 5.52 5.52 8.4 5.52 6.72 7.2 6.72]
+xshow
+8 1378 moveto
+(# mSchemeCustom)
+[5.52 2.88 8.4 6.72 5.04 5.52 5.52 8.4 5.52 7.2 5.52 5.04 2.88 5.52 8.4]
+xshow
+8 1367 moveto
+(# mPlaylistWindowFgColor)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.24 5.52 7.2 5.52 2.16 5.52 3.36]
+xshow
+8 1356 moveto
+(# mPlaylistWindowBgColor)
+[5.52 2.88 8.4 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 7.2 5.52 2.16 5.52 3.36]
+xshow
+8 1345 moveto
+(# mResumePlayback)
+[5.52 2.88 8.4 7.2 5.52 5.04 5.52 8.4 5.52 6.72 2.16 5.28 5.04 5.52 5.52 5.04 5.04]
+xshow
+8 1334 moveto
+(# mResumeTrack)
+[5.52 2.88 8.4 7.2 5.52 5.04 5.52 8.4 5.52 5.28 3.36 5.52 5.04 5.04]
+xshow
+8 1323 moveto
+(# mResumeTime)
+[5.52 2.88 8.4 7.2 5.52 5.04 5.52 8.4 5.52 6.24 2.16 8.4 5.52]
+xshow
+8 1312 moveto
+(# mSelf)
+[5.52 2.88 8.4 6.72 5.52 2.16 2.88]
+xshow
+end grestore
+newpath 0 1306 moveto
+150 1306 lineto
+stroke
+gsave 10 dict begin
+8 1293 moveto
+(+ ~AmarokConfig\(\))
+[6 2.88 6 6.72 8.4 5.52 3.36 5.52 5.04 7.2 5.52 5.52 2.88 2.16 5.52 3.36 3.36]
+xshow
+8 1282 moveto
+(+ self\(\))
+[6 2.88 5.04 5.52 2.16 2.88 3.36 3.36]
+xshow
+8 1271 moveto
+(+ setVersion\(\))
+[6 2.88 5.04 5.52 2.88 6.24 5.52 3.36 5.04 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 1260 moveto
+(+ version\(\))
+[6 2.88 4.8 5.52 3.36 5.04 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 1249 moveto
+(+ setPlayerPos\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 4.8 5.52 3.36 6.48 5.52 5.04 3.36 3.36]
+xshow
+8 1238 moveto
+(+ playerPos\(\))
+[6 2.88 5.52 2.16 5.28 4.8 5.52 3.36 6.48 5.52 5.04 3.36 3.36]
+xshow
+8 1227 moveto
+(+ setPlaylistWindowPos\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.48 5.52 5.04 3.36 3.36]
+xshow
+8 1216 moveto
+(+ playlistWindowPos\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.48 5.52 5.04 3.36 3.36]
+xshow
+8 1205 moveto
+(+ setPlaylistWindowSize\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 1194 moveto
+(+ playlistWindowSize\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 1183 moveto
+(+ setSavePlaylist\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.28 4.8 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+8 1172 moveto
+(+ savePlaylist\(\))
+[6 2.88 5.04 5.28 4.8 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+8 1161 moveto
+(+ setFollowSymlinks\(\))
+[6 2.88 5.04 5.52 2.88 6 5.52 2.16 2.16 5.52 7.2 6.72 5.04 8.4 2.16 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 1150 moveto
+(+ followSymlinks\(\))
+[6 2.88 2.88 5.52 2.16 2.16 5.52 7.2 6.72 5.04 8.4 2.16 2.16 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 1139 moveto
+(+ setTimeDisplayRemaining\(\))
+[6 2.88 5.04 5.52 2.88 6.24 2.16 8.4 5.52 7.2 2.16 5.04 5.52 2.16 5.28 5.04 7.2 5.52 8.4 5.52 2.16 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 1128 moveto
+(+ timeDisplayRemaining\(\))
+[6 2.88 2.88 2.16 8.4 5.52 7.2 2.16 5.04 5.52 2.16 5.28 5.04 7.2 5.52 8.4 5.52 2.16 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 1117 moveto
+(+ setRepeatTrack\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.52 5.52 5.52 2.88 5.28 3.36 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 1106 moveto
+(+ repeatTrack\(\))
+[6 2.88 3.36 5.52 5.52 5.52 5.52 2.88 5.28 3.36 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 1095 moveto
+(+ setRepeatPlaylist\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.52 5.52 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+8 1084 moveto
+(+ repeatPlaylist\(\))
+[6 2.88 3.36 5.52 5.52 5.52 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 3.36 3.36]
+xshow
+8 1073 moveto
+(+ setRandomMode\(\))
+[6 2.88 5.04 5.52 2.88 6.96 5.52 5.52 5.52 5.52 8.4 8.4 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 1062 moveto
+(+ randomMode\(\))
+[6 2.88 3.36 5.52 5.52 5.52 5.52 8.4 8.4 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 1051 moveto
+(+ setShowMetaInfo\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 8.4 5.52 2.88 5.52 2.88 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 1040 moveto
+(+ showMetaInfo\(\))
+[6 2.88 5.04 5.52 5.52 7.2 8.4 5.52 2.88 5.52 2.88 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 1029 moveto
+(+ setShowTrayIcon\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 5.28 3.36 5.28 5.04 2.88 5.04 5.52 5.52 3.36 3.36]
+xshow
+8 1018 moveto
+(+ showTrayIcon\(\))
+[6 2.88 5.04 5.52 5.52 7.2 5.28 3.36 5.28 5.04 2.88 5.04 5.52 5.52 3.36 3.36]
+xshow
+8 1007 moveto
+(+ setShowPlayerWindow\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 996 moveto
+(+ showPlayerWindow\(\))
+[6 2.88 5.04 5.52 5.52 7.2 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 985 moveto
+(+ setShowStatusBar\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 6.72 2.88 5.52 2.88 5.52 5.04 6.72 5.52 3.36 3.36 3.36]
+xshow
+8 974 moveto
+(+ showStatusBar\(\))
+[6 2.88 5.04 5.52 5.52 7.2 6.72 2.88 5.52 2.88 5.52 5.04 6.72 5.52 3.36 3.36 3.36]
+xshow
+8 963 moveto
+(+ setShowWelcomeTab\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 9.36 5.52 2.16 5.04 5.52 8.4 5.52 5.28 5.52 5.52 3.36 3.36]
+xshow
+8 952 moveto
+(+ showWelcomeTab\(\))
+[6 2.88 5.04 5.52 5.52 7.2 9.36 5.52 2.16 5.04 5.52 8.4 5.52 5.28 5.52 5.52 3.36 3.36]
+xshow
+8 941 moveto
+(+ setDirectoriesRecursively\(\))
+[6 2.88 5.04 5.52 2.88 7.2 2.16 3.36 5.52 5.04 2.88 5.52 3.36 2.16 5.52 5.04 7.2 5.52 5.04 5.52 3.36 5.04 2.16 4.8 5.52 2.16 5.04 3.36 3.36]
+xshow
+8 930 moveto
+(+ directoriesRecursively\(\))
+[6 2.88 5.52 2.16 3.36 5.52 5.04 2.88 5.52 3.36 2.16 5.52 5.04 7.2 5.52 5.04 5.52 3.36 5.04 2.16 4.8 5.52 2.16 5.04 3.36 3.36]
+xshow
+8 919 moveto
+(+ setTrackDelayLength\(\))
+[6 2.88 5.04 5.52 2.88 5.28 3.36 5.52 5.04 5.04 7.2 5.52 2.16 5.28 5.04 5.52 5.52 5.52 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 908 moveto
+(+ trackDelayLength\(\))
+[6 2.88 2.88 3.36 5.52 5.04 5.04 7.2 5.52 2.16 5.28 5.04 5.52 5.52 5.52 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 897 moveto
+(+ setHidePlaylistWindow\(\))
+[6 2.88 5.04 5.52 2.88 7.2 2.16 5.52 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 886 moveto
+(+ hidePlaylistWindow\(\))
+[6 2.88 5.52 2.16 5.52 5.52 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 875 moveto
+(+ setPlaylistWindowEnabled\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 5.52 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 864 moveto
+(+ playlistWindowEnabled\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 5.52 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 853 moveto
+(+ setUndoLevels\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.52 5.52 5.52 5.28 4.8 5.52 2.16 5.04 3.36 3.36]
+xshow
+8 842 moveto
+(+ undoLevels\(\))
+[6 2.88 5.52 5.52 5.52 5.52 5.52 5.28 4.8 5.52 2.16 5.04 3.36 3.36]
+xshow
+8 831 moveto
+(+ setCurrentAnalyzer\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 3.36 3.36 5.52 5.52 2.88 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36 3.36 3.36]
+xshow
+8 820 moveto
+(+ currentAnalyzer\(\))
+[6 2.88 5.04 5.52 3.36 3.36 5.52 5.52 2.88 6.72 5.52 5.52 2.16 5.04 5.04 5.52 3.36 3.36 3.36]
+xshow
+8 809 moveto
+(+ setRememberEffects\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 8.4 5.52 8.4 5.52 5.52 3.36 6.72 3.12 2.64 5.52 5.04 2.88 5.04 3.36 3.36]
+xshow
+8 798 moveto
+(+ rememberEffects\(\))
+[6 2.88 3.36 5.52 8.4 5.52 8.4 5.52 5.52 3.36 6.72 3.12 2.64 5.52 5.04 2.88 5.04 3.36 3.36]
+xshow
+8 787 moveto
+(+ setPlaylistWindowSplitter\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 2.16 2.16 2.88 2.64 5.52 3.36 3.36 3.36]
+xshow
+8 776 moveto
+(+ playlistWindowSplitter\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 2.16 2.16 2.88 2.64 5.52 3.36 3.36 3.36]
+xshow
+8 765 moveto
+(+ setPlaylistFollowActive\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 6 5.52 2.16 2.16 5.52 7.2 6.72 5.04 2.88 2.16 4.8 5.52 3.36 3.36]
+xshow
+8 754 moveto
+(+ playlistFollowActive\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 6 5.52 2.16 2.16 5.52 7.2 6.72 5.04 2.88 2.16 4.8 5.52 3.36 3.36]
+xshow
+8 743 moveto
+(+ setShowSplashscreen\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 7.2 6.72 5.52 2.16 5.52 5.04 5.52 5.04 5.04 3.36 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 732 moveto
+(+ showSplashscreen\(\))
+[6 2.88 5.04 5.52 5.52 7.2 6.72 5.52 2.16 5.52 5.04 5.52 5.04 5.04 3.36 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 721 moveto
+(+ setMasterVolume\(\))
+[6 2.88 5.04 5.52 2.88 8.4 5.52 5.04 2.64 5.52 3.36 6.24 5.52 2.16 5.52 8.4 5.52 3.36 3.36]
+xshow
+8 710 moveto
+(+ masterVolume\(\))
+[6 2.88 8.4 5.52 5.04 2.64 5.52 3.36 6.24 5.52 2.16 5.52 8.4 5.52 3.36 3.36]
+xshow
+8 699 moveto
+(+ setHardwareMixer\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 3.36 5.52 6.96 5.52 3.36 5.52 8.4 2.16 4.8 5.52 3.36 3.36 3.36]
+xshow
+8 688 moveto
+(+ hardwareMixer\(\))
+[6 2.88 5.52 5.52 3.36 5.52 6.96 5.52 3.36 5.52 8.4 2.16 4.8 5.52 3.36 3.36 3.36]
+xshow
+8 677 moveto
+(+ setCrossfade\(\))
+[6 2.88 5.04 5.52 2.88 7.2 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 666 moveto
+(+ crossfade\(\))
+[6 2.88 5.04 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 655 moveto
+(+ setCrossfadeLength\(\))
+[6 2.88 5.04 5.52 2.88 7.2 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52 5.52 5.52 5.52 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 644 moveto
+(+ crossfadeLength\(\))
+[6 2.88 5.04 3.36 5.52 5.04 5.04 2.88 5.52 5.52 5.52 5.52 5.52 5.52 5.52 2.88 5.52 3.36 3.36]
+xshow
+8 633 moveto
+(+ setSoundSystem\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 5.52 5.52 6.72 5.04 5.04 2.64 5.52 8.4 3.36 3.36]
+xshow
+8 622 moveto
+(+ soundSystem\(\))
+[6 2.88 5.04 5.52 5.52 5.52 5.52 6.72 5.04 5.04 2.64 5.52 8.4 3.36 3.36]
+xshow
+8 611 moveto
+(+ setSoundOutput\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 5.52 5.52 7.92 5.52 2.88 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 600 moveto
+(+ soundOutput\(\))
+[6 2.88 5.04 5.52 5.52 5.52 5.52 7.92 5.52 2.88 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 589 moveto
+(+ setSoundDevice\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 578 moveto
+(+ soundDevice\(\))
+[6 2.88 5.04 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 567 moveto
+(+ setCustomSoundDevice\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.04 2.88 5.52 8.4 6.72 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 556 moveto
+(+ customSoundDevice\(\))
+[6 2.88 5.04 5.52 5.04 2.88 5.52 8.4 6.72 5.52 5.52 5.52 5.52 7.2 5.28 5.04 2.16 5.04 5.52 3.36 3.36]
+xshow
+8 545 moveto
+(+ setTitleStreaming\(\))
+[6 2.88 5.04 5.52 2.88 6.24 2.16 2.88 2.16 5.52 6.72 2.88 3.36 5.52 5.52 8.4 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 534 moveto
+(+ titleStreaming\(\))
+[6 2.88 2.88 2.16 2.88 2.16 5.52 6.72 2.88 3.36 5.52 5.52 8.4 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 523 moveto
+(+ setOsdEnabled\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.72 5.52 5.52 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 512 moveto
+(+ osdEnabled\(\))
+[6 2.88 5.52 5.04 5.52 6.72 5.52 5.52 5.52 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 501 moveto
+(+ setOsdFont\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 490 moveto
+(+ osdFont\(\))
+[6 2.88 5.52 5.04 5.52 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 479 moveto
+(+ setOsdDrawShadow\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 7.2 3.36 5.28 7.2 6.72 5.52 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 468 moveto
+(+ osdDrawShadow\(\))
+[6 2.88 5.52 5.04 5.52 7.2 3.36 5.28 7.2 6.72 5.52 5.52 5.52 5.52 7.2 3.36 3.36]
+xshow
+8 457 moveto
+(+ setOsdUseCustomColors\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 7.2 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 7.2 5.52 2.16 5.52 3.36 5.04 3.36 3.36]
+xshow
+8 446 moveto
+(+ osdUseCustomColors\(\))
+[6 2.88 5.52 5.04 5.52 7.2 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 7.2 5.52 2.16 5.52 3.36 5.04 3.36 3.36]
+xshow
+8 435 moveto
+(+ setOsdTextColor\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 5.28 5.28 5.04 2.88 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 424 moveto
+(+ osdTextColor\(\))
+[6 2.88 5.52 5.04 5.52 5.28 5.28 5.04 2.88 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 413 moveto
+(+ setOsdBackgroundColor\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 402 moveto
+(+ osdBackgroundColor\(\))
+[6 2.88 5.52 5.04 5.52 6.72 5.52 5.04 4.8 5.52 3.36 5.52 5.52 5.52 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 391 moveto
+(+ setOsdDuration\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 7.2 5.52 3.36 5.52 2.88 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 380 moveto
+(+ osdDuration\(\))
+[6 2.88 5.52 5.04 5.52 7.2 5.52 3.36 5.52 2.88 2.16 5.52 5.52 3.36 3.36]
+xshow
+8 369 moveto
+(+ setOsdXOffset\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88 3.36 3.36]
+xshow
+8 358 moveto
+(+ osdXOffset\(\))
+[6 2.88 5.52 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88 3.36 3.36]
+xshow
+8 347 moveto
+(+ setOsdYOffset\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88 3.36 3.36]
+xshow
+8 336 moveto
+(+ osdYOffset\(\))
+[6 2.88 5.52 5.04 5.52 6.24 7.92 3.12 2.88 5.04 5.52 2.88 3.36 3.36]
+xshow
+8 325 moveto
+(+ setOsdScreen\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.72 5.04 3.36 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 314 moveto
+(+ osdScreen\(\))
+[6 2.88 5.52 5.04 5.52 6.72 5.04 3.36 5.52 5.52 5.52 3.36 3.36]
+xshow
+8 303 moveto
+(+ setOsdAlignment\(\))
+[6 2.88 5.04 5.52 2.88 7.92 5.04 5.52 6.72 2.16 2.16 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 292 moveto
+(+ osdAlignment\(\))
+[6 2.88 5.52 5.04 5.52 6.72 2.16 2.16 5.52 5.52 8.4 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 281 moveto
+(+ setUseCustomFonts\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 6 5.52 5.52 2.88 5.04 3.36 3.36]
+xshow
+8 270 moveto
+(+ useCustomFonts\(\))
+[6 2.88 5.52 5.04 5.52 7.2 5.52 5.04 2.88 5.52 8.4 6 5.52 5.52 2.88 5.04 3.36 3.36]
+xshow
+8 259 moveto
+(+ setPlaylistWindowFont\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 248 moveto
+(+ playlistWindowFont\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 237 moveto
+(+ setPlayerWidgetFont\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 226 moveto
+(+ playerWidgetFont\(\))
+[6 2.88 5.52 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 215 moveto
+(+ setPlayerWidgetScrollFont\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6.72 5.04 3.36 5.52 2.16 2.16 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 204 moveto
+(+ playerWidgetScrollFont\(\))
+[6 2.88 5.52 2.16 5.28 4.8 5.52 3.36 9.6 2.16 5.52 5.52 5.52 2.88 6.72 5.04 3.36 5.52 2.16 2.16 6 5.52 5.52 2.88 3.36 3.36]
+xshow
+8 193 moveto
+(+ setSchemeAmarok\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.04 5.52 5.52 8.4 5.52 6.72 8.4 5.52 3.36 5.52 5.04 3.36 3.36]
+xshow
+8 182 moveto
+(+ schemeAmarok\(\))
+[6 2.88 5.04 5.04 5.52 5.52 8.4 5.52 6.72 8.4 5.52 3.36 5.52 5.04 3.36 3.36]
+xshow
+8 171 moveto
+(+ setSchemeKDE\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.04 5.52 5.52 8.4 5.52 6.72 7.2 6.72 3.36 3.36]
+xshow
+8 160 moveto
+(+ schemeKDE\(\))
+[6 2.88 5.04 5.04 5.52 5.52 8.4 5.52 6.72 7.2 6.72 3.36 3.36]
+xshow
+8 149 moveto
+(+ setSchemeCustom\(\))
+[6 2.88 5.04 5.52 2.88 6.72 5.04 5.52 5.52 8.4 5.52 7.2 5.52 5.04 2.88 5.52 8.4 3.36 3.36]
+xshow
+8 138 moveto
+(+ schemeCustom\(\))
+[6 2.88 5.04 5.04 5.52 5.52 8.4 5.52 7.2 5.52 5.04 2.88 5.52 8.4 3.36 3.36]
+xshow
+8 127 moveto
+(+ setPlaylistWindowFgColor\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.24 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 116 moveto
+(+ playlistWindowFgColor\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.24 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 105 moveto
+(+ setPlaylistWindowBgColor\(\))
+[6 2.88 5.04 5.52 2.88 6.72 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 94 moveto
+(+ playlistWindowBgColor\(\))
+[6 2.88 5.52 2.16 5.28 5.04 2.16 2.16 5.04 2.88 9.6 2.16 5.52 5.52 5.52 7.2 6.72 5.52 7.2 5.52 2.16 5.52 3.36 3.36 3.36]
+xshow
+8 83 moveto
+(+ setResumePlayback\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.04 5.52 8.4 5.52 6.72 2.16 5.28 5.04 5.52 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 72 moveto
+(+ resumePlayback\(\))
+[6 2.88 3.36 5.52 5.04 5.52 8.4 5.52 6.72 2.16 5.28 5.04 5.52 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 61 moveto
+(+ setResumeTrack\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.04 5.52 8.4 5.52 5.28 3.36 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 50 moveto
+(+ resumeTrack\(\))
+[6 2.88 3.36 5.52 5.04 5.52 8.4 5.52 5.28 3.36 5.52 5.04 5.04 3.36 3.36]
+xshow
+8 39 moveto
+(+ setResumeTime\(\))
+[6 2.88 5.04 5.52 2.88 7.2 5.52 5.04 5.52 8.4 5.52 6.24 2.16 8.4 5.52 3.36 3.36]
+xshow
+8 28 moveto
+(+ resumeTime\(\))
+[6 2.88 3.36 5.52 5.04 5.52 8.4 5.52 6.24 2.16 8.4 5.52 3.36 3.36]
+xshow
+8 17 moveto
+(+ writeConfig\(\))
+[6 2.88 7.2 3.36 2.16 2.64 5.52 7.2 5.52 5.52 2.88 2.16 5.52 3.36 3.36]
+xshow
+8 6 moveto
+(# AmarokConfig\(\))
+[5.52 2.88 6.72 8.4 5.52 3.36 5.52 5.04 7.2 5.52 5.52 2.88 2.16 5.52 3.36 3.36]
+xshow
+end grestore
+end grestore
+
+%	Node1 -> Node1
+gsave 10 dict begin
+dashed
+0.776 0.753 0.804 edgecolor
+newpath 151 332 moveto
+161 442 168 661 168 986 curveto
+168 1322 161 1544 150 1650 curveto
+stroke
+gsave 10 dict begin
+solid
+1 setlinewidth
+0.776 0.753 0.804 edgecolor
+newpath 150 322 moveto
+155 332 lineto
+150 325 lineto
+151 332 lineto
+150 325 lineto
+147 332 lineto
+150 322 lineto
+closepath
+fill
+0.776 0.753 0.804 edgecolor
+newpath 150 322 moveto
+155 332 lineto
+150 325 lineto
+151 332 lineto
+150 325 lineto
+147 332 lineto
+150 322 lineto
+closepath
+stroke
+end grestore
+gsave 10 dict begin
+0.000 0.000 0.000 edgecolor
+168 983 moveto
+(mSelf)
+[8.4 6.72 5.52 2.16 2.88]
+xshow
+end grestore
+end grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

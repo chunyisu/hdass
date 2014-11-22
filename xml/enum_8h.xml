@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="enum_8h" kind="file">
+    <compoundname>enum.h</compoundname>
+    <includedby refid="displayarea_8h" local="yes">displayarea.h</includedby>
+    <includedby refid="hdassglobalsetting_8h" local="yes">hdassglobalsetting.h</includedby>
+    <includedby refid="hdassplaylist_8h" local="yes">hdassplaylist.h</includedby>
+    <includedby refid="infoarea_8h" local="yes">infoarea.h</includedby>
+    <includedby refid="qfileiconview_8h" local="yes">qfileiconview.h</includedby>
+    <includedby refid="functionbar_8h" local="yes">functionbar.h</includedby>
+    <includedby refid="hdass08_8cpp" local="yes">hdass08.cpp</includedby>
+    <invincdepgraph>
+      <node id="3033">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="3034" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+        <childnode refid="3035" relation="include">
+        </childnode>
+      </node>
+      <node id="3036">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="3033" relation="include">
+        </childnode>
+        <childnode refid="3037" relation="include">
+        </childnode>
+        <childnode refid="3038" relation="include">
+        </childnode>
+      </node>
+      <node id="3027">
+        <label>infoarea.h</label>
+        <link refid="infoarea_8h"/>
+        <childnode refid="3017" relation="include">
+        </childnode>
+        <childnode refid="3028" relation="include">
+        </childnode>
+        <childnode refid="3029" relation="include">
+        </childnode>
+      </node>
+      <node id="3049">
+        <label>mediamanagement.moc</label>
+        <link refid="mediamanagement_8moc"/>
+        <childnode refid="3050" relation="include">
+        </childnode>
+      </node>
+      <node id="3042">
+        <label>subbaralbumclock.h</label>
+        <link refid="subbaralbumclock_8h"/>
+        <childnode refid="3039" relation="include">
+        </childnode>
+      </node>
+      <node id="3040">
+        <label>hdassplaylist.cpp</label>
+        <link refid="hdassplaylist_8cpp"/>
+      </node>
+      <node id="3045">
+        <label>hdassplaylist.h</label>
+        <link refid="hdassplaylist_8h"/>
+        <childnode refid="3027" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+        <childnode refid="3046" relation="include">
+        </childnode>
+        <childnode refid="3040" relation="include">
+        </childnode>
+      </node>
+      <node id="3037">
+        <label>subbaralbumclock.moc</label>
+        <link refid="subbaralbumclock_8moc"/>
+        <childnode refid="3038" relation="include">
+        </childnode>
+        <childnode refid="3039" relation="include">
+        </childnode>
+      </node>
+      <node id="3028">
+        <label>infoarea.moc</label>
+        <link refid="infoarea_8moc"/>
+        <childnode refid="3029" relation="include">
+        </childnode>
+      </node>
+      <node id="3017">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="3018" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+        <childnode refid="3019" relation="include">
+        </childnode>
+      </node>
+      <node id="3016">
+        <label>enum.h</label>
+        <link refid="enum.h"/>
+        <childnode refid="3017" relation="include">
+        </childnode>
+        <childnode refid="3025" relation="include">
+        </childnode>
+        <childnode refid="3045" relation="include">
+        </childnode>
+        <childnode refid="3027" relation="include">
+        </childnode>
+        <childnode refid="3047" relation="include">
+        </childnode>
+        <childnode refid="3033" relation="include">
+        </childnode>
+        <childnode refid="3022" relation="include">
+        </childnode>
+      </node>
+      <node id="3022">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="3018">
+        <label>displayarea.moc</label>
+        <link refid="displayarea_8moc"/>
+        <childnode refid="3019" relation="include">
+        </childnode>
+      </node>
+      <node id="3032">
+        <label>function_control_area.cpp</label>
+        <link refid="function__control__area_8cpp"/>
+      </node>
+      <node id="3023">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="3041">
+        <label>MyBrowser.cpp</label>
+        <link refid="MyBrowser_8cpp"/>
+      </node>
+      <node id="3047">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview_8h"/>
+        <childnode refid="3048" relation="include">
+        </childnode>
+        <childnode refid="3051" relation="include">
+        </childnode>
+        <childnode refid="3052" relation="include">
+        </childnode>
+      </node>
+      <node id="3035">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="3024">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="3050">
+        <label>mediamanagement.cpp</label>
+        <link refid="mediamanagement_8cpp"/>
+      </node>
+      <node id="3029">
+        <label>infoarea.cpp</label>
+        <link refid="infoarea_8cpp"/>
+      </node>
+      <node id="3026">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="3027" relation="include">
+        </childnode>
+        <childnode refid="3030" relation="include">
+        </childnode>
+        <childnode refid="3033" relation="include">
+        </childnode>
+        <childnode refid="3036" relation="include">
+        </childnode>
+        <childnode refid="3019" relation="include">
+        </childnode>
+        <childnode refid="3040" relation="include">
+        </childnode>
+        <childnode refid="3023" relation="include">
+        </childnode>
+        <childnode refid="3041" relation="include">
+        </childnode>
+        <childnode refid="3042" relation="include">
+        </childnode>
+      </node>
+      <node id="3034">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="3035" relation="include">
+        </childnode>
+      </node>
+      <node id="3025">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="3026" relation="include">
+        </childnode>
+        <childnode refid="3043" relation="include">
+        </childnode>
+        <childnode refid="3044" relation="include">
+        </childnode>
+      </node>
+      <node id="3043">
+        <label>hdassglobalsetting.moc</label>
+        <link refid="hdassglobalsetting_8moc"/>
+        <childnode refid="3044" relation="include">
+        </childnode>
+      </node>
+      <node id="3031">
+        <label>function_control_area.moc</label>
+        <link refid="function__control__area_8moc"/>
+        <childnode refid="3032" relation="include">
+        </childnode>
+      </node>
+      <node id="3038">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="src_2subbaralbumclock_8cpp"/>
+      </node>
+      <node id="3030">
+        <label>function_control_area.h</label>
+        <link refid="function__control__area_8h"/>
+        <childnode refid="3031" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+        <childnode refid="3032" relation="include">
+        </childnode>
+      </node>
+      <node id="3052">
+        <label>qfileiconview.cpp</label>
+        <link refid="qfileiconview_8cpp"/>
+      </node>
+      <node id="3020">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="3021" relation="include">
+        </childnode>
+        <childnode refid="3022" relation="include">
+        </childnode>
+        <childnode refid="3023" relation="include">
+        </childnode>
+        <childnode refid="3024" relation="include">
+        </childnode>
+      </node>
+      <node id="3051">
+        <label>qfileiconview.moc.cc</label>
+        <link refid="qfileiconview_8moc_8cc"/>
+      </node>
+      <node id="3048">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement_8h"/>
+        <childnode refid="3017" relation="include">
+        </childnode>
+        <childnode refid="3049" relation="include">
+        </childnode>
+        <childnode refid="3050" relation="include">
+        </childnode>
+      </node>
+      <node id="3019">
+        <label>displayarea.cpp</label>
+        <link refid="displayarea_8cpp"/>
+      </node>
+      <node id="3021">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="3022" relation="include">
+        </childnode>
+      </node>
+      <node id="3046">
+        <label>hdassplaylist.moc</label>
+        <link refid="hdassplaylist_8moc"/>
+        <childnode refid="3040" relation="include">
+        </childnode>
+      </node>
+      <node id="3039">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="subbaralbumclock_8cpp"/>
+      </node>
+      <node id="3044">
+        <label>hdassglobalsetting.cpp</label>
+        <link refid="hdassglobalsetting_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="enum_8h_1a21" prot="public" static="no">
+        <name>HDASS_FUNCTION_STATE</name>
+        <enumvalue id="enum_8h_1a21a0" prot="public">
+          <name>em_internet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a1" prot="public">
+          <name>em_player</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a2" prot="public">
+          <name>em_management</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a3" prot="public">
+          <name>em_albumclock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a4" prot="public">
+          <name>em_setting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a5" prot="public">
+          <name>em_close</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a21a6" prot="public">
+          <name>em_imagedetial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enum.h" line="4" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="enum" id="enum_8h_1a22" prot="public" static="no">
+        <name>HDASS_ALBUMCLOCK_STATE</name>
+        <enumvalue id="enum_8h_1a22a7" prot="public">
+          <name>em_album</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a22a8" prot="public">
+          <name>em_clock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enum.h" line="6" bodystart="5" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="enum" id="enum_8h_1a23" prot="public" static="no">
+        <name>HDASS_DISPLAY_MODE</name>
+        <enumvalue id="enum_8h_1a23a9" prot="public">
+          <name>em_display_internet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a10" prot="public">
+          <name>em_display_player</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a11" prot="public">
+          <name>em_display_management</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a12" prot="public">
+          <name>em_display_album</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a13" prot="public">
+          <name>em_display_clock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a14" prot="public">
+          <name>em_display_search</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a15" prot="public">
+          <name>em_display_setting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a23a16" prot="public">
+          <name>em_display_close</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enum.h" line="9" bodystart="8" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="enum" id="enum_8h_1a24" prot="public" static="no">
+        <name>HDASS_ACTION_TYPE</name>
+        <enumvalue id="enum_8h_1a24a17" prot="public">
+          <name>em_remove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a24a18" prot="public">
+          <name>em_cut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a24a19" prot="public">
+          <name>em_paste</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="enum_8h_1a24a20" prot="public">
+          <name>mm_append</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enum.h" line="11" bodystart="10" bodyend="11"/>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_HDASS_DEFINE_ENUM_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_HDASS_DEFINE_ENUM_</highlight></codeline>
+<codeline lineno="3" refid="enum_8h_1a21" refkind="member"><highlight class="preprocessor"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_8h_1a21" kindref="member">HDASS_FUNCTION_STATE</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{<ref refid="enum_8h_1a21a0" kindref="member">em_internet</ref>,<ref refid="enum_8h_1a21a1" kindref="member">em_player</ref>,<ref refid="enum_8h_1a21a2" kindref="member">em_management</ref>,<ref refid="enum_8h_1a21a3" kindref="member">em_albumclock</ref>,<ref refid="enum_8h_1a21a4" kindref="member">em_setting</ref>,<ref refid="enum_8h_1a21a5" kindref="member">em_close</ref>,<ref refid="enum_8h_1a21a6" kindref="member">em_imagedetial</ref>};</highlight></codeline>
+<codeline lineno="5" refid="enum_8h_1a22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_8h_1a22" kindref="member">HDASS_ALBUMCLOCK_STATE</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{<ref refid="enum_8h_1a22a7" kindref="member">em_album</ref>,<ref refid="enum_8h_1a22a8" kindref="member">em_clock</ref>};</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="enum_8h_1a23" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_8h_1a23" kindref="member">HDASS_DISPLAY_MODE</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{<ref refid="enum_8h_1a23a9" kindref="member">em_display_internet</ref>,<ref refid="enum_8h_1a23a10" kindref="member">em_display_player</ref>,<ref refid="enum_8h_1a23a11" kindref="member">em_display_management</ref>,<ref refid="enum_8h_1a23a12" kindref="member">em_display_album</ref>,<ref refid="enum_8h_1a23a13" kindref="member">em_display_clock</ref>,<ref refid="enum_8h_1a23a14" kindref="member">em_display_search</ref>,<ref refid="enum_8h_1a23a15" kindref="member">em_display_setting</ref>,<ref refid="enum_8h_1a23a16" kindref="member">em_display_close</ref>};</highlight></codeline>
+<codeline lineno="10" refid="enum_8h_1a24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{<ref refid="enum_8h_1a24a17" kindref="member">em_remove</ref>,<ref refid="enum_8h_1a24a18" kindref="member">em_cut</ref>,<ref refid="enum_8h_1a24a19" kindref="member">em_paste</ref>,<ref refid="enum_8h_1a24a20" kindref="member">mm_append</ref>};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/enum.h"/>
+  </compounddef>
+</doxygen>

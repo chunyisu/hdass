@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSubBarClose" kind="class" prot="public">
+    <compoundname>SubBarClose</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="subbarclose_8h" local="no">subbarclose.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubBarClose_1SubBarClosea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarClose::SubBarClose</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarClose</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarclose.h" line="32" bodystart="22" bodyend="26"/>
+        <references refid="classSubBarClose_1SubBarClosea2" compoundref="subbarclose_8cpp" startline="32" endline="37">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarClose_1SubBarClosea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarClose::~SubBarClose</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarclose.h" line="34" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarClose_1SubBarClosea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarClose::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarclose.h" line="35" bodystart="32" bodyend="37"/>
+        <referencedby refid="classSubBarClose_1SubBarClosea0" compoundref="subbarclose_8cpp" startline="22" endline="26">SubBarClose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSubBarClose_1SubBarCloser0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap SubBarClose::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarclose.h" line="37" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="592">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="591">
+        <label>SubBarClose</label>
+        <link refid="classSubBarClose"/>
+        <childnode refid="592" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="594">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="593">
+        <label>SubBarClose</label>
+        <link refid="classSubBarClose"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/subbarclose.h" line="29" bodystart="28" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classSubBarClose_1SubBarCloser0" prot="private" virt="non-virtual"><scope>SubBarClose</scope><name>pixBackground</name></member>
+      <member refid="classSubBarClose_1SubBarClosea0" prot="public" virt="non-virtual"><scope>SubBarClose</scope><name>SubBarClose</name></member>
+      <member refid="classSubBarClose_1SubBarClosea2" prot="public" virt="non-virtual"><scope>SubBarClose</scope><name>xSetup</name></member>
+      <member refid="classSubBarClose_1SubBarClosea1" prot="public" virt="non-virtual"><scope>SubBarClose</scope><name>~SubBarClose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

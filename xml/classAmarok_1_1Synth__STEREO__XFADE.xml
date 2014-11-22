@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classAmarok_1_1Synth__STEREO__XFADE" kind="class" prot="public">
+    <compoundname>Amarok::Synth_STEREO_XFADE</compoundname>
+    <includes refid="amarokarts_8h" local="no">amarokarts.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEw0" prot="public" static="no">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref></type>
+        <definition>typedef Synth_STEREO_XFADE_base Amarok::Synth_STEREO_XFADE::_base_class</definition>
+        <argsstring></argsstring>
+        <name>_base_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="97" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>()</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="99" bodystart="99" bodyend="99"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe1" compoundref="amarokarts_8h" startline="108" endline="108">_from_base</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe0" compoundref="amarokarts_8h" startline="107" endline="107">null</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(const Arts::SubClass &amp;s)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type>const Arts::SubClass &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="101" bodystart="100" bodyend="101"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(const Arts::Reference &amp;r)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type>const Arts::Reference &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="103" bodystart="102" bodyend="103"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(const Arts::DynamicCast &amp;c)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type>const Arts::DynamicCast &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="104" bodystart="104" bodyend="104"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(const Synth_STEREO_XFADE &amp;target)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type>const <ref refid="classAmarok_1_1Synth__STEREO__XFADE" kindref="compound">Synth_STEREO_XFADE</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="105" bodystart="105" bodyend="105"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(Arts::Object::Pool &amp;p)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type>Arts::Object::Pool &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="106" bodystart="106" bodyend="106"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE" kindref="compound">Synth_STEREO_XFADE</ref> &amp;</type>
+        <definition>Synth_STEREO_XFADE&amp; Amarok::Synth_STEREO_XFADE::operator=</definition>
+        <argsstring>(const Synth_STEREO_XFADE &amp;target)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classAmarok_1_1Synth__STEREO__XFADE" kindref="compound">Synth_STEREO_XFADE</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="109" bodystart="109" bodyend="116"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::operator Arts::SynthModule</definition>
+        <argsstring>() const </argsstring>
+        <name>operator Arts::SynthModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="117" bodystart="117" bodyend="117"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa7" compoundref="amarokarts_8h" startline="117" endline="117">operator Arts::SynthModule</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa7" compoundref="amarokarts_8h" startline="117" endline="117">operator Arts::SynthModule</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Synth_STEREO_XFADE_base* Amarok::Synth_STEREO_XFADE::_base</definition>
+        <argsstring>()</argsstring>
+        <name>_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="118" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Arts::AutoSuspendState</type>
+        <definition>Arts::AutoSuspendState Amarok::Synth_STEREO_XFADE::autoSuspend</definition>
+        <argsstring>()</argsstring>
+        <name>autoSuspend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="120" bodystart="243" bodyend="246"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="121" bodystart="248" bodyend="251"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginea2" compoundref="artsengine_8cpp" startline="104" endline="254">ArtsEngine::init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="122" bodystart="253" bodyend="256"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::streamInit</definition>
+        <argsstring>()</argsstring>
+        <name>streamInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="123" bodystart="258" bodyend="261"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::streamStart</definition>
+        <argsstring>()</argsstring>
+        <name>streamStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="124" bodystart="263" bodyend="266"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::streamEnd</definition>
+        <argsstring>()</argsstring>
+        <name>streamEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="125" bodystart="268" bodyend="271"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Amarok::Synth_STEREO_XFADE::percentage</definition>
+        <argsstring>()</argsstring>
+        <name>percentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="126" bodystart="273" bodyend="276"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela9">Amarok::Synth_STEREO_XFADE_base::percentage</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginea2" compoundref="artsengine_8cpp" startline="104" endline="254">ArtsEngine::init</referencedby>
+        <referencedby refid="classArtsEngine_1ArtsEngined1" compoundref="artsengine_8cpp" startline="645" endline="669">ArtsEngine::timerEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE::percentage</definition>
+        <argsstring>(float _newValue)</argsstring>
+        <name>percentage</name>
+        <param>
+          <type>float</type>
+          <declname>_newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="127" bodystart="278" bodyend="281"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela9">Amarok::Synth_STEREO_XFADE_base::percentage</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE" kindref="compound">Synth_STEREO_XFADE</ref></type>
+        <definition>Synth_STEREO_XFADE Amarok::Synth_STEREO_XFADE::null</definition>
+        <argsstring>()</argsstring>
+        <name>null</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="107" bodystart="107" bodyend="107"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa0" compoundref="amarokarts_8h" startline="99" endline="99">Synth_STEREO_XFADE</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginea1" compoundref="artsengine_8cpp" startline="82" endline="101">ArtsEngine::~ArtsEngine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE" kindref="compound">Synth_STEREO_XFADE</ref></type>
+        <definition>Synth_STEREO_XFADE Amarok::Synth_STEREO_XFADE::_from_base</definition>
+        <argsstring>(Synth_STEREO_XFADE_base *b)</argsstring>
+        <name>_from_base</name>
+        <param>
+          <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="108" bodystart="108" bodyend="108"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa0" compoundref="amarokarts_8h" startline="99" endline="99">Synth_STEREO_XFADE</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE::Synth_STEREO_XFADE</definition>
+        <argsstring>(Synth_STEREO_XFADE_base *b)</argsstring>
+        <name>Synth_STEREO_XFADE</name>
+        <param>
+          <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="93" bodystart="93" bodyend="93"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Synth_STEREO_XFADE_base* Amarok::Synth_STEREO_XFADE::_method_call</definition>
+        <argsstring>()</argsstring>
+        <name>_method_call</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="83" bodystart="83" bodyend="90"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" compoundref="amarokarts_8h" startline="82">_cache</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" compoundref="amarokarts_8cc" startline="71" endline="77">Amarok::Synth_STEREO_XFADE_base::_cast</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa9" compoundref="amarokarts_8h" startline="243" endline="246">autoSuspend</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa15" compoundref="amarokarts_8h" startline="273" endline="276">percentage</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa10" compoundref="amarokarts_8h" startline="248" endline="251">start</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa11" compoundref="amarokarts_8h" startline="253" endline="256">stop</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa14" compoundref="amarokarts_8h" startline="268" endline="271">streamEnd</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa12" compoundref="amarokarts_8h" startline="258" endline="261">streamInit</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa13" compoundref="amarokarts_8h" startline="263" endline="266">streamStart</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Synth_STEREO_XFADE_base* Amarok::Synth_STEREO_XFADE::_cache</definition>
+        <argsstring></argsstring>
+        <name>_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="82" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">_method_call</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa9" compoundref="amarokarts_8h" startline="243" endline="246">autoSuspend</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa6" compoundref="amarokarts_8h" startline="109" endline="116">operator=</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa15" compoundref="amarokarts_8h" startline="273" endline="276">percentage</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa10" compoundref="amarokarts_8h" startline="248" endline="251">start</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa11" compoundref="amarokarts_8h" startline="253" endline="256">stop</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa14" compoundref="amarokarts_8h" startline="268" endline="271">streamEnd</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa12" compoundref="amarokarts_8h" startline="258" endline="261">streamInit</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa13" compoundref="amarokarts_8h" startline="263" endline="266">streamStart</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEb0" compoundref="amarokarts_8h" startline="93" endline="93">Synth_STEREO_XFADE</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEh0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Arts::Object_base *</type>
+        <definition>Arts::Object_base * Amarok::Synth_STEREO_XFADE::_Creator</definition>
+        <argsstring>()</argsstring>
+        <name>_Creator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="81" bodystart="176" bodyend="178"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" compoundref="amarokarts_8cc" startline="8" endline="15">Amarok::Synth_STEREO_XFADE_base::_create</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="617">
+        <label>Amarok::Synth_STEREO_XFADE_base</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE__base"/>
+      </node>
+      <node id="616">
+        <label>Amarok::Synth_STEREO_XFADE</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE"/>
+        <childnode refid="617" relation="usage">
+          <edgelabel>_cache</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/amarokarts.h" line="79" bodystart="79" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa8" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_base</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEw0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_base_class</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" prot="private" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_cache</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEh0" prot="private" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_Creator</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe1" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_from_base</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" prot="private" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>_method_call</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa9" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>autoSuspend</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>null</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa7" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>operator Arts::SynthModule</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa6" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>operator=</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa15" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>percentage</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa16" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>percentage</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa10" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>start</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa11" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>stop</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa14" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>streamEnd</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa12" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>streamInit</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa13" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>streamStart</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEb0" prot="protected" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa1" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa2" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa3" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa4" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa5" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE</scope><name>Synth_STEREO_XFADE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

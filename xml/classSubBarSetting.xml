@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSubBarSetting" kind="class" prot="public">
+    <compoundname>SubBarSetting</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="subbarsetting_8h" local="no">subbarsetting.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubBarSetting_1SubBarSettinga0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarSetting::SubBarSetting</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarSetting</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarsetting.h" line="32" bodystart="22" bodyend="26"/>
+        <references refid="classSubBarSetting_1SubBarSettinga2" compoundref="subbarsetting_8cpp" startline="32" endline="37">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarSetting_1SubBarSettinga1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarSetting::~SubBarSetting</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarsetting.h" line="34" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarSetting_1SubBarSettinga2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarSetting::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarsetting.h" line="35" bodystart="32" bodyend="37"/>
+        <referencedby refid="classSubBarSetting_1SubBarSettinga0" compoundref="subbarsetting_8cpp" startline="22" endline="26">SubBarSetting</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSubBarSetting_1SubBarSettingr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap SubBarSetting::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarsetting.h" line="37" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="612">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="611">
+        <label>SubBarSetting</label>
+        <link refid="classSubBarSetting"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="614">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="613">
+        <label>SubBarSetting</label>
+        <link refid="classSubBarSetting"/>
+        <childnode refid="614" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/subbarsetting.h" line="29" bodystart="28" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classSubBarSetting_1SubBarSettingr0" prot="private" virt="non-virtual"><scope>SubBarSetting</scope><name>pixBackground</name></member>
+      <member refid="classSubBarSetting_1SubBarSettinga0" prot="public" virt="non-virtual"><scope>SubBarSetting</scope><name>SubBarSetting</name></member>
+      <member refid="classSubBarSetting_1SubBarSettinga2" prot="public" virt="non-virtual"><scope>SubBarSetting</scope><name>xSetup</name></member>
+      <member refid="classSubBarSetting_1SubBarSettinga1" prot="public" virt="non-virtual"><scope>SubBarSetting</scope><name>~SubBarSetting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

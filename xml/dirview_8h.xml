@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="dirview_8h" kind="file">
+    <compoundname>dirview.h</compoundname>
+    <includes local="no">qlistview.h</includes>
+    <includes local="no">qstring.h</includes>
+    <includes local="no">qfile.h</includes>
+    <includes local="no">qfileinfo.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includedby refid="dirview_8moc_8cc" local="yes">dirview.moc.cc</includedby>
+    <includedby refid="mediamanagement_8h" local="yes">mediamanagement.h</includedby>
+    <includedby refid="dirview_8cpp" local="yes">dirview.cpp</includedby>
+    <incdepgraph>
+      <node id="2685">
+        <label>qlistview.h</label>
+      </node>
+      <node id="2689">
+        <label>qtimer.h</label>
+      </node>
+      <node id="2687">
+        <label>qfile.h</label>
+      </node>
+      <node id="2686">
+        <label>qstring.h</label>
+      </node>
+      <node id="2684">
+        <label>dirview.h</label>
+        <link refid="dirview.h"/>
+        <childnode refid="2685" relation="include">
+        </childnode>
+        <childnode refid="2686" relation="include">
+        </childnode>
+        <childnode refid="2687" relation="include">
+        </childnode>
+        <childnode refid="2688" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2688">
+        <label>qfileinfo.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2701">
+        <label>mediamanagement.moc</label>
+        <link refid="mediamanagement_8moc"/>
+        <childnode refid="2702" relation="include">
+        </childnode>
+      </node>
+      <node id="2693">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="2694" relation="include">
+        </childnode>
+        <childnode refid="2696" relation="include">
+        </childnode>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2698">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="2694">
+        <label>displayarea.moc</label>
+        <link refid="displayarea_8moc"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2699">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2700">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="2702">
+        <label>mediamanagement.cpp</label>
+        <link refid="mediamanagement_8cpp"/>
+      </node>
+      <node id="2690">
+        <label>dirview.h</label>
+        <link refid="dirview.h"/>
+        <childnode refid="2691" relation="include">
+        </childnode>
+        <childnode refid="2692" relation="include">
+        </childnode>
+        <childnode refid="2703" relation="include">
+        </childnode>
+      </node>
+      <node id="2696">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="2697" relation="include">
+        </childnode>
+        <childnode refid="2698" relation="include">
+        </childnode>
+        <childnode refid="2699" relation="include">
+        </childnode>
+        <childnode refid="2700" relation="include">
+        </childnode>
+      </node>
+      <node id="2703">
+        <label>dirview.cpp</label>
+        <link refid="dirview_8cpp"/>
+      </node>
+      <node id="2692">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement_8h"/>
+        <childnode refid="2693" relation="include">
+        </childnode>
+        <childnode refid="2701" relation="include">
+        </childnode>
+        <childnode refid="2702" relation="include">
+        </childnode>
+      </node>
+      <node id="2691">
+        <label>dirview.moc.cc</label>
+        <link refid="dirview_8moc_8cc"/>
+      </node>
+      <node id="2695">
+        <label>displayarea.cpp</label>
+        <link refid="displayarea_8cpp"/>
+      </node>
+      <node id="2697">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="2698" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classFileItem">FileItem</innerclass>
+    <innerclass refid="classDirectory">Directory</innerclass>
+    <innerclass refid="classDirectoryView">DirectoryView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>$Id:<sp/>qt/dirview.h<sp/><sp/><sp/>3.3.2<sp/><sp/><sp/>edited<sp/>May<sp/>27<sp/>2003<sp/>$</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Copyright<sp/>(C)<sp/>1992-2000<sp/>Trolltech<sp/>AS.<sp/><sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>an<sp/>example<sp/>program<sp/>for<sp/>Qt.<sp/><sp/>This<sp/>example</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>program<sp/>may<sp/>be<sp/>used,<sp/>distributed<sp/>and<sp/>modified<sp/>without<sp/>limitation.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DIRVIEW_H</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DIRVIEW_H</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlistview.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfileinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQWidget" kindref="compound">QWidget</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QDragEnterEvent;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QDragMoveEvent;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QDragLeaveEvent;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QDropEvent;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classFileItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classFileItem" kindref="compound">FileItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QListViewItem</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29" refid="classFileItem_1FileItema0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFileItem_1FileItema0" kindref="member">FileItem</ref>(<sp/>QListViewItem<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;s1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;s2<sp/>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>QListViewItem(<sp/>parent,<sp/>s1,<sp/>s2<sp/>),<sp/><ref refid="classFileItem_1FileItemr0" kindref="member">pix</ref>(<sp/>0<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="classFileItem_1FileItema1" kindref="member">pixmap</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_NO_USING_KEYWORD)</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>QListViewItem::setPixmap;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFileItem_1FileItema2" kindref="member">setPixmap</ref>(<sp/>QPixmap<sp/>*p<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39" refid="classFileItem_1FileItemr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>*<ref refid="classFileItem_1FileItemr0" kindref="member">pix</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classDirectory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDirectory" kindref="compound">Directory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QListViewItem</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectory_1Directorya0" kindref="member">Directory</ref>(<sp/>QListView<sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>filename<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="classDirectory_1Directorya1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectory_1Directorya0" kindref="member">Directory</ref>(<sp/><ref refid="classDirectory" kindref="compound">Directory</ref><sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>filename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;col2<sp/>)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>QListViewItem(<sp/>parent,<sp/>filename,<sp/>col2<sp/>),<sp/>pix(<sp/>0<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectory_1Directorya0" kindref="member">Directory</ref>(<sp/><ref refid="classDirectory" kindref="compound">Directory</ref><sp/>*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>filename<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classDirectory_1Directorya3" kindref="member">text</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classDirectory_1Directorya4" kindref="member">fullName</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directorya5" kindref="member">setOpen</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directorya6" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="classDirectory_1Directorya7" kindref="member">pixmap</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_NO_USING_KEYWORD)</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>QListViewItem::setPixmap;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directorya8" kindref="member">setPixmap</ref>(<sp/>QPixmap<sp/>*p<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directorya9" kindref="member">Mkdir</ref>(QString<sp/>s);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66" refid="classDirectory_1Directoryr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/><ref refid="classDirectory_1Directoryr0" kindref="member">f</ref>;</highlight></codeline>
+<codeline lineno="67" refid="classDirectory_1Directoryr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectory" kindref="compound">Directory</ref><sp/>*<sp/><ref refid="classDirectory_1Directoryr1" kindref="member">p</ref>;</highlight></codeline>
+<codeline lineno="68" refid="classDirectory_1Directoryr2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directoryr2" kindref="member">readable</ref>;</highlight></codeline>
+<codeline lineno="69" refid="classDirectory_1Directoryr3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDirectory_1Directoryr3" kindref="member">showDirsOnly</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classDirectory_1Directoryr4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>*pix;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classDirectoryView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classDirectoryView" kindref="compound">DirectoryView</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QListView</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDirectoryView_1DirectoryViewa0" kindref="member">DirectoryView</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sdo<sp/>=<sp/>FALSE<sp/>);</highlight></codeline>
+<codeline lineno="80" refid="classDirectoryView_1DirectoryViewa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewa1" kindref="member">showDirsOnly</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewr0" kindref="member">dirsOnly</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewi0" kindref="member">setDir</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewl0" kindref="member">folderSelected</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewj0" kindref="member">slotFolderSelected</ref>(<sp/>QListViewItem<sp/>*<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewj1" kindref="member">openFolder</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb0" kindref="member">contentsDragEnterEvent</ref>(<sp/>QDragEnterEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb1" kindref="member">contentsDragMoveEvent</ref>(<sp/>QDragMoveEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb2" kindref="member">contentsDragLeaveEvent</ref>(<sp/>QDragLeaveEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb3" kindref="member">contentsDropEvent</ref>(<sp/>QDropEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb4" kindref="member">contentsMouseMoveEvent</ref>(<sp/>QMouseEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb5" kindref="member">contentsMousePressEvent</ref>(<sp/>QMouseEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewb6" kindref="member">contentsMouseReleaseEvent</ref>(<sp/>QMouseEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classDirectoryView_1DirectoryViewd0" kindref="member">fullPath</ref>(QListViewItem*<sp/>item);</highlight></codeline>
+<codeline lineno="103" refid="classDirectoryView_1DirectoryViewr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewr0" kindref="member">dirsOnly</ref>;</highlight></codeline>
+<codeline lineno="104" refid="classDirectoryView_1DirectoryViewr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QListViewItem<sp/>*<ref refid="classDirectoryView_1DirectoryViewr1" kindref="member">oldCurrent</ref>;</highlight></codeline>
+<codeline lineno="105" refid="classDirectoryView_1DirectoryViewr2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QListViewItem<sp/>*<ref refid="classDirectoryView_1DirectoryViewr2" kindref="member">dropItem</ref>;</highlight></codeline>
+<codeline lineno="106" refid="classDirectoryView_1DirectoryViewr3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer*<sp/><ref refid="classDirectoryView_1DirectoryViewr3" kindref="member">autoopen_timer</ref>;</highlight></codeline>
+<codeline lineno="107" refid="classDirectoryView_1DirectoryViewr4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="classDirectoryView_1DirectoryViewr4" kindref="member">presspos</ref>;</highlight></codeline>
+<codeline lineno="108" refid="classDirectoryView_1DirectoryViewr5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDirectoryView_1DirectoryViewr5" kindref="member">mousePressed</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/dirview.h"/>
+  </compounddef>
+</doxygen>

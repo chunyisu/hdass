@@ -1,0 +1,278 @@
+\section{Display\-Area Class Reference}
+\label{classDisplayArea}\index{DisplayArea@{DisplayArea}}
+{\tt \#include $<$displayarea.h$>$}
+
+Inheritance diagram for Display\-Area:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=84pt]{classDisplayArea__inherit__graph}
+\end{center}
+\end{figure}
+Collaboration diagram for Display\-Area:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classDisplayArea__coll__graph}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]sonicat \end{Desc}
+
+
+
+
+Definition at line 33 of file displayarea.h.\subsection*{Public Slots}
+\begin{CompactItemize}
+\item 
+void {\bf slot\-Display\-Mode\-Change} (int)
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Display\-Area} ({\bf QWidget} $\ast$parent=0, const char $\ast$name=0)
+\item 
+{\bf $\sim$Display\-Area} ()
+\item 
+void {\bf x\-Setup} ()
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf hdass\-Clock} $\ast$ {\bf Clock}
+\item 
+{\bf My\-Browser} $\ast$ {\bf Browser}
+\item 
+{\bf Image\-Detial} $\ast$ {\bf Album}
+\item 
+{\bf Info\-Area} $\ast$ {\bf IA}
+\item 
+{\bf mediamanagement} $\ast$ {\bf Media}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{DisplayArea@{Display\-Area}!DisplayArea@{DisplayArea}}
+\index{DisplayArea@{DisplayArea}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Display\-Area::Display\-Area ({\bf QWidget} $\ast$ {\em parent} = 0, const char $\ast$ {\em name} = 0)}\label{classDisplayArea_DisplayAreaa0}
+
+
+
+
+Definition at line 24 of file displayarea.cpp.
+
+References x\-Setup().
+
+
+
+\footnotesize\begin{verbatim}25  : QWidget(parent, name)
+26 {
+27    xSetup();
+28 }
+\end{verbatim}\normalsize 
+
+
+Here is the call graph for this function:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{classDisplayArea_DisplayAreaa0_cgraph}
+\end{center}
+\end{figure}
+\index{DisplayArea@{Display\-Area}!~DisplayArea@{$\sim$DisplayArea}}
+\index{~DisplayArea@{$\sim$DisplayArea}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Display\-Area::$\sim${\bf Display\-Area} ()}\label{classDisplayArea_DisplayAreaa1}
+
+
+
+
+Definition at line 31 of file displayarea.cpp.
+
+
+
+\footnotesize\begin{verbatim}32 {
+33 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{DisplayArea@{Display\-Area}!slotDisplayModeChange@{slotDisplayModeChange}}
+\index{slotDisplayModeChange@{slotDisplayModeChange}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Display\-Area::slot\-Display\-Mode\-Change (int)\hspace{0.3cm}{\tt  [slot]}}\label{classDisplayArea_DisplayAreai0}
+
+
+
+
+Definition at line 71 of file displayarea.cpp.
+
+References Album, Browser, Clock, em\_\-display\_\-album, em\_\-display\_\-clock, em\_\-display\_\-close, em\_\-display\_\-internet, em\_\-display\_\-management, em\_\-display\_\-player, em\_\-display\_\-setting, IA, and Media.
+
+Referenced by x\-Setup().
+
+
+
+\footnotesize\begin{verbatim}72 {
+73    
+74   if(displaymode==em_display_internet)
+75   {
+76     Browser->show();
+77     Clock->hide();
+78     Album->hide();
+79     IA->hide();
+80     Media->hide();
+81   }
+82   if(displaymode==em_display_player)
+83   {
+84     Browser->hide();
+85     Clock->hide();
+86     Album->hide();
+87     IA->show();
+88     Media->hide();
+89   }
+90   if(displaymode==em_display_management)
+91   {
+92     Browser->hide();
+93     Clock->hide();
+94     Album->hide();
+95     IA->hide();
+96     Media->show();
+97   }
+98   if(displaymode==em_display_album)
+99   {
+100     Browser->hide();
+101     Clock->hide();
+102     Album->show();
+103     IA->hide();
+104     Media->hide();
+105   }
+106   if(displaymode==em_display_clock)
+107   {
+108     Browser->hide();
+109     Clock->show();
+110     Album->hide();
+111     IA->hide();
+112     Media->hide();
+113   }
+114   if(displaymode==em_display_setting)
+115   {
+116     Browser->hide();
+117     Clock->hide();
+118     Album->hide();
+119     IA->hide();
+120     Media->hide();
+121   }
+122   if(displaymode==em_display_close)
+123   {
+124     Browser->hide();
+125     Clock->hide();
+126     Album->hide();
+127     IA->hide();
+128     Media->hide();
+129   }
+130   
+131 }
+\end{verbatim}\normalsize 
+\index{DisplayArea@{Display\-Area}!xSetup@{xSetup}}
+\index{xSetup@{xSetup}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Display\-Area::x\-Setup ()}\label{classDisplayArea_DisplayAreaa2}
+
+
+
+
+Definition at line 35 of file displayarea.cpp.
+
+References Album, Browser, Clock, Global\-Setting, IA, HDASSGlobal\-Setting::int\-HDSS\_\-DISPLAY\_\-STATE, Media, and slot\-Display\-Mode\-Change().
+
+Referenced by Display\-Area().
+
+
+
+\footnotesize\begin{verbatim}36 {
+37   //DAVID Set Background   
+38   setPaletteBackgroundColor(QColor(0,0,0));
+39    
+40   Browser =new MyBrowser(this);
+41   Browser->view()->setGeometry(0,0,800,600);
+42   Browser->hide();
+43   
+44   //DAVID Clock  
+45   Clock =new hdassClock(this);
+46   Clock->setGeometry(0,0,800,520);
+47   Clock->hide();
+48   
+49   
+50    //Set the Album
+51   Album=new ImageDetial(this,"Album");
+52   Album->setGeometry(0,0,800,520);
+53   Album->hide();
+54   
+55   //DAVID InfoArea
+56   
+57   IA=new InfoArea(this,"IA");
+58   IA->setGeometry(0,0,800,520);
+59   IA->hide();
+60   
+61   Media =new mediamanagement(this,"mediamanagement");
+62   Media->setGeometry(20,20,750,500);
+63   Media->hide();
+64     
+65   slotDisplayModeChange(GlobalSetting.intHDSS_DISPLAY_STATE);
+66  // KeyBoaed_Key *key=new KeyBoaed_Key(this);
+67  // key->setGeometry(0,0,54,54);
+68 //  key-show();
+69 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{DisplayArea@{Display\-Area}!Album@{Album}}
+\index{Album@{Album}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Image\-Detial}$\ast$ {\bf Display\-Area::Album}}\label{classDisplayArea_DisplayAreao2}
+
+
+
+
+Definition at line 43 of file displayarea.h.
+
+Referenced by slot\-Display\-Mode\-Change(), HDASS08::x\-Setup(), and x\-Setup().\index{DisplayArea@{Display\-Area}!Browser@{Browser}}
+\index{Browser@{Browser}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf My\-Browser}$\ast$ {\bf Display\-Area::Browser}}\label{classDisplayArea_DisplayAreao1}
+
+
+
+
+Definition at line 42 of file displayarea.h.
+
+Referenced by slot\-Display\-Mode\-Change(), HDASS08::x\-Setup(), and x\-Setup().\index{DisplayArea@{Display\-Area}!Clock@{Clock}}
+\index{Clock@{Clock}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf hdass\-Clock}$\ast$ {\bf Display\-Area::Clock}}\label{classDisplayArea_DisplayAreao0}
+
+
+
+
+Definition at line 41 of file displayarea.h.
+
+Referenced by slot\-Display\-Mode\-Change(), and x\-Setup().\index{DisplayArea@{Display\-Area}!IA@{IA}}
+\index{IA@{IA}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Info\-Area}$\ast$ {\bf Display\-Area::IA}}\label{classDisplayArea_DisplayAreao3}
+
+
+
+
+Definition at line 44 of file displayarea.h.
+
+Referenced by slot\-Display\-Mode\-Change(), HDASS08::x\-Setup(), and x\-Setup().\index{DisplayArea@{Display\-Area}!Media@{Media}}
+\index{Media@{Media}!DisplayArea@{Display\-Area}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf mediamanagement}$\ast$ {\bf Display\-Area::Media}}\label{classDisplayArea_DisplayAreao4}
+
+
+
+
+Definition at line 45 of file displayarea.h.
+
+Referenced by slot\-Display\-Mode\-Change(), HDASS08::x\-Setup(), and x\-Setup().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf displayarea.h}\item 
+{\bf displayarea.cpp}\end{CompactItemize}

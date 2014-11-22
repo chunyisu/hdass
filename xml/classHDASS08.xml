@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classHDASS08" kind="class" prot="public">
+    <compoundname>HDASS08</compoundname>
+    <includes refid="hdass08_8h" local="no">hdass08.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHDASS08_1HDASS08a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASS08::HDASS08</definition>
+        <argsstring>()</argsstring>
+        <name>HDASS08</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="50" bodystart="29" bodyend="36"/>
+        <references refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classHDASS08_1HDASS08a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="54" bodystart="42" bodyend="119"/>
+        <references refid="classDisplayArea_1DisplayAreao2" compoundref="displayarea_8h" startline="43">DisplayArea::Album</references>
+        <references refid="classHDASS08_1HDASS08o1" compoundref="hdass08_8h" startline="58">Bar</references>
+        <references refid="classFunctionBar_1FunctionBaro0" compoundref="functionbar_8h" startline="45">FunctionBar::BarAC</references>
+        <references refid="classFunctionBar_1FunctionBaro1" compoundref="functionbar_8h" startline="45">FunctionBar::BarID</references>
+        <references refid="classFunctionBar_1FunctionBaro2" compoundref="functionbar_8h" startline="46">FunctionBar::BarInternet</references>
+        <references refid="classFunctionBar_1FunctionBaro4" compoundref="functionbar_8h" startline="48">FunctionBar::BarManagement</references>
+        <references refid="classFunctionBar_1FunctionBaro3" compoundref="functionbar_8h" startline="47">FunctionBar::BarPlayer</references>
+        <references refid="classDisplayArea_1DisplayAreao1" compoundref="displayarea_8h" startline="42">DisplayArea::Browser</references>
+        <references refid="classHDASS08_1HDASS08o0" compoundref="hdass08_8h" startline="57">ControlArea</references>
+        <references refid="classHDASS08_1HDASS08o2" compoundref="hdass08_8h" startline="60">Display</references>
+        <references refid="enum_8h_1a24" compoundref="enum_8h" startline="10" endline="11">HDASS_ACTION_TYPE</references>
+        <references refid="classHDASS08_1HDASS08o4" compoundref="hdass08_8h" startline="62">HDASS_KEYBOARD</references>
+        <references refid="classHDASS08_1HDASS08o3" compoundref="hdass08_8h" startline="61">HDASS_PLAY_LIST</references>
+        <references refid="classDisplayArea_1DisplayAreao3" compoundref="displayarea_8h" startline="44">DisplayArea::IA</references>
+        <references refid="classInfoArea_1InfoAreao1" compoundref="infoarea_8h" startline="45">InfoArea::IABtnVolumeDown</references>
+        <references refid="classInfoArea_1InfoAreao0" compoundref="infoarea_8h" startline="45">InfoArea::IABtnVolumeUp</references>
+        <references refid="classmediamanagement_1mediamanagemento6" compoundref="mediamanagement_8h" startline="44">mediamanagement::imgdetial</references>
+        <references refid="classmediamanagement_1mediamanagemento2" compoundref="mediamanagement_8h" startline="41">mediamanagement::imgFIV</references>
+        <references refid="classSubBarPlayer_1SubBarPlayero4" compoundref="src_2subbarplayer_8h" startline="53">SubBarPlayer::m_player</references>
+        <references refid="classDisplayArea_1DisplayAreao4" compoundref="displayarea_8h" startline="45">DisplayArea::Media</references>
+        <references refid="classmediamanagement_1mediamanagemento3" compoundref="mediamanagement_8h" startline="42">mediamanagement::musicFIV</references>
+        <references refid="classInfoArea_1InfoAreai1" compoundref="infoarea_8cpp" startline="112" endline="115">InfoArea::ReadList</references>
+        <references refid="classHDASS08_1HDASS08l0" compoundref="hdass08_8moc" startline="96" endline="99">signalMkdir</references>
+        <references refid="classHDASS08_1HDASS08i2" compoundref="hdass08_8cpp" startline="133" endline="141">slotKeyboardHide</references>
+        <references refid="classHDASS08_1HDASS08i1" compoundref="hdass08_8cpp" startline="124" endline="132">slotKeyboardShow</references>
+        <references refid="classHDASS08_1HDASS08i3" compoundref="hdass08_8cpp" startline="142" endline="146">slotKeyboardString</references>
+        <references refid="classHDASS08_1HDASS08o5" compoundref="hdass08_8h" startline="63">strKeyboardString</references>
+        <references refid="classSubBarInternet_1SubBarInterneto0" compoundref="subbarinternet_8h" startline="37">SubBarInternet::SubBarBtnInternet_Home</references>
+        <references refid="classSubBarInternet_1SubBarInterneto2" compoundref="subbarinternet_8h" startline="37">SubBarInternet::SubBarBtnInternet_Next</references>
+        <references refid="classSubBarInternet_1SubBarInterneto1" compoundref="subbarinternet_8h" startline="37">SubBarInternet::SubBarBtnInternet_Previous</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko3" compoundref="subbaralbumclock_8h" startline="43">SubBarAlbumClock::SubBarBtnNext</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko2" compoundref="subbaralbumclock_8h" startline="43">SubBarAlbumClock::SubBarBtnPlayNPause</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko1" compoundref="subbaralbumclock_8h" startline="43">SubBarAlbumClock::SubBarBtnPrevious</references>
+        <referencedby refid="classHDASS08_1HDASS08a0" compoundref="hdass08_8cpp" startline="29" endline="36">HDASS08</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHDASS08_1HDASS08a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>HDASS08::~HDASS08</definition>
+        <argsstring>()</argsstring>
+        <name>~HDASS08</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="55" bodystart="38" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classFunction__Control__Area" kindref="compound">Function_Control_Area</ref> *</type>
+        <definition>Function_Control_Area* HDASS08::ControlArea</definition>
+        <argsstring></argsstring>
+        <name>ControlArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="57" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classFunctionBar" kindref="compound">FunctionBar</ref> *</type>
+        <definition>FunctionBar* HDASS08::Bar</definition>
+        <argsstring></argsstring>
+        <name>Bar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="58" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDisplayArea" kindref="compound">DisplayArea</ref> *</type>
+        <definition>DisplayArea* HDASS08::Display</definition>
+        <argsstring></argsstring>
+        <name>Display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="60" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classhdassplaylist" kindref="compound">hdassplaylist</ref> *</type>
+        <definition>hdassplaylist* HDASS08::HDASS_PLAY_LIST</definition>
+        <argsstring></argsstring>
+        <name>HDASS_PLAY_LIST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="61" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classkeyboard" kindref="compound">keyboard</ref> *</type>
+        <definition>keyboard* HDASS08::HDASS_KEYBOARD</definition>
+        <argsstring></argsstring>
+        <name>HDASS_KEYBOARD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="62" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08i2" compoundref="hdass08_8cpp" startline="133" endline="141">slotKeyboardHide</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08i1" compoundref="hdass08_8cpp" startline="124" endline="132">slotKeyboardShow</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASS08_1HDASS08o5" prot="public" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString HDASS08::strKeyboardString</definition>
+        <argsstring></argsstring>
+        <name>strKeyboardString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="63" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classHDASS08_1HDASS08i2" compoundref="hdass08_8cpp" startline="133" endline="141">slotKeyboardHide</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08i3" compoundref="hdass08_8cpp" startline="142" endline="146">slotKeyboardString</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classHDASS08_1HDASS08i0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::slotShow</definition>
+        <argsstring>()</argsstring>
+        <name>slotShow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="65" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="slot" id="classHDASS08_1HDASS08i1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::slotKeyboardShow</definition>
+        <argsstring>()</argsstring>
+        <name>slotKeyboardShow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="66" bodystart="124" bodyend="132"/>
+        <references refid="classHDASS08_1HDASS08o4" compoundref="hdass08_8h" startline="62">HDASS_KEYBOARD</references>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classHDASS08_1HDASS08i2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::slotKeyboardHide</definition>
+        <argsstring>()</argsstring>
+        <name>slotKeyboardHide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="67" bodystart="133" bodyend="141"/>
+        <references refid="classHDASS08_1HDASS08o4" compoundref="hdass08_8h" startline="62">HDASS_KEYBOARD</references>
+        <references refid="classHDASS08_1HDASS08l0" compoundref="hdass08_8moc" startline="96" endline="99">signalMkdir</references>
+        <references refid="classHDASS08_1HDASS08o5" compoundref="hdass08_8h" startline="63">strKeyboardString</references>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classHDASS08_1HDASS08i3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::slotKeyboardString</definition>
+        <argsstring>(QString)</argsstring>
+        <name>slotKeyboardString</name>
+        <param>
+          <type>QString</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="68" bodystart="142" bodyend="146"/>
+        <references refid="classHDASS08_1HDASS08o5" compoundref="hdass08_8h" startline="63">strKeyboardString</references>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classHDASS08_1HDASS08l0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASS08::signalMkdir</definition>
+        <argsstring>(QString)</argsstring>
+        <name>signalMkdir</name>
+        <param>
+          <type>QString</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="70" bodystart="96" bodyend="99"/>
+        <referencedby refid="classHDASS08_1HDASS08i2" compoundref="hdass08_8cpp" startline="133" endline="141">slotKeyboardHide</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHDASS08_1HDASS08r0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap HDASS08::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdass08.h" line="73" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Application Main Window. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat &lt;<ulink url="mailto:is87098@cis.nctu.edu.tw">is87098@cis.nctu.edu.tw</ulink>&gt; </para></simplesect>
+<simplesect kind="version"><para>0.1 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="443">
+        <label>mediamanagement</label>
+        <link refid="classmediamanagement"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>musicroot</edgelabel>
+          <edgelabel>imgroot</edgelabel>
+        </childnode>
+        <childnode refid="445" relation="usage">
+          <edgelabel>imgdetial</edgelabel>
+        </childnode>
+        <childnode refid="447" relation="usage">
+          <edgelabel>musicDir</edgelabel>
+          <edgelabel>imgDir</edgelabel>
+        </childnode>
+        <childnode refid="448" relation="usage">
+          <edgelabel>imgFIV</edgelabel>
+          <edgelabel>musicFIV</edgelabel>
+        </childnode>
+      </node>
+      <node id="438">
+        <label>Function_Control_Area</label>
+        <link refid="classFunction__Control__Area"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>fun_btn_internet</edgelabel>
+          <edgelabel>fun_btn_setting</edgelabel>
+          <edgelabel>fun_btn_albumclock</edgelabel>
+          <edgelabel>fun_btn_close</edgelabel>
+          <edgelabel>fun_btn_management</edgelabel>
+          <edgelabel>fun_btn_imagedetial</edgelabel>
+          <edgelabel>fun_btn_player</edgelabel>
+        </childnode>
+      </node>
+      <node id="453">
+        <label>hdassClock</label>
+        <link refid="classhdassClock"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="440">
+        <label>keyboard_key</label>
+        <link refid="classkeyboard__key"/>
+      </node>
+      <node id="441">
+        <label>hdassplaylist</label>
+        <link refid="classhdassplaylist"/>
+      </node>
+      <node id="432">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="433">
+        <label>SubBarPlayer</label>
+        <link refid="classSubBarPlayer"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>SubBtnPlayer_Backword</edgelabel>
+          <edgelabel>SubBtn_Forward</edgelabel>
+          <edgelabel>testBtn</edgelabel>
+          <edgelabel>SubBtnPlayer_PlayNPause</edgelabel>
+        </childnode>
+        <childnode refid="434" relation="usage">
+          <edgelabel>m_player</edgelabel>
+        </childnode>
+      </node>
+      <node id="452">
+        <label>DownFile</label>
+        <link refid="classDownFile"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>SubBarManagement</label>
+        <link refid="classSubBarManagement"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>SubBtnMM_Cut</edgelabel>
+          <edgelabel>SubBtnMM_Paste</edgelabel>
+          <edgelabel>SubBtnMM_MusicNImage</edgelabel>
+          <edgelabel>SubBtnMM_Delete</edgelabel>
+          <edgelabel>SubBtnMM_Floder</edgelabel>
+        </childnode>
+      </node>
+      <node id="427">
+        <label>HDASS08</label>
+        <link refid="classHDASS08"/>
+        <childnode refid="428" relation="usage">
+          <edgelabel>Bar</edgelabel>
+        </childnode>
+        <childnode refid="438" relation="usage">
+          <edgelabel>ControlArea</edgelabel>
+        </childnode>
+        <childnode refid="439" relation="usage">
+          <edgelabel>HDASS_KEYBOARD</edgelabel>
+        </childnode>
+        <childnode refid="441" relation="usage">
+          <edgelabel>HDASS_PLAY_LIST</edgelabel>
+        </childnode>
+        <childnode refid="442" relation="usage">
+          <edgelabel>Display</edgelabel>
+        </childnode>
+      </node>
+      <node id="435">
+        <label>SubBarInternet</label>
+        <link refid="classSubBarInternet"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>SubBarBtnInternet_Search</edgelabel>
+          <edgelabel>SubBarBtnInternet_Home</edgelabel>
+          <edgelabel>SubBarBtnInternet_Next</edgelabel>
+          <edgelabel>SubBarBtnInternet_Previous</edgelabel>
+        </childnode>
+      </node>
+      <node id="449">
+        <label>QtFileIconViewItem</label>
+        <link refid="classQtFileIconViewItem"/>
+      </node>
+      <node id="445">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="434">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>SubBarClose</label>
+        <link refid="classSubBarClose"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>SubBarAlbumClock</label>
+        <link refid="classSubBarAlbumClock"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>SubBarBtnPlayNPause</edgelabel>
+          <edgelabel>SubBarBtnAlbumClock</edgelabel>
+          <edgelabel>SubBarBtnPrevious</edgelabel>
+          <edgelabel>SubBarBtnNext</edgelabel>
+        </childnode>
+      </node>
+      <node id="446">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>DisplayArea</label>
+        <link refid="classDisplayArea"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="443" relation="usage">
+          <edgelabel>Media</edgelabel>
+        </childnode>
+        <childnode refid="450" relation="usage">
+          <edgelabel>IA</edgelabel>
+        </childnode>
+        <childnode refid="445" relation="usage">
+          <edgelabel>Album</edgelabel>
+        </childnode>
+        <childnode refid="451" relation="usage">
+          <edgelabel>Browser</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>Clock</edgelabel>
+        </childnode>
+      </node>
+      <node id="448">
+        <label>QtFileIconView</label>
+        <link refid="classQtFileIconView"/>
+        <childnode refid="449" relation="usage">
+          <edgelabel>openItem</edgelabel>
+        </childnode>
+      </node>
+      <node id="451">
+        <label>MyBrowser</label>
+        <link refid="classMyBrowser"/>
+        <childnode refid="452" relation="usage">
+          <edgelabel>getfile</edgelabel>
+        </childnode>
+      </node>
+      <node id="428">
+        <label>FunctionBar</label>
+        <link refid="classFunctionBar"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>BarClose</edgelabel>
+        </childnode>
+        <childnode refid="431" relation="usage">
+          <edgelabel>BarManagement</edgelabel>
+        </childnode>
+        <childnode refid="433" relation="usage">
+          <edgelabel>BarPlayer</edgelabel>
+        </childnode>
+        <childnode refid="435" relation="usage">
+          <edgelabel>BarInternet</edgelabel>
+        </childnode>
+        <childnode refid="436" relation="usage">
+          <edgelabel>BarAC</edgelabel>
+          <edgelabel>BarID</edgelabel>
+        </childnode>
+        <childnode refid="437" relation="usage">
+          <edgelabel>BarSetting</edgelabel>
+        </childnode>
+      </node>
+      <node id="447">
+        <label>DirectoryView</label>
+        <link refid="classDirectoryView"/>
+      </node>
+      <node id="444">
+        <label>Directory</label>
+        <link refid="classDirectory"/>
+        <childnode refid="444" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="437">
+        <label>SubBarSetting</label>
+        <link refid="classSubBarSetting"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>keyboard</label>
+        <link refid="classkeyboard"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="440" relation="usage">
+          <edgelabel>key_5</edgelabel>
+          <edgelabel>key_y</edgelabel>
+          <edgelabel>key_h</edgelabel>
+          <edgelabel>key_6</edgelabel>
+          <edgelabel>key_z</edgelabel>
+          <edgelabel>key_i</edgelabel>
+          <edgelabel>key_7</edgelabel>
+          <edgelabel>key_j</edgelabel>
+          <edgelabel>key_8</edgelabel>
+          <edgelabel>key_k</edgelabel>
+          <edgelabel>key_9</edgelabel>
+          <edgelabel>key_l</edgelabel>
+          <edgelabel>key_m</edgelabel>
+          <edgelabel>key_comma</edgelabel>
+          <edgelabel>key_n</edgelabel>
+          <edgelabel>key_space</edgelabel>
+          <edgelabel>key_o</edgelabel>
+          <edgelabel>key_backspace</edgelabel>
+          <edgelabel>key_p</edgelabel>
+          <edgelabel>key_change</edgelabel>
+          <edgelabel>key_q</edgelabel>
+          <edgelabel>key_r</edgelabel>
+          <edgelabel>key_a</edgelabel>
+          <edgelabel>key_s</edgelabel>
+          <edgelabel>key_b</edgelabel>
+          <edgelabel>key_0</edgelabel>
+          <edgelabel>key_t</edgelabel>
+          <edgelabel>key_c</edgelabel>
+          <edgelabel>key_1</edgelabel>
+          <edgelabel>key_u</edgelabel>
+          <edgelabel>key_d</edgelabel>
+          <edgelabel>key_2</edgelabel>
+          <edgelabel>key_v</edgelabel>
+          <edgelabel>key_e</edgelabel>
+          <edgelabel>key_3</edgelabel>
+          <edgelabel>key_w</edgelabel>
+          <edgelabel>key_f</edgelabel>
+          <edgelabel>key_enter</edgelabel>
+          <edgelabel>key_4</edgelabel>
+          <edgelabel>key_x</edgelabel>
+          <edgelabel>key_g</edgelabel>
+        </childnode>
+      </node>
+      <node id="450">
+        <label>InfoArea</label>
+        <link refid="classInfoArea"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>IABtnVolumeDown</edgelabel>
+          <edgelabel>IABtnVolumeUp</edgelabel>
+          <edgelabel>IABtnPlayListDelete</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/hdass08.h" line="44" bodystart="43" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classHDASS08_1HDASS08o1" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>Bar</name></member>
+      <member refid="classHDASS08_1HDASS08o0" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>ControlArea</name></member>
+      <member refid="classHDASS08_1HDASS08o2" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>Display</name></member>
+      <member refid="classHDASS08_1HDASS08a0" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>HDASS08</name></member>
+      <member refid="classHDASS08_1HDASS08o4" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>HDASS_KEYBOARD</name></member>
+      <member refid="classHDASS08_1HDASS08o3" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>HDASS_PLAY_LIST</name></member>
+      <member refid="classHDASS08_1HDASS08r0" prot="private" virt="non-virtual"><scope>HDASS08</scope><name>pixBackground</name></member>
+      <member refid="classHDASS08_1HDASS08l0" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>signalMkdir</name></member>
+      <member refid="classHDASS08_1HDASS08i2" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>slotKeyboardHide</name></member>
+      <member refid="classHDASS08_1HDASS08i1" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>slotKeyboardShow</name></member>
+      <member refid="classHDASS08_1HDASS08i3" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>slotKeyboardString</name></member>
+      <member refid="classHDASS08_1HDASS08i0" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>slotShow</name></member>
+      <member refid="classHDASS08_1HDASS08o5" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>strKeyboardString</name></member>
+      <member refid="classHDASS08_1HDASS08a1" prot="public" virt="non-virtual"><scope>HDASS08</scope><name>xSetup</name></member>
+      <member refid="classHDASS08_1HDASS08a2" prot="public" virt="virtual"><scope>HDASS08</scope><name>~HDASS08</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

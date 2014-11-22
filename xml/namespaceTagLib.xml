@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="namespaceTagLib" kind="namespace">
+    <compoundname>TagLib</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/metabundle.h" line="14"/>
+  </compounddef>
+</doxygen>

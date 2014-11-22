@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="analyzerbase_8cpp" kind="file">
+    <compoundname>analyzerbase.cpp</compoundname>
+    <includes refid="analyzerbase_8h" local="yes">analyzerbase.h</includes>
+    <includes refid="enginebase_8h" local="yes">enginebase.h</includes>
+    <includes refid="enginecontroller_8h" local="yes">enginecontroller.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">qevent.h</includes>
+    <includes refid="analyzerbase_8moc" local="yes">analyzerbase.moc</includes>
+    <incdepgraph>
+      <node id="2480">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="2483">
+        <label>qtimer.h</label>
+      </node>
+      <node id="2500">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="2486">
+        <label>enginebase.h</label>
+        <link refid="enginebase_8h"/>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+      </node>
+      <node id="2487">
+        <label>qobject.h</label>
+      </node>
+      <node id="2493">
+        <label>kurl.h</label>
+      </node>
+      <node id="2492">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+      </node>
+      <node id="2491">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2499">
+        <label>qapplication.h</label>
+      </node>
+      <node id="2494">
+        <label>klocale.h</label>
+      </node>
+      <node id="2497">
+        <label>analyzerbase.moc</label>
+        <link refid="analyzerbase_8moc"/>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2500" relation="include">
+        </childnode>
+      </node>
+      <node id="2481">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="2479">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+      </node>
+      <node id="2485">
+        <label>vector</label>
+      </node>
+      <node id="2490">
+        <label>engineobserver.h</label>
+        <link refid="engineobserver_8h"/>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2491" relation="include">
+        </childnode>
+      </node>
+      <node id="2495">
+        <label>math.h</label>
+      </node>
+      <node id="2484">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2496">
+        <label>qevent.h</label>
+      </node>
+      <node id="2489">
+        <label>enginecontroller.h</label>
+        <link refid="enginecontroller_8h"/>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+      </node>
+      <node id="2498">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="2478">
+        <label>analyzerbase.cpp</label>
+        <link refid="analyzerbase.cpp"/>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2488">
+        <label>qstringlist.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viswidget.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Die<sp/>Jan<sp/>7<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Max<sp/>Howell</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>markey@web.de</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="analyzerbase_8h" kindref="compound">analyzerbase.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enginebase_8h" kindref="compound">enginebase.h</ref>&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//engine-&gt;state()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enginecontroller_8h" kindref="compound">enginecontroller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//interpolate()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qevent.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//event()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DRAW_GRID</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpen.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>INSTRUCTIONS<sp/>Base2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.<sp/>do<sp/>anything<sp/>that<sp/>depends<sp/>on<sp/>height()<sp/>in<sp/>init(),<sp/>Base2D<sp/>will<sp/>call<sp/>it<sp/>before<sp/>you<sp/>are<sp/>shown</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2.<sp/>otherwise<sp/>you<sp/>can<sp/>use<sp/>the<sp/>constructor<sp/>to<sp/>initialise<sp/>things</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3.<sp/>reimplement<sp/>analyze(),<sp/>and<sp/>paint<sp/>to<sp/>canvas(),<sp/>Base2D<sp/>will<sp/>update<sp/>the<sp/>widget<sp/>when<sp/>you<sp/>return<sp/>control<sp/>to<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>4.<sp/>if<sp/>you<sp/>want<sp/>to<sp/>manipulate<sp/>the<sp/>scope,<sp/>reimplement<sp/>transform()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>5.<sp/>for<sp/>convenience<sp/>&lt;vector&gt;<sp/>&lt;qpixmap.h&gt;<sp/>&lt;qwdiget.h&gt;<sp/>are<sp/>pre-included</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO<sp/>make<sp/>an<sp/>INSTRUCTIONS<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//can&apos;t<sp/>mod<sp/>scope<sp/>in<sp/>analyze<sp/>you<sp/>have<sp/>to<sp/>use<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>for<sp/>2D<sp/>use<sp/>setErasePixmap<sp/>Qt<sp/>function<sp/>insetead<sp/>of<sp/>m_background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;</highlight></codeline>
+<codeline lineno="43" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb0" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb0" kindref="member">Analyzer::Base&lt;W&gt;::Base</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/>uint<sp/>timeout,<sp/>uint<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>:<sp/>W(<sp/>parent<sp/>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>,<sp/>m_timeout(<sp/>timeout<sp/>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>,<sp/>m_height(<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>,<sp/>m_fht(<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classAnalyzer_1_1Base_1Analyzer_1_1Based0" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Based0" kindref="member">Analyzer::Base&lt;W&gt;::event</ref>(<sp/>QEvent<sp/>*e<sp/>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<sp/>e-&gt;type()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/><sp/>case<sp/>QEvent::Paint:</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(<sp/>!canvas()-&gt;isNull()<sp/>)</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitBlt(<sp/>this,<sp/>0,<sp/>0,<sp/>canvas()<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;<sp/>//no<sp/>propagate<sp/>event*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>QEvent::Hide:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kindref="member">m_timer</ref>.stop();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>QEvent::Show:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kindref="member">m_timer</ref>.start(<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kindref="member">timeout</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QWidget::event(<sp/>e<sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kindref="member">Analyzer::Base&lt;W&gt;::transform</ref>(<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>&amp;scope<sp/>)<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this<sp/>is<sp/>a<sp/>standard<sp/>transformation<sp/>that<sp/>should<sp/>give</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//an<sp/>FFT<sp/>scope<sp/>that<sp/>has<sp/>bands<sp/>for<sp/>pretty<sp/>analyzers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NOTE<sp/>resizing<sp/>here<sp/>is<sp/>redundant<sp/>as<sp/>FHT<sp/>routines<sp/>only<sp/>calculate<sp/>FHT::size()<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//scope.resize(<sp/>m_fht.size()<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*front<sp/>=<sp/>static_cast&lt;float*&gt;(<sp/>&amp;scope.front()<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>f<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kindref="member">m_fht</ref>.<ref refid="classFHT_1FHTa3" kindref="member">size</ref>()<sp/>];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kindref="member">m_fht</ref>.<ref refid="classFHT_1FHTa4" kindref="member">copy</ref>(<sp/>&amp;f[0],<sp/>front<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kindref="member">m_fht</ref>.<ref refid="classFHT_1FHTa9" kindref="member">logSpectrum</ref>(<sp/>front,<sp/>&amp;f[0]<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kindref="member">m_fht</ref>.<ref refid="classFHT_1FHTa6" kindref="member">scale</ref>(<sp/>front,<sp/>1.0<sp/>/<sp/>20<sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>scope.resize(<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kindref="member">m_fht</ref>.<ref refid="classFHT_1FHTa3" kindref="member">size</ref>()/2<sp/>);<sp/></highlight><highlight class="comment">//second<sp/>half<sp/>of<sp/>values<sp/>are<sp/>rubbish</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>[]<sp/>f;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kindref="member">Analyzer::Base&lt;W&gt;::drawFrame</ref>()</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEngineBase" kindref="compound">EngineBase</ref><sp/>*engine<sp/>=<sp/><ref refid="classEngineController_1EngineControllere1" kindref="member">EngineController::engine</ref>();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<sp/>engine-&gt;<ref refid="classEngineBase_1EngineBasea8" kindref="member">state</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>EngineBase::Playing:</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>*scope<sp/>=<sp/>engine-&gt;<ref refid="classEngineBase_1EngineBasea14" kindref="member">scope</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!scope-&gt;empty()<sp/>)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kindref="member">transform</ref>(<sp/>*scope<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kindref="member">analyze</ref>(<sp/>*scope<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>scope;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>EngineBase::Paused:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kindref="member">paused</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kindref="member">demo</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kindref="member">Analyzer::Base&lt;W&gt;::paused</ref>()<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kindref="member">Analyzer::Base&lt;W&gt;::demo</ref>()<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t<sp/>=<sp/>201;<sp/></highlight><highlight class="comment">//FIXME<sp/>make<sp/>static<sp/>to<sp/>namespace<sp/>perhaps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>t<sp/>&gt;<sp/>999<sp/>)<sp/>t<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//0<sp/>=<sp/>wasted<sp/>calculations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>t<sp/>&lt;<sp/>201<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>s(<sp/>32<sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>double(t)<sp/>/<sp/>200;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>uint<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>s.size();<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s[i]<sp/>=<sp/>dt<sp/>*<sp/>(sin(<sp/>M_PI<sp/>+<sp/>(i<sp/>*<sp/>M_PI)<sp/>/<sp/>s.size()<sp/>)<sp/>+<sp/>1.0);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kindref="member">analyze</ref>(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kindref="member">analyze</ref>(<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>(<sp/>32,<sp/>0<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>++t;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" kindref="member">Analyzer::Base2D::Base2D</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/>uint<sp/>timeout,<sp/>uint<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/>:<sp/><ref refid="classAnalyzer_1_1Base" kindref="compound">Base</ref>&lt;<ref refid="classQWidget" kindref="compound">QWidget</ref>&gt;(<sp/>parent,<sp/>timeout,<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>setWFlags(<sp/>Qt::WNoAutoErase<sp/>);<sp/></highlight><highlight class="comment">//no<sp/>flicker</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(<sp/>&amp;m_timer,<sp/>SIGNAL(<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kindref="member">timeout</ref>()<sp/>),<sp/>SLOT(<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" kindref="member">draw</ref>()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="classAnalyzer_1_1Base2D_1Sonogramb5" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base2D_1Sonogramb5" kindref="member">Analyzer::Base2D::polish</ref>()</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO<sp/>is<sp/>there<sp/>much<sp/>point<sp/>in<sp/>this<sp/>anymore?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//we<sp/>use<sp/>polish<sp/>for<sp/>initialzing<sp/>(instead<sp/>of<sp/>ctor)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//because<sp/>we<sp/>need<sp/>to<sp/>know<sp/>the<sp/>widget&apos;s<sp/>final<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget::polish();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" kindref="member">init</ref>();<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classAnalyzer_1_1Base2D_1Sonogramb3" refkind="member"><highlight class="normal"><ref refid="classAnalyzer_1_1Base2D_1Sonogramb3" kindref="member">Analyzer::Base2D::resizeEvent</ref>(<sp/>QResizeEvent<sp/>*e<sp/>)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>m_height<sp/>=<sp/>QWidget::height();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.resize(<sp/>size()<sp/>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kindref="member">m_canvas</ref>.resize(<sp/>size()<sp/>);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#ifdef<sp/>DRAW_GRID</highlight></codeline>
+<codeline lineno="178"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>QPainter<sp/>p(<sp/>&amp;<ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref><sp/>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>p.setPen(<sp/>QColor(<sp/>0x20,<sp/>0x20,<sp/>0x50<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>uint<sp/>x<sp/>=<sp/>0,<sp/>w<sp/>=<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.width(),<sp/>h<sp/>=<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.height()-1;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>&lt;<sp/>w;<sp/>x<sp/>+=<sp/>3<sp/>)<sp/>p.drawLine(<sp/>x,<sp/>0,<sp/>x,<sp/>h<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>uint<sp/>y<sp/>=<sp/>0,<sp/>w<sp/>=<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.width()-1<sp/>,<sp/>h<sp/>=<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.height();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>&lt;<sp/>h;<sp/>y<sp/>+=<sp/>3<sp/>)<sp/>p.drawLine(<sp/>0,<sp/>y,<sp/>w,<sp/>y<sp/>);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight></codeline>
+<codeline lineno="186"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>.fill(<sp/>backgroundColor()<sp/>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight></codeline>
+<codeline lineno="188"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb1" kindref="member">eraseCanvas</ref>();<sp/></highlight><highlight class="comment">//this<sp/>is<sp/>necessary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget::resizeEvent(<sp/>e<sp/>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><ref refid="classAnalyzer_1_1Base2D_1Sonogramb4" kindref="member">Analyzer::Base2D::paletteChange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPalette&amp;<sp/>)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>m_background.fill(<sp/>backgroundColor()<sp/>);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb1" kindref="member">eraseCanvas</ref>();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_QGLWIDGET</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"></highlight><highlight class="normal"><ref refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Db0" kindref="member">Analyzer::Base3D::Base3D</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/>uint<sp/>timeout,<sp/>uint<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/>:<sp/>Base&lt;<ref refid="classQGLWidget" kindref="compound">QGLWidget</ref>&gt;(<sp/>parent,<sp/>timeout,<sp/>scopeSize<sp/>)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(<sp/>&amp;m_timer,<sp/>SIGNAL(<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kindref="member">timeout</ref>()<sp/>),<sp/>SLOT(<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" kindref="member">draw</ref>()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="210"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="namespaceAnalyzer_1a1" refkind="member"><highlight class="normal"><ref refid="namespaceAnalyzer_1a1" kindref="member">Analyzer::interpolate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>&amp;inVec,<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>&amp;outVec<sp/>)<sp/></highlight><highlight class="comment">//static</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pos<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>step<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)inVec.size()<sp/>/<sp/>outVec.size();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>uint<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>outVec.size();<sp/>++i,<sp/>pos<sp/>+=<sp/>step<sp/>)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>error<sp/>=<sp/>pos<sp/>-<sp/>floor(<sp/>pos<sp/>);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>offset<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)pos;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>indexLeft<sp/>=<sp/>offset<sp/>+<sp/>0;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>indexLeft<sp/>&gt;=<sp/>inVec.size()<sp/>)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>indexLeft<sp/>=<sp/>inVec.size()<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>indexRight<sp/>=<sp/>offset<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>indexRight<sp/>&gt;=<sp/>inVec.size()<sp/>)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>indexRight<sp/>=<sp/>inVec.size()<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outVec[i]<sp/>=<sp/>inVec[indexLeft<sp/>]<sp/>*<sp/>(<sp/>1.0<sp/>-<sp/>error<sp/>)<sp/>+</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inVec[indexRight]<sp/>*<sp/>error;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="namespaceAnalyzer_1a2" refkind="member"><highlight class="normal"><ref refid="namespaceAnalyzer_1a2" kindref="member">Analyzer::initSin</ref>(<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref><sp/>&amp;v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint<sp/>size<sp/>)<sp/></highlight><highlight class="comment">//static</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>step<sp/>=<sp/>(<sp/>M_PI<sp/>*<sp/>2<sp/>)<sp/>/<sp/>size;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>radian<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>uint<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v.push_back(<sp/>sin(<sp/>radian<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radian<sp/>+=<sp/>step;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="analyzerbase_8moc" kindref="compound">analyzerbase.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.cpp"/>
+  </compounddef>
+</doxygen>

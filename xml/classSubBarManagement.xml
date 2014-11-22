@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSubBarManagement" kind="class" prot="public">
+    <compoundname>SubBarManagement</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="subbarmanagement_8h" local="no">subbarmanagement.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubBarManagement_1SubBarManagementa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarManagement::SubBarManagement</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarManagement</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="34" bodystart="22" bodyend="26"/>
+        <references refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarManagement_1SubBarManagementa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarManagement::~SubBarManagement</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarManagement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="36" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarManagement_1SubBarManagementa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="37" bodystart="33" bodyend="88"/>
+        <references refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1">em_mmmusic</references>
+        <references refid="classSubBarManagement_1SubBarManagementr2" compoundref="subbarmanagement_8h" startline="55">MMtype</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarManagement_1SubBarManagementi2" compoundref="subbarmanagement_8cpp" startline="115" endline="118">slotBtnCut</references>
+        <references refid="classSubBarManagement_1SubBarManagementi3" compoundref="subbarmanagement_8cpp" startline="120" endline="123">slotBtnDelete</references>
+        <references refid="classSubBarManagement_1SubBarManagementi0" compoundref="subbarmanagement_8cpp" startline="105" endline="108">slotBtnMkFloder</references>
+        <references refid="classSubBarManagement_1SubBarManagementi1" compoundref="subbarmanagement_8cpp" startline="110" endline="113">slotBtnPaste</references>
+        <references refid="classSubBarManagement_1SubBarManagementk0" compoundref="subbarmanagement_8cpp" startline="89" endline="103">slotChangeBtnImage</references>
+        <references refid="classSubBarManagement_1SubBarManagemento2" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_Cut</references>
+        <references refid="classSubBarManagement_1SubBarManagemento3" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_Delete</references>
+        <references refid="classSubBarManagement_1SubBarManagemento0" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_Floder</references>
+        <references refid="classSubBarManagement_1SubBarManagemento4" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_MusicNImage</references>
+        <references refid="classSubBarManagement_1SubBarManagemento1" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_Paste</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa0" compoundref="subbarmanagement_8cpp" startline="22" endline="26">SubBarManagement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagemento0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* SubBarManagement::SubBtnMM_Floder</definition>
+        <argsstring></argsstring>
+        <name>SubBtnMM_Floder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagemento1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarManagement::SubBtnMM_Paste</definition>
+        <argsstring></argsstring>
+        <name>SubBtnMM_Paste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagemento2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarManagement::SubBtnMM_Cut</definition>
+        <argsstring></argsstring>
+        <name>SubBtnMM_Cut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagemento3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarManagement::SubBtnMM_Delete</definition>
+        <argsstring></argsstring>
+        <name>SubBtnMM_Delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagemento4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarManagement::SubBtnMM_MusicNImage</definition>
+        <argsstring></argsstring>
+        <name>SubBtnMM_MusicNImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="38" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementk0" compoundref="subbarmanagement_8cpp" startline="89" endline="103">slotChangeBtnImage</referencedby>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classSubBarManagement_1SubBarManagementi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::slotBtnMkFloder</definition>
+        <argsstring>()</argsstring>
+        <name>slotBtnMkFloder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="40" bodystart="105" bodyend="108"/>
+        <references refid="classSubBarManagement_1SubBarManagementl1" compoundref="subbarmanagement_8moc" startline="109" endline="112">signalMkdir</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarManagement_1SubBarManagementi1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::slotBtnPaste</definition>
+        <argsstring>()</argsstring>
+        <name>slotBtnPaste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="41" bodystart="110" bodyend="113"/>
+        <references refid="classSubBarManagement_1SubBarManagementl2" compoundref="subbarmanagement_8moc" startline="115" endline="118">singalPasteFUNC_MEDIAM</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarManagement_1SubBarManagementi2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::slotBtnCut</definition>
+        <argsstring>()</argsstring>
+        <name>slotBtnCut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="42" bodystart="115" bodyend="118"/>
+        <references refid="classSubBarManagement_1SubBarManagementl3" compoundref="subbarmanagement_8moc" startline="121" endline="124">signalCutFUNC_MEDIAM</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarManagement_1SubBarManagementi3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::slotBtnDelete</definition>
+        <argsstring>()</argsstring>
+        <name>slotBtnDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="43" bodystart="120" bodyend="123"/>
+        <references refid="classSubBarManagement_1SubBarManagementl4" compoundref="subbarmanagement_8moc" startline="127" endline="130">signalDeleteItem</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classSubBarManagement_1SubBarManagementl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::signalManagementModeChange</definition>
+        <argsstring>(int)</argsstring>
+        <name>signalManagementModeChange</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="46" bodystart="103" bodyend="106"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementk0" compoundref="subbarmanagement_8cpp" startline="89" endline="103">slotChangeBtnImage</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarManagement_1SubBarManagementl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::signalMkdir</definition>
+        <argsstring>()</argsstring>
+        <name>signalMkdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="47" bodystart="109" bodyend="112"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementi0" compoundref="subbarmanagement_8cpp" startline="105" endline="108">slotBtnMkFloder</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarManagement_1SubBarManagementl2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::singalPasteFUNC_MEDIAM</definition>
+        <argsstring>()</argsstring>
+        <name>singalPasteFUNC_MEDIAM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="48" bodystart="115" bodyend="118"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementi1" compoundref="subbarmanagement_8cpp" startline="110" endline="113">slotBtnPaste</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarManagement_1SubBarManagementl3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::signalCutFUNC_MEDIAM</definition>
+        <argsstring>()</argsstring>
+        <name>signalCutFUNC_MEDIAM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="49" bodystart="121" bodyend="124"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementi2" compoundref="subbarmanagement_8cpp" startline="115" endline="118">slotBtnCut</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarManagement_1SubBarManagementl4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::signalDeleteItem</definition>
+        <argsstring>()</argsstring>
+        <name>signalDeleteItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="50" bodystart="127" bodyend="130"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementi3" compoundref="subbarmanagement_8cpp" startline="120" endline="123">slotBtnDelete</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classSubBarManagement_1SubBarManagementy2" prot="private" static="no">
+        <name>MM_TYPE</name>
+        <enumvalue id="classSubBarManagement_1SubBarManagementy2SubBarManagementy0" prot="private">
+          <name>em_mmimage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" prot="private">
+          <name>em_mmmusic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="32" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagementr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap SubBarManagement::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="53" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagementr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SubBarManagement::BtnGraphic[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>BtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="54" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarManagement_1SubBarManagementr2" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarManagement_1SubBarManagementy2" kindref="member">MM_TYPE</ref></type>
+        <definition>MM_TYPE SubBarManagement::MMtype</definition>
+        <argsstring></argsstring>
+        <name>MMtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="55" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classSubBarManagement_1SubBarManagementk0" compoundref="subbarmanagement_8cpp" startline="89" endline="103">slotChangeBtnImage</referencedby>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classSubBarManagement_1SubBarManagementk0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarManagement::slotChangeBtnImage</definition>
+        <argsstring>()</argsstring>
+        <name>slotChangeBtnImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="57" bodystart="89" bodyend="103"/>
+        <references refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy0">em_mmimage</references>
+        <references refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1">em_mmmusic</references>
+        <references refid="classSubBarManagement_1SubBarManagementr2" compoundref="subbarmanagement_8h" startline="55">MMtype</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarManagement_1SubBarManagementl0" compoundref="subbarmanagement_8moc" startline="103" endline="106">signalManagementModeChange</references>
+        <references refid="classSubBarManagement_1SubBarManagemento4" compoundref="subbarmanagement_8h" startline="38">SubBtnMM_MusicNImage</references>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="600">
+        <label>SubBarManagement</label>
+        <link refid="classSubBarManagement"/>
+        <childnode refid="601" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="601">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="604">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="602">
+        <label>SubBarManagement</label>
+        <link refid="classSubBarManagement"/>
+        <childnode refid="603" relation="public-inheritance">
+        </childnode>
+        <childnode refid="604" relation="usage">
+          <edgelabel>SubBtnMM_Cut</edgelabel>
+          <edgelabel>SubBtnMM_Paste</edgelabel>
+          <edgelabel>SubBtnMM_MusicNImage</edgelabel>
+          <edgelabel>SubBtnMM_Delete</edgelabel>
+          <edgelabel>SubBtnMM_Floder</edgelabel>
+        </childnode>
+      </node>
+      <node id="603">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/subbarmanagement.h" line="30" bodystart="29" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classSubBarManagement_1SubBarManagementr1" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>BtnGraphic</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy0" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>em_mmimage</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>em_mmmusic</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementy2" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>MM_TYPE</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementr2" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>MMtype</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementr0" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>pixBackground</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementl3" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>signalCutFUNC_MEDIAM</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementl4" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>signalDeleteItem</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementl0" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>signalManagementModeChange</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementl1" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>signalMkdir</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementl2" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>singalPasteFUNC_MEDIAM</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementi2" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>slotBtnCut</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementi3" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>slotBtnDelete</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementi0" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>slotBtnMkFloder</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementi1" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>slotBtnPaste</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementk0" prot="private" virt="non-virtual"><scope>SubBarManagement</scope><name>slotChangeBtnImage</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementa0" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBarManagement</name></member>
+      <member refid="classSubBarManagement_1SubBarManagemento2" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBtnMM_Cut</name></member>
+      <member refid="classSubBarManagement_1SubBarManagemento3" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBtnMM_Delete</name></member>
+      <member refid="classSubBarManagement_1SubBarManagemento0" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBtnMM_Floder</name></member>
+      <member refid="classSubBarManagement_1SubBarManagemento4" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBtnMM_MusicNImage</name></member>
+      <member refid="classSubBarManagement_1SubBarManagemento1" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>SubBtnMM_Paste</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementa2" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>xSetup</name></member>
+      <member refid="classSubBarManagement_1SubBarManagementa1" prot="public" virt="non-virtual"><scope>SubBarManagement</scope><name>~SubBarManagement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

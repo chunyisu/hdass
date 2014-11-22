@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSubBarAlbumClock" kind="class" prot="public">
+    <compoundname>SubBarAlbumClock</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="src_2subbaralbumclock_8h" local="no">subbaralbumclock.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarAlbumClock::SubBarAlbumClock</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarAlbumClock</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="39" bodystart="22" bodyend="26"/>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarAlbumClock::~SubBarAlbumClock</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarAlbumClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="41" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="42" bodystart="32" bodyend="76"/>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocki0" compoundref="src_2subbaralbumclock_8cpp" startline="78" endline="87">slotChangeMode</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocki1" compoundref="src_2subbaralbumclock_8cpp" startline="100" endline="112">slotChangePlayNPauseBtnGraphic</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko0" compoundref="src_2subbaralbumclock_8h" startline="43">SubBarBtnAlbumClock</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko3" compoundref="subbaralbumclock_8h" startline="43">SubBarBtnNext</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko2" compoundref="subbaralbumclock_8h" startline="43">SubBarBtnPlayNPause</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko1" compoundref="subbaralbumclock_8h" startline="43">SubBarBtnPrevious</references>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka0" compoundref="src_2subbaralbumclock_8cpp" startline="22" endline="26">SubBarAlbumClock</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarAlbumClock::SubBarAlbumClock</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>SubBarAlbumClock</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SubBarAlbumClock::~SubBarAlbumClock</definition>
+        <argsstring>()</argsstring>
+        <name>~SubBarAlbumClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClocka5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClocko0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* SubBarAlbumClock::SubBarBtnAlbumClock</definition>
+        <argsstring></argsstring>
+        <name>SubBarBtnAlbumClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClockd0" compoundref="src_2subbaralbumclock_8cpp" startline="89" endline="98">ChangeButtonGraphic</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClocko1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarAlbumClock::SubBarBtnPrevious</definition>
+        <argsstring></argsstring>
+        <name>SubBarBtnPrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClocko2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarAlbumClock::SubBarBtnPlayNPause</definition>
+        <argsstring></argsstring>
+        <name>SubBarBtnPlayNPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki1" compoundref="src_2subbaralbumclock_8cpp" startline="100" endline="112">slotChangePlayNPauseBtnGraphic</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClocko3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * SubBarAlbumClock::SubBarBtnNext</definition>
+        <argsstring></argsstring>
+        <name>SubBarBtnNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClocko4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* SubBarAlbumClock::SubBarBtnAlbumClock</definition>
+        <argsstring></argsstring>
+        <name>SubBarBtnAlbumClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="43" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classSubBarAlbumClock_1SubBarAlbumClocki0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::slotChangeMode</definition>
+        <argsstring>()</argsstring>
+        <name>slotChangeMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="46" bodystart="78" bodyend="87"/>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClockd0" compoundref="src_2subbaralbumclock_8cpp" startline="89" endline="98">ChangeButtonGraphic</references>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" compoundref="hdassglobalsetting_8h" startline="41">HDASSGlobalSetting::intHDASS_ALBUMCLOCK_STATE</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" compoundref="hdassglobalsetting_8h" startline="42">HDASSGlobalSetting::intHDSS_DISPLAY_STATE</references>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarAlbumClock_1SubBarAlbumClocki1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::slotChangePlayNPauseBtnGraphic</definition>
+        <argsstring>()</argsstring>
+        <name>slotChangePlayNPauseBtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="47" bodystart="100" bodyend="112"/>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0">GO</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClockr2" compoundref="subbaralbumclock_8h" startline="55">slideshowstate</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1">STOP</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko2" compoundref="subbaralbumclock_8h" startline="43">SubBarBtnPlayNPause</references>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarAlbumClock_1SubBarAlbumClocki2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::slotChangeMode</definition>
+        <argsstring>()</argsstring>
+        <name>slotChangeMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="46"/>
+      </memberdef>
+      <memberdef kind="slot" id="classSubBarAlbumClock_1SubBarAlbumClocki3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::slotChangePlayNPauseBtnGraphic</definition>
+        <argsstring>()</argsstring>
+        <name>slotChangePlayNPauseBtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classSubBarAlbumClock_1SubBarAlbumClockl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::signalAlbumClockModeChangeToDispalyArea</definition>
+        <argsstring>(int)</argsstring>
+        <name>signalAlbumClockModeChangeToDispalyArea</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="49" bodystart="89" bodyend="92"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClockd0" compoundref="src_2subbaralbumclock_8cpp" startline="89" endline="98">ChangeButtonGraphic</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classSubBarAlbumClock_1SubBarAlbumClockl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::signalAlbumClockModeChangeToDispalyArea</definition>
+        <argsstring>(int)</argsstring>
+        <name>signalAlbumClockModeChangeToDispalyArea</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classSubBarAlbumClock_1SubBarAlbumClocky2" prot="private" static="no">
+        <name>SLIDESHOWSTATE</name>
+        <enumvalue id="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" prot="private">
+          <name>GO</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" prot="private">
+          <name>STOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="34" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="enum" id="classSubBarAlbumClock_1SubBarAlbumClocky3" prot="private" static="no">
+        <name>SLIDESHOWSTATE</name>
+        <enumvalue id="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" prot="private">
+          <name>GO</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" prot="private">
+          <name>STOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="33" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClockd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::ChangeButtonGraphic</definition>
+        <argsstring>(int)</argsstring>
+        <name>ChangeButtonGraphic</name>
+        <param>
+          <type>int</type>
+          <defname>Mode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="54" bodystart="89" bodyend="98"/>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" compoundref="hdassglobalsetting_8h" startline="42">HDASSGlobalSetting::intHDSS_DISPLAY_STATE</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClockl0" compoundref="subbaralbumclock_8moc" startline="89" endline="92">signalAlbumClockModeChangeToDispalyArea</references>
+        <references refid="classSubBarAlbumClock_1SubBarAlbumClocko0" compoundref="src_2subbaralbumclock_8h" startline="43">SubBarBtnAlbumClock</references>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki0" compoundref="src_2subbaralbumclock_8cpp" startline="78" endline="87">slotChangeMode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSubBarAlbumClock_1SubBarAlbumClockd1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SubBarAlbumClock::ChangeButtonGraphic</definition>
+        <argsstring>(int)</argsstring>
+        <name>ChangeButtonGraphic</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClockr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SubBarAlbumClock::btnGraphic[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>btnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="52" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClockr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap SubBarAlbumClock::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="53" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClockr2" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarAlbumClock_1SubBarAlbumClocky2" kindref="member">SLIDESHOWSTATE</ref></type>
+        <definition>SLIDESHOWSTATE SubBarAlbumClock::slideshowstate</definition>
+        <argsstring></argsstring>
+        <name>slideshowstate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="55" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki1" compoundref="src_2subbaralbumclock_8cpp" startline="100" endline="112">slotChangePlayNPauseBtnGraphic</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSubBarAlbumClock_1SubBarAlbumClockr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SubBarAlbumClock::btnGraphic[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>btnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/subbaralbumclock.h" line="52" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="587">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="586">
+        <label>SubBarAlbumClock</label>
+        <link refid="classSubBarAlbumClock"/>
+        <childnode refid="587" relation="public-inheritance">
+        </childnode>
+        <childnode refid="587" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="590">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="589">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="588">
+        <label>SubBarAlbumClock</label>
+        <link refid="classSubBarAlbumClock"/>
+        <childnode refid="589" relation="public-inheritance">
+        </childnode>
+        <childnode refid="589" relation="public-inheritance">
+        </childnode>
+        <childnode refid="590" relation="usage">
+          <edgelabel>SubBarBtnPlayNPause</edgelabel>
+          <edgelabel>SubBarBtnAlbumClock</edgelabel>
+          <edgelabel>SubBarBtnPrevious</edgelabel>
+          <edgelabel>SubBarBtnNext</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/subbaralbumclock.h" line="31" bodystart="30" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockr0" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>btnGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockr3" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>btnGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockd0" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>ChangeButtonGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockd1" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>ChangeButtonGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>GO</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockr1" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>pixBackground</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockl0" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>signalAlbumClockModeChangeToDispalyArea</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockl1" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>signalAlbumClockModeChangeToDispalyArea</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocky2" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SLIDESHOWSTATE</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SLIDESHOWSTATE</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClockr2" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>slideshowstate</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocki0" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>slotChangeMode</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocki2" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>slotChangeMode</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocki1" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>slotChangePlayNPauseBtnGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocki3" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>slotChangePlayNPauseBtnGraphic</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" prot="private" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>STOP</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka0" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarAlbumClock</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka3" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarAlbumClock</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocko0" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarBtnAlbumClock</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocko4" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarBtnAlbumClock</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocko3" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarBtnNext</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocko2" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarBtnPlayNPause</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocko1" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>SubBarBtnPrevious</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka2" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>xSetup</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka5" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>xSetup</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka1" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>~SubBarAlbumClock</name></member>
+      <member refid="classSubBarAlbumClock_1SubBarAlbumClocka4" prot="public" virt="non-virtual"><scope>SubBarAlbumClock</scope><name>~SubBarAlbumClock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

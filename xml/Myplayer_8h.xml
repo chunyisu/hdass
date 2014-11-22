@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="Myplayer_8h" kind="file">
+    <compoundname>Myplayer.h</compoundname>
+    <includes refid="metabundle_8h" local="yes">metabundle.h</includes>
+    <includes refid="analyzerbase_8h" local="yes">analyzerbase.h</includes>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">kurl.h</includes>
+    <includedby refid="src_2subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <includedby refid="Myplayer_8moc" local="yes">Myplayer.moc</includedby>
+    <includedby refid="Myplayer_8cpp" local="yes">Myplayer.cpp</includedby>
+    <includedby refid="subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <incdepgraph>
+      <node id="4349">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="4352">
+        <label>qtimer.h</label>
+      </node>
+      <node id="4344">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer.h"/>
+        <childnode refid="4345" relation="include">
+        </childnode>
+        <childnode refid="4348" relation="include">
+        </childnode>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4346" relation="include">
+        </childnode>
+      </node>
+      <node id="4346">
+        <label>kurl.h</label>
+      </node>
+      <node id="4345">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="4346" relation="include">
+        </childnode>
+        <childnode refid="4347" relation="include">
+        </childnode>
+      </node>
+      <node id="4347">
+        <label>klocale.h</label>
+      </node>
+      <node id="4350">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="4348">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="4349" relation="include">
+        </childnode>
+        <childnode refid="4350" relation="include">
+        </childnode>
+        <childnode refid="4351" relation="include">
+        </childnode>
+        <childnode refid="4352" relation="include">
+        </childnode>
+        <childnode refid="4353" relation="include">
+        </childnode>
+        <childnode refid="4354" relation="include">
+        </childnode>
+      </node>
+      <node id="4354">
+        <label>vector</label>
+      </node>
+      <node id="4353">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4351">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4357">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4358" relation="include">
+        </childnode>
+        <childnode refid="4360" relation="include">
+        </childnode>
+        <childnode refid="4359" relation="include">
+        </childnode>
+      </node>
+      <node id="4355">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer.h"/>
+        <childnode refid="4356" relation="include">
+        </childnode>
+        <childnode refid="4368" relation="include">
+        </childnode>
+        <childnode refid="4369" relation="include">
+        </childnode>
+        <childnode refid="4370" relation="include">
+        </childnode>
+      </node>
+      <node id="4369">
+        <label>Myplayer.cpp</label>
+        <link refid="Myplayer_8cpp"/>
+      </node>
+      <node id="4370">
+        <label>subbarplayer.h</label>
+        <link refid="subbarplayer_8h"/>
+        <childnode refid="4367" relation="include">
+        </childnode>
+      </node>
+      <node id="4362">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4363">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4359">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="4364">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4358">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="4359" relation="include">
+        </childnode>
+      </node>
+      <node id="4367">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="4356">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="4357" relation="include">
+        </childnode>
+        <childnode refid="4365" relation="include">
+        </childnode>
+        <childnode refid="4366" relation="include">
+        </childnode>
+      </node>
+      <node id="4365">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="4366" relation="include">
+        </childnode>
+        <childnode refid="4367" relation="include">
+        </childnode>
+      </node>
+      <node id="4360">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4361" relation="include">
+        </childnode>
+        <childnode refid="4362" relation="include">
+        </childnode>
+        <childnode refid="4363" relation="include">
+        </childnode>
+        <childnode refid="4364" relation="include">
+        </childnode>
+      </node>
+      <node id="4368">
+        <label>Myplayer.moc</label>
+        <link refid="Myplayer_8moc"/>
+        <childnode refid="4369" relation="include">
+        </childnode>
+      </node>
+      <node id="4361">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4362" relation="include">
+        </childnode>
+      </node>
+      <node id="4366">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMyplayer">Myplayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Myplayer.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>7-19<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Karban</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MYPLAYER_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MYPLAYER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="metabundle_8h" kindref="compound">metabundle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="analyzerbase_8h" kindref="compound">analyzerbase.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classMyplayer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMyplayer" kindref="compound">Myplayer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="30" refid="classMyplayer_1Myplayery3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayery3" kindref="member">PLAYSTATE</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/>Idle,<ref refid="classMyplayer_1Myplayery3Myplayery1" kindref="member">Pause</ref>,<ref refid="classMyplayer_1Myplayery3Myplayery2" kindref="member">Go</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="classMyplayer_1Myplayera0" kindref="member">Myplayer</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="classMyplayer_1Myplayera1" kindref="member">~Myplayer</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayera2" kindref="member">handleMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle" kindref="compound">MetaBundle</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri0" kindref="member">play</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri0" kindref="member">play</ref>(QString<sp/>FileName);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri2" kindref="member">pause</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri3" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri4" kindref="member">next</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri5" kindref="member">previous</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri6" kindref="member">increase_volume</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri7" kindref="member">decrease_volume</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri8" kindref="member">setVolume</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri9" kindref="member">handleNext</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri10" kindref="member">handlePrevious</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri11" kindref="member">handlePosition</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri12" kindref="member">handleRepeat</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri13" kindref="member">handleRandom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri14" kindref="member">handleSlider</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri15" kindref="member">handlePlayItem</ref>(KURL<sp/>&amp;);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri16" kindref="member">initlist</ref>(KURL::List<sp/>&amp;);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri17" kindref="member">add</ref>(KURL::List<sp/>&amp;);<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri18" kindref="member">clearMedia</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayeri19" kindref="member">removeMedia</ref>(KURL::List<sp/>&amp;);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerl0" kindref="member">trackMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,QString,QString,QString);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerl1" kindref="member">volumeMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerl2" kindref="member">positionMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerd0" kindref="member">savePlaylist</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerd1" kindref="member">restorePlaylist</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="73" refid="classMyplayer_1Myplayerr0" refkind="member"><highlight class="normal"><sp/><sp/>KURL::List<sp/><ref refid="classMyplayer_1Myplayerr0" kindref="member">m_list</ref>;</highlight></codeline>
+<codeline lineno="74" refid="classMyplayer_1Myplayerr1" refkind="member"><highlight class="normal"><sp/><sp/>KURL::List::Iterator<sp/>it;</highlight></codeline>
+<codeline lineno="75" refid="classMyplayer_1Myplayerr2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerr2" kindref="member">m_Vol</ref>;</highlight></codeline>
+<codeline lineno="76" refid="classMyplayer_1Myplayerr3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerr3" kindref="member">m_repeat</ref>;</highlight></codeline>
+<codeline lineno="77" refid="classMyplayer_1Myplayerr4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMyplayer_1Myplayerr4" kindref="member">m_random</ref>;</highlight></codeline>
+<codeline lineno="78" refid="classMyplayer_1Myplayerr5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classMyplayer_1Myplayery3" kindref="member">PLAYSTATE</ref><sp/><ref refid="classMyplayer_1Myplayerr5" kindref="member">state</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/Myplayer.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classInfoArea" kind="class" prot="public">
+    <compoundname>InfoArea</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="infoarea_8h" local="no">infoarea.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classInfoArea_1InfoAreaa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InfoArea::InfoArea</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>InfoArea</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="42" bodystart="26" bodyend="30"/>
+        <references refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classInfoArea_1InfoAreaa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="43" bodystart="37" bodyend="76"/>
+        <references refid="classInfoArea_1InfoArear1" compoundref="infoarea_8h" startline="63">BtnGraphic</references>
+        <references refid="classInfoArea_1InfoAreao2" compoundref="infoarea_8h" startline="45">IABtnPlayListDelete</references>
+        <references refid="classInfoArea_1InfoAreao1" compoundref="infoarea_8h" startline="45">IABtnVolumeDown</references>
+        <references refid="classInfoArea_1InfoAreao0" compoundref="infoarea_8h" startline="45">IABtnVolumeUp</references>
+        <references refid="classInfoArea_1InfoAread0" compoundref="infoarea_8cpp" startline="77" endline="93">InitPlayList</references>
+        <references refid="classInfoArea_1InfoAreao3" compoundref="infoarea_8h" startline="46">m_pAnalyzer</references>
+        <references refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">SkinButton::setPixmaps</references>
+        <references refid="classInfoArea_1InfoAreai2" compoundref="infoarea_8cpp" startline="116" endline="131">slotDeleteItems</references>
+        <referencedby refid="classInfoArea_1InfoAreaa0" compoundref="infoarea_8cpp" startline="26" endline="30">InfoArea</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classInfoArea_1InfoAreaa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InfoArea::~InfoArea</definition>
+        <argsstring>()</argsstring>
+        <name>~InfoArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="44" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton* InfoArea::IABtnVolumeUp</definition>
+        <argsstring></argsstring>
+        <name>IABtnVolumeUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * InfoArea::IABtnVolumeDown</definition>
+        <argsstring></argsstring>
+        <name>IABtnVolumeDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSkinButton" kindref="compound">SkinButton</ref> *</type>
+        <definition>SkinButton * InfoArea::IABtnPlayListDelete</definition>
+        <argsstring></argsstring>
+        <name>IABtnPlayListDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+        <definition>QWidget* InfoArea::m_pAnalyzer</definition>
+        <argsstring></argsstring>
+        <name>m_pAnalyzer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="46" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao4" prot="public" static="no" volatile="no" mutable="no">
+        <type>QListView *</type>
+        <definition>QListView* InfoArea::PlayList</definition>
+        <argsstring></argsstring>
+        <name>PlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="47" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAread0" compoundref="infoarea_8cpp" startline="77" endline="93">InitPlayList</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai2" compoundref="infoarea_8cpp" startline="116" endline="131">slotDeleteItems</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai0" compoundref="infoarea_8cpp" startline="97" endline="110">slotReadListFromPlayList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoAreao5" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List InfoArea::curr_list</definition>
+        <argsstring></argsstring>
+        <name>curr_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="49" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreai2" compoundref="infoarea_8cpp" startline="116" endline="131">slotDeleteItems</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai0" compoundref="infoarea_8cpp" startline="97" endline="110">slotReadListFromPlayList</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classInfoArea_1InfoAreai0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::slotReadListFromPlayList</definition>
+        <argsstring>(KURL::List playlist)</argsstring>
+        <name>slotReadListFromPlayList</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>playlist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="51" bodystart="97" bodyend="110"/>
+        <references refid="classInfoArea_1InfoAreao5" compoundref="infoarea_8h" startline="49">curr_list</references>
+        <references refid="classInfoArea_1InfoAreao4" compoundref="infoarea_8h" startline="47">PlayList</references>
+      </memberdef>
+      <memberdef kind="slot" id="classInfoArea_1InfoAreai1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::ReadList</definition>
+        <argsstring>()</argsstring>
+        <name>ReadList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="52" bodystart="112" bodyend="115"/>
+        <references refid="classInfoArea_1InfoAreal0" compoundref="infoarea_8moc" startline="118" endline="121">signalReadList</references>
+        <referencedby refid="classInfoArea_1InfoAread0" compoundref="infoarea_8cpp" startline="77" endline="93">InitPlayList</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classInfoArea_1InfoAreai2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::slotDeleteItems</definition>
+        <argsstring>()</argsstring>
+        <name>slotDeleteItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="53" bodystart="116" bodyend="131"/>
+        <references refid="classInfoArea_1InfoAreao5" compoundref="infoarea_8h" startline="49">curr_list</references>
+        <references refid="enum_8h_1a24a17">em_remove</references>
+        <references refid="classInfoArea_1InfoAreao4" compoundref="infoarea_8h" startline="47">PlayList</references>
+        <references refid="classInfoArea_1InfoAreal1" compoundref="infoarea_8moc" startline="127" endline="138">signalRemoveList</references>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classInfoArea_1InfoAreai3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::slotDoubleClicked</definition>
+        <argsstring>(QListViewItem *item)</argsstring>
+        <name>slotDoubleClicked</name>
+        <param>
+          <type>QListViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="54" bodystart="133" bodyend="140"/>
+        <references refid="classInfoArea_1InfoAreal2" compoundref="infoarea_8moc" startline="141" endline="144">signalPlayItem</references>
+        <references refid="classInfoArea_1InfoAreal3" compoundref="infoarea_8moc" startline="147" endline="150">singalPlayItem</references>
+        <referencedby refid="classInfoArea_1InfoAread0" compoundref="infoarea_8cpp" startline="77" endline="93">InitPlayList</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classInfoArea_1InfoAreai4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::slotHadleSongInfo</definition>
+        <argsstring>(int, int, QString, QString, QString)</argsstring>
+        <name>slotHadleSongInfo</name>
+        <param>
+          <type>int</type>
+          <defname>m_length</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>m_bitrate</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>m_title</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>m_artist</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>m_album</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="55" bodystart="177" bodyend="204"/>
+        <references refid="classInfoArea_1InfoArear2" compoundref="infoarea_8h" startline="64">Artist</references>
+        <references refid="classInfoArea_1InfoArear7" compoundref="infoarea_8h" startline="64">BitRate</references>
+        <references refid="classInfoArea_1InfoArear6" compoundref="infoarea_8h" startline="64">Title</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classInfoArea_1InfoAreal0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::signalReadList</definition>
+        <argsstring>()</argsstring>
+        <name>signalReadList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="57" bodystart="118" bodyend="121"/>
+        <referencedby refid="classInfoArea_1InfoAreai1" compoundref="infoarea_8cpp" startline="112" endline="115">ReadList</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classInfoArea_1InfoAreal1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::signalRemoveList</definition>
+        <argsstring>(KURL::List removelist, HDASS_ACTION_TYPE action)</argsstring>
+        <name>signalRemoveList</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>removelist</declname>
+          <defname>t0</defname>
+        </param>
+        <param>
+          <type><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref></type>
+          <declname>action</declname>
+          <defname>t1</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="58" bodystart="127" bodyend="138"/>
+        <referencedby refid="classInfoArea_1InfoAreai2" compoundref="infoarea_8cpp" startline="116" endline="131">slotDeleteItems</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classInfoArea_1InfoAreal2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::signalPlayItem</definition>
+        <argsstring>(QString FileName)</argsstring>
+        <name>signalPlayItem</name>
+        <param>
+          <type>QString</type>
+          <declname>FileName</declname>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="59" bodystart="141" bodyend="144"/>
+        <referencedby refid="classInfoArea_1InfoAreai3" compoundref="infoarea_8cpp" startline="133" endline="140">slotDoubleClicked</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classInfoArea_1InfoAreal3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::singalPlayItem</definition>
+        <argsstring>()</argsstring>
+        <name>singalPlayItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="60" bodystart="147" bodyend="150"/>
+        <referencedby refid="classInfoArea_1InfoAreai3" compoundref="infoarea_8cpp" startline="133" endline="140">slotDoubleClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classInfoArea_1InfoAread0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::InitPlayList</definition>
+        <argsstring>()</argsstring>
+        <name>InitPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="65" bodystart="77" bodyend="93"/>
+        <references refid="classInfoArea_1InfoAread1" compoundref="infoarea_8cpp" startline="141" endline="172">InitSongInfo</references>
+        <references refid="classInfoArea_1InfoAreao4" compoundref="infoarea_8h" startline="47">PlayList</references>
+        <references refid="classInfoArea_1InfoAreai1" compoundref="infoarea_8cpp" startline="112" endline="115">ReadList</references>
+        <references refid="classInfoArea_1InfoAreai3" compoundref="infoarea_8cpp" startline="133" endline="140">slotDoubleClicked</references>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classInfoArea_1InfoAread1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::InitSongInfo</definition>
+        <argsstring>()</argsstring>
+        <name>InitSongInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="66" bodystart="141" bodyend="172"/>
+        <references refid="classInfoArea_1InfoArear2" compoundref="infoarea_8h" startline="64">Artist</references>
+        <references refid="classInfoArea_1InfoArear7" compoundref="infoarea_8h" startline="64">BitRate</references>
+        <references refid="classInfoArea_1InfoArear6" compoundref="infoarea_8h" startline="64">Title</references>
+        <referencedby refid="classInfoArea_1InfoAread0" compoundref="infoarea_8cpp" startline="77" endline="93">InitPlayList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classInfoArea_1InfoAread2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InfoArea::ShowSongInfo</definition>
+        <argsstring>(int m_length, int m_bitrate, QString m_title, QString m_artist, QString m_album)</argsstring>
+        <name>ShowSongInfo</name>
+        <param>
+          <type>int</type>
+          <declname>m_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m_bitrate</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_title</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_artist</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>m_album</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="67" bodystart="173" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classInfoArea_1InfoArear0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap InfoArea::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="62" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* InfoArea::BtnGraphic[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>BtnGraphic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="63" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear2" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* InfoArea::Artist</definition>
+        <argsstring></argsstring>
+        <name>Artist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAread1" compoundref="infoarea_8cpp" startline="141" endline="172">InitSongInfo</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai4" compoundref="infoarea_8cpp" startline="177" endline="204">slotHadleSongInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear3" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel * InfoArea::Album</definition>
+        <argsstring></argsstring>
+        <name>Album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel * InfoArea::Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear5" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel * InfoArea::Year</definition>
+        <argsstring></argsstring>
+        <name>Year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear6" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel * InfoArea::Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAread1" compoundref="infoarea_8cpp" startline="141" endline="172">InitSongInfo</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai4" compoundref="infoarea_8cpp" startline="177" endline="204">slotHadleSongInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classInfoArea_1InfoArear7" prot="private" static="no" volatile="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel * InfoArea::BitRate</definition>
+        <argsstring></argsstring>
+        <name>BitRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/infoarea.h" line="64" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classInfoArea_1InfoAread1" compoundref="infoarea_8cpp" startline="141" endline="172">InitSongInfo</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreai4" compoundref="infoarea_8cpp" startline="177" endline="204">slotHadleSongInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="480">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="479">
+        <label>InfoArea</label>
+        <link refid="classInfoArea"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="483">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="482">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="481">
+        <label>InfoArea</label>
+        <link refid="classInfoArea"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+        <childnode refid="483" relation="usage">
+          <edgelabel>IABtnVolumeDown</edgelabel>
+          <edgelabel>IABtnVolumeUp</edgelabel>
+          <edgelabel>IABtnPlayListDelete</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/infoarea.h" line="39" bodystart="38" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classInfoArea_1InfoArear3" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>Album</name></member>
+      <member refid="classInfoArea_1InfoArear2" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>Artist</name></member>
+      <member refid="classInfoArea_1InfoArear7" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>BitRate</name></member>
+      <member refid="classInfoArea_1InfoArear1" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>BtnGraphic</name></member>
+      <member refid="classInfoArea_1InfoAreao5" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>curr_list</name></member>
+      <member refid="classInfoArea_1InfoAreao2" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>IABtnPlayListDelete</name></member>
+      <member refid="classInfoArea_1InfoAreao1" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>IABtnVolumeDown</name></member>
+      <member refid="classInfoArea_1InfoAreao0" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>IABtnVolumeUp</name></member>
+      <member refid="classInfoArea_1InfoAreaa0" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>InfoArea</name></member>
+      <member refid="classInfoArea_1InfoAread0" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>InitPlayList</name></member>
+      <member refid="classInfoArea_1InfoAread1" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>InitSongInfo</name></member>
+      <member refid="classInfoArea_1InfoArear4" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>Length</name></member>
+      <member refid="classInfoArea_1InfoAreao3" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>m_pAnalyzer</name></member>
+      <member refid="classInfoArea_1InfoArear0" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>pixBackground</name></member>
+      <member refid="classInfoArea_1InfoAreao4" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>PlayList</name></member>
+      <member refid="classInfoArea_1InfoAreai1" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>ReadList</name></member>
+      <member refid="classInfoArea_1InfoAread2" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>ShowSongInfo</name></member>
+      <member refid="classInfoArea_1InfoAreal2" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>signalPlayItem</name></member>
+      <member refid="classInfoArea_1InfoAreal0" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>signalReadList</name></member>
+      <member refid="classInfoArea_1InfoAreal1" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>signalRemoveList</name></member>
+      <member refid="classInfoArea_1InfoAreal3" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>singalPlayItem</name></member>
+      <member refid="classInfoArea_1InfoAreai2" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>slotDeleteItems</name></member>
+      <member refid="classInfoArea_1InfoAreai3" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>slotDoubleClicked</name></member>
+      <member refid="classInfoArea_1InfoAreai4" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>slotHadleSongInfo</name></member>
+      <member refid="classInfoArea_1InfoAreai0" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>slotReadListFromPlayList</name></member>
+      <member refid="classInfoArea_1InfoArear6" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>Title</name></member>
+      <member refid="classInfoArea_1InfoAreaa1" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>xSetup</name></member>
+      <member refid="classInfoArea_1InfoArear5" prot="private" virt="non-virtual"><scope>InfoArea</scope><name>Year</name></member>
+      <member refid="classInfoArea_1InfoAreaa2" prot="public" virt="non-virtual"><scope>InfoArea</scope><name>~InfoArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

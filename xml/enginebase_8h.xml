@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="enginebase_8h" kind="file">
+    <compoundname>enginebase.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">qobject.h</includes>
+    <includes local="no">qstringlist.h</includes>
+    <includedby refid="artsengine_8h" local="yes">artsengine.h</includedby>
+    <includedby refid="enginebase_8moc" local="yes">enginebase.moc</includedby>
+    <includedby refid="engineobserver_8h" local="yes">engineobserver.h</includedby>
+    <includedby refid="analyzerbase_8cpp" local="yes">analyzerbase.cpp</includedby>
+    <includedby refid="artsengine_8cpp" local="yes">artsengine.cpp</includedby>
+    <includedby refid="enginebase_8cpp" local="yes">enginebase.cpp</includedby>
+    <includedby refid="enginecontroller_8cpp" local="yes">enginecontroller.cpp</includedby>
+    <incdepgraph>
+      <node id="2914">
+        <label>enginebase.h</label>
+        <link refid="enginebase.h"/>
+        <childnode refid="2915" relation="include">
+        </childnode>
+        <childnode refid="2916" relation="include">
+        </childnode>
+        <childnode refid="2917" relation="include">
+        </childnode>
+      </node>
+      <node id="2916">
+        <label>qobject.h</label>
+      </node>
+      <node id="2915">
+        <label>vector</label>
+      </node>
+      <node id="2917">
+        <label>qstringlist.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2918">
+        <label>enginebase.h</label>
+        <link refid="enginebase.h"/>
+        <childnode refid="2919" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+        <childnode refid="2925" relation="include">
+        </childnode>
+        <childnode refid="2929" relation="include">
+        </childnode>
+        <childnode refid="2921" relation="include">
+        </childnode>
+        <childnode refid="2924" relation="include">
+        </childnode>
+        <childnode refid="2928" relation="include">
+        </childnode>
+      </node>
+      <node id="2922">
+        <label>Myplayer.cpp</label>
+        <link refid="Myplayer_8cpp"/>
+      </node>
+      <node id="2927">
+        <label>enginecontroller.moc</label>
+        <link refid="enginecontroller_8moc"/>
+        <childnode refid="2928" relation="include">
+        </childnode>
+      </node>
+      <node id="2923">
+        <label>enginebase.moc</label>
+        <link refid="enginebase_8moc"/>
+        <childnode refid="2924" relation="include">
+        </childnode>
+      </node>
+      <node id="2920">
+        <label>artsengine.moc</label>
+        <link refid="artsengine_8moc"/>
+        <childnode refid="2921" relation="include">
+        </childnode>
+      </node>
+      <node id="2921">
+        <label>artsengine.cpp</label>
+        <link refid="artsengine_8cpp"/>
+      </node>
+      <node id="2919">
+        <label>artsengine.h</label>
+        <link refid="artsengine_8h"/>
+        <childnode refid="2920" relation="include">
+        </childnode>
+        <childnode refid="2921" relation="include">
+        </childnode>
+        <childnode refid="2922" relation="include">
+        </childnode>
+      </node>
+      <node id="2925">
+        <label>engineobserver.h</label>
+        <link refid="engineobserver_8h"/>
+        <childnode refid="2926" relation="include">
+        </childnode>
+        <childnode refid="2921" relation="include">
+        </childnode>
+        <childnode refid="2930" relation="include">
+        </childnode>
+      </node>
+      <node id="2928">
+        <label>enginecontroller.cpp</label>
+        <link refid="enginecontroller_8cpp"/>
+      </node>
+      <node id="2926">
+        <label>enginecontroller.h</label>
+        <link refid="enginecontroller_8h"/>
+        <childnode refid="2927" relation="include">
+        </childnode>
+        <childnode refid="2929" relation="include">
+        </childnode>
+        <childnode refid="2928" relation="include">
+        </childnode>
+        <childnode refid="2922" relation="include">
+        </childnode>
+      </node>
+      <node id="2924">
+        <label>enginebase.cpp</label>
+        <link refid="enginebase_8cpp"/>
+      </node>
+      <node id="2929">
+        <label>analyzerbase.cpp</label>
+        <link refid="analyzerbase_8cpp"/>
+      </node>
+      <node id="2930">
+        <label>engineobserver.cpp</label>
+        <link refid="engineobserver_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classEngineBase">EngineBase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>enginebase.h<sp/><sp/>-<sp/><sp/>audio<sp/>engine<sp/>base<sp/>class</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Dec<sp/>31<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Mark<sp/>Kretschmann</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>markey@web.de</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AMAROK_ENGINEBASE_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>AMAROK_ENGINEBASE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;plugin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobject.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//baseclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstringlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__FreeBSD__</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/>#include<sp/>&lt;sys/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">KURL;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//class<sp/>EngineBase<sp/>:<sp/>public<sp/>QObject,<sp/>public<sp/>amaroK::Plugin<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classEngineBase" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEngineBase" kindref="compound">EngineBase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>signals:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasel0" kindref="member">endOfTrack</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasel1" kindref="member">stopped</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43" refid="classEngineBase_1EngineBasew7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasew7" kindref="member">EngineState</ref><sp/>{<sp/><ref refid="classEngineBase_1EngineBasew7EngineBasew0" kindref="member">Empty</ref>,<sp/><ref refid="classEngineBase_1EngineBasew7EngineBasew1" kindref="member">Idle</ref>,<sp/><ref refid="classEngineBase_1EngineBasew7EngineBasew2" kindref="member">Playing</ref>,<sp/><ref refid="classEngineBase_1EngineBasew7EngineBasew3" kindref="member">Paused</ref><sp/>};</highlight></codeline>
+<codeline lineno="44" refid="classEngineBase_1EngineBasew8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasew8" kindref="member">StreamingMode</ref><sp/>{<sp/><ref refid="classEngineBase_1EngineBasew8EngineBasew4" kindref="member">Socket</ref>,<sp/><ref refid="classEngineBase_1EngineBasew8EngineBasew5" kindref="member">Signal</ref>,<sp/><ref refid="classEngineBase_1EngineBasew8EngineBasew6" kindref="member">NoStreaming</ref><sp/>};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEngineBase_1EngineBasea0" kindref="member">EngineBase</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea1" kindref="member">~EngineBase</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea2" kindref="member">init</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/>restart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scopeSize,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>restoreEffects<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea3" kindref="member">initMixer</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hardware<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea4" kindref="member">canDecode</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL<sp/>&amp;url,<sp/>mode_t<sp/>mode,<sp/>mode_t<sp/>permissions<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59" refid="classEngineBase_1EngineBasea5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasew8" kindref="member">StreamingMode</ref><sp/><ref refid="classEngineBase_1EngineBasea5" kindref="member">streamingMode</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasew8EngineBasew6" kindref="member">NoStreaming</ref>;<sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61" refid="classEngineBase_1EngineBasea6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QStringList<sp/><ref refid="classEngineBase_1EngineBasea6" kindref="member">getOutputsList</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QStringList();<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea7" kindref="member">position</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>EngineState<sp/><ref refid="classEngineBase_1EngineBasea8" kindref="member">state</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classEngineBase_1EngineBasea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea9" kindref="member">loaded</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea8" kindref="member">state</ref>()<sp/>!=<sp/><ref refid="classEngineBase_1EngineBasew7EngineBasew0" kindref="member">Empty</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classEngineBase_1EngineBasea10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea10" kindref="member">volume</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep1" kindref="member">m_volume</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="classEngineBase_1EngineBasea11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea11" kindref="member">isMixerHardware</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep0" kindref="member">m_mixerHW</ref><sp/>!=<sp/>-1;<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea12" kindref="member">isStream</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classEngineBase_1EngineBasea13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea13" kindref="member">supportsXFade</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classEngineBase_1EngineBasea14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;*<sp/><ref refid="classEngineBase_1EngineBasea14" kindref="member">scope</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;();<sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classEngineBase_1EngineBasea15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea15" kindref="member">setRestoreEffects</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>yes<sp/>)<sp/>{<sp/><ref refid="classEngineBase_1EngineBasep3" kindref="member">m_restoreEffects</ref><sp/>=<sp/>yes;<sp/>}</highlight></codeline>
+<codeline lineno="102" refid="classEngineBase_1EngineBasea16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QStringList<sp/><ref refid="classEngineBase_1EngineBasea16" kindref="member">availableEffects</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QStringList();<sp/>}</highlight></codeline>
+<codeline lineno="103" refid="classEngineBase_1EngineBasea17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;long&gt;<sp/><ref refid="classEngineBase_1EngineBasea17" kindref="member">activeEffects</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::vector&lt;long&gt;();<sp/>}</highlight></codeline>
+<codeline lineno="104" refid="classEngineBase_1EngineBasea18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classEngineBase_1EngineBasea18" kindref="member">effectNameForId</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::null;<sp/>}</highlight></codeline>
+<codeline lineno="105" refid="classEngineBase_1EngineBasea19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea19" kindref="member">effectConfigurable</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="106" refid="classEngineBase_1EngineBasea20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea20" kindref="member">createEffect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;<sp/>}</highlight></codeline>
+<codeline lineno="107" refid="classEngineBase_1EngineBasea21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea21" kindref="member">removeEffect</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="108" refid="classEngineBase_1EngineBasea22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea22" kindref="member">configureEffect</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="109" refid="classEngineBase_1EngineBasea23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea23" kindref="member">decoderConfigurable</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea24" kindref="member">setXfadeLength</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea25" kindref="member">setSoundOutput</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>output<sp/>);</highlight></codeline>
+<codeline lineno="113" refid="classEngineBase_1EngineBasea26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea26" kindref="member">setSoundDevice</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>device<sp/>)<sp/>{<sp/><ref refid="classEngineBase_1EngineBasep5" kindref="member">m_soundDevice</ref><sp/>=<sp/>device;<sp/>}</highlight></codeline>
+<codeline lineno="114" refid="classEngineBase_1EngineBasea27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasea27" kindref="member">setDefaultSoundDevice</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isDefault<sp/>)<sp/>{<sp/><ref refid="classEngineBase_1EngineBasep6" kindref="member">m_defaultSoundDevice</ref><sp/>=<sp/>isDefault;<sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei1" kindref="member">play</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL&amp;<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei1" kindref="member">play</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei2" kindref="member">stop</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei3" kindref="member">pause</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei4" kindref="member">setVolume</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percent<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei5" kindref="member">seek</ref>(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ms<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="129" refid="classEngineBase_1EngineBasei6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei6" kindref="member">configureDecoder</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="130" refid="classEngineBase_1EngineBasei7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasei7" kindref="member">newStreamData</ref>(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/></highlight><highlight class="comment">/*data*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*size*/</highlight><highlight class="normal"><sp/>)<sp/>{};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBaseb0" kindref="member">closeMixerHW</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBaseb1" kindref="member">initMixerHW</ref>();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBaseb2" kindref="member">setVolumeHW</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percent<sp/>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ATTRIBUTES</highlight></codeline>
+<codeline lineno="139" refid="classEngineBase_1EngineBasep0" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep0" kindref="member">m_mixerHW</ref>;</highlight></codeline>
+<codeline lineno="140" refid="classEngineBase_1EngineBasep1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep1" kindref="member">m_volume</ref>;</highlight></codeline>
+<codeline lineno="141" refid="classEngineBase_1EngineBasep2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep2" kindref="member">m_xfadeLength</ref>;</highlight></codeline>
+<codeline lineno="142" refid="classEngineBase_1EngineBasep3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEngineBase_1EngineBasep3" kindref="member">m_restoreEffects</ref>;</highlight></codeline>
+<codeline lineno="143" refid="classEngineBase_1EngineBasep4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classEngineBase_1EngineBasep4" kindref="member">m_soundOutput</ref>;</highlight></codeline>
+<codeline lineno="144" refid="classEngineBase_1EngineBasep5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classEngineBase_1EngineBasep5" kindref="member">m_soundDevice</ref>;</highlight></codeline>
+<codeline lineno="145" refid="classEngineBase_1EngineBasep6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEngineBase_1EngineBasep6" kindref="member">m_defaultSoundDevice</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEngineBase_1EngineBasea0" kindref="member">EngineBase</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classEngineBase" kindref="compound">EngineBase</ref>&amp;<sp/>);<sp/></highlight><highlight class="comment">//disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classEngineBase" kindref="compound">EngineBase</ref><sp/>&amp;<ref refid="classEngineBase_1EngineBaseb4" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classEngineBase" kindref="compound">EngineBase</ref>&amp;<sp/>);<sp/></highlight><highlight class="comment">//disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/enginebase.h"/>
+  </compounddef>
+</doxygen>

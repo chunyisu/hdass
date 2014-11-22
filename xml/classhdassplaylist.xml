@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classhdassplaylist" kind="class" prot="public">
+    <compoundname>hdassplaylist</compoundname>
+    <includes refid="hdassplaylist_8h" local="no">hdassplaylist.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylista0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hdassplaylist::hdassplaylist</definition>
+        <argsstring>(QObject *parent=0, const char *name=0)</argsstring>
+        <name>hdassplaylist</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="36" bodystart="24" bodyend="28"/>
+        <references refid="classhdassplaylist_1hdassplaylista2" compoundref="hdassplaylist_8cpp" startline="36" endline="40">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylista1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hdassplaylist::~hdassplaylist</definition>
+        <argsstring>()</argsstring>
+        <name>~hdassplaylist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="38" bodystart="31" bodyend="34"/>
+        <references refid="classhdassplaylist_1hdassplaylistd3" compoundref="hdassplaylist_8cpp" startline="125" endline="150">SaveList</references>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylista2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="41" bodystart="36" bodyend="40"/>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo3" compoundref="hdassglobalsetting_8h" startline="43">HDASSGlobalSetting::ListFileName</references>
+        <references refid="classhdassplaylist_1hdassplaylista3" compoundref="hdassplaylist_8cpp" startline="42" endline="71">ReadListFile</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylista0" compoundref="hdassplaylist_8cpp" startline="24" endline="28">hdassplaylist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylista3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::ReadListFile</definition>
+        <argsstring>(QString FileName)</argsstring>
+        <name>ReadListFile</name>
+        <param>
+          <type>QString</type>
+          <declname>FileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="42" bodystart="42" bodyend="71"/>
+        <references refid="classhdassplaylist_1hdassplaylisto0" compoundref="hdassplaylist_8h" startline="39">List</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylista2" compoundref="hdassplaylist_8cpp" startline="36" endline="40">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhdassplaylist_1hdassplaylisto0" prot="public" static="no" volatile="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* hdassplaylist::List</definition>
+        <argsstring></argsstring>
+        <name>List</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="39" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classhdassplaylist_1hdassplaylista3" compoundref="hdassplaylist_8cpp" startline="42" endline="71">ReadListFile</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd3" compoundref="hdassplaylist_8cpp" startline="125" endline="150">SaveList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassplaylist_1hdassplaylisto1" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List hdassplaylist::url_list</definition>
+        <argsstring></argsstring>
+        <name>url_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="40" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd4" compoundref="hdassplaylist_8cpp" startline="152" endline="159">AppendList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd2" compoundref="hdassplaylist_8cpp" startline="117" endline="124">PasteList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylista3" compoundref="hdassplaylist_8cpp" startline="42" endline="71">ReadListFile</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd0" compoundref="hdassplaylist_8cpp" startline="104" endline="111">RemoveList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd3" compoundref="hdassplaylist_8cpp" startline="125" endline="150">SaveList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti0" compoundref="hdassplaylist_8cpp" startline="72" endline="79">slotPLRequest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassplaylist_1hdassplaylisto2" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List hdassplaylist::url_list_cut_buffer</definition>
+        <argsstring></argsstring>
+        <name>url_list_cut_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="40" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd1" compoundref="hdassplaylist_8cpp" startline="112" endline="116">CutList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd2" compoundref="hdassplaylist_8cpp" startline="117" endline="124">PasteList</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classhdassplaylist_1hdassplaylisti0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::slotPLRequest</definition>
+        <argsstring>()</argsstring>
+        <name>slotPLRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="44" bodystart="72" bodyend="79"/>
+        <references refid="classhdassplaylist_1hdassplaylistl0" compoundref="hdassplaylist_8moc" startline="96" endline="106">signalPLSend</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassplaylist_1hdassplaylisti1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::slotReciveList</definition>
+        <argsstring>(KURL::List list, HDASS_ACTION_TYPE act)</argsstring>
+        <name>slotReciveList</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref></type>
+          <declname>act</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="45" bodystart="80" bodyend="103"/>
+        <references refid="classhdassplaylist_1hdassplaylistd4" compoundref="hdassplaylist_8cpp" startline="152" endline="159">AppendList</references>
+        <references refid="classhdassplaylist_1hdassplaylistd1" compoundref="hdassplaylist_8cpp" startline="112" endline="116">CutList</references>
+        <references refid="enum_8h_1a24a18">em_cut</references>
+        <references refid="enum_8h_1a24a19">em_paste</references>
+        <references refid="enum_8h_1a24a17">em_remove</references>
+        <references refid="classhdassplaylist_1hdassplaylistd2" compoundref="hdassplaylist_8cpp" startline="117" endline="124">PasteList</references>
+        <references refid="classhdassplaylist_1hdassplaylistd0" compoundref="hdassplaylist_8cpp" startline="104" endline="111">RemoveList</references>
+        <references refid="classhdassplaylist_1hdassplaylistd3" compoundref="hdassplaylist_8cpp" startline="125" endline="150">SaveList</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classhdassplaylist_1hdassplaylistl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::signalPLSend</definition>
+        <argsstring>(KURL::List)</argsstring>
+        <name>signalPLSend</name>
+        <param>
+          <type>KURL::List</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="47" bodystart="96" bodyend="106"/>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd4" compoundref="hdassplaylist_8cpp" startline="152" endline="159">AppendList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd2" compoundref="hdassplaylist_8cpp" startline="117" endline="124">PasteList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd0" compoundref="hdassplaylist_8cpp" startline="104" endline="111">RemoveList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti0" compoundref="hdassplaylist_8cpp" startline="72" endline="79">slotPLRequest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylistd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::RemoveList</definition>
+        <argsstring>(KURL::List)</argsstring>
+        <name>RemoveList</name>
+        <param>
+          <type>KURL::List</type>
+          <defname>removelist</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="49" bodystart="104" bodyend="111"/>
+        <references refid="classhdassplaylist_1hdassplaylistl0" compoundref="hdassplaylist_8moc" startline="96" endline="106">signalPLSend</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd1" compoundref="hdassplaylist_8cpp" startline="112" endline="116">CutList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti1" compoundref="hdassplaylist_8cpp" startline="80" endline="103">slotReciveList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylistd1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::CutList</definition>
+        <argsstring>(KURL::List)</argsstring>
+        <name>CutList</name>
+        <param>
+          <type>KURL::List</type>
+          <defname>cutlist</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="50" bodystart="112" bodyend="116"/>
+        <references refid="classhdassplaylist_1hdassplaylistd0" compoundref="hdassplaylist_8cpp" startline="104" endline="111">RemoveList</references>
+        <references refid="classhdassplaylist_1hdassplaylisto2" compoundref="hdassplaylist_8h" startline="40">url_list_cut_buffer</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti1" compoundref="hdassplaylist_8cpp" startline="80" endline="103">slotReciveList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylistd2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::PasteList</definition>
+        <argsstring>()</argsstring>
+        <name>PasteList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="51" bodystart="117" bodyend="124"/>
+        <references refid="classhdassplaylist_1hdassplaylistl0" compoundref="hdassplaylist_8moc" startline="96" endline="106">signalPLSend</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+        <references refid="classhdassplaylist_1hdassplaylisto2" compoundref="hdassplaylist_8h" startline="40">url_list_cut_buffer</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti1" compoundref="hdassplaylist_8cpp" startline="80" endline="103">slotReciveList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylistd3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::SaveList</definition>
+        <argsstring>()</argsstring>
+        <name>SaveList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="52" bodystart="125" bodyend="150"/>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classhdassplaylist_1hdassplaylisto0" compoundref="hdassplaylist_8h" startline="39">List</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo3" compoundref="hdassglobalsetting_8h" startline="43">HDASSGlobalSetting::ListFileName</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti1" compoundref="hdassplaylist_8cpp" startline="80" endline="103">slotReciveList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylista1" compoundref="hdassplaylist_8cpp" startline="31" endline="34">~hdassplaylist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassplaylist_1hdassplaylistd4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassplaylist::AppendList</definition>
+        <argsstring>(KURL::List)</argsstring>
+        <name>AppendList</name>
+        <param>
+          <type>KURL::List</type>
+          <defname>list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="53" bodystart="152" bodyend="159"/>
+        <references refid="classhdassplaylist_1hdassplaylistl0" compoundref="hdassplaylist_8moc" startline="96" endline="106">signalPLSend</references>
+        <references refid="classhdassplaylist_1hdassplaylisto1" compoundref="hdassplaylist_8h" startline="40">url_list</references>
+        <referencedby refid="classhdassplaylist_1hdassplaylisti1" compoundref="hdassplaylist_8cpp" startline="80" endline="103">slotReciveList</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/hdassplaylist.h" line="32" bodystart="31" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classhdassplaylist_1hdassplaylistd4" prot="private" virt="non-virtual"><scope>hdassplaylist</scope><name>AppendList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylistd1" prot="private" virt="non-virtual"><scope>hdassplaylist</scope><name>CutList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylista0" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>hdassplaylist</name></member>
+      <member refid="classhdassplaylist_1hdassplaylisto0" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>List</name></member>
+      <member refid="classhdassplaylist_1hdassplaylistd2" prot="private" virt="non-virtual"><scope>hdassplaylist</scope><name>PasteList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylista3" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>ReadListFile</name></member>
+      <member refid="classhdassplaylist_1hdassplaylistd0" prot="private" virt="non-virtual"><scope>hdassplaylist</scope><name>RemoveList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylistd3" prot="private" virt="non-virtual"><scope>hdassplaylist</scope><name>SaveList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylistl0" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>signalPLSend</name></member>
+      <member refid="classhdassplaylist_1hdassplaylisti0" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>slotPLRequest</name></member>
+      <member refid="classhdassplaylist_1hdassplaylisti1" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>slotReciveList</name></member>
+      <member refid="classhdassplaylist_1hdassplaylisto1" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>url_list</name></member>
+      <member refid="classhdassplaylist_1hdassplaylisto2" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>url_list_cut_buffer</name></member>
+      <member refid="classhdassplaylist_1hdassplaylista2" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>xSetup</name></member>
+      <member refid="classhdassplaylist_1hdassplaylista1" prot="public" virt="non-virtual"><scope>hdassplaylist</scope><name>~hdassplaylist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

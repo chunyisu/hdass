@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="infoarea_8cpp" kind="file">
+    <compoundname>infoarea.cpp</compoundname>
+    <includes refid="infoarea_8h" local="yes">infoarea.h</includes>
+    <includes refid="sonogram_8h" local="yes">sonogram.h</includes>
+    <includes local="no">qvbox.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">kdebug.h</includes>
+    <includes local="no">qpainter.h</includes>
+    <includes refid="infoarea_8moc" local="yes">infoarea.moc</includes>
+    <incdepgraph>
+      <node id="3820">
+        <label>qsignalslotimp.h</label>
+      </node>
+      <node id="3793">
+        <label>qlistview.h</label>
+      </node>
+      <node id="3808">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="3810">
+        <label>qtimer.h</label>
+      </node>
+      <node id="3818">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="3805">
+        <label>qfile.h</label>
+      </node>
+      <node id="3789">
+        <label>infoarea.h</label>
+        <link refid="infoarea_8h"/>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3793" relation="include">
+        </childnode>
+        <childnode refid="3794" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+      </node>
+      <node id="3819">
+        <label>qobjectdefs.h</label>
+      </node>
+      <node id="3794">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="3803">
+        <label>hdassplaylistitem.h</label>
+        <link refid="src_2hdassplaylistitem_8h"/>
+        <childnode refid="3793" relation="include">
+        </childnode>
+      </node>
+      <node id="3797">
+        <label>qbutton.h</label>
+      </node>
+      <node id="3801">
+        <label>qstring.h</label>
+      </node>
+      <node id="3796">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="3797" relation="include">
+        </childnode>
+      </node>
+      <node id="3806">
+        <label>sonogram.h</label>
+        <link refid="sonogram_8h"/>
+        <childnode refid="3807" relation="include">
+        </childnode>
+      </node>
+      <node id="3800">
+        <label>qobject.h</label>
+      </node>
+      <node id="3792">
+        <label>kurl.h</label>
+      </node>
+      <node id="3804">
+        <label>hdassplaylist.h</label>
+        <link refid="hdassplaylist_8h"/>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+      </node>
+      <node id="3813">
+        <label>kdebug.h</label>
+      </node>
+      <node id="3815">
+        <label>infoarea.moc</label>
+        <link refid="infoarea_8moc"/>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="3819" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+      </node>
+      <node id="3802">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="3817">
+        <label>qapplication.h</label>
+      </node>
+      <node id="3809">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="3788">
+        <label>infoarea.cpp</label>
+        <link refid="infoarea.cpp"/>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3806" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3815" relation="include">
+        </childnode>
+      </node>
+      <node id="3807">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="3808" relation="include">
+        </childnode>
+        <childnode refid="3809" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+      </node>
+      <node id="3811">
+        <label>vector</label>
+      </node>
+      <node id="3798">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="3799" relation="include">
+        </childnode>
+      </node>
+      <node id="3799">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+      </node>
+      <node id="3814">
+        <label>qpainter.h</label>
+      </node>
+      <node id="3795">
+        <label>qlabel.h</label>
+      </node>
+      <node id="3790">
+        <label>qwidget.h</label>
+      </node>
+      <node id="3816">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="3791">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="3812">
+        <label>qvbox.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="infoarea_8h" kindref="compound">infoarea.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sonogram_8h" kindref="compound">sonogram.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kdebug.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classInfoArea_1InfoAreaa0" refkind="member"><highlight class="normal"><ref refid="classInfoArea_1InfoAreaa0" kindref="member">InfoArea::InfoArea</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/>:<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>(parent,<sp/>name)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreaa1" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classInfoArea_1InfoAreaa2" refkind="member"><highlight class="normal"><ref refid="classInfoArea_1InfoAreaa2" kindref="member">InfoArea::~InfoArea</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classInfoArea_1InfoAreaa1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreaa1" kindref="member">InfoArea::xSetup</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Setup<sp/>Background;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/>pixBackground.load(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBackground.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/>setBackgroundPixmap(pixBackground);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao3" kindref="member">m_pAnalyzer</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classSonogram" kindref="compound">Sonogram</ref>(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao3" kindref="member">m_pAnalyzer</ref>-&gt;setGeometry(<sp/>417,144,<sp/>338,60<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao3" kindref="member">m_pAnalyzer</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Load<sp/>BtnGraphic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[0]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-VolumeUp.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[1]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-VolumeUp-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[2]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-VolumeDown.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[3]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-VolumeDown-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[4]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-PlayListDelete.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[5]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/InfoAreaBtn-PlayListDelete-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Set<sp/>Volume<sp/>Buttons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao0" kindref="member">IABtnVolumeUp</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classSkinButton" kindref="compound">SkinButton</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao1" kindref="member">IABtnVolumeDown</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao2" kindref="member">IABtnPlayListDelete</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao0" kindref="member">IABtnVolumeUp</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[0],<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[1]);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao0" kindref="member">IABtnVolumeUp</ref>-&gt;setGeometry(418,38,60,60);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao0" kindref="member">IABtnVolumeUp</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao1" kindref="member">IABtnVolumeDown</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[2],<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[3]);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao1" kindref="member">IABtnVolumeDown</ref>-&gt;setGeometry(684,349,60,60);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao1" kindref="member">IABtnVolumeDown</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao2" kindref="member">IABtnPlayListDelete</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[4],<ref refid="classInfoArea_1InfoArear1" kindref="member">BtnGraphic</ref>[5]);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao2" kindref="member">IABtnPlayListDelete</ref>-&gt;setGeometry(346,477,42,42);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao2" kindref="member">IABtnPlayListDelete</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classInfoArea_1InfoAreao2" kindref="member">IABtnPlayListDelete</ref>,SIGNAL(clicked()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classInfoArea_1InfoAreai2" kindref="member">slotDeleteItems</ref>()));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Init<sp/>PlayList<sp/>Table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAread0" kindref="member">InitPlayList</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77" refid="classInfoArea_1InfoAread0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAread0" kindref="member">InfoArea::InitPlayList</ref>()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QListView(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;addColumn(<sp/></highlight><highlight class="stringliteral">&quot;Items&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;setColumnWidth(0,316);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;setRootIsDecorated(<sp/>TRUE<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;setGeometry(35,60,316,420);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>QFont<sp/>f(<sp/></highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,<sp/>12,<sp/>QFont::Bold<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>connect(<ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>,SIGNAL(doubleClicked<sp/>(<sp/>QListViewItem<sp/>*<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classInfoArea_1InfoAreai3" kindref="member">slotDoubleClicked</ref>(QListViewItem*<sp/>)));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAreai1" kindref="member">ReadList</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><ref refid="classInfoArea_1InfoAread1" kindref="member">InitSongInfo</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="classInfoArea_1InfoAreai0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreai0" kindref="member">InfoArea::slotReadListFromPlayList</ref>(KURL::List<sp/>playlist)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao5" kindref="member">curr_list</ref>=playlist;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Clear<sp/>ValueList</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>KURL::List::ConstIterator<sp/>it<sp/>=<sp/>playlist.begin();it<sp/>!=<sp/>playlist.end();it++)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Add<sp/>to<sp/>value<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>qWarning((*it).fileName());</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref>(<sp/><ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>,(*it).fileName());</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classInfoArea_1InfoAreai1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreai1" kindref="member">InfoArea::ReadList</ref>()</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classInfoArea_1InfoAreal0" kindref="member">signalReadList</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116" refid="classInfoArea_1InfoAreai2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreai2" kindref="member">InfoArea::slotDeleteItems</ref>()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KURL::List<sp/>remove_list;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref><sp/>*CurChild=(<ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref>*)<ref refid="classInfoArea_1InfoAreao4" kindref="member">PlayList</ref>-&gt;firstChild();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(KURL::List::ConstIterator<sp/>remove_it<sp/>=<sp/><ref refid="classInfoArea_1InfoAreao5" kindref="member">curr_list</ref>.begin();remove_it<sp/>!=<sp/><ref refid="classInfoArea_1InfoAreao5" kindref="member">curr_list</ref>.end();remove_it++,i++)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurChild-&gt;isSelected<sp/>())</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remove_list<sp/>&lt;&lt;(*remove_it).url();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurChild=(<ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref>*)CurChild-&gt;nextSibling();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classInfoArea_1InfoAreal1" kindref="member">signalRemoveList</ref>(remove_list,<ref refid="enum_8h_1a24a17" kindref="member">em_remove</ref>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="classInfoArea_1InfoAreai3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreai3" kindref="member">InfoArea::slotDoubleClicked</ref>(QListViewItem<sp/>*<sp/>item<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref><sp/>*clickitem=(<ref refid="classHDASSPlayListItem" kindref="compound">HDASSPlayListItem</ref><sp/>*)item;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/>qWarning(</highlight><highlight class="stringliteral">&quot;DoubleClikced&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classInfoArea_1InfoAreal2" kindref="member">signalPlayItem</ref>(clickitem-&gt;text(0));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classInfoArea_1InfoAreal3" kindref="member">singalPlayItem</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141" refid="classInfoArea_1InfoAread1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAread1" kindref="member">InfoArea::InitSongInfo</ref>()</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;setPaletteBackgroundColor(QColor(255,255,255));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/>Album=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;setPaletteBackgroundColor(QColor(255,255,255));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;hide();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>-&gt;setPaletteBackgroundColor(QColor(255,255,255));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;setPaletteBackgroundColor(QColor(255,255,255));</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;move(420,210);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;move(420,240);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>-&gt;move(420,270);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;move(580,270);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/>QFont<sp/>f(<sp/></highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,<sp/>14,<sp/>QFont::Bold<sp/>);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="173" refid="classInfoArea_1InfoAread2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAread2" kindref="member">InfoArea::ShowSongInfo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_length,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_bitrate,QString<sp/>m_title,QString<sp/>m_artist,QString<sp/>m_album)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177" refid="classInfoArea_1InfoAreai4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classInfoArea_1InfoAreai4" kindref="member">InfoArea::slotHadleSongInfo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_length,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_bitrate,QString<sp/>m_title,QString<sp/>m_artist,QString<sp/>m_album)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/>QString<sp/>strArtist=QString(</highlight><highlight class="stringliteral">&quot;Artist<sp/>:&quot;</highlight><highlight class="normal">)<sp/>+(m_artist.isEmpty()?QString(</highlight><highlight class="stringliteral">&quot;<sp/>No<sp/>Info&quot;</highlight><highlight class="normal">):m_artist);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/>QString<sp/>strTitle=(m_title.isEmpty()?QString(</highlight><highlight class="stringliteral">&quot;<sp/>No<sp/>Info&quot;</highlight><highlight class="normal">):m_title);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/>QString<sp/>strAlbum=QString(</highlight><highlight class="stringliteral">&quot;Album<sp/>:&quot;</highlight><highlight class="normal">)<sp/>+(m_album.isEmpty()?QString(</highlight><highlight class="stringliteral">&quot;<sp/>No<sp/>Info&quot;</highlight><highlight class="normal">):m_album);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/>QFont<sp/>f(<sp/></highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,<sp/>14,<sp/>QFont::Bold<sp/>);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/>QFontMetrics<sp/>fm(f);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;resize(fm.width(strArtist),fm.height());</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear2" kindref="member">Artist</ref>-&gt;setText(strArtist);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;move(580-fm.width(strTitle)/2,<ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;y());</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;resize(fm.width(strTitle),fm.height());</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;setText(strTitle);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;resize(fm.width(strTitle),fm.height());</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/>Album-&gt;setText(strAlbum);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear7" kindref="member">BitRate</ref>-&gt;setText(QString(</highlight><highlight class="stringliteral">&quot;BitRate<sp/>:<sp/>%1<sp/>&quot;</highlight><highlight class="normal">).arg(m_bitrate));</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Artist-&gt;show();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Album-&gt;show();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//BitRate-&gt;show();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><ref refid="classInfoArea_1InfoArear6" kindref="member">Title</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="infoarea_8moc" kindref="compound">infoarea.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/infoarea.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classAmarok_1_1Synth__STEREO__XFADE__stub" kind="class" prot="public">
+    <compoundname>Amarok::Synth_STEREO_XFADE_stub</compoundname>
+    <basecompoundref refid="classAmarok_1_1Synth__STEREO__XFADE__base" prot="public" virt="virtual">Amarok::Synth_STEREO_XFADE_base</basecompoundref>
+    <includes refid="amarokarts_8h" local="no">amarokarts.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE_stub::Synth_STEREO_XFADE_stub</definition>
+        <argsstring>(Arts::Connection *connection, long objectID)</argsstring>
+        <name>Synth_STEREO_XFADE_stub</name>
+        <param>
+          <type>Arts::Connection *</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>objectID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="44" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float Amarok::Synth_STEREO_XFADE_stub::percentage</definition>
+        <argsstring>()</argsstring>
+        <name>percentage</name>
+        <reimplements refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela9">percentage</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="46" bodystart="90" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Amarok::Synth_STEREO_XFADE_stub::percentage</definition>
+        <argsstring>(float newValue)</argsstring>
+        <name>percentage</name>
+        <reimplements refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela10">percentage</reimplements>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="47" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Synth_STEREO_XFADE_base* Amarok::Synth_STEREO_XFADE_base::_copy</definition>
+        <argsstring>()</argsstring>
+        <name>_copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="24" bodystart="24" bodyend="28"/>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" compoundref="amarokarts_8cc" startline="26" endline="34">Amarok::Synth_STEREO_XFADE_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>virtual std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Amarok::Synth_STEREO_XFADE_base::_defaultPortsIn</definition>
+        <argsstring>() const </argsstring>
+        <name>_defaultPortsIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="30" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>virtual std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Amarok::Synth_STEREO_XFADE_base::_defaultPortsOut</definition>
+        <argsstring>() const </argsstring>
+        <name>_defaultPortsOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="31" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * Amarok::Synth_STEREO_XFADE_base::_cast</definition>
+        <argsstring>(unsigned long iid)</argsstring>
+        <name>_cast</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>iid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="33" bodystart="71" bodyend="77"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" compoundref="amarokarts_8cc" startline="180">Amarok::Synth_STEREO_XFADE_base::_IID</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" compoundref="amarokarts_8cc" startline="26" endline="34">Amarok::Synth_STEREO_XFADE_base::_fromDynamicCast</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" compoundref="amarokarts_8h" startline="83" endline="90">Amarok::Synth_STEREO_XFADE::_method_call</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Amarok::Synth_STEREO_XFADE_base * Amarok::Synth_STEREO_XFADE_base::_create</definition>
+        <argsstring>(const std::string &amp;subClass=&quot;Amarok::Synth_STEREO_XFADE&quot;)</argsstring>
+        <name>_create</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>subClass</declname>
+          <defval>&quot;Amarok::Synth_STEREO_XFADE&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="19" bodystart="8" bodyend="15"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" compoundref="amarokarts_8cc" startline="180">Amarok::Synth_STEREO_XFADE_base::_IID</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEh0" compoundref="amarokarts_8cc" startline="176" endline="178">Amarok::Synth_STEREO_XFADE::_Creator</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Amarok::Synth_STEREO_XFADE_base * Amarok::Synth_STEREO_XFADE_base::_fromString</definition>
+        <argsstring>(const std::string &amp;objectref)</argsstring>
+        <name>_fromString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>objectref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="20" bodystart="17" bodyend="24"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" compoundref="amarokarts_8cc" startline="36" endline="60">Amarok::Synth_STEREO_XFADE_base::_fromReference</references>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" compoundref="amarokarts_8cc" startline="26" endline="34">Amarok::Synth_STEREO_XFADE_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Amarok::Synth_STEREO_XFADE_base * Amarok::Synth_STEREO_XFADE_base::_fromReference</definition>
+        <argsstring>(Arts::ObjectReference ref, bool needcopy)</argsstring>
+        <name>_fromReference</name>
+        <param>
+          <type>Arts::ObjectReference</type>
+          <declname>ref</declname>
+          <defname>r</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needcopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="21" bodystart="36" bodyend="60"/>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" compoundref="amarokarts_8cc" startline="17" endline="24">Amarok::Synth_STEREO_XFADE_base::_fromString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1Synth__STEREO__XFADE__base" kindref="compound">Synth_STEREO_XFADE_base</ref> *</type>
+        <definition>Amarok::Synth_STEREO_XFADE_base * Amarok::Synth_STEREO_XFADE_base::_fromDynamicCast</definition>
+        <argsstring>(const Arts::Object &amp;object)</argsstring>
+        <name>_fromDynamicCast</name>
+        <param>
+          <type>const Arts::Object &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="23" bodystart="26" bodyend="34"/>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" compoundref="amarokarts_8cc" startline="71" endline="77">Amarok::Synth_STEREO_XFADE_base::_cast</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" compoundref="amarokarts_8h" startline="24" endline="28">Amarok::Synth_STEREO_XFADE_base::_copy</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" compoundref="amarokarts_8cc" startline="17" endline="24">Amarok::Synth_STEREO_XFADE_base::_fromString</references>
+        <references refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" compoundref="amarokarts_8cc" startline="180">Amarok::Synth_STEREO_XFADE_base::_IID</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" prot="public" static="yes" volatile="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Amarok::Synth_STEREO_XFADE_base::_IID</definition>
+        <argsstring></argsstring>
+        <name>_IID</name>
+        <initializer> Arts::MCOPUtils::makeIID(&quot;Amarok::Synth_STEREO_XFADE&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="17" bodystart="180" bodyend="-1"/>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" compoundref="amarokarts_8cc" startline="71" endline="77">Amarok::Synth_STEREO_XFADE_base::_cast</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" compoundref="amarokarts_8cc" startline="8" endline="15">Amarok::Synth_STEREO_XFADE_base::_create</referencedby>
+        <referencedby refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" compoundref="amarokarts_8cc" startline="26" endline="34">Amarok::Synth_STEREO_XFADE_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stubb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::Synth_STEREO_XFADE_stub::Synth_STEREO_XFADE_stub</definition>
+        <argsstring>()</argsstring>
+        <name>Synth_STEREO_XFADE_stub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="41" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="627">
+        <label>Amarok::Synth_STEREO_XFADE_base</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE__base"/>
+      </node>
+      <node id="626">
+        <label>Amarok::Synth_STEREO_XFADE_stub</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE__stub"/>
+        <childnode refid="627" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="629">
+        <label>Amarok::Synth_STEREO_XFADE_base</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE__base"/>
+      </node>
+      <node id="628">
+        <label>Amarok::Synth_STEREO_XFADE_stub</label>
+        <link refid="classAmarok_1_1Synth__STEREO__XFADE__stub"/>
+        <childnode refid="629" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/amarokarts.h" line="39" bodystart="39" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_cast</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_copy</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_create</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba4" prot="public" virt="virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_defaultPortsIn</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba5" prot="public" virt="virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_defaultPortsOut</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_fromDynamicCast</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_fromReference</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_fromString</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>_IID</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba1" prot="public" virt="virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>percentage</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba2" prot="public" virt="virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>percentage</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stubb0" prot="protected" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>Synth_STEREO_XFADE_stub</name></member>
+      <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba0" prot="public" virt="non-virtual"><scope>Amarok::Synth_STEREO_XFADE_stub</scope><name>Synth_STEREO_XFADE_stub</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

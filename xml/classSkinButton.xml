@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classSkinButton" kind="class" prot="public">
+    <compoundname>SkinButton</compoundname>
+    <includes refid="skinbutton_8h" local="no">skinbutton.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSkinButton_1SkinButtona0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SkinButton::SkinButton</definition>
+        <argsstring>(QPixmap *pixmap, QPixmap *active, QWidget *parent=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>SkinButton</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>pixmap</declname>
+        </param>
+        <param>
+          <type>QPixmap *</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="15" bodystart="13" bodyend="20"/>
+        <references refid="classSkinButton_1SkinButtonj0" compoundref="skinbutton_8cpp" startline="28" endline="32">slotPressed</references>
+        <references refid="classSkinButton_1SkinButtonj1" compoundref="skinbutton_8cpp" startline="34" endline="38">slotReleased</references>
+      </memberdef>
+      <memberdef kind="function" id="classSkinButton_1SkinButtona1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SkinButton::SkinButton</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>SkinButton</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="16" bodystart="6" bodyend="11"/>
+        <references refid="classSkinButton_1SkinButtonj0" compoundref="skinbutton_8cpp" startline="28" endline="32">slotPressed</references>
+        <references refid="classSkinButton_1SkinButtonj1" compoundref="skinbutton_8cpp" startline="34" endline="38">slotReleased</references>
+      </memberdef>
+      <memberdef kind="function" id="classSkinButton_1SkinButtona2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkinButton::setPixmaps</definition>
+        <argsstring>(QPixmap *regular, QPixmap *active)</argsstring>
+        <name>setPixmaps</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>regular</declname>
+        </param>
+        <param>
+          <type>QPixmap *</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="17" bodystart="40" bodyend="45"/>
+        <references refid="classSkinButton_1SkinButtonp1" compoundref="skinbutton_8h" startline="21">pixActive</references>
+        <references refid="classSkinButton_1SkinButtonp0" compoundref="skinbutton_8h" startline="20">pixRegular</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri14" compoundref="src_2subbarplayer_8cpp" startline="99" endline="111">SubBarPlayer::ChangeBtnPlayPauseGraphic</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClockd0" compoundref="src_2subbaralbumclock_8cpp" startline="89" endline="98">SubBarAlbumClock::ChangeButtonGraphic</referencedby>
+        <referencedby refid="classSubBarManagement_1SubBarManagementk0" compoundref="subbarmanagement_8cpp" startline="89" endline="103">SubBarManagement::slotChangeBtnImage</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki1" compoundref="src_2subbaralbumclock_8cpp" startline="100" endline="112">SubBarAlbumClock::slotChangePlayNPauseBtnGraphic</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayera2" compoundref="src_2subbarplayer_8cpp" startline="38" endline="97">SubBarPlayer::xSetup</referencedby>
+        <referencedby refid="classSubBarManagement_1SubBarManagementa2" compoundref="subbarmanagement_8cpp" startline="33" endline="88">SubBarManagement::xSetup</referencedby>
+        <referencedby refid="classSubBarInternet_1SubBarInterneta2" compoundref="subbarinternet_8cpp" startline="32" endline="73">SubBarInternet::xSetup</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocka2" compoundref="src_2subbaralbumclock_8cpp" startline="32" endline="76">SubBarAlbumClock::xSetup</referencedby>
+        <referencedby refid="classInfoArea_1InfoAreaa1" compoundref="infoarea_8cpp" startline="37" endline="76">InfoArea::xSetup</referencedby>
+        <referencedby refid="classFunction__Control__Area_1Function__Control__Areaa1" compoundref="function__control__area_8cpp" startline="33" endline="106">Function_Control_Area::xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSkinButton_1SkinButtono0" prot="public" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SkinButton::Down</definition>
+        <argsstring></argsstring>
+        <name>Down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="18" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classSkinButton_1SkinButtonj0" compoundref="skinbutton_8cpp" startline="28" endline="32">slotPressed</referencedby>
+        <referencedby refid="classSkinButton_1SkinButtonj1" compoundref="skinbutton_8cpp" startline="34" endline="38">slotReleased</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classSkinButton_1SkinButtonb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>void SkinButton::drawButton</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>drawButton</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="22" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classSkinButton_1SkinButtonp0" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SkinButton::pixRegular</definition>
+        <argsstring></argsstring>
+        <name>pixRegular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="20" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">setPixmaps</referencedby>
+        <referencedby refid="classSkinButton_1SkinButtonj1" compoundref="skinbutton_8cpp" startline="34" endline="38">slotReleased</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSkinButton_1SkinButtonp1" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* SkinButton::pixActive</definition>
+        <argsstring></argsstring>
+        <name>pixActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="21" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classSkinButton_1SkinButtona2" compoundref="skinbutton_8cpp" startline="40" endline="45">setPixmaps</referencedby>
+        <referencedby refid="classSkinButton_1SkinButtonj0" compoundref="skinbutton_8cpp" startline="28" endline="32">slotPressed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classSkinButton_1SkinButtonj0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkinButton::slotPressed</definition>
+        <argsstring>()</argsstring>
+        <name>slotPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="24" bodystart="28" bodyend="32"/>
+        <references refid="classSkinButton_1SkinButtono0" compoundref="skinbutton_8h" startline="18">Down</references>
+        <references refid="classSkinButton_1SkinButtonp1" compoundref="skinbutton_8h" startline="21">pixActive</references>
+        <referencedby refid="classSkinButton_1SkinButtona1" compoundref="skinbutton_8cpp" startline="6" endline="11">SkinButton</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classSkinButton_1SkinButtonj1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkinButton::slotReleased</definition>
+        <argsstring>()</argsstring>
+        <name>slotReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/skinbutton.h" line="25" bodystart="34" bodyend="38"/>
+        <references refid="classSkinButton_1SkinButtono0" compoundref="skinbutton_8h" startline="18">Down</references>
+        <references refid="classSkinButton_1SkinButtonp0" compoundref="skinbutton_8h" startline="20">pixRegular</references>
+        <referencedby refid="classSkinButton_1SkinButtona1" compoundref="skinbutton_8cpp" startline="6" endline="11">SkinButton</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/skinbutton.h" line="11" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classSkinButton_1SkinButtono0" prot="public" virt="non-virtual"><scope>SkinButton</scope><name>Down</name></member>
+      <member refid="classSkinButton_1SkinButtonb0" prot="protected" virt="virtual"><scope>SkinButton</scope><name>drawButton</name></member>
+      <member refid="classSkinButton_1SkinButtonp1" prot="protected" virt="non-virtual"><scope>SkinButton</scope><name>pixActive</name></member>
+      <member refid="classSkinButton_1SkinButtonp0" prot="protected" virt="non-virtual"><scope>SkinButton</scope><name>pixRegular</name></member>
+      <member refid="classSkinButton_1SkinButtona2" prot="public" virt="non-virtual"><scope>SkinButton</scope><name>setPixmaps</name></member>
+      <member refid="classSkinButton_1SkinButtona0" prot="public" virt="non-virtual"><scope>SkinButton</scope><name>SkinButton</name></member>
+      <member refid="classSkinButton_1SkinButtona1" prot="public" virt="non-virtual"><scope>SkinButton</scope><name>SkinButton</name></member>
+      <member refid="classSkinButton_1SkinButtonj0" prot="protected" virt="non-virtual"><scope>SkinButton</scope><name>slotPressed</name></member>
+      <member refid="classSkinButton_1SkinButtonj1" prot="protected" virt="non-virtual"><scope>SkinButton</scope><name>slotReleased</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classHDASSGlobalSetting" kind="class" prot="public">
+    <compoundname>HDASSGlobalSetting</compoundname>
+    <includes refid="hdassglobalsetting_8h" local="no">hdassglobalsetting.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHDASSGlobalSetting_1HDASSGlobalSettinga0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSGlobalSetting::HDASSGlobalSetting</definition>
+        <argsstring>(QObject *parent=0, const char *name=0)</argsstring>
+        <name>HDASSGlobalSetting</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="35" bodystart="22" bodyend="26"/>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettinga2" compoundref="hdassglobalsetting_8cpp" startline="33" endline="36">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSGlobalSetting_1HDASSGlobalSettinga1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSGlobalSetting::~HDASSGlobalSetting</definition>
+        <argsstring>()</argsstring>
+        <name>~HDASSGlobalSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="37" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSGlobalSetting_1HDASSGlobalSettinga2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASSGlobalSetting::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="38" bodystart="33" bodyend="36"/>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" compoundref="hdassglobalsetting_8cpp" startline="38" endline="46">ReadingInitState</references>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga0" compoundref="hdassglobalsetting_8cpp" startline="22" endline="26">HDASSGlobalSetting</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSGlobalSetting_1HDASSGlobalSettinga3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASSGlobalSetting::ReadingInitState</definition>
+        <argsstring>()</argsstring>
+        <name>ReadingInitState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="39" bodystart="38" bodyend="46"/>
+        <references refid="enum_8h_1a22a7">em_album</references>
+        <references refid="enum_8h_1a23a9">em_display_internet</references>
+        <references refid="enum_8h_1a21a0">em_internet</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" compoundref="hdassglobalsetting_8h" startline="41">intHDASS_ALBUMCLOCK_STATE</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo0" compoundref="hdassglobalsetting_8h" startline="40">intHDASS_FUNCTION_STATE</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" compoundref="hdassglobalsetting_8h" startline="42">intHDSS_DISPLAY_STATE</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo3" compoundref="hdassglobalsetting_8h" startline="43">ListFileName</references>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga2" compoundref="hdassglobalsetting_8cpp" startline="33" endline="36">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classHDASSGlobalSetting_1HDASSGlobalSettingo0" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int HDASSGlobalSetting::intHDASS_FUNCTION_STATE</definition>
+        <argsstring></argsstring>
+        <name>intHDASS_FUNCTION_STATE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="40" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" compoundref="hdassglobalsetting_8cpp" startline="38" endline="46">ReadingInitState</referencedby>
+        <referencedby refid="classFunction__Control__Area_1Function__Control__Areai2" compoundref="function__control__area_8cpp" startline="192" endline="199">Function_Control_Area::slotImageDetial</referencedby>
+        <referencedby refid="classFunction__Control__Area_1Function__Control__Areai0" compoundref="function__control__area_8cpp" startline="108" endline="116">Function_Control_Area::slotProcessChangeFunc</referencedby>
+        <referencedby refid="classFunction__Control__Area_1Function__Control__Areai3" compoundref="function__control__area_8cpp" startline="201" endline="206">Function_Control_Area::slotShowImageDetial</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">FunctionBar::xSetup</referencedby>
+        <referencedby refid="classFunction__Control__Area_1Function__Control__Areaa1" compoundref="function__control__area_8cpp" startline="33" endline="106">Function_Control_Area::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASSGlobalSetting_1HDASSGlobalSettingo1" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int HDASSGlobalSetting::intHDASS_ALBUMCLOCK_STATE</definition>
+        <argsstring></argsstring>
+        <name>intHDASS_ALBUMCLOCK_STATE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="41" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" compoundref="hdassglobalsetting_8cpp" startline="38" endline="46">ReadingInitState</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">FunctionBar::slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki0" compoundref="src_2subbaralbumclock_8cpp" startline="78" endline="87">SubBarAlbumClock::slotChangeMode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASSGlobalSetting_1HDASSGlobalSettingo2" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int HDASSGlobalSetting::intHDSS_DISPLAY_STATE</definition>
+        <argsstring></argsstring>
+        <name>intHDSS_DISPLAY_STATE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="42" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClockd0" compoundref="src_2subbaralbumclock_8cpp" startline="89" endline="98">SubBarAlbumClock::ChangeButtonGraphic</referencedby>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" compoundref="hdassglobalsetting_8cpp" startline="38" endline="46">ReadingInitState</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">FunctionBar::slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classSubBarAlbumClock_1SubBarAlbumClocki0" compoundref="src_2subbaralbumclock_8cpp" startline="78" endline="87">SubBarAlbumClock::slotChangeMode</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">DisplayArea::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classHDASSGlobalSetting_1HDASSGlobalSettingo3" prot="public" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString HDASSGlobalSetting::ListFileName</definition>
+        <argsstring></argsstring>
+        <name>ListFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" compoundref="hdassglobalsetting_8cpp" startline="38" endline="46">ReadingInitState</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylistd3" compoundref="hdassplaylist_8cpp" startline="125" endline="150">hdassplaylist::SaveList</referencedby>
+        <referencedby refid="classhdassplaylist_1hdassplaylista2" compoundref="hdassplaylist_8cpp" startline="36" endline="40">hdassplaylist::xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/hdassglobalsetting.h" line="32" bodystart="31" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga0" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>HDASSGlobalSetting</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>intHDASS_ALBUMCLOCK_STATE</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo0" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>intHDASS_FUNCTION_STATE</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>intHDSS_DISPLAY_STATE</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo3" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>ListFileName</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>ReadingInitState</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga2" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>xSetup</name></member>
+      <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga1" prot="public" virt="non-virtual"><scope>HDASSGlobalSetting</scope><name>~HDASSGlobalSetting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

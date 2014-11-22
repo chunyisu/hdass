@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="structPluginManager_1_1StoreItem" kind="struct" prot="private">
+    <compoundname>PluginManager::StoreItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classPlugin" kindref="compound">Plugin</ref> *</type>
+        <definition>Plugin* PluginManager::StoreItem::plugin</definition>
+        <argsstring></argsstring>
+        <name>plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/pluginmanager.h" line="96" bodystart="96" bodyend="-1"/>
+        <referencedby refid="classPluginManager_1PluginManagere2" compoundref="pluginmanager_8cpp" startline="65" endline="97">PluginManager::createFromService</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo1" prot="public" static="no" volatile="no" mutable="no">
+        <type>KLibrary *</type>
+        <definition>KLibrary* PluginManager::StoreItem::library</definition>
+        <argsstring></argsstring>
+        <name>library</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/pluginmanager.h" line="97" bodystart="97" bodyend="-1"/>
+        <referencedby refid="classPluginManager_1PluginManagere2" compoundref="pluginmanager_8cpp" startline="65" endline="97">PluginManager::createFromService</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo2" prot="public" static="no" volatile="no" mutable="no">
+        <type>KService::Ptr</type>
+        <definition>KService::Ptr PluginManager::StoreItem::service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/pluginmanager.h" line="98" bodystart="98" bodyend="-1"/>
+        <referencedby refid="classPluginManager_1PluginManagere2" compoundref="pluginmanager_8cpp" startline="65" endline="97">PluginManager::createFromService</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="520">
+        <label>PluginManager::StoreItem</label>
+        <link refid="structPluginManager_1_1StoreItem"/>
+        <childnode refid="521" relation="usage">
+          <edgelabel>plugin</edgelabel>
+        </childnode>
+      </node>
+      <node id="521">
+        <label>Plugin</label>
+        <link refid="classPlugin"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/pluginmanager.h" line="95" bodystart="95" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo1" prot="public" virt="non-virtual"><scope>PluginManager::StoreItem</scope><name>library</name></member>
+      <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo0" prot="public" virt="non-virtual"><scope>PluginManager::StoreItem</scope><name>plugin</name></member>
+      <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo2" prot="public" virt="non-virtual"><scope>PluginManager::StoreItem</scope><name>service</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

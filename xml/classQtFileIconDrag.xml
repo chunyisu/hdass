@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classQtFileIconDrag" kind="class" prot="public">
+    <compoundname>QtFileIconDrag</compoundname>
+    <includes refid="qfileiconview_8h" local="no">qfileiconview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQtFileIconDrag_1QtFileIconDraga0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QtFileIconDrag::QtFileIconDrag</definition>
+        <argsstring>(QWidget *dragSource, const char *name=0)</argsstring>
+        <name>QtFileIconDrag</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>dragSource</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="39" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconDrag_1QtFileIconDraga1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * QtFileIconDrag::format</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>format</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="41" bodystart="49" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconDrag_1QtFileIconDraga2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray QtFileIconDrag::encodedData</definition>
+        <argsstring>(const char *mime) const </argsstring>
+        <name>encodedData</name>
+        <param>
+          <type>const char *</type>
+          <declname>mime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="42" bodystart="59" bodyend="70"/>
+        <references refid="classQtFileIconDrag_1QtFileIconDragr0" compoundref="qfileiconview_8h" startline="47">urls</references>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconDrag_1QtFileIconDraga3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconDrag::append</definition>
+        <argsstring>(const QIconDragItem &amp;item, const QRect &amp;pr, const QRect &amp;tr, const QString &amp;url)</argsstring>
+        <name>append</name>
+        <param>
+          <type>const QIconDragItem &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const QRect &amp;</type>
+          <declname>pr</declname>
+        </param>
+        <param>
+          <type>const QRect &amp;</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="44" bodystart="78" bodyend="90"/>
+        <references refid="classQtFileIconDrag_1QtFileIconDragr0" compoundref="qfileiconview_8h" startline="47">urls</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb1" compoundref="qfileiconview_8cpp" startline="479" endline="505">QtFileIconView::dragObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classQtFileIconDrag_1QtFileIconDrage0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool QtFileIconDrag::canDecode</definition>
+        <argsstring>(QMimeSource *e)</argsstring>
+        <name>canDecode</name>
+        <param>
+          <type>QMimeSource *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="43" bodystart="72" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classQtFileIconDrag_1QtFileIconDragr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList QtFileIconDrag::urls</definition>
+        <argsstring></argsstring>
+        <name>urls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="47" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classQtFileIconDrag_1QtFileIconDraga3" compoundref="qfileiconview_8cpp" startline="78" endline="90">append</referencedby>
+        <referencedby refid="classQtFileIconDrag_1QtFileIconDraga2" compoundref="qfileiconview_8cpp" startline="59" endline="70">encodedData</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="35" bodystart="34" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classQtFileIconDrag_1QtFileIconDraga3" prot="public" virt="non-virtual"><scope>QtFileIconDrag</scope><name>append</name></member>
+      <member refid="classQtFileIconDrag_1QtFileIconDrage0" prot="public" virt="non-virtual"><scope>QtFileIconDrag</scope><name>canDecode</name></member>
+      <member refid="classQtFileIconDrag_1QtFileIconDraga2" prot="public" virt="non-virtual"><scope>QtFileIconDrag</scope><name>encodedData</name></member>
+      <member refid="classQtFileIconDrag_1QtFileIconDraga1" prot="public" virt="non-virtual"><scope>QtFileIconDrag</scope><name>format</name></member>
+      <member refid="classQtFileIconDrag_1QtFileIconDraga0" prot="public" virt="non-virtual"><scope>QtFileIconDrag</scope><name>QtFileIconDrag</name></member>
+      <member refid="classQtFileIconDrag_1QtFileIconDragr0" prot="private" virt="non-virtual"><scope>QtFileIconDrag</scope><name>urls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

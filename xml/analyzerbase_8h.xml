@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="analyzerbase_8h" kind="file">
+    <compoundname>analyzerbase.h</compoundname>
+    <includes refid="config_8h" local="no">config.h</includes>
+    <includes refid="fht_8h" local="yes">fht.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="analyzerbase_8moc" local="yes">analyzerbase.moc</includedby>
+    <includedby refid="Myplayer_8h" local="yes">Myplayer.h</includedby>
+    <includedby refid="src_2subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <includedby refid="analyzerbase_8cpp" local="yes">analyzerbase.cpp</includedby>
+    <includedby refid="sonogram_8h" local="yes">sonogram.h</includedby>
+    <includedby refid="subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <incdepgraph>
+      <node id="2503">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="2506">
+        <label>qtimer.h</label>
+      </node>
+      <node id="2504">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="2502">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase.h"/>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+      </node>
+      <node id="2508">
+        <label>vector</label>
+      </node>
+      <node id="2507">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2505">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2514">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2517" relation="include">
+        </childnode>
+        <childnode refid="2516" relation="include">
+        </childnode>
+      </node>
+      <node id="2512">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2525" relation="include">
+        </childnode>
+        <childnode refid="2526" relation="include">
+        </childnode>
+        <childnode refid="2527" relation="include">
+        </childnode>
+      </node>
+      <node id="2526">
+        <label>Myplayer.cpp</label>
+        <link refid="Myplayer_8cpp"/>
+      </node>
+      <node id="2528">
+        <label>sonogram.h</label>
+        <link refid="sonogram_8h"/>
+        <childnode refid="2529" relation="include">
+        </childnode>
+        <childnode refid="2530" relation="include">
+        </childnode>
+      </node>
+      <node id="2527">
+        <label>subbarplayer.h</label>
+        <link refid="subbarplayer_8h"/>
+        <childnode refid="2524" relation="include">
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="2520">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="2510">
+        <label>analyzerbase.moc</label>
+        <link refid="analyzerbase_8moc"/>
+        <childnode refid="2511" relation="include">
+        </childnode>
+      </node>
+      <node id="2530">
+        <label>sonogram.cpp</label>
+        <link refid="sonogram_8cpp"/>
+      </node>
+      <node id="2516">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="2521">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="2529">
+        <label>infoarea.cpp</label>
+        <link refid="infoarea_8cpp"/>
+      </node>
+      <node id="2509">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase.h"/>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2512" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2511" relation="include">
+        </childnode>
+        <childnode refid="2528" relation="include">
+        </childnode>
+        <childnode refid="2527" relation="include">
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="2516" relation="include">
+        </childnode>
+      </node>
+      <node id="2524">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="2513">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="2514" relation="include">
+        </childnode>
+        <childnode refid="2522" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+      </node>
+      <node id="2522">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2524" relation="include">
+        </childnode>
+      </node>
+      <node id="2517">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="2518" relation="include">
+        </childnode>
+        <childnode refid="2519" relation="include">
+        </childnode>
+        <childnode refid="2520" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+      </node>
+      <node id="2511">
+        <label>analyzerbase.cpp</label>
+        <link refid="analyzerbase_8cpp"/>
+      </node>
+      <node id="2525">
+        <label>Myplayer.moc</label>
+        <link refid="Myplayer_8moc"/>
+        <childnode refid="2526" relation="include">
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="2519" relation="include">
+        </childnode>
+      </node>
+      <node id="2523">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceAnalyzer">Analyzer</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="analyzerbase_8h_1a0" prot="public" static="no">
+        <name>QGLWidget</name>
+        <initializer><ref refid="classQWidget" kindref="compound">QWidget</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="24" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Maintainer:<sp/>Max<sp/>Howell<sp/>&lt;max.howell@methylblue.com&gt;,<sp/>(C)<sp/>2004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright:<sp/><sp/>See<sp/>COPYING<sp/>file<sp/>that<sp/>comes<sp/>with<sp/>this<sp/>distribution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ANALYZERBASE_H</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ANALYZERBASE_H</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__FreeBSD__</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;sys/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="config_8h" kindref="compound">config.h</ref>&gt;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//HAVE_QGLWIDGET</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fht_8h" kindref="compound">fht.h</ref>&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//stack<sp/>allocated<sp/>and<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//stack<sp/>allocated<sp/>and<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//stack<sp/>allocated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//baseclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//included<sp/>for<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_QGLWIDGET</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;qgl.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//baseclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GL/gl.h&gt;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//included<sp/>for<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;GL/glu.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//included<sp/>for<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="comment">//this<sp/>is<sp/>a<sp/>workaround<sp/>for<sp/>compile<sp/>problems<sp/>due<sp/>to<sp/>moc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="analyzerbase_8h_1a0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QGLWidget<sp/>QWidget</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QEvent;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QPaintEvent;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QResizeEvent;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="namespaceAnalyzer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Analyzer<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespaceAnalyzer_1a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>what<sp/>would<sp/>be<sp/>grand<sp/>would<sp/>be<sp/>to<sp/>get<sp/>the<sp/>raw<sp/>scope<sp/>by<sp/>reference<sp/>so<sp/>we<sp/>could<sp/>hang<sp/>on<sp/>to<sp/>it<sp/>for<sp/>the<sp/>purpose<sp/>of<sp/>paused()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//NOTE<sp/>there<sp/>is<sp/>no<sp/>virtual<sp/>dtor<sp/>for<sp/>this<sp/>template<sp/>because<sp/>the<sp/>base<sp/>class<sp/>has<sp/>to<sp/>be<sp/>a<sp/>widget<sp/>(it<sp/>won&apos;t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>compile<sp/>otherwise)<sp/>and<sp/>all<sp/>Qt<sp/>objects<sp/>have<sp/>virtual<sp/>dtors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classAnalyzer_1_1Base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>W&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAnalyzer_1_1Base" kindref="compound">Base</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>W</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kindref="member">timeout</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_timeout;<sp/>}</highlight></codeline>
+<codeline lineno="43" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" kindref="member">height</ref>()<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_height;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb0" kindref="member">Base</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>*,<sp/>uint,<sp/>uint<sp/>=<sp/>7<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kindref="member">drawFrame</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kindref="member">transform</ref>(<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kindref="member">analyze</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>&amp;<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kindref="member">paused</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kindref="member">demo</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" kindref="member">changeTimeout</ref>(<sp/>uint<sp/>newTimeout<sp/>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_timer.changeInterval(<sp/>newTimeout<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_timeout<sp/>=<sp/>newTimeout;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Based0" kindref="member">event</ref>(<sp/>QEvent*<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>m_timer;</highlight></codeline>
+<codeline lineno="65" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><sp/><sp/>m_timeout;</highlight></codeline>
+<codeline lineno="66" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/><sp/><sp/>m_height;</highlight></codeline>
+<codeline lineno="67" refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFHT" kindref="compound">FHT</ref><sp/><sp/><sp/><sp/>m_fht;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classAnalyzer_1_1Base2D" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAnalyzer_1_1Base2D" kindref="compound">Base2D</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base" kindref="compound">Base</ref>&lt;QWidget&gt;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75" refid="classAnalyzer_1_1Base2D_1Sonograma6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="classAnalyzer_1_1Base2D_1Sonograma6" kindref="member">background</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="76" refid="classAnalyzer_1_1Base2D_1Sonograma7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="classAnalyzer_1_1Base2D_1Sonograma7" kindref="member">canvas</ref>()<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kindref="member">m_canvas</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="79" refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" kindref="member">draw</ref>()<sp/>{<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kindref="member">drawFrame</ref>();<sp/>bitBlt(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>0,<sp/>0,<sp/><ref refid="classAnalyzer_1_1Base2D_1Sonograma7" kindref="member">canvas</ref>()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" kindref="member">Base2D</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>*,<sp/>uint<sp/>timeout,<sp/>uint<sp/>scopeSize<sp/>=<sp/>7<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" kindref="member">init</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classAnalyzer_1_1Base2D_1Sonogramb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/><sp/>*<ref refid="classAnalyzer_1_1Base2D_1Sonograma7" kindref="member">canvas</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kindref="member">m_canvas</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="87" refid="classAnalyzer_1_1Base2D_1Sonogramb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb1" kindref="member">eraseCanvas</ref>()<sp/>{<sp/>bitBlt(<sp/><ref refid="classAnalyzer_1_1Base2D_1Sonograma7" kindref="member">canvas</ref>(),<sp/>0,<sp/>0,<sp/><ref refid="classAnalyzer_1_1Base2D_1Sonograma6" kindref="member">background</ref>()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classAnalyzer_1_1Base2D_1Sonogramb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb2" kindref="member">paintEvent</ref>(<sp/>QPaintEvent*<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!<ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kindref="member">m_canvas</ref>.isNull()<sp/>)<sp/>bitBlt(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>0,<sp/>0,<sp/><ref refid="classAnalyzer_1_1Base2D_1Sonograma7" kindref="member">canvas</ref>()<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb3" kindref="member">resizeEvent</ref>(<sp/>QResizeEvent*<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb4" kindref="member">paletteChange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>QPalette&amp;<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base2D_1Sonogramb5" kindref="member">polish</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96" refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kindref="member">m_background</ref>;</highlight></codeline>
+<codeline lineno="97" refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/><ref refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kindref="member">m_canvas</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//This<sp/>mess<sp/>is<sp/>because<sp/>moc<sp/>generates<sp/>an<sp/>entry<sp/>for<sp/>this<sp/>class<sp/>despite<sp/>the<sp/>#if<sp/>block</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//1.<sp/>the<sp/>Q_OBJECT<sp/>macro<sp/>must<sp/>be<sp/>exposed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//2.<sp/>we<sp/>have<sp/>to<sp/>define<sp/>the<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//3.<sp/>we<sp/>have<sp/>to<sp/>declare<sp/>a<sp/>ctor<sp/>(to<sp/>satisfy<sp/>the<sp/>inheritance)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//4.<sp/>the<sp/>slot<sp/>must<sp/>also<sp/>by<sp/>visible<sp/>(!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>find<sp/>out<sp/>how<sp/>to<sp/>stop<sp/>moc<sp/>generating<sp/>a<sp/>metaobject<sp/>for<sp/>this<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classAnalyzer_1_1Base3D" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAnalyzer_1_1Base3D" kindref="compound">Base3D</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base" kindref="compound">Base</ref>&lt;QGLWidget&gt;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_QGLWIDGET</highlight></codeline>
+<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Db0" kindref="member">Base3D</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>*,<sp/>uint,<sp/>uint<sp/>=<sp/>7<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Dk0" kindref="member">draw</ref>()<sp/>{<sp/><ref refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kindref="member">drawFrame</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="118" refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Db0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Db0" kindref="member">Base3D</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*w,<sp/>uint<sp/>i1,<sp/>uint<sp/>i2<sp/>)<sp/>:<sp/><ref refid="classAnalyzer_1_1Base" kindref="compound">Base</ref>&lt;<ref refid="classQGLWidget" kindref="compound">QGLWidget</ref>&gt;(<sp/>w,<sp/>i1,<sp/>i2<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="120" refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Dk0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Dk0" kindref="member">draw</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"></highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="classAnalyzer_1_1Factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAnalyzer_1_1Factory" kindref="compound">Factory</ref></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Currently<sp/>this<sp/>is<sp/>a<sp/>rather<sp/>small<sp/>class,<sp/>its<sp/>only<sp/>purpose</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//to<sp/>ensure<sp/>that<sp/>making<sp/>changes<sp/>to<sp/>analyzers<sp/>will<sp/>not<sp/>require</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//rebuilding<sp/>the<sp/>world!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//eventually<sp/>it<sp/>would<sp/>be<sp/>better<sp/>to<sp/>make<sp/>analyzers<sp/>pluggable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//but<sp/>I<sp/>can&apos;t<sp/>be<sp/>arsed,<sp/>nor<sp/>can<sp/>I<sp/>see<sp/>much<sp/>reason<sp/>to<sp/>do<sp/>so</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//yet!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>*<sp/><ref refid="classAnalyzer_1_1Factory_1Analyzer_1_1Factorye0" kindref="member">createAnalyzer</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>*<sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a1" kindref="member">interpolate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>&amp;,<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a2" kindref="member">initSin</ref>(<sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint<sp/>=<sp/>6000<sp/>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}<sp/></highlight><highlight class="comment">//END<sp/>namespace<sp/>Analyzer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceAnalyzer_1a0" kindref="member">Analyzer::Scope</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.h"/>
+  </compounddef>
+</doxygen>

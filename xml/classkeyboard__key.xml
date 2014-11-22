@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classkeyboard__key" kind="class" prot="public">
+    <compoundname>keyboard_key</compoundname>
+    <includes refid="keyboard__key_8h" local="no">keyboard_key.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classkeyboard__key_1keyboard__keyw4" prot="public" static="no">
+        <name>KEY_TYPE</name>
+        <enumvalue id="classkeyboard__key_1keyboard__keyw4keyboard__keyw0" prot="public">
+          <name>KEY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classkeyboard__key_1keyboard__keyw4keyboard__keyw1" prot="public">
+          <name>CHANGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classkeyboard__key_1keyboard__keyw4keyboard__keyw2" prot="public">
+          <name>ENTER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classkeyboard__key_1keyboard__keyw4keyboard__keyw3" prot="public">
+          <name>BACKSPACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="35" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classkeyboard__key_1keyboard__keya0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keyboard_key::keyboard_key</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, QString strUpper=0, QString strLower=0, KEY_TYPE _type=KEY)</argsstring>
+        <name>keyboard_key</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>strUpper</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>strLower</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classkeyboard__key_1keyboard__keyw4" kindref="member">KEY_TYPE</ref></type>
+          <declname>_type</declname>
+          <defval>KEY</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="41" bodystart="23" bodyend="29"/>
+        <references refid="classkeyboard__key_1keyboard__keyr7" compoundref="keyboard__key_8h" startline="66">key_type</references>
+        <references refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classkeyboard__key_1keyboard__keya1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keyboard_key::~keyboard_key</definition>
+        <argsstring>()</argsstring>
+        <name>~keyboard_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="43" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classkeyboard__key_1keyboard__keya2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::xSetup</definition>
+        <argsstring>(QString u, QString l)</argsstring>
+        <name>xSetup</name>
+        <param>
+          <type>QString</type>
+          <declname>u</declname>
+          <defname>up</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>l</declname>
+          <defname>lo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="44" bodystart="35" bodyend="75"/>
+        <references refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw3">BACKSPACE</references>
+        <references refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw1">CHANGE</references>
+        <references refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw2">ENTER</references>
+        <references refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw0">KEY</references>
+        <references refid="classkeyboard__key_1keyboard__keyr7" compoundref="keyboard__key_8h" startline="66">key_type</references>
+        <references refid="classkeyboard__key_1keyboard__keyr5" compoundref="keyboard__key_8h" startline="65">pixAcitve</references>
+        <references refid="classkeyboard__key_1keyboard__keyr6" compoundref="keyboard__key_8h" startline="65">pixInactive</references>
+        <references refid="classkeyboard__key_1keyboard__keyi6" compoundref="keyboard__key_8cpp" startline="124" endline="127">slotBackSpace</references>
+        <references refid="classkeyboard__key_1keyboard__keyi5" compoundref="keyboard__key_8cpp" startline="119" endline="122">slotChange</references>
+        <references refid="classkeyboard__key_1keyboard__keyi1" compoundref="keyboard__key_8cpp" startline="86" endline="89">slotClicked</references>
+        <references refid="classkeyboard__key_1keyboard__keyi4" compoundref="keyboard__key_8cpp" startline="114" endline="117">slotEnter</references>
+        <references refid="classkeyboard__key_1keyboard__keyi2" compoundref="keyboard__key_8cpp" startline="96" endline="100">slotPressed</references>
+        <references refid="classkeyboard__key_1keyboard__keyi3" compoundref="keyboard__key_8cpp" startline="101" endline="105">slotReleased</references>
+        <references refid="classkeyboard__key_1keyboard__keyi0" compoundref="keyboard__key_8cpp" startline="77" endline="84">slotSetCase</references>
+        <references refid="classkeyboard__key_1keyboard__keyr2" compoundref="keyboard__key_8h" startline="63">strCharLower</references>
+        <references refid="classkeyboard__key_1keyboard__keyr1" compoundref="keyboard__key_8h" startline="63">strCharUp</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya0" compoundref="keyboard__key_8cpp" startline="23" endline="29">keyboard_key</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotSetCase</definition>
+        <argsstring>(bool upper)</argsstring>
+        <name>slotSetCase</name>
+        <param>
+          <type>bool</type>
+          <declname>upper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="46" bodystart="77" bodyend="84"/>
+        <references refid="classkeyboard__key_1keyboard__keyr2" compoundref="keyboard__key_8h" startline="63">strCharLower</references>
+        <references refid="classkeyboard__key_1keyboard__keyr1" compoundref="keyboard__key_8h" startline="63">strCharUp</references>
+        <references refid="classkeyboard__key_1keyboard__keyr0" compoundref="keyboard__key_8h" startline="63">strCurChar</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotClicked</definition>
+        <argsstring>()</argsstring>
+        <name>slotClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="47" bodystart="86" bodyend="89"/>
+        <references refid="classkeyboard__key_1keyboard__keyl0" compoundref="keyboard__key_8moc" startline="114" endline="117">signalSendChar</references>
+        <references refid="classkeyboard__key_1keyboard__keyr0" compoundref="keyboard__key_8h" startline="63">strCurChar</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotPressed</definition>
+        <argsstring>()</argsstring>
+        <name>slotPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="48" bodystart="96" bodyend="100"/>
+        <references refid="classkeyboard__key_1keyboard__keyr5" compoundref="keyboard__key_8h" startline="65">pixAcitve</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotReleased</definition>
+        <argsstring>()</argsstring>
+        <name>slotReleased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="49" bodystart="101" bodyend="105"/>
+        <references refid="classkeyboard__key_1keyboard__keyr6" compoundref="keyboard__key_8h" startline="65">pixInactive</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotEnter</definition>
+        <argsstring>()</argsstring>
+        <name>slotEnter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="50" bodystart="114" bodyend="117"/>
+        <references refid="classkeyboard__key_1keyboard__keyl1" compoundref="keyboard__key_8moc" startline="120" endline="123">signalEnter</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotChange</definition>
+        <argsstring>()</argsstring>
+        <name>slotChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="51" bodystart="119" bodyend="122"/>
+        <references refid="classkeyboard__key_1keyboard__keyl2" compoundref="keyboard__key_8moc" startline="126" endline="129">signalChange</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotBackSpace</definition>
+        <argsstring>()</argsstring>
+        <name>slotBackSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="52" bodystart="124" bodyend="127"/>
+        <references refid="classkeyboard__key_1keyboard__keyl3" compoundref="keyboard__key_8moc" startline="132" endline="135">signalBackSpace</references>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classkeyboard__key_1keyboard__keyi7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::slotSetPixmap</definition>
+        <argsstring>(QPixmap,QPixmap)</argsstring>
+        <name>slotSetPixmap</name>
+        <param>
+          <type>QPixmap</type>
+          <defname>inactive</defname>
+        </param>
+        <param>
+          <type>QPixmap</type>
+          <defname>pix_active</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="53" bodystart="106" bodyend="113"/>
+        <references refid="classkeyboard__key_1keyboard__keyr5" compoundref="keyboard__key_8h" startline="65">pixAcitve</references>
+        <references refid="classkeyboard__key_1keyboard__keyr6" compoundref="keyboard__key_8h" startline="65">pixInactive</references>
+        <referencedby refid="classkeyboard_1keyboardd0" compoundref="keyboard_8cpp" startline="103" endline="433">keyboard::InitKey</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classkeyboard__key_1keyboard__keyl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::signalSendChar</definition>
+        <argsstring>(QString strChar)</argsstring>
+        <name>signalSendChar</name>
+        <param>
+          <type>QString</type>
+          <declname>strChar</declname>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="55" bodystart="114" bodyend="117"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi1" compoundref="keyboard__key_8cpp" startline="86" endline="89">slotClicked</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classkeyboard__key_1keyboard__keyl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::signalEnter</definition>
+        <argsstring>()</argsstring>
+        <name>signalEnter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="56" bodystart="120" bodyend="123"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi4" compoundref="keyboard__key_8cpp" startline="114" endline="117">slotEnter</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classkeyboard__key_1keyboard__keyl2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::signalChange</definition>
+        <argsstring>()</argsstring>
+        <name>signalChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="57" bodystart="126" bodyend="129"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi5" compoundref="keyboard__key_8cpp" startline="119" endline="122">slotChange</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classkeyboard__key_1keyboard__keyl3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::signalBackSpace</definition>
+        <argsstring>()</argsstring>
+        <name>signalBackSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="58" bodystart="132" bodyend="135"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi6" compoundref="keyboard__key_8cpp" startline="124" endline="127">slotBackSpace</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classkeyboard__key_1keyboard__keyb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void keyboard_key::drawButton</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>drawButton</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="60" bodystart="91" bodyend="95"/>
+        <references refid="classkeyboard__key_1keyboard__keyr0" compoundref="keyboard__key_8h" startline="63">strCurChar</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString keyboard_key::strCurChar</definition>
+        <argsstring></argsstring>
+        <name>strCurChar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="63" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyb0" compoundref="keyboard__key_8cpp" startline="91" endline="95">drawButton</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi1" compoundref="keyboard__key_8cpp" startline="86" endline="89">slotClicked</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi0" compoundref="keyboard__key_8cpp" startline="77" endline="84">slotSetCase</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString keyboard_key::strCharUp</definition>
+        <argsstring></argsstring>
+        <name>strCharUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="63" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi0" compoundref="keyboard__key_8cpp" startline="77" endline="84">slotSetCase</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString keyboard_key::strCharLower</definition>
+        <argsstring></argsstring>
+        <name>strCharLower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="63" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi0" compoundref="keyboard__key_8cpp" startline="77" endline="84">slotSetCase</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool keyboard_key::upper</definition>
+        <argsstring></argsstring>
+        <name>upper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="64" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap keyboard_key::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="65" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr5" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap keyboard_key::pixAcitve</definition>
+        <argsstring></argsstring>
+        <name>pixAcitve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="65" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi2" compoundref="keyboard__key_8cpp" startline="96" endline="100">slotPressed</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi7" compoundref="keyboard__key_8cpp" startline="106" endline="113">slotSetPixmap</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr6" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap keyboard_key::pixInactive</definition>
+        <argsstring></argsstring>
+        <name>pixInactive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="65" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi3" compoundref="keyboard__key_8cpp" startline="101" endline="105">slotReleased</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keyi7" compoundref="keyboard__key_8cpp" startline="106" endline="113">slotSetPixmap</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classkeyboard__key_1keyboard__keyr7" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classkeyboard__key_1keyboard__keyw4" kindref="member">KEY_TYPE</ref></type>
+        <definition>KEY_TYPE keyboard_key::key_type</definition>
+        <argsstring></argsstring>
+        <name>key_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="66" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classkeyboard__key_1keyboard__keya0" compoundref="keyboard__key_8cpp" startline="23" endline="29">keyboard_key</referencedby>
+        <referencedby refid="classkeyboard__key_1keyboard__keya2" compoundref="keyboard__key_8cpp" startline="35" endline="75">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>root </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/keyboard_key.h" line="30" bodystart="29" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw3" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>BACKSPACE</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw1" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>CHANGE</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyb0" prot="protected" virt="non-virtual"><scope>keyboard_key</scope><name>drawButton</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw2" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>ENTER</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw0" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>KEY</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr7" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>key_type</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyw4" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>KEY_TYPE</name></member>
+      <member refid="classkeyboard__key_1keyboard__keya0" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>keyboard_key</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr5" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>pixAcitve</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr4" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>pixBackground</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr6" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>pixInactive</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyl3" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>signalBackSpace</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyl2" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>signalChange</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyl1" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>signalEnter</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyl0" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>signalSendChar</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi6" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotBackSpace</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi5" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotChange</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi1" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotClicked</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi4" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotEnter</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi2" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotPressed</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi3" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotReleased</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi0" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotSetCase</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyi7" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>slotSetPixmap</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr2" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>strCharLower</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr1" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>strCharUp</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr0" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>strCurChar</name></member>
+      <member refid="classkeyboard__key_1keyboard__keyr3" prot="private" virt="non-virtual"><scope>keyboard_key</scope><name>upper</name></member>
+      <member refid="classkeyboard__key_1keyboard__keya2" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>xSetup</name></member>
+      <member refid="classkeyboard__key_1keyboard__keya1" prot="public" virt="non-virtual"><scope>keyboard_key</scope><name>~keyboard_key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

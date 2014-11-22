@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classDirectoryView" kind="class" prot="public">
+    <compoundname>DirectoryView</compoundname>
+    <includes refid="dirview_8h" local="no">dirview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DirectoryView::DirectoryView</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, bool sdo=FALSE)</argsstring>
+        <name>DirectoryView</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sdo</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="79" bodystart="236" bodyend="258"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="dirview_8cpp_1a5" compoundref="dirview_8cpp" startline="90">fileNormal</references>
+        <references refid="dirview_8cpp_1a0" compoundref="dirview_8cpp" startline="32">folder_locked</references>
+        <references refid="dirview_8cpp_1a3" compoundref="dirview_8cpp" startline="88">folderClosed</references>
+        <references refid="dirview_8cpp_1a2" compoundref="dirview_8cpp" startline="87">folderLocked</references>
+        <references refid="dirview_8cpp_1a4" compoundref="dirview_8cpp" startline="89">folderOpen</references>
+        <references refid="classDirectoryView_1DirectoryViewj1" compoundref="dirview_8cpp" startline="269" endline="276">openFolder</references>
+        <references refid="dirview_8cpp_1a1" compoundref="dirview_8cpp" startline="61">pix_file</references>
+        <references refid="classDirectoryView_1DirectoryViewj0" compoundref="dirview_8cpp" startline="260" endline="267">slotFolderSelected</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DirectoryView::showDirsOnly</definition>
+        <argsstring>()</argsstring>
+        <name>showDirsOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="80" bodystart="80" bodyend="80"/>
+        <references refid="classDirectoryView_1DirectoryViewr0" compoundref="dirview_8h" startline="103">dirsOnly</references>
+        <referencedby refid="classDirectoryView_1DirectoryViewj0" compoundref="dirview_8cpp" startline="260" endline="267">slotFolderSelected</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classDirectoryView_1DirectoryViewi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::setDir</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>setDir</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="83" bodystart="447" bodyend="470"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classDirectoryView_1DirectoryViewl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::folderSelected</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>folderSelected</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="86" bodystart="97" bodyend="100"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewj0" compoundref="dirview_8cpp" startline="260" endline="267">slotFolderSelected</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsDragEnterEvent</definition>
+        <argsstring>(QDragEnterEvent *e)</argsstring>
+        <name>contentsDragEnterEvent</name>
+        <param>
+          <type>QDragEnterEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="93" bodystart="281" bodyend="296"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="dirview_8cpp_1a6" compoundref="dirview_8cpp" startline="278">autoopenTime</references>
+        <references refid="classDirectoryView_1DirectoryViewr2" compoundref="dirview_8h" startline="105">dropItem</references>
+        <references refid="classDirectoryView_1DirectoryViewr1" compoundref="dirview_8h" startline="104">oldCurrent</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsDragMoveEvent</definition>
+        <argsstring>(QDragMoveEvent *e)</argsstring>
+        <name>contentsDragMoveEvent</name>
+        <param>
+          <type>QDragMoveEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="94" bodystart="299" bodyend="334"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="dirview_8cpp_1a6" compoundref="dirview_8cpp" startline="278">autoopenTime</references>
+        <references refid="classDirectoryView_1DirectoryViewr2" compoundref="dirview_8h" startline="105">dropItem</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsDragLeaveEvent</definition>
+        <argsstring>(QDragLeaveEvent *e)</argsstring>
+        <name>contentsDragLeaveEvent</name>
+        <param>
+          <type>QDragLeaveEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="95" bodystart="336" bodyend="343"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="classDirectoryView_1DirectoryViewr2" compoundref="dirview_8h" startline="105">dropItem</references>
+        <references refid="classDirectoryView_1DirectoryViewr1" compoundref="dirview_8h" startline="104">oldCurrent</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsDropEvent</definition>
+        <argsstring>(QDropEvent *e)</argsstring>
+        <name>contentsDropEvent</name>
+        <param>
+          <type>QDropEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="96" bodystart="345" bodyend="386"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="classDirectoryView_1DirectoryViewd0" compoundref="dirview_8cpp" startline="389" endline="406">fullPath</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsMouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *e)</argsstring>
+        <name>contentsMouseMoveEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="97" bodystart="424" bodyend="440"/>
+        <references refid="classDirectoryView_1DirectoryViewd0" compoundref="dirview_8cpp" startline="389" endline="406">fullPath</references>
+        <references refid="classDirectoryView_1DirectoryViewr5" compoundref="dirview_8h" startline="108">mousePressed</references>
+        <references refid="classDirectoryView_1DirectoryViewr4" compoundref="dirview_8h" startline="107">presspos</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsMousePressEvent</definition>
+        <argsstring>(QMouseEvent *e)</argsstring>
+        <name>contentsMousePressEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="98" bodystart="408" bodyend="422"/>
+        <references refid="classDirectoryView_1DirectoryViewr5" compoundref="dirview_8h" startline="108">mousePressed</references>
+        <references refid="classDirectoryView_1DirectoryViewr4" compoundref="dirview_8h" startline="107">presspos</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewb6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::contentsMouseReleaseEvent</definition>
+        <argsstring>(QMouseEvent *e)</argsstring>
+        <name>contentsMouseReleaseEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="99" bodystart="442" bodyend="445"/>
+        <references refid="classDirectoryView_1DirectoryViewr5" compoundref="dirview_8h" startline="108">mousePressed</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classDirectoryView_1DirectoryViewj0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::slotFolderSelected</definition>
+        <argsstring>(QListViewItem *)</argsstring>
+        <name>slotFolderSelected</name>
+        <param>
+          <type>QListViewItem *</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="89" bodystart="260" bodyend="267"/>
+        <references refid="classDirectoryView_1DirectoryViewl0" compoundref="dirview_8moc_8cc" startline="97" endline="100">folderSelected</references>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">Directory::fullName</references>
+        <references refid="classDirectoryView_1DirectoryViewa1" compoundref="dirview_8h" startline="80" endline="80">showDirsOnly</references>
+        <referencedby refid="classDirectoryView_1DirectoryViewa0" compoundref="dirview_8cpp" startline="236" endline="258">DirectoryView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classDirectoryView_1DirectoryViewj1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirectoryView::openFolder</definition>
+        <argsstring>()</argsstring>
+        <name>openFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="90" bodystart="269" bodyend="276"/>
+        <references refid="classDirectoryView_1DirectoryViewr3" compoundref="dirview_8h" startline="106">autoopen_timer</references>
+        <references refid="classDirectoryView_1DirectoryViewr2" compoundref="dirview_8h" startline="105">dropItem</references>
+        <referencedby refid="classDirectoryView_1DirectoryViewa0" compoundref="dirview_8cpp" startline="236" endline="258">DirectoryView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classDirectoryView_1DirectoryViewd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DirectoryView::fullPath</definition>
+        <argsstring>(QListViewItem *item)</argsstring>
+        <name>fullPath</name>
+        <param>
+          <type>QListViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="102" bodystart="389" bodyend="406"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb3" compoundref="dirview_8cpp" startline="345" endline="386">contentsDropEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb4" compoundref="dirview_8cpp" startline="424" endline="440">contentsMouseMoveEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DirectoryView::dirsOnly</definition>
+        <argsstring></argsstring>
+        <name>dirsOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="103" bodystart="103" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewa1" compoundref="dirview_8h" startline="80" endline="80">showDirsOnly</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QListViewItem *</type>
+        <definition>QListViewItem* DirectoryView::oldCurrent</definition>
+        <argsstring></argsstring>
+        <name>oldCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="104" bodystart="104" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb0" compoundref="dirview_8cpp" startline="281" endline="296">contentsDragEnterEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb2" compoundref="dirview_8cpp" startline="336" endline="343">contentsDragLeaveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>QListViewItem *</type>
+        <definition>QListViewItem* DirectoryView::dropItem</definition>
+        <argsstring></argsstring>
+        <name>dropItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="105" bodystart="105" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb0" compoundref="dirview_8cpp" startline="281" endline="296">contentsDragEnterEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb2" compoundref="dirview_8cpp" startline="336" endline="343">contentsDragLeaveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb1" compoundref="dirview_8cpp" startline="299" endline="334">contentsDragMoveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewj1" compoundref="dirview_8cpp" startline="269" endline="276">openFolder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* DirectoryView::autoopen_timer</definition>
+        <argsstring></argsstring>
+        <name>autoopen_timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="106" bodystart="106" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb0" compoundref="dirview_8cpp" startline="281" endline="296">contentsDragEnterEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb2" compoundref="dirview_8cpp" startline="336" endline="343">contentsDragLeaveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb1" compoundref="dirview_8cpp" startline="299" endline="334">contentsDragMoveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb3" compoundref="dirview_8cpp" startline="345" endline="386">contentsDropEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewa0" compoundref="dirview_8cpp" startline="236" endline="258">DirectoryView</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewj1" compoundref="dirview_8cpp" startline="269" endline="276">openFolder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint DirectoryView::presspos</definition>
+        <argsstring></argsstring>
+        <name>presspos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="107" bodystart="107" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb4" compoundref="dirview_8cpp" startline="424" endline="440">contentsMouseMoveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb5" compoundref="dirview_8cpp" startline="408" endline="422">contentsMousePressEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectoryView_1DirectoryViewr5" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DirectoryView::mousePressed</definition>
+        <argsstring></argsstring>
+        <name>mousePressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="108" bodystart="108" bodyend="-1"/>
+        <referencedby refid="classDirectoryView_1DirectoryViewb4" compoundref="dirview_8cpp" startline="424" endline="440">contentsMouseMoveEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb5" compoundref="dirview_8cpp" startline="408" endline="422">contentsMousePressEvent</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewb6" compoundref="dirview_8cpp" startline="442" endline="445">contentsMouseReleaseEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/dirview.h" line="75" bodystart="74" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classDirectoryView_1DirectoryViewr3" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>autoopen_timer</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb0" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsDragEnterEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb2" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsDragLeaveEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb1" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsDragMoveEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb3" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsDropEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb4" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsMouseMoveEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb5" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsMousePressEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewb6" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>contentsMouseReleaseEvent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewa0" prot="public" virt="non-virtual"><scope>DirectoryView</scope><name>DirectoryView</name></member>
+      <member refid="classDirectoryView_1DirectoryViewr0" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>dirsOnly</name></member>
+      <member refid="classDirectoryView_1DirectoryViewr2" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>dropItem</name></member>
+      <member refid="classDirectoryView_1DirectoryViewl0" prot="public" virt="non-virtual"><scope>DirectoryView</scope><name>folderSelected</name></member>
+      <member refid="classDirectoryView_1DirectoryViewd0" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>fullPath</name></member>
+      <member refid="classDirectoryView_1DirectoryViewr5" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>mousePressed</name></member>
+      <member refid="classDirectoryView_1DirectoryViewr1" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>oldCurrent</name></member>
+      <member refid="classDirectoryView_1DirectoryViewj1" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>openFolder</name></member>
+      <member refid="classDirectoryView_1DirectoryViewr4" prot="private" virt="non-virtual"><scope>DirectoryView</scope><name>presspos</name></member>
+      <member refid="classDirectoryView_1DirectoryViewi0" prot="public" virt="non-virtual"><scope>DirectoryView</scope><name>setDir</name></member>
+      <member refid="classDirectoryView_1DirectoryViewa1" prot="public" virt="non-virtual"><scope>DirectoryView</scope><name>showDirsOnly</name></member>
+      <member refid="classDirectoryView_1DirectoryViewj0" prot="protected" virt="non-virtual"><scope>DirectoryView</scope><name>slotFolderSelected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

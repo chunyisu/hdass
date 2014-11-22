@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="plugin_8cpp" kind="file">
+    <compoundname>plugin.cpp</compoundname>
+    <includes refid="plugin_8h" local="no">plugin.h</includes>
+    <includes local="no">kdebug.h</includes>
+    <incdepgraph>
+      <node id="4392">
+        <label>kdebug.h</label>
+      </node>
+      <node id="4390">
+        <label>plugin.cpp</label>
+        <link refid="plugin.cpp"/>
+        <childnode refid="4391" relation="include">
+        </childnode>
+        <childnode refid="4392" relation="include">
+        </childnode>
+      </node>
+      <node id="4391">
+        <label>plugin.h</label>
+        <link refid="plugin_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Mark<sp/>Kretschmann<sp/>(C)<sp/>Copyright<sp/>2004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright:<sp/>See<sp/>COPYING<sp/>file<sp/>that<sp/>comes<sp/>with<sp/>this<sp/>distribution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="plugin_8h" kindref="compound">plugin.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kdebug.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classPlugin_1Plugina0" refkind="member"><highlight class="normal"><ref refid="classPlugin_1Plugina0" kindref="member">Plugin::Plugin</ref>()<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>kdDebug()<sp/>&lt;&lt;<sp/>k_funcinfo<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classPlugin_1Plugina1" refkind="member"><highlight class="normal"><ref refid="classPlugin_1Plugina1" kindref="member">Plugin::~Plugin</ref>()<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>kdDebug()<sp/>&lt;&lt;<sp/>k_funcinfo<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/plugin.cpp"/>
+  </compounddef>
+</doxygen>

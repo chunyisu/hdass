@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classAmarok_1_1RawScope__stub" kind="class" prot="public">
+    <compoundname>Amarok::RawScope_stub</compoundname>
+    <basecompoundref refid="classAmarok_1_1RawScope__base" prot="public" virt="virtual">Amarok::RawScope_base</basecompoundref>
+    <includes refid="amarokarts_8h" local="no">amarokarts.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::RawScope_stub::RawScope_stub</definition>
+        <argsstring>(Arts::Connection *connection, long objectID)</argsstring>
+        <name>RawScope_stub</name>
+        <param>
+          <type>Arts::Connection *</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>objectID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="160" bodystart="263" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long Amarok::RawScope_stub::buffer</definition>
+        <argsstring>()</argsstring>
+        <name>buffer</name>
+        <reimplements refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela9">buffer</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="162" bodystart="286" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Amarok::RawScope_stub::buffer</definition>
+        <argsstring>(long newValue)</argsstring>
+        <name>buffer</name>
+        <reimplements refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela10">buffer</reimplements>
+        <param>
+          <type>long</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="163" bodystart="302" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt; float &gt; * Amarok::RawScope_stub::scope</definition>
+        <argsstring>()</argsstring>
+        <name>scope</name>
+        <reimplements refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela11">scope</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="164" bodystart="269" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1RawScope__base" kindref="compound">RawScope_base</ref> *</type>
+        <definition>RawScope_base* Amarok::RawScope_base::_copy</definition>
+        <argsstring>()</argsstring>
+        <name>_copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="139" bodystart="139" bodyend="143"/>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" compoundref="amarokarts_8cc" startline="200" endline="208">Amarok::RawScope_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>virtual std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Amarok::RawScope_base::_defaultPortsIn</definition>
+        <argsstring>() const </argsstring>
+        <name>_defaultPortsIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="145" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>virtual std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Amarok::RawScope_base::_defaultPortsOut</definition>
+        <argsstring>() const </argsstring>
+        <name>_defaultPortsOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="146" bodystart="242" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * Amarok::RawScope_base::_cast</definition>
+        <argsstring>(unsigned long iid)</argsstring>
+        <name>_cast</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>iid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="148" bodystart="249" bodyend="256"/>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" compoundref="amarokarts_8cc" startline="381">Amarok::RawScope_base::_IID</references>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" compoundref="amarokarts_8cc" startline="200" endline="208">Amarok::RawScope_base::_fromDynamicCast</referencedby>
+        <referencedby refid="classAmarok_1_1RawScope_1Amarok_1_1RawScoped0" compoundref="amarokarts_8h" startline="191" endline="198">Amarok::RawScope::_method_call</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1RawScope__base" kindref="compound">RawScope_base</ref> *</type>
+        <definition>Amarok::RawScope_base * Amarok::RawScope_base::_create</definition>
+        <argsstring>(const std::string &amp;subClass=&quot;Amarok::RawScope&quot;)</argsstring>
+        <name>_create</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>subClass</declname>
+          <defval>&quot;Amarok::RawScope&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="134" bodystart="182" bodyend="189"/>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" compoundref="amarokarts_8cc" startline="381">Amarok::RawScope_base::_IID</references>
+        <referencedby refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopeh0" compoundref="amarokarts_8cc" startline="377" endline="379">Amarok::RawScope::_Creator</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1RawScope__base" kindref="compound">RawScope_base</ref> *</type>
+        <definition>Amarok::RawScope_base * Amarok::RawScope_base::_fromString</definition>
+        <argsstring>(const std::string &amp;objectref)</argsstring>
+        <name>_fromString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>objectref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="135" bodystart="191" bodyend="198"/>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" compoundref="amarokarts_8cc" startline="210" endline="234">Amarok::RawScope_base::_fromReference</references>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" compoundref="amarokarts_8cc" startline="200" endline="208">Amarok::RawScope_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1RawScope__base" kindref="compound">RawScope_base</ref> *</type>
+        <definition>Amarok::RawScope_base * Amarok::RawScope_base::_fromReference</definition>
+        <argsstring>(Arts::ObjectReference ref, bool needcopy)</argsstring>
+        <name>_fromReference</name>
+        <param>
+          <type>Arts::ObjectReference</type>
+          <declname>ref</declname>
+          <defname>r</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needcopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="136" bodystart="210" bodyend="234"/>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" compoundref="amarokarts_8cc" startline="191" endline="198">Amarok::RawScope_base::_fromString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAmarok_1_1RawScope__base" kindref="compound">RawScope_base</ref> *</type>
+        <definition>Amarok::RawScope_base * Amarok::RawScope_base::_fromDynamicCast</definition>
+        <argsstring>(const Arts::Object &amp;object)</argsstring>
+        <name>_fromDynamicCast</name>
+        <param>
+          <type>const Arts::Object &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="138" bodystart="200" bodyend="208"/>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" compoundref="amarokarts_8cc" startline="249" endline="256">Amarok::RawScope_base::_cast</references>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" compoundref="amarokarts_8h" startline="139" endline="143">Amarok::RawScope_base::_copy</references>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" compoundref="amarokarts_8cc" startline="191" endline="198">Amarok::RawScope_base::_fromString</references>
+        <references refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" compoundref="amarokarts_8cc" startline="381">Amarok::RawScope_base::_IID</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" prot="public" static="yes" volatile="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Amarok::RawScope_base::_IID</definition>
+        <argsstring></argsstring>
+        <name>_IID</name>
+        <initializer> Arts::MCOPUtils::makeIID(&quot;Amarok::RawScope&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="132" bodystart="381" bodyend="-1"/>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" compoundref="amarokarts_8cc" startline="249" endline="256">Amarok::RawScope_base::_cast</referencedby>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" compoundref="amarokarts_8cc" startline="182" endline="189">Amarok::RawScope_base::_create</referencedby>
+        <referencedby refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" compoundref="amarokarts_8cc" startline="200" endline="208">Amarok::RawScope_base::_fromDynamicCast</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stubb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Amarok::RawScope_stub::RawScope_stub</definition>
+        <argsstring>()</argsstring>
+        <name>RawScope_stub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokarts.h" line="157" bodystart="258" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="569">
+        <label>Amarok::RawScope_stub</label>
+        <link refid="classAmarok_1_1RawScope__stub"/>
+        <childnode refid="570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="570">
+        <label>Amarok::RawScope_base</label>
+        <link refid="classAmarok_1_1RawScope__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="571">
+        <label>Amarok::RawScope_stub</label>
+        <link refid="classAmarok_1_1RawScope__stub"/>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="572">
+        <label>Amarok::RawScope_base</label>
+        <link refid="classAmarok_1_1RawScope__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/amarokarts.h" line="155" bodystart="155" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_cast</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_copy</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_create</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba5" prot="public" virt="virtual"><scope>Amarok::RawScope_stub</scope><name>_defaultPortsIn</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba6" prot="public" virt="virtual"><scope>Amarok::RawScope_stub</scope><name>_defaultPortsOut</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_fromDynamicCast</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_fromReference</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_fromString</name></member>
+      <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>_IID</name></member>
+      <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba1" prot="public" virt="virtual"><scope>Amarok::RawScope_stub</scope><name>buffer</name></member>
+      <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba2" prot="public" virt="virtual"><scope>Amarok::RawScope_stub</scope><name>buffer</name></member>
+      <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stubb0" prot="protected" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>RawScope_stub</name></member>
+      <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba0" prot="public" virt="non-virtual"><scope>Amarok::RawScope_stub</scope><name>RawScope_stub</name></member>
+      <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba3" prot="public" virt="virtual"><scope>Amarok::RawScope_stub</scope><name>scope</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

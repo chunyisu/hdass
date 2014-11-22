@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="subbarmanagement_8cpp" kind="file">
+    <compoundname>subbarmanagement.cpp</compoundname>
+    <includes refid="subbarmanagement_8h" local="yes">subbarmanagement.h</includes>
+    <includes refid="subbarmanagement_8moc" local="yes">subbarmanagement.moc</includes>
+    <incdepgraph>
+      <node id="4718">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="4714">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4713">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="4714" relation="include">
+        </childnode>
+      </node>
+      <node id="4710">
+        <label>subbarmanagement.h</label>
+        <link refid="subbarmanagement_8h"/>
+        <childnode refid="4711" relation="include">
+        </childnode>
+        <childnode refid="4712" relation="include">
+        </childnode>
+        <childnode refid="4713" relation="include">
+        </childnode>
+      </node>
+      <node id="4715">
+        <label>subbarmanagement.moc</label>
+        <link refid="subbarmanagement_8moc"/>
+        <childnode refid="4710" relation="include">
+        </childnode>
+        <childnode refid="4716" relation="include">
+        </childnode>
+        <childnode refid="4717" relation="include">
+        </childnode>
+        <childnode refid="4718" relation="include">
+        </childnode>
+      </node>
+      <node id="4717">
+        <label>qapplication.h</label>
+      </node>
+      <node id="4711">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4716">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="4709">
+        <label>subbarmanagement.cpp</label>
+        <link refid="subbarmanagement.cpp"/>
+        <childnode refid="4710" relation="include">
+        </childnode>
+        <childnode refid="4715" relation="include">
+        </childnode>
+      </node>
+      <node id="4712">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarmanagement_8h" kindref="compound">subbarmanagement.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classSubBarManagement_1SubBarManagementa0" refkind="member"><highlight class="normal"><ref refid="classSubBarManagement_1SubBarManagementa0" kindref="member">SubBarManagement::SubBarManagement</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>:<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>(parent,<sp/>name)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagementa2" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classSubBarManagement_1SubBarManagementa1" refkind="member"><highlight class="normal"><ref refid="classSubBarManagement_1SubBarManagementa1" kindref="member">SubBarManagement::~SubBarManagement</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classSubBarManagement_1SubBarManagementa2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarManagement_1SubBarManagementa2" kindref="member">SubBarManagement::xSetup</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Setup<sp/>Background;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/>pixBackground.load(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/SubBarBackground.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/>setBackgroundPixmap(pixBackground);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>init<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagementr2" kindref="member">MMtype</ref>=<ref refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" kindref="member">em_mmmusic</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Btn<sp/>Graphic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[0]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Floder.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[1]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Floder-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[2]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Paste.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[3]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Paste-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[4]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Cut.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[5]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Cut-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[6]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Delete.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[7]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Delete-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[8]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Music.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[9]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Music-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[10]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Image.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/>BtnGraphic[11]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-MM-Btn-Image-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento0" kindref="member">SubBtnMM_Floder</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classSkinButton" kindref="compound">SkinButton</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento1" kindref="member">SubBtnMM_Paste</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento2" kindref="member">SubBtnMM_Cut</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento3" kindref="member">SubBtnMM_Delete</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento0" kindref="member">SubBtnMM_Floder</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[0],BtnGraphic[1]);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento0" kindref="member">SubBtnMM_Floder</ref>-&gt;setGeometry(197,0,60,80);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento0" kindref="member">SubBtnMM_Floder</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento1" kindref="member">SubBtnMM_Paste</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[2],BtnGraphic[3]);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento1" kindref="member">SubBtnMM_Paste</ref>-&gt;setGeometry(263,0,60,80);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento1" kindref="member">SubBtnMM_Paste</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento2" kindref="member">SubBtnMM_Cut</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[4],BtnGraphic[5]);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento2" kindref="member">SubBtnMM_Cut</ref>-&gt;setGeometry(329,0,60,80);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento2" kindref="member">SubBtnMM_Cut</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento3" kindref="member">SubBtnMM_Delete</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[6],BtnGraphic[7]);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento3" kindref="member">SubBtnMM_Delete</ref>-&gt;setGeometry(391,0,60,80);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento3" kindref="member">SubBtnMM_Delete</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[8],BtnGraphic[9]);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>-&gt;setGeometry(457,0,80,80);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Connect<sp/>buttons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarManagement_1SubBarManagementk0" kindref="member">slotChangeBtnImage</ref>()));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarManagement_1SubBarManagemento0" kindref="member">SubBtnMM_Floder</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarManagement_1SubBarManagementi0" kindref="member">slotBtnMkFloder</ref>()));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarManagement_1SubBarManagemento1" kindref="member">SubBtnMM_Paste</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarManagement_1SubBarManagementi1" kindref="member">slotBtnPaste</ref>()));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarManagement_1SubBarManagemento2" kindref="member">SubBtnMM_Cut</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarManagement_1SubBarManagementi2" kindref="member">slotBtnCut</ref>()));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarManagement_1SubBarManagemento3" kindref="member">SubBtnMM_Delete</ref><sp/>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarManagement_1SubBarManagementi3" kindref="member">slotBtnDelete</ref>()));</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89" refid="classSubBarManagement_1SubBarManagementk0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagementk0" kindref="member">SubBarManagement::slotChangeBtnImage</ref>()</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classSubBarManagement_1SubBarManagementr2" kindref="member">MMtype</ref>==<ref refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" kindref="member">em_mmmusic</ref>)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagementr2" kindref="member">MMtype</ref>=<ref refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy0" kindref="member">em_mmimage</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[10],BtnGraphic[11]);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl0" kindref="member">signalManagementModeChange</ref>(0);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagementr2" kindref="member">MMtype</ref>=<ref refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" kindref="member">em_mmmusic</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarManagement_1SubBarManagemento4" kindref="member">SubBtnMM_MusicNImage</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(BtnGraphic[8],BtnGraphic[9]);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl0" kindref="member">signalManagementModeChange</ref>(1);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="classSubBarManagement_1SubBarManagementi0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarManagement_1SubBarManagementi0" kindref="member">SubBarManagement::slotBtnMkFloder</ref>()</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl1" kindref="member">signalMkdir</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="classSubBarManagement_1SubBarManagementi1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarManagement_1SubBarManagementi1" kindref="member">SubBarManagement::slotBtnPaste</ref>()</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl2" kindref="member">singalPasteFUNC_MEDIAM</ref>();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classSubBarManagement_1SubBarManagementi2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarManagement_1SubBarManagementi2" kindref="member">SubBarManagement::slotBtnCut</ref>()</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl3" kindref="member">signalCutFUNC_MEDIAM</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classSubBarManagement_1SubBarManagementi3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarManagement_1SubBarManagementi3" kindref="member">SubBarManagement::slotBtnDelete</ref>()</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classSubBarManagement_1SubBarManagementl4" kindref="member">signalDeleteItem</ref>();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbarmanagement_8moc" kindref="compound">subbarmanagement.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/subbarmanagement.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="qfileiconview_8h" kind="file">
+    <compoundname>qfileiconview.h</compoundname>
+    <includes local="no">qiconset.h</includes>
+    <includes local="no">qstring.h</includes>
+    <includes local="no">qfileinfo.h</includes>
+    <includes local="no">qdir.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includes local="no">qiconview.h</includes>
+    <includes local="no">kurl.h</includes>
+    <includes refid="enum_8h" local="yes">enum.h</includes>
+    <includedby refid="mediamanagement_8h" local="yes">mediamanagement.h</includedby>
+    <includedby refid="qfileiconview_8moc_8cc" local="yes">qfileiconview.moc.cc</includedby>
+    <includedby refid="qfileiconview_8cpp" local="yes">qfileiconview.cpp</includedby>
+    <incdepgraph>
+      <node id="4447">
+        <label>qtimer.h</label>
+      </node>
+      <node id="4448">
+        <label>qiconview.h</label>
+      </node>
+      <node id="4444">
+        <label>qstring.h</label>
+      </node>
+      <node id="4449">
+        <label>kurl.h</label>
+      </node>
+      <node id="4443">
+        <label>qiconset.h</label>
+      </node>
+      <node id="4450">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="4446">
+        <label>qdir.h</label>
+      </node>
+      <node id="4442">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview.h"/>
+        <childnode refid="4443" relation="include">
+        </childnode>
+        <childnode refid="4444" relation="include">
+        </childnode>
+        <childnode refid="4445" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4447" relation="include">
+        </childnode>
+        <childnode refid="4448" relation="include">
+        </childnode>
+        <childnode refid="4449" relation="include">
+        </childnode>
+        <childnode refid="4450" relation="include">
+        </childnode>
+      </node>
+      <node id="4445">
+        <label>qfileinfo.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4461">
+        <label>mediamanagement.moc</label>
+        <link refid="mediamanagement_8moc"/>
+        <childnode refid="4462" relation="include">
+        </childnode>
+      </node>
+      <node id="4453">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="4454" relation="include">
+        </childnode>
+        <childnode refid="4456" relation="include">
+        </childnode>
+        <childnode refid="4455" relation="include">
+        </childnode>
+      </node>
+      <node id="4458">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4454">
+        <label>displayarea.moc</label>
+        <link refid="displayarea_8moc"/>
+        <childnode refid="4455" relation="include">
+        </childnode>
+      </node>
+      <node id="4459">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4451">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview.h"/>
+        <childnode refid="4452" relation="include">
+        </childnode>
+        <childnode refid="4463" relation="include">
+        </childnode>
+        <childnode refid="4464" relation="include">
+        </childnode>
+      </node>
+      <node id="4460">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4462">
+        <label>mediamanagement.cpp</label>
+        <link refid="mediamanagement_8cpp"/>
+      </node>
+      <node id="4464">
+        <label>qfileiconview.cpp</label>
+        <link refid="qfileiconview_8cpp"/>
+      </node>
+      <node id="4456">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4457" relation="include">
+        </childnode>
+        <childnode refid="4458" relation="include">
+        </childnode>
+        <childnode refid="4459" relation="include">
+        </childnode>
+        <childnode refid="4460" relation="include">
+        </childnode>
+      </node>
+      <node id="4463">
+        <label>qfileiconview.moc.cc</label>
+        <link refid="qfileiconview_8moc_8cc"/>
+      </node>
+      <node id="4452">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement_8h"/>
+        <childnode refid="4453" relation="include">
+        </childnode>
+        <childnode refid="4461" relation="include">
+        </childnode>
+        <childnode refid="4462" relation="include">
+        </childnode>
+      </node>
+      <node id="4455">
+        <label>displayarea.cpp</label>
+        <link refid="displayarea_8cpp"/>
+      </node>
+      <node id="4457">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4458" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classQtFileIconDrag">QtFileIconDrag</innerclass>
+    <innerclass refid="classQtFileIconView">QtFileIconView</innerclass>
+    <innerclass refid="classQtFileIconViewItem">QtFileIconViewItem</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="qfileiconview_8h_1a3" prot="public" static="no">
+        <name>FloderType</name>
+        <enumvalue id="qfileiconview_8h_1a3a0" prot="public">
+          <name>Image</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="qfileiconview_8h_1a3a1" prot="public">
+          <name>Music</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="56" bodystart="56" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="qfileiconview_8h_1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap *</type>
+        <definition>QPixmap* addBorder</definition>
+        <argsstring>(QPixmap *pix, bool hasAlpha)</argsstring>
+        <name>addBorder</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasAlpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="182" bodystart="183" bodyend="208"/>
+        <referencedby refid="classQtFileIconViewItem_1QtFileIconViewItema0" compoundref="qfileiconview_8cpp" startline="98" endline="127">QtFileIconViewItem::QtFileIconViewItem</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>$Id:<sp/>qt/qfileiconview.h<sp/><sp/><sp/>3.3.2<sp/><sp/><sp/>edited<sp/>May<sp/>27<sp/>2003<sp/>$</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Copyright<sp/>(C)<sp/>1992-2000<sp/>Trolltech<sp/>AS.<sp/><sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>an<sp/>example<sp/>program<sp/>for<sp/>Qt.<sp/><sp/>This<sp/>example</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>program<sp/>may<sp/>be<sp/>used,<sp/>distributed<sp/>and<sp/>modified<sp/>without<sp/>limitation.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QTFILEICONVIEW_H</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>QTFILEICONVIEW_H</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qiconset.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfileinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdir.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qiconview.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enum_8h" kindref="compound">enum.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;hdass_define.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QDragObject;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QResizeEvent;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************************</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>Class<sp/>QtFileIconDrag</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classQtFileIconDrag" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconDrag" kindref="compound">QtFileIconDrag</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QIconDrag</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconDrag_1QtFileIconDraga0" kindref="member">QtFileIconDrag</ref>(<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*<sp/>dragSource,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classQtFileIconDrag_1QtFileIconDraga1" kindref="member">format</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/><ref refid="classQtFileIconDrag_1QtFileIconDraga2" kindref="member">encodedData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>mime<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconDrag_1QtFileIconDrage0" kindref="member">canDecode</ref>(<sp/>QMimeSource*<sp/>e<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconDrag_1QtFileIconDraga3" kindref="member">append</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QIconDragItem<sp/>&amp;item,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QRect<sp/>&amp;pr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QRect<sp/>&amp;tr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;url<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47" refid="classQtFileIconDrag_1QtFileIconDragr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/><ref refid="classQtFileIconDrag_1QtFileIconDragr0" kindref="member">urls</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************************</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>Class<sp/>QtFileIconView<sp/>&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="qfileiconview_8h_1a3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="qfileiconview_8h_1a3" kindref="member">FloderType</ref>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">Image<sp/>=0,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><ref refid="qfileiconview_8h_1a3a1" kindref="member">Music</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref>;</highlight></codeline>
+<codeline lineno="62" refid="classQtFileIconView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QIconView</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView_1QtFileIconViewa0" kindref="member">QtFileIconView</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;dir,<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0<sp/>,<ref refid="qfileiconview_8h_1a3" kindref="member">FloderType</ref><sp/>type=<ref refid="qfileiconview_8h_1a3a1" kindref="member">Music</ref>);</highlight></codeline>
+<codeline lineno="68" refid="classQtFileIconView_1QtFileIconVieww2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref><sp/>{<sp/><ref refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0" kindref="member">Large</ref>,<sp/><ref refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww1" kindref="member">Small</ref><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewa1" kindref="member">setViewMode</ref>(<sp/>ViewMode<sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="71" refid="classQtFileIconView_1QtFileIconViewa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref><sp/><ref refid="classQtFileIconView_1QtFileIconViewa2" kindref="member">viewMode</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewp4" kindref="member">vm</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="72" refid="classQtFileIconView_1QtFileIconViewa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewa3" kindref="member">setOpenItem</ref>(<sp/><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref><sp/>*i<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView_1QtFileIconViewp5" kindref="member">openItem</ref><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewi0" kindref="member">setDirectory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;dir<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewi0" kindref="member">setDirectory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QDir<sp/>&amp;dir<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewi2" kindref="member">newDirectory</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>QDir<sp/><ref refid="classQtFileIconView_1QtFileIconViewi3" kindref="member">currentDir</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewi4" kindref="member">slotDeletCurrItem</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl0" kindref="member">directoryChanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl1" kindref="member">startReadDir</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dirs<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl2" kindref="member">readNextDir</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl3" kindref="member">readDirDone</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl4" kindref="member">enableUp</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl5" kindref="member">disableUp</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl6" kindref="member">enableMkdir</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl7" kindref="member">disableMkdir</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl8" kindref="member">signalAddFileToList</ref>(KURL::List<sp/>list,HDASS_ACTION_TYPE<sp/>act);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewl9" kindref="member">signalShowTheDetialofImage</ref>(KURL<sp/>url);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj0" kindref="member">itemDoubleClicked</ref>(<sp/>QIconViewItem<sp/>*i<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj1" kindref="member">itemClicked</ref>(QIconViewItem<sp/>*i);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj2" kindref="member">slotDropped</ref>(<sp/>QDropEvent<sp/>*e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;QIconDragItem&gt;<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj3" kindref="member">viewLarge</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj4" kindref="member">viewSmall</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj5" kindref="member">viewBottom</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj6" kindref="member">viewRight</ref>();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj7" kindref="member">flowEast</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj8" kindref="member">flowSouth</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj9" kindref="member">itemTextTruncate</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj10" kindref="member">itemTextWordWrap</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj11" kindref="member">sortAscending</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj12" kindref="member">sortDescending</ref>();</highlight></codeline>
+<codeline lineno="108" refid="classQtFileIconView_1QtFileIconViewj13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj13" kindref="member">arrangeItemsInGrid</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIconView::arrangeItemsInGrid(<sp/>TRUE<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj14" kindref="member">slotRightPressed</ref>(<sp/>QIconViewItem<sp/>*item<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewj15" kindref="member">openFolder</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewb0" kindref="member">readDir</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QDir<sp/>&amp;dir<sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QDragObject<sp/>*<ref refid="classQtFileIconView_1QtFileIconViewb1" kindref="member">dragObject</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewb2" kindref="member">keyPressEvent</ref>(<sp/>QKeyEvent<sp/>*e<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classQtFileIconView_1QtFileIconViewp0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QDir<sp/><ref refid="classQtFileIconView_1QtFileIconViewp0" kindref="member">viewDir</ref>;</highlight></codeline>
+<codeline lineno="122" refid="classQtFileIconView_1QtFileIconViewp1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconView_1QtFileIconViewp1" kindref="member">newFolderNum</ref>;</highlight></codeline>
+<codeline lineno="123" refid="classQtFileIconView_1QtFileIconViewp2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSize<sp/><ref refid="classQtFileIconView_1QtFileIconViewp2" kindref="member">sz</ref>;</highlight></codeline>
+<codeline lineno="124" refid="classQtFileIconView_1QtFileIconViewp3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>pix;</highlight></codeline>
+<codeline lineno="125" refid="classQtFileIconView_1QtFileIconViewp4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref><sp/><ref refid="classQtFileIconView_1QtFileIconViewp4" kindref="member">vm</ref>;</highlight></codeline>
+<codeline lineno="126" refid="classQtFileIconView_1QtFileIconViewp5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref><sp/>*<ref refid="classQtFileIconView_1QtFileIconViewp5" kindref="member">openItem</ref>;</highlight></codeline>
+<codeline lineno="127" refid="classQtFileIconView_1QtFileIconViewp6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="qfileiconview_8h_1a3" kindref="member">FloderType</ref><sp/><ref refid="classQtFileIconView_1QtFileIconViewp6" kindref="member">flodertype</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************************</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>Class<sp/>QtFileIconViewItem</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="classQtFileIconViewItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QIconViewItem</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138" refid="classQtFileIconViewItem_1QtFileIconViewItemn0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141" refid="classQtFileIconViewItem_1QtFileIconViewItemw4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4" kindref="member">ItemType</ref><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw0" kindref="member">File</ref><sp/>=<sp/>0,</highlight><highlight class="comment">//<sp/>define<sp/>MP3<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw1" kindref="member">Dir</ref>,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw2" kindref="member">Link</ref>,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw3" kindref="member">Image</ref></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema0" kindref="member">QtFileIconViewItem</ref>(<sp/><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref><sp/>*parent,<sp/>QFileInfo<sp/>*fi,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pixindex<sp/>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema1" kindref="member">~QtFileIconViewItem</ref>();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="classQtFileIconViewItem_1QtFileIconViewItema2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4" kindref="member">ItemType</ref><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema2" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="153"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp2" kindref="member">itemType</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="154" refid="classQtFileIconViewItem_1QtFileIconViewItema3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema3" kindref="member">filename</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp0" kindref="member">itemFileName</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema4" kindref="member">acceptDrop</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMimeSource<sp/>*e<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema5" kindref="member">setText</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;text<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QPixmap<sp/>*<ref refid="classQtFileIconViewItem_1QtFileIconViewItema6" kindref="member">pixmap</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema7" kindref="member">dragEntered</ref>();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema8" kindref="member">dragLeft</ref>();</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema9" kindref="member">viewModeChanged</ref>(<sp/>QtFileIconView::ViewMode<sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItema10" kindref="member">paintItem</ref>(<sp/>QPainter<sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColorGroup<sp/>&amp;cg<sp/>);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167" refid="classQtFileIconViewItem_1QtFileIconViewItemo1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemo0" kindref="member">img</ref>,*<ref refid="classQtFileIconViewItem_1QtFileIconViewItemo1" kindref="member">p_img</ref>;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemb0" kindref="member">dropped</ref>(<sp/>QDropEvent<sp/>*e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;QIconDragItem&gt;<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="classQtFileIconViewItem_1QtFileIconViewItemp0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp0" kindref="member">itemFileName</ref>;</highlight></codeline>
+<codeline lineno="173" refid="classQtFileIconViewItem_1QtFileIconViewItemp1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QFileInfo<sp/>*<ref refid="classQtFileIconViewItem_1QtFileIconViewItemp1" kindref="member">itemFileInfo</ref>;</highlight></codeline>
+<codeline lineno="174" refid="classQtFileIconViewItem_1QtFileIconViewItemp2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemw4" kindref="member">ItemType</ref><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp2" kindref="member">itemType</ref>;</highlight></codeline>
+<codeline lineno="175" refid="classQtFileIconViewItem_1QtFileIconViewItemp3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp3" kindref="member">checkSetText</ref>;</highlight></codeline>
+<codeline lineno="176" refid="classQtFileIconViewItem_1QtFileIconViewItemp4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>timer;</highlight></codeline>
+<codeline lineno="177" refid="classQtFileIconViewItem_1QtFileIconViewItemp5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QtFileIconView::ViewMode<sp/>vm;</highlight></codeline>
+<codeline lineno="178" refid="classQtFileIconViewItem_1QtFileIconViewItemp6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classQtFileIconViewItem_1QtFileIconViewItemp6" kindref="member">PixIndex</ref>;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal">QPixmap*<sp/><ref refid="qfileiconview_8h_1a2" kindref="member">addBorder</ref>(QPixmap<sp/>*pix,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasAlpha);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/qfileiconview.h"/>
+  </compounddef>
+</doxygen>

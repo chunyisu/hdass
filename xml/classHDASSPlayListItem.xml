@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classHDASSPlayListItem" kind="class" prot="public">
+    <compoundname>HDASSPlayListItem</compoundname>
+    <includes refid="hdassplaylistitem_8h" local="no">hdassplaylistitem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSPlayListItem::HDASSPlayListItem</definition>
+        <argsstring>(QListView *parent=0, const QString &amp;text=0, Type tt=RadioButtonController)</argsstring>
+        <name>HDASSPlayListItem</name>
+        <param>
+          <type>QListView *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>tt</declname>
+          <defval>RadioButtonController</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/hdassplaylistitem.h" line="29" bodystart="22" bodyend="25"/>
+        <references refid="classHDASSPlayListItem_1HDASSPlayListItema2" compoundref="hdassplaylistitem_8cpp" startline="32" endline="36">setup</references>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSPlayListItem::~HDASSPlayListItem</definition>
+        <argsstring>()</argsstring>
+        <name>~HDASSPlayListItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/hdassplaylistitem.h" line="30" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASSPlayListItem::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/hdassplaylistitem.h" line="31" bodystart="32" bodyend="36"/>
+        <referencedby refid="classHDASSPlayListItem_1HDASSPlayListItema0" compoundref="hdassplaylistitem_8cpp" startline="22" endline="25">HDASSPlayListItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSPlayListItem::HDASSPlayListItem</definition>
+        <argsstring>(QListView *parent=0, const QString &amp;text=0)</argsstring>
+        <name>HDASSPlayListItem</name>
+        <param>
+          <type>QListView *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>text</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylistitem.h" line="29" bodystart="22" bodyend="25"/>
+        <references refid="classHDASSPlayListItem_1HDASSPlayListItema2" compoundref="hdassplaylistitem_8cpp" startline="32" endline="36">setup</references>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HDASSPlayListItem::~HDASSPlayListItem</definition>
+        <argsstring>()</argsstring>
+        <name>~HDASSPlayListItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylistitem.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classHDASSPlayListItem_1HDASSPlayListItema5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HDASSPlayListItem::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassplaylistitem.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/root/kde_application/hdass08/hdassplaylistitem.h" line="27" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema0" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>HDASSPlayListItem</name></member>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema3" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>HDASSPlayListItem</name></member>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema2" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>setup</name></member>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema5" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>setup</name></member>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema1" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>~HDASSPlayListItem</name></member>
+      <member refid="classHDASSPlayListItem_1HDASSPlayListItema4" prot="public" virt="non-virtual"><scope>HDASSPlayListItem</scope><name>~HDASSPlayListItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

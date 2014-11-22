@@ -1,0 +1,127 @@
+\section{Engine\-Observer Class Reference}
+\label{classEngineObserver}\index{EngineObserver@{EngineObserver}}
+{\tt \#include $<$engineobserver.h$>$}
+
+
+
+\subsection{Detailed Description}
+if you want to observe the engine, inherit from this class and attach yourself to the engine with attach 
+
+
+
+Definition at line 29 of file engineobserver.h.\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Engine\-Observer} ()
+\item 
+virtual {\bf $\sim$Engine\-Observer} ()
+\item 
+virtual void {\bf engine\-State\-Changed} ({\bf Engine\-Base::Engine\-State})
+\item 
+virtual void {\bf engine\-New\-Meta\-Data} (const {\bf Meta\-Bundle} \&, bool)
+\item 
+virtual void {\bf engine\-Volume\-Changed} (int)
+\item 
+virtual void {\bf engine\-Track\-Position\-Changed} (long)
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{EngineObserver@{Engine\-Observer}!EngineObserver@{EngineObserver}}
+\index{EngineObserver@{EngineObserver}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Engine\-Observer::Engine\-Observer ()}\label{classEngineObserver_EngineObservera0}
+
+
+
+
+Definition at line 23 of file engineobserver.cpp.
+
+
+
+\footnotesize\begin{verbatim}24 {
+25     // autoadd to subject in constructor?
+26 }
+\end{verbatim}\normalsize 
+\index{EngineObserver@{Engine\-Observer}!~EngineObserver@{$\sim$EngineObserver}}
+\index{~EngineObserver@{$\sim$EngineObserver}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Engine\-Observer::$\sim${\bf Engine\-Observer} ()\hspace{0.3cm}{\tt  [virtual]}}\label{classEngineObserver_EngineObservera1}
+
+
+
+
+Definition at line 29 of file engineobserver.cpp.
+
+
+
+\footnotesize\begin{verbatim}30 {
+31 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{EngineObserver@{Engine\-Observer}!engineNewMetaData@{engineNewMetaData}}
+\index{engineNewMetaData@{engineNewMetaData}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}virtual void Engine\-Observer::engine\-New\-Meta\-Data (const {\bf Meta\-Bundle} \&, bool)\hspace{0.3cm}{\tt  [inline, virtual]}}\label{classEngineObserver_EngineObservera3}
+
+
+
+
+Definition at line 35 of file engineobserver.h.
+
+Referenced by Engine\-Subject::new\-Meta\-Data\-Notify().
+
+
+
+\footnotesize\begin{verbatim}35 {}
+\end{verbatim}\normalsize 
+\index{EngineObserver@{Engine\-Observer}!engineStateChanged@{engineStateChanged}}
+\index{engineStateChanged@{engineStateChanged}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}virtual void Engine\-Observer::engine\-State\-Changed ({\bf Engine\-Base::Engine\-State})\hspace{0.3cm}{\tt  [inline, virtual]}}\label{classEngineObserver_EngineObservera2}
+
+
+
+
+Definition at line 34 of file engineobserver.h.
+
+Referenced by Engine\-Subject::state\-Changed\-Notify().
+
+
+
+\footnotesize\begin{verbatim}34 {}
+\end{verbatim}\normalsize 
+\index{EngineObserver@{Engine\-Observer}!engineTrackPositionChanged@{engineTrackPositionChanged}}
+\index{engineTrackPositionChanged@{engineTrackPositionChanged}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}virtual void Engine\-Observer::engine\-Track\-Position\-Changed (long)\hspace{0.3cm}{\tt  [inline, virtual]}}\label{classEngineObserver_EngineObservera5}
+
+
+
+
+Definition at line 37 of file engineobserver.h.
+
+Referenced by Engine\-Subject::track\-Position\-Changed\-Notify().
+
+
+
+\footnotesize\begin{verbatim}37 {}
+\end{verbatim}\normalsize 
+\index{EngineObserver@{Engine\-Observer}!engineVolumeChanged@{engineVolumeChanged}}
+\index{engineVolumeChanged@{engineVolumeChanged}!EngineObserver@{Engine\-Observer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}virtual void Engine\-Observer::engine\-Volume\-Changed (int)\hspace{0.3cm}{\tt  [inline, virtual]}}\label{classEngineObserver_EngineObservera4}
+
+
+
+
+Definition at line 36 of file engineobserver.h.
+
+Referenced by Engine\-Subject::volume\-Changed\-Notify().
+
+
+
+\footnotesize\begin{verbatim}36 {}
+\end{verbatim}\normalsize 
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf engineobserver.h}\item 
+{\bf engineobserver.cpp}\end{CompactItemize}

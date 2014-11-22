@@ -1,0 +1,99 @@
+\section{File\-Item Class Reference}
+\label{classFileItem}\index{FileItem@{FileItem}}
+{\tt \#include $<$dirview.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf File\-Item} (QList\-View\-Item $\ast$parent, const QString \&s1, const QString \&s2)
+\item 
+const QPixmap $\ast$ {\bf pixmap} (int i) const 
+\item 
+void {\bf set\-Pixmap} (QPixmap $\ast$p)
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+QPixmap $\ast$ {\bf pix}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{FileItem@{File\-Item}!FileItem@{FileItem}}
+\index{FileItem@{FileItem}!FileItem@{File\-Item}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}File\-Item::File\-Item (QList\-View\-Item $\ast$ {\em parent}, const QString \& {\em s1}, const QString \& {\em s2})\hspace{0.3cm}{\tt  [inline]}}\label{classFileItem_FileItema0}
+
+
+
+
+Definition at line 29 of file dirview.h.
+
+References pix.
+
+
+
+\footnotesize\begin{verbatim}30         : QListViewItem( parent, s1, s2 ), pix( 0 ) {}
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{FileItem@{File\-Item}!pixmap@{pixmap}}
+\index{pixmap@{pixmap}!FileItem@{File\-Item}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}const QPixmap $\ast$ File\-Item::pixmap (int {\em i}) const}\label{classFileItem_FileItema1}
+
+
+
+
+Definition at line 482 of file dirview.cpp.
+
+References pix.
+
+
+
+\footnotesize\begin{verbatim}483 {
+484     if ( i )
+485         return 0;
+486     return pix;
+487 }
+\end{verbatim}\normalsize 
+\index{FileItem@{File\-Item}!setPixmap@{setPixmap}}
+\index{setPixmap@{setPixmap}!FileItem@{File\-Item}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void File\-Item::set\-Pixmap (QPixmap $\ast$ {\em p})}\label{classFileItem_FileItema2}
+
+
+
+
+Definition at line 472 of file dirview.cpp.
+
+References pix.
+
+Referenced by Directory::set\-Open().
+
+
+
+\footnotesize\begin{verbatim}473 {
+474     pix = p;
+475     setup();
+476     widthChanged( 0 );
+477     invalidateHeight();
+478     repaint();
+479 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{FileItem@{File\-Item}!pix@{pix}}
+\index{pix@{pix}!FileItem@{File\-Item}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf File\-Item::pix}\hspace{0.3cm}{\tt  [private]}}\label{classFileItem_FileItemr0}
+
+
+
+
+Definition at line 39 of file dirview.h.
+
+Referenced by File\-Item(), pixmap(), and set\-Pixmap().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf dirview.h}\item 
+{\bf dirview.cpp}\end{CompactItemize}

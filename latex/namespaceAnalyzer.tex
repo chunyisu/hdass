@@ -1,0 +1,105 @@
+\section{Analyzer Namespace Reference}
+\label{namespaceAnalyzer}\index{Analyzer@{Analyzer}}
+
+
+
+
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+class {\bf Base}
+\item 
+class {\bf Base2D}
+\item 
+class {\bf Base3D}
+\item 
+class {\bf Factory}
+\end{CompactItemize}
+\subsection*{Typedefs}
+\begin{CompactItemize}
+\item 
+typedef std::vector$<$ float $>$ {\bf Scope}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void {\bf interpolate} (const {\bf Scope} \&, {\bf Scope} \&)
+\item 
+void {\bf init\-Sin} ({\bf Scope} \&, const uint=6000)
+\end{CompactItemize}
+
+
+\subsection{Typedef Documentation}
+\index{Analyzer@{Analyzer}!Scope@{Scope}}
+\index{Scope@{Scope}!Analyzer@{Analyzer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}typedef std::vector$<$float$>$ {\bf Analyzer::Scope}}\label{namespaceAnalyzer_a0}
+
+
+
+
+Definition at line 33 of file analyzerbase.h.
+
+Referenced by Analyzer::Base$<$ W $>$::demo(), Analyzer::Base$<$ W $>$::draw\-Frame(), init\-Sin(), interpolate(), and Analyzer::Base$<$ W $>$::transform().
+
+\subsection{Function Documentation}
+\index{Analyzer@{Analyzer}!initSin@{initSin}}
+\index{initSin@{initSin}!Analyzer@{Analyzer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Analyzer::init\-Sin (Scope \&, const {\em uint} = 6000)}\label{namespaceAnalyzer_a2}
+
+
+
+
+Definition at line 239 of file analyzerbase.cpp.
+
+References Scope.
+
+
+
+\footnotesize\begin{verbatim}240 {
+241     double step = ( M_PI * 2 ) / size;
+242     double radian = 0;
+243 
+244     for ( uint i = 0; i < size; i++ )
+245     {
+246         v.push_back( sin( radian ) );
+247         radian += step;
+248     }
+249 }
+\end{verbatim}\normalsize 
+\index{Analyzer@{Analyzer}!interpolate@{interpolate}}
+\index{interpolate@{interpolate}!Analyzer@{Analyzer}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Analyzer::interpolate (const Scope \&, Scope \&)}\label{namespaceAnalyzer_a1}
+
+
+
+
+Definition at line 213 of file analyzerbase.cpp.
+
+References Scope.
+
+
+
+\footnotesize\begin{verbatim}214 {
+215     double pos = 0.0;
+216     const double step = (double)inVec.size() / outVec.size();
+217 
+218     for ( uint i = 0; i < outVec.size(); ++i, pos += step )
+219     {
+220         const double error = pos - floor( pos );
+221         const unsigned long offset = (unsigned long)pos;
+222 
+223         unsigned long indexLeft = offset + 0;
+224 
+225         if ( indexLeft >= inVec.size() )
+226             indexLeft = inVec.size() - 1;
+227 
+228         unsigned long indexRight = offset + 1;
+229 
+230         if ( indexRight >= inVec.size() )
+231             indexRight = inVec.size() - 1;
+232 
+233         outVec[i] = inVec[indexLeft ] * ( 1.0 - error ) +
+234                     inVec[indexRight] * error;
+235     }
+236 }
+\end{verbatim}\normalsize 

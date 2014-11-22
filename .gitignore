@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+# Backup file
+*.*~
+
+# moc, md5, map
+*.moc
+*.md5
+*.map
+

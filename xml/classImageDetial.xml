@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classImageDetial" kind="class" prot="public">
+    <compoundname>ImageDetial</compoundname>
+    <basecompoundref refid="classhdassAlbum" prot="public" virt="non-virtual">hdassAlbum</basecompoundref>
+    <includes refid="imagedetial_8h" local="no">imagedetial.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classImageDetial_1ImageDetiala0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ImageDetial::ImageDetial</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>ImageDetial</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/imagedetial.h" line="32" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classImageDetial_1ImageDetiala1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ImageDetial::~ImageDetial</definition>
+        <argsstring>()</argsstring>
+        <name>~ImageDetial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/imagedetial.h" line="34" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classhdassAlbum_1ImageDetiala2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="46" bodystart="38" bodyend="59"/>
+        <references refid="classhdassAlbum_1hdassAlbumr1" compoundref="hdassalbum_8h" startline="64">hdassAlbum::AlbumListFileName</references>
+        <references refid="classhdassAlbum_1ImageDetiala4" compoundref="hdassalbum_8cpp" startline="154" endline="190">hdassAlbum::DrawImage</references>
+        <references refid="classhdassAlbum_1hdassAlbumd0" compoundref="hdassalbum_8cpp" startline="77" endline="97">hdassAlbum::ReadAlbumList</references>
+        <references refid="classhdassAlbum_1ImageDetiali4" compoundref="hdassalbum_8cpp" startline="117" endline="128">hdassAlbum::slotNextImage</references>
+        <references refid="classhdassAlbum_1hdassAlbumr0" compoundref="hdassalbum_8h" startline="63">hdassAlbum::switchtime</references>
+        <references refid="classhdassAlbum_1hdassAlbumr3" compoundref="hdassalbum_8h" startline="66">hdassAlbum::timer</references>
+        <referencedby refid="classhdassAlbum_1hdassAlbuma0" compoundref="hdassalbum_8cpp" startline="26" endline="30">hdassAlbum::hdassAlbum</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassAlbum_1ImageDetiala3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::SlideShow</definition>
+        <argsstring>()</argsstring>
+        <name>SlideShow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="47" bodystart="148" bodyend="152"/>
+        <references refid="classhdassAlbum_1hdassAlbumr0" compoundref="hdassalbum_8h" startline="63">hdassAlbum::switchtime</references>
+        <references refid="classhdassAlbum_1hdassAlbumr3" compoundref="hdassalbum_8h" startline="66">hdassAlbum::timer</references>
+      </memberdef>
+      <memberdef kind="function" id="classhdassAlbum_1ImageDetiala4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::DrawImage</definition>
+        <argsstring>(QPixmap pix)</argsstring>
+        <name>DrawImage</name>
+        <param>
+          <type>QPixmap</type>
+          <declname>pix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="48" bodystart="154" bodyend="190"/>
+        <referencedby refid="classhdassAlbum_1ImageDetiali4" compoundref="hdassalbum_8cpp" startline="117" endline="128">hdassAlbum::slotNextImage</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali5" compoundref="hdassalbum_8cpp" startline="104" endline="115">hdassAlbum::slotPreviousImage</referencedby>
+        <referencedby refid="classImageDetial_1ImageDetiali0" compoundref="imagedetial_8cpp" startline="31" endline="58">slotShowFloder</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiala2" compoundref="hdassalbum_8cpp" startline="38" endline="59">hdassAlbum::xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhdassAlbum_1ImageDetialo0" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List::ConstIterator</type>
+        <definition>KURL::List::ConstIterator hdassAlbum::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="49" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classhdassAlbum_1hdassAlbumd0" compoundref="hdassalbum_8cpp" startline="77" endline="97">hdassAlbum::ReadAlbumList</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali4" compoundref="hdassalbum_8cpp" startline="117" endline="128">hdassAlbum::slotNextImage</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali5" compoundref="hdassalbum_8cpp" startline="104" endline="115">hdassAlbum::slotPreviousImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassAlbum_1ImageDetialo1" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List hdassAlbum::AlbumList</definition>
+        <argsstring></argsstring>
+        <name>AlbumList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="50" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classhdassAlbum_1ImageDetiali1" compoundref="hdassalbum_8cpp" startline="60" endline="63">hdassAlbum::AddImageToAlbum</referencedby>
+        <referencedby refid="classhdassAlbum_1hdassAlbumd0" compoundref="hdassalbum_8cpp" startline="77" endline="97">hdassAlbum::ReadAlbumList</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali2" compoundref="hdassalbum_8cpp" startline="65" endline="68">hdassAlbum::RemoveImageFromAlbum</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali4" compoundref="hdassalbum_8cpp" startline="117" endline="128">hdassAlbum::slotNextImage</referencedby>
+        <referencedby refid="classhdassAlbum_1ImageDetiali5" compoundref="hdassalbum_8cpp" startline="104" endline="115">hdassAlbum::slotPreviousImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassAlbum_1ImageDetialo2" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List hdassAlbum::FloderList</definition>
+        <argsstring></argsstring>
+        <name>FloderList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="50" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassAlbum_1ImageDetialo3" prot="public" static="no" volatile="no" mutable="no">
+        <type>QPtrList&lt; QPixmap &gt;</type>
+        <definition>QPtrList&lt;QPixmap&gt; hdassAlbum::PixList</definition>
+        <argsstring></argsstring>
+        <name>PixList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="51" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classImageDetial_1ImageDetiali0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageDetial::slotShowFloder</definition>
+        <argsstring>(KURL floder_file)</argsstring>
+        <name>slotShowFloder</name>
+        <param>
+          <type>KURL</type>
+          <declname>floder_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/imagedetial.h" line="36" bodystart="31" bodyend="58"/>
+        <references refid="classhdassAlbum_1ImageDetiala4" compoundref="hdassalbum_8cpp" startline="154" endline="190">hdassAlbum::DrawImage</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::AddImageToAlbum</definition>
+        <argsstring>(KURL addimage)</argsstring>
+        <name>AddImageToAlbum</name>
+        <param>
+          <type>KURL</type>
+          <declname>addimage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="54" bodystart="60" bodyend="63"/>
+        <references refid="classhdassAlbum_1ImageDetialo1" compoundref="hdassalbum_8h" startline="50">hdassAlbum::AlbumList</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::RemoveImageFromAlbum</definition>
+        <argsstring>(KURL removeimage)</argsstring>
+        <name>RemoveImageFromAlbum</name>
+        <param>
+          <type>KURL</type>
+          <declname>removeimage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="55" bodystart="65" bodyend="68"/>
+        <references refid="classhdassAlbum_1ImageDetialo1" compoundref="hdassalbum_8h" startline="50">hdassAlbum::AlbumList</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::ChangeMode</definition>
+        <argsstring>(AlbumMode mode)</argsstring>
+        <name>ChangeMode</name>
+        <param>
+          <type><ref refid="classhdassAlbum_1hdassAlbumy2" kindref="member">AlbumMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="56" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::slotNextImage</definition>
+        <argsstring>()</argsstring>
+        <name>slotNextImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="57" bodystart="117" bodyend="128"/>
+        <references refid="classhdassAlbum_1ImageDetialo1" compoundref="hdassalbum_8h" startline="50">hdassAlbum::AlbumList</references>
+        <references refid="classhdassAlbum_1ImageDetiala4" compoundref="hdassalbum_8cpp" startline="154" endline="190">hdassAlbum::DrawImage</references>
+        <references refid="classhdassAlbum_1ImageDetialo0" compoundref="hdassalbum_8h" startline="49">hdassAlbum::it</references>
+        <referencedby refid="classhdassAlbum_1ImageDetiala2" compoundref="hdassalbum_8cpp" startline="38" endline="59">hdassAlbum::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::slotPreviousImage</definition>
+        <argsstring>()</argsstring>
+        <name>slotPreviousImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="58" bodystart="104" bodyend="115"/>
+        <references refid="classhdassAlbum_1ImageDetialo1" compoundref="hdassalbum_8h" startline="50">hdassAlbum::AlbumList</references>
+        <references refid="classhdassAlbum_1ImageDetiala4" compoundref="hdassalbum_8cpp" startline="154" endline="190">hdassAlbum::DrawImage</references>
+        <references refid="classhdassAlbum_1ImageDetialo0" compoundref="hdassalbum_8h" startline="49">hdassAlbum::it</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::slotPlayNStop</definition>
+        <argsstring>()</argsstring>
+        <name>slotPlayNStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="59" bodystart="130" bodyend="140"/>
+        <references refid="classhdassAlbum_1hdassAlbumr0" compoundref="hdassalbum_8h" startline="63">hdassAlbum::switchtime</references>
+        <references refid="classhdassAlbum_1hdassAlbumr3" compoundref="hdassalbum_8h" startline="66">hdassAlbum::timer</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::slotModeChange</definition>
+        <argsstring>(int)</argsstring>
+        <name>slotModeChange</name>
+        <param>
+          <type>int</type>
+          <defname>mode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="60" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassAlbum_1ImageDetiali8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassAlbum::slotSetSwitchingTime</definition>
+        <argsstring>(int time)</argsstring>
+        <name>slotSetSwitchingTime</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassalbum.h" line="61" bodystart="143" bodyend="146"/>
+        <references refid="classhdassAlbum_1hdassAlbumr0" compoundref="hdassalbum_8h" startline="63">hdassAlbum::switchtime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="473">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="474">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="475" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="476">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="477">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="478" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/imagedetial.h" line="29" bodystart="28" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classhdassAlbum_1ImageDetiali1" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>AddImageToAlbum</name></member>
+      <member refid="classhdassAlbum_1ImageDetialo1" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>AlbumList</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali3" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>ChangeMode</name></member>
+      <member refid="classhdassAlbum_1ImageDetiala4" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>DrawImage</name></member>
+      <member refid="classhdassAlbum_1ImageDetialo2" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>FloderList</name></member>
+      <member refid="classhdassAlbum_1hdassAlbuma0" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>hdassAlbum</name></member>
+      <member refid="classImageDetial_1ImageDetiala0" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>ImageDetial</name></member>
+      <member refid="classhdassAlbum_1ImageDetialo0" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>it</name></member>
+      <member refid="classhdassAlbum_1ImageDetialo3" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>PixList</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali2" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>RemoveImageFromAlbum</name></member>
+      <member refid="classhdassAlbum_1ImageDetiala3" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>SlideShow</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali7" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotModeChange</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali4" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotNextImage</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali6" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotPlayNStop</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali5" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotPreviousImage</name></member>
+      <member refid="classhdassAlbum_1ImageDetiali8" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotSetSwitchingTime</name></member>
+      <member refid="classImageDetial_1ImageDetiali0" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>slotShowFloder</name></member>
+      <member refid="classhdassAlbum_1ImageDetiala2" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>xSetup</name></member>
+      <member refid="classhdassAlbum_1hdassAlbuma1" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>~hdassAlbum</name></member>
+      <member refid="classImageDetial_1ImageDetiala1" prot="public" virt="non-virtual"><scope>ImageDetial</scope><name>~ImageDetial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

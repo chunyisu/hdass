@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="src_2subbarplayer_8h" kind="file">
+    <compoundname>src/subbarplayer.h</compoundname>
+    <includes local="no">qvariant.h</includes>
+    <includes local="no">qslider.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includes local="no">qwidget.h</includes>
+    <includes refid="skinbutton_8h" local="yes">skinbutton.h</includes>
+    <includes local="no">qpushbutton.h</includes>
+    <includes local="no">kurl.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes refid="Myplayer_8h" local="yes">Myplayer.h</includes>
+    <includes refid="analyzerbase_8h" local="yes">analyzerbase.h</includes>
+    <includedby refid="functionbar_8h" local="yes">functionbar.h</includedby>
+    <includedby refid="subbarplayer_8moc" local="yes">subbarplayer.moc</includedby>
+    <includedby refid="src_2subbarplayer_8cpp" local="yes">subbarplayer.cpp</includedby>
+    <incdepgraph>
+      <node id="4810">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="4799">
+        <label>qtimer.h</label>
+      </node>
+      <node id="4806">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="4807" relation="include">
+        </childnode>
+        <childnode refid="4809" relation="include">
+        </childnode>
+        <childnode refid="4800" relation="include">
+        </childnode>
+        <childnode refid="4804" relation="include">
+        </childnode>
+      </node>
+      <node id="4802">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4801">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="4802" relation="include">
+        </childnode>
+      </node>
+      <node id="4798">
+        <label>qslider.h</label>
+      </node>
+      <node id="4804">
+        <label>kurl.h</label>
+      </node>
+      <node id="4807">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="4804" relation="include">
+        </childnode>
+        <childnode refid="4808" relation="include">
+        </childnode>
+      </node>
+      <node id="4803">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="4808">
+        <label>klocale.h</label>
+      </node>
+      <node id="4811">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="4809">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="4810" relation="include">
+        </childnode>
+        <childnode refid="4811" relation="include">
+        </childnode>
+        <childnode refid="4805" relation="include">
+        </childnode>
+        <childnode refid="4799" relation="include">
+        </childnode>
+        <childnode refid="4800" relation="include">
+        </childnode>
+        <childnode refid="4812" relation="include">
+        </childnode>
+      </node>
+      <node id="4812">
+        <label>vector</label>
+      </node>
+      <node id="4797">
+        <label>qvariant.h</label>
+      </node>
+      <node id="4800">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4796">
+        <label>src/subbarplayer.h</label>
+        <link refid="src/subbarplayer.h"/>
+        <childnode refid="4797" relation="include">
+        </childnode>
+        <childnode refid="4798" relation="include">
+        </childnode>
+        <childnode refid="4799" relation="include">
+        </childnode>
+        <childnode refid="4800" relation="include">
+        </childnode>
+        <childnode refid="4801" relation="include">
+        </childnode>
+        <childnode refid="4803" relation="include">
+        </childnode>
+        <childnode refid="4804" relation="include">
+        </childnode>
+        <childnode refid="4805" relation="include">
+        </childnode>
+        <childnode refid="4806" relation="include">
+        </childnode>
+        <childnode refid="4809" relation="include">
+        </childnode>
+      </node>
+      <node id="4805">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4814">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4815" relation="include">
+        </childnode>
+        <childnode refid="4817" relation="include">
+        </childnode>
+        <childnode refid="4816" relation="include">
+        </childnode>
+      </node>
+      <node id="4819">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4820">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4816">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="4821">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4815">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="4816" relation="include">
+        </childnode>
+      </node>
+      <node id="4824">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="4813">
+        <label>src/subbarplayer.h</label>
+        <link refid="src/subbarplayer.h"/>
+        <childnode refid="4814" relation="include">
+        </childnode>
+        <childnode refid="4822" relation="include">
+        </childnode>
+        <childnode refid="4823" relation="include">
+        </childnode>
+      </node>
+      <node id="4822">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="4823" relation="include">
+        </childnode>
+        <childnode refid="4824" relation="include">
+        </childnode>
+      </node>
+      <node id="4817">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4818" relation="include">
+        </childnode>
+        <childnode refid="4819" relation="include">
+        </childnode>
+        <childnode refid="4820" relation="include">
+        </childnode>
+        <childnode refid="4821" relation="include">
+        </childnode>
+      </node>
+      <node id="4818">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4819" relation="include">
+        </childnode>
+      </node>
+      <node id="4823">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSubBarPlayer">SubBarPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SUBBARPLAYER_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SUBBARPLAYER_H</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvariant.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qslider.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="skinbutton_8h" kindref="compound">skinbutton.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpushbutton.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="skinbutton_8h" kindref="compound">skinbutton.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Myplayer_8h" kindref="compound">Myplayer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="analyzerbase_8h" kindref="compound">analyzerbase.h</ref>&quot;</highlight></codeline>
+<codeline lineno="39" refid="classSubBarPlayer" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSubBarPlayer" kindref="compound">SubBarPlayer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classSubBarPlayer_1SubBarPlayery2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>PLAYSTATE{<ref refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" kindref="member">PAUSE</ref>,<ref refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" kindref="member">GO</ref>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarPlayer_1SubBarPlayera0" kindref="member">SubBarPlayer</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarPlayer_1SubBarPlayera1" kindref="member">~SubBarPlayer</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayera2" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="49" refid="classSubBarPlayer_1SubBarPlayero0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*m_pAnalyzer;</highlight></codeline>
+<codeline lineno="50" refid="classSubBarPlayer_1SubBarPlayero1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSlider<sp/>*<ref refid="classSubBarPlayer_1SubBarPlayero1" kindref="member">playerPosition</ref>;</highlight></codeline>
+<codeline lineno="51" refid="classSubBarPlayer_1SubBarPlayero2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>*<ref refid="classSubBarPlayer_1SubBarPlayero2" kindref="member">forwardTimer</ref>;</highlight></codeline>
+<codeline lineno="52" refid="classSubBarPlayer_1SubBarPlayero3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QTimer<sp/>*<ref refid="classSubBarPlayer_1SubBarPlayero3" kindref="member">backwardTimer</ref>;</highlight></codeline>
+<codeline lineno="53" refid="classSubBarPlayer_1SubBarPlayero4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMyplayer" kindref="compound">Myplayer</ref><sp/>*<ref refid="classSubBarPlayer_1SubBarPlayero4" kindref="member">m_player</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>KURL::List<sp/><ref refid="classSubBarPlayer_1SubBarPlayero5" kindref="member">receive_list</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="55" refid="classSubBarPlayer_1SubBarPlayero6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSkinButton" kindref="compound">SkinButton</ref><sp/>*<ref refid="classSubBarPlayer_1SubBarPlayero6" kindref="member">SubBtnPlayer_PlayNPause</ref>,*<ref refid="classSubBarPlayer_1SubBarPlayero7" kindref="member">SubBtnPlayer_Backword</ref>,*<ref refid="classSubBarPlayer_1SubBarPlayero8" kindref="member">SubBtn_Forward</ref>,*<ref refid="classSubBarPlayer_1SubBarPlayero9" kindref="member">testBtn</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixBackground;</highlight></codeline>
+<codeline lineno="59" refid="classSubBarPlayer_1SubBarPlayerr1" refkind="member"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>*BtnGraphic[8];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/>PLAYSTATE<sp/>state;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayerr3" kindref="member">slider</ref>;<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri0" kindref="member">handlePosition</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri1" kindref="member">handleVolume</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri2" kindref="member">handleSliderReleased</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri3" kindref="member">handleSliderPressed</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri4" kindref="member">handleNextPressed</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri5" kindref="member">handleNextReleased</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri6" kindref="member">handlePreviousPressed</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri7" kindref="member">handlePreviousReleased</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri8" kindref="member">handleForward</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri9" kindref="member">handleBackward</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri10" kindref="member">handleMessage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_length,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_bitrate,QString<sp/>m_title,QString<sp/>m_artist,QString<sp/>m_album);<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri11" kindref="member">insertMedia</ref>(KURL::List<sp/>list);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri12" kindref="member">removeMedia</ref>(KURL::List<sp/>remove_list);<sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri13" kindref="member">initMedia</ref>(KURL::List<sp/>list);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri14" kindref="member">ChangeBtnPlayPauseGraphic</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri15" kindref="member">slotReceivePL</ref>(KURL::List<sp/>list);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri16" kindref="member">slotReadList</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayeri17" kindref="member">slotClickFromPlayList</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarPlayer_1SubBarPlayerl0" kindref="member">signalRequestPL</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/subbarplayer.h"/>
+  </compounddef>
+</doxygen>

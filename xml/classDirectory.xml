@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classDirectory" kind="class" prot="public">
+    <compoundname>Directory</compoundname>
+    <includes refid="dirview_8h" local="no">dirview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDirectory_1Directorya0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Directory::Directory</definition>
+        <argsstring>(QListView *parent, const QString &amp;filename)</argsstring>
+        <name>Directory</name>
+        <param>
+          <type>QListView *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="47" bodystart="114" bodyend="122"/>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</references>
+        <references refid="classDirectory_1Directoryr1" compoundref="dirview_8h" startline="67">p</references>
+        <references refid="classDirectory_1Directoryr2" compoundref="dirview_8h" startline="68">readable</references>
+        <referencedby refid="classDirectory_1Directorya9" compoundref="dirview_8cpp" startline="222" endline="229">Mkdir</referencedby>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">setOpen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Directory::Directory</definition>
+        <argsstring>(Directory *parent, const QString &amp;filename, const QString &amp;col2)</argsstring>
+        <name>Directory</name>
+        <param>
+          <type><ref refid="classDirectory" kindref="compound">Directory</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>col2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="49" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Directory::Directory</definition>
+        <argsstring>(Directory *parent, const QString &amp;filename)</argsstring>
+        <name>Directory</name>
+        <param>
+          <type><ref refid="classDirectory" kindref="compound">Directory</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="50" bodystart="98" bodyend="111"/>
+        <references refid="dirview_8cpp_1a3" compoundref="dirview_8cpp" startline="88">folderClosed</references>
+        <references refid="dirview_8cpp_1a2" compoundref="dirview_8cpp" startline="87">folderLocked</references>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</references>
+        <references refid="classDirectory_1Directoryr1" compoundref="dirview_8h" startline="67">p</references>
+        <references refid="classDirectory_1Directoryr2" compoundref="dirview_8h" startline="68">readable</references>
+        <references refid="classDirectory_1Directorya8" compoundref="dirview_8cpp" startline="125" endline="132">setPixmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Directory::text</definition>
+        <argsstring>(int column) const </argsstring>
+        <name>text</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="52" bodystart="213" bodyend="221"/>
+        <references refid="classDirectory_1Directoryr0" compoundref="dirview_8h" startline="66">f</references>
+        <references refid="classDirectory_1Directoryr2" compoundref="dirview_8h" startline="68">readable</references>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Directory::fullName</definition>
+        <argsstring>()</argsstring>
+        <name>fullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="54" bodystart="199" bodyend="210"/>
+        <references refid="classDirectory_1Directoryr0" compoundref="dirview_8h" startline="66">f</references>
+        <references refid="classDirectory_1Directoryr1" compoundref="dirview_8h" startline="67">p</references>
+        <referencedby refid="classDirectory_1Directorya2" compoundref="dirview_8cpp" startline="98" endline="111">Directory</referencedby>
+        <referencedby refid="classDirectory_1Directorya9" compoundref="dirview_8cpp" startline="222" endline="229">Mkdir</referencedby>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">setOpen</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">mediamanagement::slotDeleteItem</referencedby>
+        <referencedby refid="classDirectoryView_1DirectoryViewj0" compoundref="dirview_8cpp" startline="260" endline="267">DirectoryView::slotFolderSelected</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Directory::setOpen</definition>
+        <argsstring>(bool)</argsstring>
+        <name>setOpen</name>
+        <param>
+          <type>bool</type>
+          <defname>o</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="56" bodystart="142" bodyend="189"/>
+        <references refid="classDirectory_1Directorya0" compoundref="dirview_8cpp" startline="114" endline="122">Directory</references>
+        <references refid="dirview_8cpp_1a5" compoundref="dirview_8cpp" startline="90">fileNormal</references>
+        <references refid="dirview_8cpp_1a3" compoundref="dirview_8cpp" startline="88">folderClosed</references>
+        <references refid="dirview_8cpp_1a4" compoundref="dirview_8cpp" startline="89">folderOpen</references>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</references>
+        <references refid="classDirectory_1Directoryr2" compoundref="dirview_8h" startline="68">readable</references>
+        <references refid="classFileItem_1FileItema2" compoundref="dirview_8cpp" startline="472" endline="479">FileItem::setPixmap</references>
+        <references refid="classDirectory_1Directorya8" compoundref="dirview_8cpp" startline="125" endline="132">setPixmap</references>
+        <references refid="classDirectory_1Directoryr3" compoundref="dirview_8h" startline="69">showDirsOnly</references>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">mediamanagement::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Directory::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="57" bodystart="192" bodyend="196"/>
+        <referencedby refid="classDirectory_1Directorya8" compoundref="dirview_8cpp" startline="125" endline="132">setPixmap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QPixmap *</type>
+        <definition>const QPixmap * Directory::pixmap</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>pixmap</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="59" bodystart="135" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Directory::setPixmap</definition>
+        <argsstring>(QPixmap *p)</argsstring>
+        <name>setPixmap</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>p</declname>
+          <defname>px</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="63" bodystart="125" bodyend="132"/>
+        <references refid="classDirectory_1Directorya6" compoundref="dirview_8cpp" startline="192" endline="196">setup</references>
+        <referencedby refid="classDirectory_1Directorya2" compoundref="dirview_8cpp" startline="98" endline="111">Directory</referencedby>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">setOpen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classDirectory_1Directorya9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Directory::Mkdir</definition>
+        <argsstring>(QString s)</argsstring>
+        <name>Mkdir</name>
+        <param>
+          <type>QString</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="64" bodystart="222" bodyend="229"/>
+        <references refid="classDirectory_1Directorya0" compoundref="dirview_8cpp" startline="114" endline="122">Directory</references>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</references>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">mediamanagement::slotMkdir</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDirectory_1Directoryr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QFile</type>
+        <definition>QFile Directory::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="66" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</referencedby>
+        <referencedby refid="classDirectory_1Directorya3" compoundref="dirview_8cpp" startline="213" endline="221">text</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectory_1Directoryr1" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDirectory" kindref="compound">Directory</ref> *</type>
+        <definition>Directory* Directory::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="67" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classDirectory_1Directorya2" compoundref="dirview_8cpp" startline="98" endline="111">Directory</referencedby>
+        <referencedby refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">fullName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectory_1Directoryr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Directory::readable</definition>
+        <argsstring></argsstring>
+        <name>readable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="68" bodystart="68" bodyend="-1"/>
+        <referencedby refid="classDirectory_1Directorya2" compoundref="dirview_8cpp" startline="98" endline="111">Directory</referencedby>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">setOpen</referencedby>
+        <referencedby refid="classDirectory_1Directorya3" compoundref="dirview_8cpp" startline="213" endline="221">text</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectory_1Directoryr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Directory::showDirsOnly</definition>
+        <argsstring></argsstring>
+        <name>showDirsOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="69" bodystart="69" bodyend="-1"/>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">setOpen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDirectory_1Directoryr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* Directory::pix</definition>
+        <argsstring></argsstring>
+        <name>pix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="70" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="361">
+        <label>Directory</label>
+        <link refid="classDirectory"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/dirview.h" line="44" bodystart="43" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classDirectory_1Directorya0" prot="public" virt="non-virtual"><scope>Directory</scope><name>Directory</name></member>
+      <member refid="classDirectory_1Directorya1" prot="public" virt="non-virtual"><scope>Directory</scope><name>Directory</name></member>
+      <member refid="classDirectory_1Directorya2" prot="public" virt="non-virtual"><scope>Directory</scope><name>Directory</name></member>
+      <member refid="classDirectory_1Directoryr0" prot="private" virt="non-virtual"><scope>Directory</scope><name>f</name></member>
+      <member refid="classDirectory_1Directorya4" prot="public" virt="non-virtual"><scope>Directory</scope><name>fullName</name></member>
+      <member refid="classDirectory_1Directorya9" prot="public" virt="non-virtual"><scope>Directory</scope><name>Mkdir</name></member>
+      <member refid="classDirectory_1Directoryr1" prot="private" virt="non-virtual"><scope>Directory</scope><name>p</name></member>
+      <member refid="classDirectory_1Directoryr4" prot="private" virt="non-virtual"><scope>Directory</scope><name>pix</name></member>
+      <member refid="classDirectory_1Directorya7" prot="public" virt="non-virtual"><scope>Directory</scope><name>pixmap</name></member>
+      <member refid="classDirectory_1Directoryr2" prot="private" virt="non-virtual"><scope>Directory</scope><name>readable</name></member>
+      <member refid="classDirectory_1Directorya5" prot="public" virt="non-virtual"><scope>Directory</scope><name>setOpen</name></member>
+      <member refid="classDirectory_1Directorya8" prot="public" virt="non-virtual"><scope>Directory</scope><name>setPixmap</name></member>
+      <member refid="classDirectory_1Directorya6" prot="public" virt="non-virtual"><scope>Directory</scope><name>setup</name></member>
+      <member refid="classDirectory_1Directoryr3" prot="private" virt="non-virtual"><scope>Directory</scope><name>showDirsOnly</name></member>
+      <member refid="classDirectory_1Directorya3" prot="public" virt="non-virtual"><scope>Directory</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

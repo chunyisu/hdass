@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classAmarokConfig_1_1EnumOsdAlignment" kind="class" prot="public">
+    <compoundname>AmarokConfig::EnumOsdAlignment</compoundname>
+    <includes refid="amarokconfig_8h" local="no">amarokconfig.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw0" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw1" prot="public">
+          <name>Middle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw2" prot="public">
+          <name>Center</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw3" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw4" prot="public">
+          <name>COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/amarokconfig.h" line="14" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/amarokconfig.h" line="12" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>@0</name></member>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw2" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>Center</name></member>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw4" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>COUNT</name></member>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw0" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>Left</name></member>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw1" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>Middle</name></member>
+      <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw3" prot="public" virt="non-virtual"><scope>AmarokConfig::EnumOsdAlignment</scope><name>Right</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

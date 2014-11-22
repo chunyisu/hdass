@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="namespaceAnalyzer" kind="namespace">
+    <compoundname>Analyzer</compoundname>
+    <innerclass refid="classAnalyzer_1_1Base">Analyzer::Base</innerclass>
+    <innerclass refid="classAnalyzer_1_1Base2D">Analyzer::Base2D</innerclass>
+    <innerclass refid="classAnalyzer_1_1Base3D">Analyzer::Base3D</innerclass>
+    <innerclass refid="classAnalyzer_1_1Factory">Analyzer::Factory</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceAnalyzer_1a0" prot="public" static="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>typedef std::vector&lt;float&gt; Analyzer::Scope</definition>
+        <argsstring></argsstring>
+        <name>Scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="33" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" compoundref="analyzerbase_8cpp" startline="128" endline="146">Analyzer::Base&lt; W &gt;::demo</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" compoundref="analyzerbase_8cpp" startline="94" endline="121">Analyzer::Base&lt; W &gt;::drawFrame</referencedby>
+        <referencedby refid="namespaceAnalyzer_1a2" compoundref="analyzerbase_8cpp" startline="239" endline="249">initSin</referencedby>
+        <referencedby refid="namespaceAnalyzer_1a1" compoundref="analyzerbase_8cpp" startline="213" endline="236">interpolate</referencedby>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" compoundref="analyzerbase_8cpp" startline="74" endline="91">Analyzer::Base&lt; W &gt;::transform</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceAnalyzer_1a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::interpolate</definition>
+        <argsstring>(const Scope &amp;, Scope &amp;)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type>const <ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref> &amp;</type>
+          <defname>inVec</defname>
+        </param>
+        <param>
+          <type><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref> &amp;</type>
+          <defname>outVec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="139" bodystart="213" bodyend="236"/>
+        <references refid="namespaceAnalyzer_1a0" compoundref="analyzerbase_8h" startline="33">Scope</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceAnalyzer_1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Analyzer::initSin</definition>
+        <argsstring>(Scope &amp;, const uint=6000)</argsstring>
+        <name>initSin</name>
+        <param>
+          <type><ref refid="namespaceAnalyzer_1a0" kindref="member">Scope</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <param>
+          <type>const</type>
+          <declname>uint</declname>
+          <defname>size</defname>
+          <defval>6000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="140" bodystart="239" bodyend="249"/>
+        <references refid="namespaceAnalyzer_1a0" compoundref="analyzerbase_8h" startline="33">Scope</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="31"/>
+  </compounddef>
+</doxygen>

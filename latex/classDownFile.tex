@@ -1,0 +1,160 @@
+\section{Down\-File Class Reference}
+\label{classDownFile}\index{DownFile@{DownFile}}
+{\tt \#include $<$Down\-File.h$>$}
+
+Inheritance diagram for Down\-File:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=58pt]{classDownFile__inherit__graph}
+\end{center}
+\end{figure}
+Collaboration diagram for Down\-File:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=58pt]{classDownFile__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{CompactItemize}
+\item 
+void {\bf handle\-Done} (bool)
+\end{CompactItemize}
+\subsection*{Signals}
+\begin{CompactItemize}
+\item 
+void {\bf Finished} (bool)
+\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Down\-File} (const KURL \&)
+\item 
+{\bf $\sim$Down\-File} ()
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+QHttp $\ast$ {\bf http}
+\item 
+QFile $\ast$ {\bf downloadfile}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{DownFile@{Down\-File}!DownFile@{DownFile}}
+\index{DownFile@{DownFile}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Down\-File::Down\-File (const KURL \&)}\label{classDownFile_DownFilea0}
+
+
+
+
+Definition at line 25 of file Down\-File.cpp.
+
+References downloadfile, handle\-Done(), and http.
+
+
+
+\footnotesize\begin{verbatim}26 {  
+27 kdDebug() << "DownFile -> url -> " << url << endl;
+28 kdDebug() << "DownFile -> host -> " << url.host() << endl;      
+29 kdDebug() << "DownFile -> FileName -> " << url.fileName() << endl;    
+30     downloadfile = new QFile( url.fileName() );
+31     downloadfile->open( IO_WriteOnly );
+32     
+33     http = new QHttp(this);
+34     http->setHost(url.host());
+35     http->get( url.path(),downloadfile); 
+36     connect(http, SIGNAL(done(bool)), this, SLOT(handleDone(bool)));  
+37     
+38 //    KURL src("http://140.116.5.200/~f7490124/Browser/Macgyver.mp3");
+39 //    KURL des("file:/home/karban/Macgyver.mp3");
+40 //    KIO::FileCopyJob testfile(src,des,777,false,true,true,true);
+41 //    testfile.slotStart();
+42 //    KIO::TransferJob *job = KIO::get( src, false, true );
+43 //    connect(job,SIGNAL(data(KIO::Job *,const QByteArray &)),this,SLOT(handleData(KIO::Job *, const QByteArray &)));
+44 }
+\end{verbatim}\normalsize 
+\index{DownFile@{Down\-File}!~DownFile@{$\sim$DownFile}}
+\index{~DownFile@{$\sim$DownFile}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Down\-File::$\sim${\bf Down\-File} ()}\label{classDownFile_DownFilea1}
+
+
+
+
+Definition at line 46 of file Down\-File.cpp.
+
+
+
+\footnotesize\begin{verbatim}47 {
+48 
+49 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{DownFile@{Down\-File}!Finished@{Finished}}
+\index{Finished@{Finished}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Down\-File::Finished (bool)\hspace{0.3cm}{\tt  [signal]}}\label{classDownFile_DownFilel0}
+
+
+
+
+Definition at line 90 of file Down\-File.moc.
+
+Referenced by handle\-Done().
+
+
+
+\footnotesize\begin{verbatim}91 {
+92     activate_signal_bool( staticMetaObject()->signalOffset() + 0, t0 );
+93 }
+\end{verbatim}\normalsize 
+\index{DownFile@{Down\-File}!handleDone@{handleDone}}
+\index{handleDone@{handleDone}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Down\-File::handle\-Done (bool)\hspace{0.3cm}{\tt  [slot]}}\label{classDownFile_DownFilei0}
+
+
+
+
+Definition at line 51 of file Down\-File.cpp.
+
+References downloadfile, and Finished().
+
+Referenced by Down\-File().
+
+
+
+\footnotesize\begin{verbatim}52 {
+53      downloadfile->close();
+54 kdDebug() << "Download Finish !!!!!!!!!! "<< endl; 
+55      emit Finished(error);        
+56 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{DownFile@{Down\-File}!downloadfile@{downloadfile}}
+\index{downloadfile@{downloadfile}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QFile$\ast$ {\bf Down\-File::downloadfile}}\label{classDownFile_DownFileo1}
+
+
+
+
+Definition at line 40 of file Down\-File.h.
+
+Referenced by Down\-File(), and handle\-Done().\index{DownFile@{Down\-File}!http@{http}}
+\index{http@{http}!DownFile@{Down\-File}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QHttp$\ast$ {\bf Down\-File::http}}\label{classDownFile_DownFileo0}
+
+
+
+
+Definition at line 39 of file Down\-File.h.
+
+Referenced by Down\-File().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf Down\-File.h}\item 
+{\bf Down\-File.moc}\item 
+{\bf Down\-File.cpp}\end{CompactItemize}

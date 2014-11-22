@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="src_2subbaralbumclock_8h" kind="file">
+    <compoundname>src/subbaralbumclock.h</compoundname>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes refid="skinbutton_8h" local="yes">skinbutton.h</includes>
+    <includes refid="global__define_8h" local="yes">global_define.h</includes>
+    <includedby refid="functionbar_8h" local="yes">functionbar.h</includedby>
+    <includedby refid="subbaralbumclock_8moc" local="yes">subbaralbumclock.moc</includedby>
+    <includedby refid="src_2subbaralbumclock_8cpp" local="yes">subbaralbumclock.cpp</includedby>
+    <incdepgraph>
+      <node id="4588">
+        <label>src/subbaralbumclock.h</label>
+        <link refid="src/subbaralbumclock.h"/>
+        <childnode refid="4589" relation="include">
+        </childnode>
+        <childnode refid="4590" relation="include">
+        </childnode>
+        <childnode refid="4591" relation="include">
+        </childnode>
+        <childnode refid="4593" relation="include">
+        </childnode>
+      </node>
+      <node id="4592">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4596">
+        <label>qstring.h</label>
+      </node>
+      <node id="4591">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="4592" relation="include">
+        </childnode>
+      </node>
+      <node id="4595">
+        <label>qobject.h</label>
+      </node>
+      <node id="4597">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="4593">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="4594" relation="include">
+        </childnode>
+      </node>
+      <node id="4594">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="4595" relation="include">
+        </childnode>
+        <childnode refid="4596" relation="include">
+        </childnode>
+        <childnode refid="4597" relation="include">
+        </childnode>
+      </node>
+      <node id="4589">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4590">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4599">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4600" relation="include">
+        </childnode>
+        <childnode refid="4602" relation="include">
+        </childnode>
+        <childnode refid="4601" relation="include">
+        </childnode>
+      </node>
+      <node id="4598">
+        <label>src/subbaralbumclock.h</label>
+        <link refid="src/subbaralbumclock.h"/>
+        <childnode refid="4599" relation="include">
+        </childnode>
+        <childnode refid="4607" relation="include">
+        </childnode>
+        <childnode refid="4608" relation="include">
+        </childnode>
+      </node>
+      <node id="4607">
+        <label>subbaralbumclock.moc</label>
+        <link refid="subbaralbumclock_8moc"/>
+        <childnode refid="4608" relation="include">
+        </childnode>
+        <childnode refid="4609" relation="include">
+        </childnode>
+      </node>
+      <node id="4604">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4605">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4601">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="4606">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4600">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="4601" relation="include">
+        </childnode>
+      </node>
+      <node id="4608">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="src_2subbaralbumclock_8cpp"/>
+      </node>
+      <node id="4602">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4603" relation="include">
+        </childnode>
+        <childnode refid="4604" relation="include">
+        </childnode>
+        <childnode refid="4605" relation="include">
+        </childnode>
+        <childnode refid="4606" relation="include">
+        </childnode>
+      </node>
+      <node id="4603">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4604" relation="include">
+        </childnode>
+      </node>
+      <node id="4609">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="subbaralbumclock_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSubBarAlbumClock">SubBarAlbumClock</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SUBBARALBUMCLOCK_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SUBBARALBUMCLOCK_H</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="skinbutton_8h" kindref="compound">skinbutton.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="global__define_8h" kindref="compound">global_define.h</ref>&quot;</highlight></codeline>
+<codeline lineno="30" refid="classSubBarAlbumClock" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSubBarAlbumClock" kindref="compound">SubBarAlbumClock</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="33" refid="classSubBarAlbumClock_1SubBarAlbumClocky2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocky2" kindref="member">SLIDESHOWSTATE</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" kindref="member">GO</ref>=0,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" kindref="member">STOP</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka0" kindref="member">SubBarAlbumClock</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka1" kindref="member">~SubBarAlbumClock</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka2" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="43" refid="classSubBarAlbumClock_1SubBarAlbumClocko0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSkinButton" kindref="compound">SkinButton</ref><sp/>*<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>,*<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>,*<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>,*<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocki0" kindref="member">slotChangeMode</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocki1" kindref="member">slotChangePlayNPauseBtnGraphic</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockl0" kindref="member">signalAlbumClockModeChangeToDispalyArea</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52" refid="classSubBarAlbumClock_1SubBarAlbumClockr0" refkind="member"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>*btnGraphic[12];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixBackground;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockd0" kindref="member">ChangeButtonGraphic</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocky2" kindref="member">SLIDESHOWSTATE</ref><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockr2" kindref="member">slideshowstate</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/subbaralbumclock.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classFileItem" kind="class" prot="public">
+    <compoundname>FileItem</compoundname>
+    <includes refid="dirview_8h" local="no">dirview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFileItem_1FileItema0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileItem::FileItem</definition>
+        <argsstring>(QListViewItem *parent, const QString &amp;s1, const QString &amp;s2)</argsstring>
+        <name>FileItem</name>
+        <param>
+          <type>QListViewItem *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="30" bodystart="29" bodyend="30"/>
+        <references refid="classFileItem_1FileItemr0" compoundref="dirview_8h" startline="39">pix</references>
+      </memberdef>
+      <memberdef kind="function" id="classFileItem_1FileItema1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QPixmap *</type>
+        <definition>const QPixmap * FileItem::pixmap</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>pixmap</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="32" bodystart="482" bodyend="487"/>
+        <references refid="classFileItem_1FileItemr0" compoundref="dirview_8h" startline="39">pix</references>
+      </memberdef>
+      <memberdef kind="function" id="classFileItem_1FileItema2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileItem::setPixmap</definition>
+        <argsstring>(QPixmap *p)</argsstring>
+        <name>setPixmap</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="36" bodystart="472" bodyend="479"/>
+        <references refid="classFileItem_1FileItemr0" compoundref="dirview_8h" startline="39">pix</references>
+        <referencedby refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">Directory::setOpen</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFileItem_1FileItemr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap *</type>
+        <definition>QPixmap* FileItem::pix</definition>
+        <argsstring></argsstring>
+        <name>pix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/dirview.h" line="39" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classFileItem_1FileItema0" compoundref="dirview_8h" startline="29" endline="30">FileItem</referencedby>
+        <referencedby refid="classFileItem_1FileItema1" compoundref="dirview_8cpp" startline="482" endline="487">pixmap</referencedby>
+        <referencedby refid="classFileItem_1FileItema2" compoundref="dirview_8cpp" startline="472" endline="479">setPixmap</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/dirview.h" line="27" bodystart="26" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classFileItem_1FileItema0" prot="public" virt="non-virtual"><scope>FileItem</scope><name>FileItem</name></member>
+      <member refid="classFileItem_1FileItemr0" prot="private" virt="non-virtual"><scope>FileItem</scope><name>pix</name></member>
+      <member refid="classFileItem_1FileItema1" prot="public" virt="non-virtual"><scope>FileItem</scope><name>pixmap</name></member>
+      <member refid="classFileItem_1FileItema2" prot="public" virt="non-virtual"><scope>FileItem</scope><name>setPixmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

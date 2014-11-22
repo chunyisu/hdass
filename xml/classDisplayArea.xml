@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classDisplayArea" kind="class" prot="public">
+    <compoundname>DisplayArea</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="displayarea_8h" local="no">displayarea.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDisplayArea_1DisplayAreaa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DisplayArea::DisplayArea</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>DisplayArea</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="37" bodystart="24" bodyend="28"/>
+        <references refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classDisplayArea_1DisplayAreaa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DisplayArea::~DisplayArea</definition>
+        <argsstring>()</argsstring>
+        <name>~DisplayArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="39" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classDisplayArea_1DisplayAreaa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DisplayArea::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="40" bodystart="35" bodyend="69"/>
+        <references refid="classDisplayArea_1DisplayAreao2" compoundref="displayarea_8h" startline="43">Album</references>
+        <references refid="classDisplayArea_1DisplayAreao1" compoundref="displayarea_8h" startline="42">Browser</references>
+        <references refid="classDisplayArea_1DisplayAreao0" compoundref="displayarea_8h" startline="41">Clock</references>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classDisplayArea_1DisplayAreao3" compoundref="displayarea_8h" startline="44">IA</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" compoundref="hdassglobalsetting_8h" startline="42">HDASSGlobalSetting::intHDSS_DISPLAY_STATE</references>
+        <references refid="classDisplayArea_1DisplayAreao4" compoundref="displayarea_8h" startline="45">Media</references>
+        <references refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</references>
+        <referencedby refid="classDisplayArea_1DisplayAreaa0" compoundref="displayarea_8cpp" startline="24" endline="28">DisplayArea</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDisplayArea_1DisplayAreao0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classhdassClock" kindref="compound">hdassClock</ref> *</type>
+        <definition>hdassClock* DisplayArea::Clock</definition>
+        <argsstring></argsstring>
+        <name>Clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="41" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDisplayArea_1DisplayAreao1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classMyBrowser" kindref="compound">MyBrowser</ref> *</type>
+        <definition>MyBrowser* DisplayArea::Browser</definition>
+        <argsstring></argsstring>
+        <name>Browser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="42" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDisplayArea_1DisplayAreao2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classImageDetial" kindref="compound">ImageDetial</ref> *</type>
+        <definition>ImageDetial* DisplayArea::Album</definition>
+        <argsstring></argsstring>
+        <name>Album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDisplayArea_1DisplayAreao3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classInfoArea" kindref="compound">InfoArea</ref> *</type>
+        <definition>InfoArea* DisplayArea::IA</definition>
+        <argsstring></argsstring>
+        <name>IA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="44" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDisplayArea_1DisplayAreao4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classmediamanagement" kindref="compound">mediamanagement</ref> *</type>
+        <definition>mediamanagement* DisplayArea::Media</definition>
+        <argsstring></argsstring>
+        <name>Media</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classDisplayArea_1DisplayAreai0" compoundref="displayarea_8cpp" startline="71" endline="131">slotDisplayModeChange</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classDisplayArea_1DisplayAreai0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DisplayArea::slotDisplayModeChange</definition>
+        <argsstring>(int)</argsstring>
+        <name>slotDisplayModeChange</name>
+        <param>
+          <type>int</type>
+          <defname>displaymode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/displayarea.h" line="47" bodystart="71" bodyend="131"/>
+        <references refid="classDisplayArea_1DisplayAreao2" compoundref="displayarea_8h" startline="43">Album</references>
+        <references refid="classDisplayArea_1DisplayAreao1" compoundref="displayarea_8h" startline="42">Browser</references>
+        <references refid="classDisplayArea_1DisplayAreao0" compoundref="displayarea_8h" startline="41">Clock</references>
+        <references refid="enum_8h_1a23a12">em_display_album</references>
+        <references refid="enum_8h_1a23a13">em_display_clock</references>
+        <references refid="enum_8h_1a23a16">em_display_close</references>
+        <references refid="enum_8h_1a23a9">em_display_internet</references>
+        <references refid="enum_8h_1a23a11">em_display_management</references>
+        <references refid="enum_8h_1a23a10">em_display_player</references>
+        <references refid="enum_8h_1a23a15">em_display_setting</references>
+        <references refid="classDisplayArea_1DisplayAreao3" compoundref="displayarea_8h" startline="44">IA</references>
+        <references refid="classDisplayArea_1DisplayAreao4" compoundref="displayarea_8h" startline="45">Media</references>
+        <referencedby refid="classDisplayArea_1DisplayAreaa2" compoundref="displayarea_8cpp" startline="35" endline="69">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="365">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="364">
+        <label>DisplayArea</label>
+        <link refid="classDisplayArea"/>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="368">
+        <label>mediamanagement</label>
+        <link refid="classmediamanagement"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>musicroot</edgelabel>
+          <edgelabel>imgroot</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>imgdetial</edgelabel>
+        </childnode>
+        <childnode refid="372" relation="usage">
+          <edgelabel>musicDir</edgelabel>
+          <edgelabel>imgDir</edgelabel>
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>imgFIV</edgelabel>
+          <edgelabel>musicFIV</edgelabel>
+        </childnode>
+      </node>
+      <node id="379">
+        <label>hdassClock</label>
+        <link refid="classhdassClock"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="378">
+        <label>DownFile</label>
+        <link refid="classDownFile"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>QtFileIconViewItem</label>
+        <link refid="classQtFileIconViewItem"/>
+      </node>
+      <node id="370">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="371">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>DisplayArea</label>
+        <link refid="classDisplayArea"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>Media</edgelabel>
+        </childnode>
+        <childnode refid="375" relation="usage">
+          <edgelabel>IA</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>Album</edgelabel>
+        </childnode>
+        <childnode refid="377" relation="usage">
+          <edgelabel>Browser</edgelabel>
+        </childnode>
+        <childnode refid="379" relation="usage">
+          <edgelabel>Clock</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>QtFileIconView</label>
+        <link refid="classQtFileIconView"/>
+        <childnode refid="374" relation="usage">
+          <edgelabel>openItem</edgelabel>
+        </childnode>
+      </node>
+      <node id="377">
+        <label>MyBrowser</label>
+        <link refid="classMyBrowser"/>
+        <childnode refid="378" relation="usage">
+          <edgelabel>getfile</edgelabel>
+        </childnode>
+      </node>
+      <node id="372">
+        <label>DirectoryView</label>
+        <link refid="classDirectoryView"/>
+      </node>
+      <node id="369">
+        <label>Directory</label>
+        <link refid="classDirectory"/>
+        <childnode refid="369" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="375">
+        <label>InfoArea</label>
+        <link refid="classInfoArea"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="376" relation="usage">
+          <edgelabel>IABtnVolumeDown</edgelabel>
+          <edgelabel>IABtnVolumeUp</edgelabel>
+          <edgelabel>IABtnPlayListDelete</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/displayarea.h" line="34" bodystart="33" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classDisplayArea_1DisplayAreao2" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>Album</name></member>
+      <member refid="classDisplayArea_1DisplayAreao1" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>Browser</name></member>
+      <member refid="classDisplayArea_1DisplayAreao0" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>Clock</name></member>
+      <member refid="classDisplayArea_1DisplayAreaa0" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>DisplayArea</name></member>
+      <member refid="classDisplayArea_1DisplayAreao3" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>IA</name></member>
+      <member refid="classDisplayArea_1DisplayAreao4" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>Media</name></member>
+      <member refid="classDisplayArea_1DisplayAreai0" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>slotDisplayModeChange</name></member>
+      <member refid="classDisplayArea_1DisplayAreaa2" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>xSetup</name></member>
+      <member refid="classDisplayArea_1DisplayAreaa1" prot="public" virt="non-virtual"><scope>DisplayArea</scope><name>~DisplayArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

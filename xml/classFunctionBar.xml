@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classFunctionBar" kind="class" prot="public">
+    <compoundname>FunctionBar</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="functionbar_8h" local="no">functionbar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFunctionBar_1FunctionBara0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FunctionBar::FunctionBar</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>FunctionBar</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="41" bodystart="22" bodyend="26"/>
+        <references refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classFunctionBar_1FunctionBara1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FunctionBar::~FunctionBar</definition>
+        <argsstring>()</argsstring>
+        <name>~FunctionBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="43" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classFunctionBar_1FunctionBara2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FunctionBar::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="44" bodystart="33" bodyend="77"/>
+        <references refid="classFunctionBar_1FunctionBaro0" compoundref="functionbar_8h" startline="45">BarAC</references>
+        <references refid="classFunctionBar_1FunctionBaro6" compoundref="functionbar_8h" startline="50">BarClose</references>
+        <references refid="classFunctionBar_1FunctionBaro1" compoundref="functionbar_8h" startline="45">BarID</references>
+        <references refid="classFunctionBar_1FunctionBaro2" compoundref="functionbar_8h" startline="46">BarInternet</references>
+        <references refid="classFunctionBar_1FunctionBaro4" compoundref="functionbar_8h" startline="48">BarManagement</references>
+        <references refid="classFunctionBar_1FunctionBaro3" compoundref="functionbar_8h" startline="47">BarPlayer</references>
+        <references refid="classFunctionBar_1FunctionBaro5" compoundref="functionbar_8h" startline="49">BarSetting</references>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo0" compoundref="hdassglobalsetting_8h" startline="40">HDASSGlobalSetting::intHDASS_FUNCTION_STATE</references>
+        <references refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</references>
+        <referencedby refid="classFunctionBar_1FunctionBara0" compoundref="functionbar_8cpp" startline="22" endline="26">FunctionBar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarAlbumClock" kindref="compound">SubBarAlbumClock</ref> *</type>
+        <definition>SubBarAlbumClock* FunctionBar::BarAC</definition>
+        <argsstring></argsstring>
+        <name>BarAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarAlbumClock" kindref="compound">SubBarAlbumClock</ref> *</type>
+        <definition>SubBarAlbumClock * FunctionBar::BarID</definition>
+        <argsstring></argsstring>
+        <name>BarID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarInternet" kindref="compound">SubBarInternet</ref> *</type>
+        <definition>SubBarInternet* FunctionBar::BarInternet</definition>
+        <argsstring></argsstring>
+        <name>BarInternet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="46" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarPlayer" kindref="compound">SubBarPlayer</ref> *</type>
+        <definition>SubBarPlayer* FunctionBar::BarPlayer</definition>
+        <argsstring></argsstring>
+        <name>BarPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="47" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarManagement" kindref="compound">SubBarManagement</ref> *</type>
+        <definition>SubBarManagement* FunctionBar::BarManagement</definition>
+        <argsstring></argsstring>
+        <name>BarManagement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="48" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro5" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarSetting" kindref="compound">SubBarSetting</ref> *</type>
+        <definition>SubBarSetting* FunctionBar::BarSetting</definition>
+        <argsstring></argsstring>
+        <name>BarSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="49" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBaro6" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classSubBarClose" kindref="compound">SubBarClose</ref> *</type>
+        <definition>SubBarClose* FunctionBar::BarClose</definition>
+        <argsstring></argsstring>
+        <name>BarClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="50" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classFunctionBar_1FunctionBari0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FunctionBar::slotChangeFunctionSubBar</definition>
+        <argsstring>(int)</argsstring>
+        <name>slotChangeFunctionSubBar</name>
+        <param>
+          <type>int</type>
+          <defname>FuncMode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="52" bodystart="79" bodyend="172"/>
+        <references refid="classFunctionBar_1FunctionBaro0" compoundref="functionbar_8h" startline="45">BarAC</references>
+        <references refid="classFunctionBar_1FunctionBaro6" compoundref="functionbar_8h" startline="50">BarClose</references>
+        <references refid="classFunctionBar_1FunctionBaro1" compoundref="functionbar_8h" startline="45">BarID</references>
+        <references refid="classFunctionBar_1FunctionBaro2" compoundref="functionbar_8h" startline="46">BarInternet</references>
+        <references refid="classFunctionBar_1FunctionBaro4" compoundref="functionbar_8h" startline="48">BarManagement</references>
+        <references refid="classFunctionBar_1FunctionBaro3" compoundref="functionbar_8h" startline="47">BarPlayer</references>
+        <references refid="classFunctionBar_1FunctionBaro5" compoundref="functionbar_8h" startline="49">BarSetting</references>
+        <references refid="enum_8h_1a21a3">em_albumclock</references>
+        <references refid="enum_8h_1a21a5">em_close</references>
+        <references refid="enum_8h_1a23a16">em_display_close</references>
+        <references refid="enum_8h_1a23a9">em_display_internet</references>
+        <references refid="enum_8h_1a23a11">em_display_management</references>
+        <references refid="enum_8h_1a23a10">em_display_player</references>
+        <references refid="enum_8h_1a23a15">em_display_setting</references>
+        <references refid="enum_8h_1a21a6">em_imagedetial</references>
+        <references refid="enum_8h_1a21a0">em_internet</references>
+        <references refid="enum_8h_1a21a2">em_management</references>
+        <references refid="enum_8h_1a21a1">em_player</references>
+        <references refid="enum_8h_1a21a4">em_setting</references>
+        <references refid="global__define_8h_1a2" compoundref="global__define_8h" startline="5">GlobalSetting</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" compoundref="hdassglobalsetting_8h" startline="41">HDASSGlobalSetting::intHDASS_ALBUMCLOCK_STATE</references>
+        <references refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" compoundref="hdassglobalsetting_8h" startline="42">HDASSGlobalSetting::intHDSS_DISPLAY_STATE</references>
+        <references refid="classFunctionBar_1FunctionBarl0" compoundref="functionbar_8moc" startline="90" endline="93">siganlChangeDisplayAreaMode</references>
+        <referencedby refid="classFunctionBar_1FunctionBara2" compoundref="functionbar_8cpp" startline="33" endline="77">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classFunctionBar_1FunctionBarl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FunctionBar::siganlChangeDisplayAreaMode</definition>
+        <argsstring>(int)</argsstring>
+        <name>siganlChangeDisplayAreaMode</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="54" bodystart="90" bodyend="93"/>
+        <referencedby refid="classFunctionBar_1FunctionBari0" compoundref="functionbar_8cpp" startline="79" endline="172">slotChangeFunctionSubBar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFunctionBar_1FunctionBarr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap FunctionBar::pixBackground</definition>
+        <argsstring></argsstring>
+        <name>pixBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/functionbar.h" line="56" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>sonicat </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="414">
+        <label>FunctionBar</label>
+        <link refid="classFunctionBar"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="420">
+        <label>SkinButton</label>
+        <link refid="classSkinButton"/>
+      </node>
+      <node id="421">
+        <label>SubBarPlayer</label>
+        <link refid="classSubBarPlayer"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>SubBtnPlayer_Backword</edgelabel>
+          <edgelabel>SubBtn_Forward</edgelabel>
+          <edgelabel>testBtn</edgelabel>
+          <edgelabel>SubBtnPlayer_PlayNPause</edgelabel>
+        </childnode>
+        <childnode refid="422" relation="usage">
+          <edgelabel>m_player</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>SubBarManagement</label>
+        <link refid="classSubBarManagement"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>SubBtnMM_Cut</edgelabel>
+          <edgelabel>SubBtnMM_Paste</edgelabel>
+          <edgelabel>SubBtnMM_MusicNImage</edgelabel>
+          <edgelabel>SubBtnMM_Delete</edgelabel>
+          <edgelabel>SubBtnMM_Floder</edgelabel>
+        </childnode>
+      </node>
+      <node id="423">
+        <label>SubBarInternet</label>
+        <link refid="classSubBarInternet"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>SubBarBtnInternet_Search</edgelabel>
+          <edgelabel>SubBarBtnInternet_Home</edgelabel>
+          <edgelabel>SubBarBtnInternet_Next</edgelabel>
+          <edgelabel>SubBarBtnInternet_Previous</edgelabel>
+        </childnode>
+      </node>
+      <node id="417">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="422">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>SubBarClose</label>
+        <link refid="classSubBarClose"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>SubBarAlbumClock</label>
+        <link refid="classSubBarAlbumClock"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>SubBarBtnPlayNPause</edgelabel>
+          <edgelabel>SubBarBtnAlbumClock</edgelabel>
+          <edgelabel>SubBarBtnPrevious</edgelabel>
+          <edgelabel>SubBarBtnNext</edgelabel>
+        </childnode>
+      </node>
+      <node id="416">
+        <label>FunctionBar</label>
+        <link refid="classFunctionBar"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="usage">
+          <edgelabel>BarClose</edgelabel>
+        </childnode>
+        <childnode refid="419" relation="usage">
+          <edgelabel>BarManagement</edgelabel>
+        </childnode>
+        <childnode refid="421" relation="usage">
+          <edgelabel>BarPlayer</edgelabel>
+        </childnode>
+        <childnode refid="423" relation="usage">
+          <edgelabel>BarInternet</edgelabel>
+        </childnode>
+        <childnode refid="424" relation="usage">
+          <edgelabel>BarAC</edgelabel>
+          <edgelabel>BarID</edgelabel>
+        </childnode>
+        <childnode refid="425" relation="usage">
+          <edgelabel>BarSetting</edgelabel>
+        </childnode>
+      </node>
+      <node id="425">
+        <label>SubBarSetting</label>
+        <link refid="classSubBarSetting"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/functionbar.h" line="38" bodystart="37" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classFunctionBar_1FunctionBaro0" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarAC</name></member>
+      <member refid="classFunctionBar_1FunctionBaro6" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarClose</name></member>
+      <member refid="classFunctionBar_1FunctionBaro1" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarID</name></member>
+      <member refid="classFunctionBar_1FunctionBaro2" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarInternet</name></member>
+      <member refid="classFunctionBar_1FunctionBaro4" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarManagement</name></member>
+      <member refid="classFunctionBar_1FunctionBaro3" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarPlayer</name></member>
+      <member refid="classFunctionBar_1FunctionBaro5" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>BarSetting</name></member>
+      <member refid="classFunctionBar_1FunctionBara0" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>FunctionBar</name></member>
+      <member refid="classFunctionBar_1FunctionBarr0" prot="private" virt="non-virtual"><scope>FunctionBar</scope><name>pixBackground</name></member>
+      <member refid="classFunctionBar_1FunctionBarl0" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>siganlChangeDisplayAreaMode</name></member>
+      <member refid="classFunctionBar_1FunctionBari0" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>slotChangeFunctionSubBar</name></member>
+      <member refid="classFunctionBar_1FunctionBara2" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>xSetup</name></member>
+      <member refid="classFunctionBar_1FunctionBara1" prot="public" virt="non-virtual"><scope>FunctionBar</scope><name>~FunctionBar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

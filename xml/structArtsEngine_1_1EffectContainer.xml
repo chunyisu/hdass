@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="structArtsEngine_1_1EffectContainer" kind="struct" prot="private">
+    <compoundname>ArtsEngine::EffectContainer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero0" prot="public" static="no" volatile="no" mutable="no">
+        <type>Arts::StereoEffect *</type>
+        <definition>Arts::StereoEffect* ArtsEngine::EffectContainer::effect</definition>
+        <argsstring></argsstring>
+        <name>effect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="112" bodystart="112" bodyend="-1"/>
+        <referencedby refid="classArtsEngine_1ArtsEnginea14" compoundref="artsengine_8cpp" startline="538" endline="571">ArtsEngine::createEffect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero1" prot="public" static="no" volatile="no" mutable="no">
+        <type>QGuardedPtr&lt; <ref refid="classArtsEngine_1_1ArtsConfigWidget" kindref="compound">ArtsConfigWidget</ref> &gt;</type>
+        <definition>QGuardedPtr&lt;ArtsConfigWidget&gt; ArtsEngine::EffectContainer::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="113" bodystart="113" bodyend="-1"/>
+        <referencedby refid="classArtsEngine_1ArtsEnginea14" compoundref="artsengine_8cpp" startline="538" endline="571">ArtsEngine::createEffect</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/artsengine.h" line="111" bodystart="110" bodyend="114"/>
+    <listofallmembers>
+      <member refid="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero0" prot="public" virt="non-virtual"><scope>ArtsEngine::EffectContainer</scope><name>effect</name></member>
+      <member refid="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero1" prot="public" virt="non-virtual"><scope>ArtsEngine::EffectContainer</scope><name>widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

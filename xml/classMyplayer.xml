@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classMyplayer" kind="class" prot="public">
+    <compoundname>Myplayer</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="Myplayer_8h" local="no">Myplayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMyplayer_1Myplayera0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Myplayer::Myplayer</definition>
+        <argsstring>()</argsstring>
+        <name>Myplayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="35" bodystart="31" bodyend="53"/>
+        <references refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">handleNext</references>
+        <references refid="classMyplayer_1Myplayeri11" compoundref="Myplayer_8cpp" startline="238" endline="241">handlePosition</references>
+        <references refid="classMyplayer_1Myplayeri10" compoundref="Myplayer_8cpp" startline="205" endline="226">handlePrevious</references>
+        <references refid="classEngineBase_1EngineBasea2">EngineBase::init</references>
+        <references refid="classEngineBase_1EngineBasea3">EngineBase::initMixer</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classMyplayer_1Myplayerr4" compoundref="Myplayer_8h" startline="77">m_random</references>
+        <references refid="classMyplayer_1Myplayerr3" compoundref="Myplayer_8h" startline="76">m_repeat</references>
+        <references refid="classMyplayer_1Myplayerr2" compoundref="Myplayer_8h" startline="75">m_Vol</references>
+        <references refid="classEngineBase_1EngineBasea27" compoundref="enginebase_8h" startline="114" endline="114">EngineBase::setDefaultSoundDevice</references>
+        <references refid="classEngineController_1EngineControllere2" compoundref="enginecontroller_8cpp" startline="186" endline="191">EngineController::setEngine</references>
+        <references refid="classEngineBase_1EngineBasea15" compoundref="enginebase_8h" startline="101" endline="101">EngineBase::setRestoreEffects</references>
+        <references refid="classEngineBase_1EngineBasea26" compoundref="enginebase_8h" startline="113" endline="113">EngineBase::setSoundDevice</references>
+        <references refid="classEngineBase_1EngineBasea25" compoundref="enginebase_8cpp" startline="87" endline="92">EngineBase::setSoundOutput</references>
+        <references refid="classEngineBase_1EngineBasei4">EngineBase::setVolume</references>
+        <references refid="classEngineBase_1EngineBasea24" compoundref="enginebase_8cpp" startline="81" endline="84">EngineBase::setXfadeLength</references>
+      </memberdef>
+      <memberdef kind="function" id="classMyplayer_1Myplayera1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Myplayer::~Myplayer</definition>
+        <argsstring>()</argsstring>
+        <name>~Myplayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="36" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMyplayer_1Myplayera2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handleMessage</definition>
+        <argsstring>(const MetaBundle &amp;)</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <defname>bundle</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="38" bodystart="326" bodyend="335"/>
+        <references refid="classMetaBundle_1MetaBundlea12" compoundref="metabundle_8h" startline="61" endline="61">MetaBundle::album</references>
+        <references refid="classMetaBundle_1MetaBundlea11" compoundref="metabundle_8h" startline="60" endline="60">MetaBundle::artist</references>
+        <references refid="classMetaBundle_1MetaBundlea6" compoundref="metabundle_8h" startline="55" endline="55">MetaBundle::bitrate</references>
+        <references refid="classMetaBundle_1MetaBundlea5" compoundref="metabundle_8h" startline="54" endline="54">MetaBundle::length</references>
+        <references refid="classMetaBundle_1MetaBundlea10" compoundref="metabundle_8h" startline="59" endline="59">MetaBundle::title</references>
+        <references refid="classMyplayer_1Myplayerl0" compoundref="Myplayer_8moc" startline="172" endline="186">trackMessage</references>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri10" compoundref="Myplayer_8cpp" startline="205" endline="226">handlePrevious</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">play</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="41" bodystart="61" bodyend="75"/>
+        <references refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">handleMessage</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">EngineController::play</references>
+        <references refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</references>
+        <referencedby refid="classMyplayer_1Myplayeri15" compoundref="Myplayer_8cpp" startline="253" endline="263">handlePlayItem</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::play</definition>
+        <argsstring>(QString FileName)</argsstring>
+        <name>play</name>
+        <param>
+          <type>QString</type>
+          <declname>FileName</declname>
+          <defname>filename</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="42" bodystart="76" bodyend="98"/>
+        <references refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">handleMessage</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">EngineController::play</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="43" bodystart="106" bodyend="110"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">EngineController::pause</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="44" bodystart="99" bodyend="104"/>
+        <references refid="classMyplayer_1Myplayeri11" compoundref="Myplayer_8cpp" startline="238" endline="241">handlePosition</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="45" bodystart="134" bodyend="146"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classEngineController_1EngineControlleri1" compoundref="enginecontroller_8cpp" startline="90" endline="94">EngineController::next</references>
+        <references refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::previous</definition>
+        <argsstring>()</argsstring>
+        <name>previous</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="46" bodystart="148" bodyend="157"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classEngineController_1EngineControlleri0" compoundref="enginecontroller_8cpp" startline="83" endline="86">EngineController::previous</references>
+        <references refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::increase_volume</definition>
+        <argsstring>()</argsstring>
+        <name>increase_volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="48" bodystart="112" bodyend="116"/>
+        <references refid="classMyplayer_1Myplayerr2" compoundref="Myplayer_8h" startline="75">m_Vol</references>
+        <references refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">setVolume</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::decrease_volume</definition>
+        <argsstring>()</argsstring>
+        <name>decrease_volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="49" bodystart="118" bodyend="122"/>
+        <references refid="classMyplayer_1Myplayerr2" compoundref="Myplayer_8h" startline="75">m_Vol</references>
+        <references refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">setVolume</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::setVolume</definition>
+        <argsstring>(int)</argsstring>
+        <name>setVolume</name>
+        <param>
+          <type>int</type>
+          <defname>percent</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="50" bodystart="124" bodyend="132"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr2" compoundref="Myplayer_8h" startline="75">m_Vol</references>
+        <references refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">EngineController::setVolume</references>
+        <references refid="classMyplayer_1Myplayerl1" compoundref="Myplayer_8moc" startline="189" endline="192">volumeMessage</references>
+        <referencedby refid="classMyplayer_1Myplayeri7" compoundref="Myplayer_8cpp" startline="118" endline="122">decrease_volume</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri6" compoundref="Myplayer_8cpp" startline="112" endline="116">increase_volume</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handleNext</definition>
+        <argsstring>()</argsstring>
+        <name>handleNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="52" bodystart="160" bodyend="203"/>
+        <references refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">handleMessage</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classMyplayer_1Myplayerr4" compoundref="Myplayer_8h" startline="77">m_random</references>
+        <references refid="classMyplayer_1Myplayerr3" compoundref="Myplayer_8h" startline="76">m_repeat</references>
+        <references refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">EngineController::play</references>
+        <references refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handlePrevious</definition>
+        <argsstring>()</argsstring>
+        <name>handlePrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="53" bodystart="205" bodyend="226"/>
+        <references refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">handleMessage</references>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">EngineController::instance</references>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">EngineController::play</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handlePosition</definition>
+        <argsstring>(int)</argsstring>
+        <name>handlePosition</name>
+        <param>
+          <type>int</type>
+          <defname>position</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="54" bodystart="238" bodyend="241"/>
+        <references refid="classMyplayer_1Myplayerl2" compoundref="Myplayer_8moc" startline="195" endline="198">positionMessage</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri3" compoundref="Myplayer_8cpp" startline="99" endline="104">stop</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handleRepeat</definition>
+        <argsstring>(bool)</argsstring>
+        <name>handleRepeat</name>
+        <param>
+          <type>bool</type>
+          <defname>repeat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="55" bodystart="228" bodyend="231"/>
+        <references refid="classMyplayer_1Myplayerr3" compoundref="Myplayer_8h" startline="76">m_repeat</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri13" compoundref="src_2subbarplayer_8cpp" startline="126" endline="131">SubBarPlayer::initMedia</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri11" compoundref="src_2subbarplayer_8cpp" startline="113" endline="120">SubBarPlayer::insertMedia</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handleRandom</definition>
+        <argsstring>(bool)</argsstring>
+        <name>handleRandom</name>
+        <param>
+          <type>bool</type>
+          <defname>random</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="56" bodystart="233" bodyend="236"/>
+        <references refid="classMyplayer_1Myplayerr4" compoundref="Myplayer_8h" startline="77">m_random</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handleSlider</definition>
+        <argsstring>(int)</argsstring>
+        <name>handleSlider</name>
+        <param>
+          <type>int</type>
+          <defname>sliderValue</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="57" bodystart="243" bodyend="251"/>
+        <references refid="classEngineController_1EngineControllere1" compoundref="enginecontroller_8h" startline="43" endline="43">EngineController::engine</references>
+        <references refid="classEngineBase_1EngineBasei5">EngineBase::seek</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri5" compoundref="src_2subbarplayer_8cpp" startline="163" endline="169">SubBarPlayer::handleNextReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri7" compoundref="src_2subbarplayer_8cpp" startline="187" endline="193">SubBarPlayer::handlePreviousReleased</referencedby>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri2" compoundref="src_2subbarplayer_8cpp" startline="144" endline="148">SubBarPlayer::handleSliderReleased</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::handlePlayItem</definition>
+        <argsstring>(KURL &amp;)</argsstring>
+        <name>handlePlayItem</name>
+        <param>
+          <type>KURL &amp;</type>
+          <defname>url</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="58" bodystart="253" bodyend="263"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <references refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">play</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::initlist</definition>
+        <argsstring>(KURL::List &amp;)</argsstring>
+        <name>initlist</name>
+        <param>
+          <type>KURL::List &amp;</type>
+          <defname>list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="59" bodystart="364" bodyend="369"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri13" compoundref="src_2subbarplayer_8cpp" startline="126" endline="131">SubBarPlayer::initMedia</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::add</definition>
+        <argsstring>(KURL::List &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>KURL::List &amp;</type>
+          <defname>list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="60" bodystart="267" bodyend="284"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri11" compoundref="src_2subbarplayer_8cpp" startline="113" endline="120">SubBarPlayer::insertMedia</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::clearMedia</definition>
+        <argsstring>()</argsstring>
+        <name>clearMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="61" bodystart="286" bodyend="293"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyplayer_1Myplayeri19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::removeMedia</definition>
+        <argsstring>(KURL::List &amp;)</argsstring>
+        <name>removeMedia</name>
+        <param>
+          <type>KURL::List &amp;</type>
+          <defname>remove_list</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="62" bodystart="295" bodyend="322"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+        <referencedby refid="classSubBarPlayer_1SubBarPlayeri12" compoundref="src_2subbarplayer_8cpp" startline="122" endline="125">SubBarPlayer::removeMedia</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classMyplayer_1Myplayerl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::trackMessage</definition>
+        <argsstring>(int, int, QString, QString, QString)</argsstring>
+        <name>trackMessage</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>t1</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>t2</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>t3</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>t4</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="65" bodystart="172" bodyend="186"/>
+        <referencedby refid="classMyplayer_1Myplayera2" compoundref="Myplayer_8cpp" startline="326" endline="335">handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classMyplayer_1Myplayerl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::volumeMessage</definition>
+        <argsstring>(int)</argsstring>
+        <name>volumeMessage</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="66" bodystart="189" bodyend="192"/>
+        <referencedby refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">setVolume</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classMyplayer_1Myplayerl2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::positionMessage</definition>
+        <argsstring>(int)</argsstring>
+        <name>positionMessage</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="67" bodystart="195" bodyend="198"/>
+        <referencedby refid="classMyplayer_1Myplayeri11" compoundref="Myplayer_8cpp" startline="238" endline="241">handlePosition</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classMyplayer_1Myplayery3" prot="private" static="no">
+        <name>PLAYSTATE</name>
+        <enumvalue id="classMyplayer_1Myplayery3Myplayery0" prot="private">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMyplayer_1Myplayery3Myplayery1" prot="private">
+          <name>Pause</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMyplayer_1Myplayery3Myplayery2" prot="private">
+          <name>Go</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="31" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMyplayer_1Myplayerd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::savePlaylist</definition>
+        <argsstring>()</argsstring>
+        <name>savePlaylist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="70" bodystart="339" bodyend="349"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+      </memberdef>
+      <memberdef kind="function" id="classMyplayer_1Myplayerd1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Myplayer::restorePlaylist</definition>
+        <argsstring>()</argsstring>
+        <name>restorePlaylist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="71" bodystart="351" bodyend="363"/>
+        <references refid="classMyplayer_1Myplayerr0" compoundref="Myplayer_8h" startline="73">m_list</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List Myplayer::m_list</definition>
+        <argsstring></argsstring>
+        <name>m_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="73" bodystart="73" bodyend="-1"/>
+        <referencedby refid="classMyplayer_1Myplayeri17" compoundref="Myplayer_8cpp" startline="267" endline="284">add</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri18" compoundref="Myplayer_8cpp" startline="286" endline="293">clearMedia</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri15" compoundref="Myplayer_8cpp" startline="253" endline="263">handlePlayItem</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri10" compoundref="Myplayer_8cpp" startline="205" endline="226">handlePrevious</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri16" compoundref="Myplayer_8cpp" startline="364" endline="369">initlist</referencedby>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri4" compoundref="Myplayer_8cpp" startline="134" endline="146">next</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">play</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri5" compoundref="Myplayer_8cpp" startline="148" endline="157">previous</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri19" compoundref="Myplayer_8cpp" startline="295" endline="322">removeMedia</referencedby>
+        <referencedby refid="classMyplayer_1Myplayerd1" compoundref="Myplayer_8cpp" startline="351" endline="363">restorePlaylist</referencedby>
+        <referencedby refid="classMyplayer_1Myplayerd0" compoundref="Myplayer_8cpp" startline="339" endline="349">savePlaylist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>KURL::List::Iterator</type>
+        <definition>KURL::List::Iterator Myplayer::it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="74" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int Myplayer::m_Vol</definition>
+        <argsstring></argsstring>
+        <name>m_Vol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="75" bodystart="75" bodyend="-1"/>
+        <referencedby refid="classMyplayer_1Myplayeri7" compoundref="Myplayer_8cpp" startline="118" endline="122">decrease_volume</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri6" compoundref="Myplayer_8cpp" startline="112" endline="116">increase_volume</referencedby>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">setVolume</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Myplayer::m_repeat</definition>
+        <argsstring></argsstring>
+        <name>m_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="76" bodystart="76" bodyend="-1"/>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri12" compoundref="Myplayer_8cpp" startline="228" endline="231">handleRepeat</referencedby>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Myplayer::m_random</definition>
+        <argsstring></argsstring>
+        <name>m_random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="77" bodystart="77" bodyend="-1"/>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri13" compoundref="Myplayer_8cpp" startline="233" endline="236">handleRandom</referencedby>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyplayer_1Myplayerr5" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classMyplayer_1Myplayery3" kindref="member">PLAYSTATE</ref></type>
+        <definition>PLAYSTATE Myplayer::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/Myplayer.h" line="78" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="512">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="511">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="514">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="513">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/Myplayer.h" line="28" bodystart="27" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classMyplayer_1Myplayeri17" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>add</name></member>
+      <member refid="classMyplayer_1Myplayeri18" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>clearMedia</name></member>
+      <member refid="classMyplayer_1Myplayeri7" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>decrease_volume</name></member>
+      <member refid="classMyplayer_1Myplayery3Myplayery2" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>Go</name></member>
+      <member refid="classMyplayer_1Myplayera2" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handleMessage</name></member>
+      <member refid="classMyplayer_1Myplayeri9" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handleNext</name></member>
+      <member refid="classMyplayer_1Myplayeri15" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handlePlayItem</name></member>
+      <member refid="classMyplayer_1Myplayeri11" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handlePosition</name></member>
+      <member refid="classMyplayer_1Myplayeri10" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handlePrevious</name></member>
+      <member refid="classMyplayer_1Myplayeri13" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handleRandom</name></member>
+      <member refid="classMyplayer_1Myplayeri12" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handleRepeat</name></member>
+      <member refid="classMyplayer_1Myplayeri14" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>handleSlider</name></member>
+      <member refid="classMyplayer_1Myplayery3Myplayery0" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>Idle</name></member>
+      <member refid="classMyplayer_1Myplayeri6" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>increase_volume</name></member>
+      <member refid="classMyplayer_1Myplayeri16" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>initlist</name></member>
+      <member refid="classMyplayer_1Myplayerr1" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>it</name></member>
+      <member refid="classMyplayer_1Myplayerr0" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>m_list</name></member>
+      <member refid="classMyplayer_1Myplayerr4" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>m_random</name></member>
+      <member refid="classMyplayer_1Myplayerr3" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>m_repeat</name></member>
+      <member refid="classMyplayer_1Myplayerr2" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>m_Vol</name></member>
+      <member refid="classMyplayer_1Myplayera0" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>Myplayer</name></member>
+      <member refid="classMyplayer_1Myplayeri4" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>next</name></member>
+      <member refid="classMyplayer_1Myplayery3Myplayery1" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>Pause</name></member>
+      <member refid="classMyplayer_1Myplayeri2" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>pause</name></member>
+      <member refid="classMyplayer_1Myplayeri0" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>play</name></member>
+      <member refid="classMyplayer_1Myplayeri1" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>play</name></member>
+      <member refid="classMyplayer_1Myplayery3" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>PLAYSTATE</name></member>
+      <member refid="classMyplayer_1Myplayerl2" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>positionMessage</name></member>
+      <member refid="classMyplayer_1Myplayeri5" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>previous</name></member>
+      <member refid="classMyplayer_1Myplayeri19" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>removeMedia</name></member>
+      <member refid="classMyplayer_1Myplayerd1" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>restorePlaylist</name></member>
+      <member refid="classMyplayer_1Myplayerd0" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>savePlaylist</name></member>
+      <member refid="classMyplayer_1Myplayeri8" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>setVolume</name></member>
+      <member refid="classMyplayer_1Myplayerr5" prot="private" virt="non-virtual"><scope>Myplayer</scope><name>state</name></member>
+      <member refid="classMyplayer_1Myplayeri3" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>stop</name></member>
+      <member refid="classMyplayer_1Myplayerl0" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>trackMessage</name></member>
+      <member refid="classMyplayer_1Myplayerl1" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>volumeMessage</name></member>
+      <member refid="classMyplayer_1Myplayera1" prot="public" virt="non-virtual"><scope>Myplayer</scope><name>~Myplayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

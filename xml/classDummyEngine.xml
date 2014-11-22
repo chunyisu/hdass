@@ -1,0 +1,959 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classDummyEngine" kind="class" prot="public">
+    <compoundname>DummyEngine</compoundname>
+    <basecompoundref refid="classEngineBase" prot="public" virt="non-virtual">EngineBase</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classEngineBase_1EngineBasew7" prot="public" static="no">
+        <name>EngineState</name>
+        <enumvalue id="classEngineBase_1EngineBasew7EngineBasew0" prot="public">
+          <name>Empty</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEngineBase_1EngineBasew7EngineBasew1" prot="public">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEngineBase_1EngineBasew7EngineBasew2" prot="public">
+          <name>Playing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEngineBase_1EngineBasew7EngineBasew3" prot="public">
+          <name>Paused</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="43" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="classEngineBase_1EngineBasew8" prot="public" static="no">
+        <name>StreamingMode</name>
+        <enumvalue id="classEngineBase_1EngineBasew8EngineBasew4" prot="public">
+          <name>Socket</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEngineBase_1EngineBasew8EngineBasew5" prot="public">
+          <name>Signal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEngineBase_1EngineBasew8EngineBasew6" prot="public">
+          <name>NoStreaming</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="44" bodystart="44" bodyend="44"/>
+        <referencedby refid="classEngineBase_1EngineBasea5" compoundref="enginebase_8h" startline="59" endline="59">EngineBase::streamingMode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDummyEngine_1DummyEnginea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DummyEngine::DummyEngine</definition>
+        <argsstring>()</argsstring>
+        <name>DummyEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="48" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual <ref refid="classEngineBase_1EngineBasew8" kindref="member">StreamingMode</ref></type>
+        <definition>virtual StreamingMode EngineBase::streamingMode</definition>
+        <argsstring>()</argsstring>
+        <name>streamingMode</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea5">streamingMode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="59" bodystart="59" bodyend="59"/>
+        <references refid="classEngineBase_1EngineBasew8EngineBasew6">EngineBase::NoStreaming</references>
+        <references refid="classEngineBase_1EngineBasew8" compoundref="enginebase_8h" startline="44" endline="44">EngineBase::StreamingMode</references>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual QStringList</type>
+        <definition>virtual QStringList EngineBase::getOutputsList</definition>
+        <argsstring>()</argsstring>
+        <name>getOutputsList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get list of available output plugins </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="61" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EngineBase::loaded</definition>
+        <argsstring>()</argsstring>
+        <name>loaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if media is loaded, system is ready to play. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="73" bodystart="73" bodyend="73"/>
+        <references refid="classEngineBase_1EngineBasew7EngineBasew0">EngineBase::Empty</references>
+        <references refid="classEngineBase_1EngineBasea8">EngineBase::state</references>
+        <referencedby refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">EngineController::pause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int EngineBase::volume</definition>
+        <argsstring>() const </argsstring>
+        <name>volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the master volume. <simplesect kind="return"><para>Volume in range 0 to 100. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="79" bodystart="79" bodyend="79"/>
+        <references refid="classEngineBase_1EngineBasep1" compoundref="enginebase_8h" startline="140">EngineBase::m_volume</references>
+        <referencedby refid="classEngineController_1EngineControlleri8" compoundref="enginecontroller_8cpp" startline="180" endline="183">EngineController::decreaseVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri7" compoundref="enginecontroller_8cpp" startline="173" endline="176">EngineController::increaseVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">EngineController::setVolume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea11" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EngineBase::isMixerHardware</definition>
+        <argsstring>() const </argsstring>
+        <name>isMixerHardware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the master volume. <simplesect kind="return"><para>True if using hardware mixer. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="85" bodystart="85" bodyend="85"/>
+        <references refid="classEngineBase_1EngineBasep0" compoundref="enginebase_8h" startline="139">EngineBase::m_mixerHW</references>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea13" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool EngineBase::supportsXFade</definition>
+        <argsstring>() const </argsstring>
+        <name>supportsXFade</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea18">supportsXFade</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determines whether the engine supports crossfading. <simplesect kind="return"><para>True if crossfading is supported. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="93" bodystart="93" bodyend="93"/>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">EngineController::slotMainTimer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual std::vector&lt; float &gt; *</type>
+        <definition>virtual std::vector&lt;float&gt;* EngineBase::scope</definition>
+        <argsstring>()</argsstring>
+        <name>scope</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea9">scope</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetches the current audio sample buffer. <simplesect kind="return"><para>Pointer to result of FFT calculation. Must be deleted after use. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="99" bodystart="99" bodyend="99"/>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" compoundref="analyzerbase_8cpp" startline="94" endline="121">Analyzer::Base&lt; W &gt;::drawFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineBase::setRestoreEffects</definition>
+        <argsstring>(bool yes)</argsstring>
+        <name>setRestoreEffects</name>
+        <param>
+          <type>bool</type>
+          <declname>yes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="101" bodystart="101" bodyend="101"/>
+        <references refid="classEngineBase_1EngineBasep3" compoundref="enginebase_8h" startline="142">EngineBase::m_restoreEffects</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual QStringList</type>
+        <definition>virtual QStringList EngineBase::availableEffects</definition>
+        <argsstring>() const </argsstring>
+        <name>availableEffects</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea10">availableEffects</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="102" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual std::vector&lt; long &gt;</type>
+        <definition>virtual std::vector&lt;long&gt; EngineBase::activeEffects</definition>
+        <argsstring>() const </argsstring>
+        <name>activeEffects</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea11">activeEffects</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="103" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea18" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual QString</type>
+        <definition>virtual QString EngineBase::effectNameForId</definition>
+        <argsstring>(long) const </argsstring>
+        <name>effectNameForId</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea12">effectNameForId</reimplementedby>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="104" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool EngineBase::effectConfigurable</definition>
+        <argsstring>(long) const </argsstring>
+        <name>effectConfigurable</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea13">effectConfigurable</reimplementedby>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="105" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual long</type>
+        <definition>virtual long EngineBase::createEffect</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>createEffect</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea14">createEffect</reimplementedby>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="106" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::removeEffect</definition>
+        <argsstring>(long)</argsstring>
+        <name>removeEffect</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea15">removeEffect</reimplementedby>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="107" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::configureEffect</definition>
+        <argsstring>(long)</argsstring>
+        <name>configureEffect</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginea16">configureEffect</reimplementedby>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="108" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool EngineBase::decoderConfigurable</definition>
+        <argsstring>() const </argsstring>
+        <name>decoderConfigurable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="109" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>void EngineBase::setXfadeLength</definition>
+        <argsstring>(int ms)</argsstring>
+        <name>setXfadeLength</name>
+        <param>
+          <type>int</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="111" bodystart="81" bodyend="84"/>
+        <references refid="classEngineBase_1EngineBasep2" compoundref="enginebase_8h" startline="141">EngineBase::m_xfadeLength</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea25" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>void EngineBase::setSoundOutput</definition>
+        <argsstring>(const QString &amp;output)</argsstring>
+        <name>setSoundOutput</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="112" bodystart="87" bodyend="92"/>
+        <references refid="classEngineBase_1EngineBasep4" compoundref="enginebase_8h" startline="143">EngineBase::m_soundOutput</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::setSoundDevice</definition>
+        <argsstring>(const QString &amp;device)</argsstring>
+        <name>setSoundDevice</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="113" bodystart="113" bodyend="113"/>
+        <references refid="classEngineBase_1EngineBasep5" compoundref="enginebase_8h" startline="144">EngineBase::m_soundDevice</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBasea27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::setDefaultSoundDevice</definition>
+        <argsstring>(bool isDefault)</argsstring>
+        <name>setDefaultSoundDevice</name>
+        <param>
+          <type>bool</type>
+          <declname>isDefault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="114" bodystart="114" bodyend="114"/>
+        <references refid="classEngineBase_1EngineBasep6" compoundref="enginebase_8h" startline="145">EngineBase::m_defaultSoundDevice</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEngineBase_1EngineBasei6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::configureDecoder</definition>
+        <argsstring>()</argsstring>
+        <name>configureDecoder</name>
+        <reimplementedby refid="classArtsEngine_1ArtsEnginei6">configureDecoder</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="129" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineBase_1EngineBasei7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void EngineBase::newStreamData</definition>
+        <argsstring>(char *, int)</argsstring>
+        <name>newStreamData</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="130" bodystart="130" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEngineBase_1EngineBasel0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineBase::endOfTrack</definition>
+        <argsstring>()</argsstring>
+        <name>endOfTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="39" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEngineBase_1EngineBasel1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineBase::stopped</definition>
+        <argsstring>()</argsstring>
+        <name>stopped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="40" bodystart="119" bodyend="122"/>
+        <referencedby refid="classArtsEngine_1ArtsEnginei0" compoundref="artsengine_8cpp" startline="349" endline="382">ArtsEngine::play</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classEngineBase_1EngineBaseb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineBase::closeMixerHW</definition>
+        <argsstring>()</argsstring>
+        <name>closeMixerHW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="133" bodystart="61" bodyend="68"/>
+        <references refid="classEngineBase_1EngineBasep0" compoundref="enginebase_8h" startline="139">EngineBase::m_mixerHW</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginea3" compoundref="artsengine_8cpp" startline="257" endline="278">ArtsEngine::initMixer</referencedby>
+        <referencedby refid="classEngineBase_1EngineBasea1" compoundref="enginebase_8cpp" startline="34" endline="39">EngineBase::~EngineBase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBaseb1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EngineBase::initMixerHW</definition>
+        <argsstring>()</argsstring>
+        <name>initMixerHW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="134" bodystart="43" bodyend="58"/>
+        <references refid="classEngineBase_1EngineBasep0" compoundref="enginebase_8h" startline="139">EngineBase::m_mixerHW</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginea3" compoundref="artsengine_8cpp" startline="257" endline="278">ArtsEngine::initMixer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineBase_1EngineBaseb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineBase::setVolumeHW</definition>
+        <argsstring>(int percent)</argsstring>
+        <name>setVolumeHW</name>
+        <param>
+          <type>int</type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="135" bodystart="71" bodyend="78"/>
+        <references refid="classEngineBase_1EngineBasep0" compoundref="enginebase_8h" startline="139">EngineBase::m_mixerHW</references>
+        <referencedby refid="classArtsEngine_1ArtsEnginei5" compoundref="artsengine_8cpp" startline="464" endline="475">ArtsEngine::setVolume</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep0" prot="protected" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int EngineBase::m_mixerHW</definition>
+        <argsstring></argsstring>
+        <name>m_mixerHW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="139" bodystart="139" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBaseb0" compoundref="enginebase_8cpp" startline="61" endline="68">EngineBase::closeMixerHW</referencedby>
+        <referencedby refid="classEngineBase_1EngineBaseb1" compoundref="enginebase_8cpp" startline="43" endline="58">EngineBase::initMixerHW</referencedby>
+        <referencedby refid="classEngineBase_1EngineBasea11" compoundref="enginebase_8h" startline="85" endline="85">EngineBase::isMixerHardware</referencedby>
+        <referencedby refid="classEngineBase_1EngineBaseb2" compoundref="enginebase_8cpp" startline="71" endline="78">EngineBase::setVolumeHW</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep1" prot="protected" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int EngineBase::m_volume</definition>
+        <argsstring></argsstring>
+        <name>m_volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="140" bodystart="140" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea10" compoundref="enginebase_8h" startline="79" endline="79">EngineBase::volume</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep2" prot="protected" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int EngineBase::m_xfadeLength</definition>
+        <argsstring></argsstring>
+        <name>m_xfadeLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="141" bodystart="141" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea24" compoundref="enginebase_8cpp" startline="81" endline="84">EngineBase::setXfadeLength</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep3" prot="protected" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EngineBase::m_restoreEffects</definition>
+        <argsstring></argsstring>
+        <name>m_restoreEffects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="142" bodystart="142" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea15" compoundref="enginebase_8h" startline="101" endline="101">EngineBase::setRestoreEffects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep4" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString EngineBase::m_soundOutput</definition>
+        <argsstring></argsstring>
+        <name>m_soundOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="143" bodystart="143" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea25" compoundref="enginebase_8cpp" startline="87" endline="92">EngineBase::setSoundOutput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep5" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QString</type>
+        <definition>QString EngineBase::m_soundDevice</definition>
+        <argsstring></argsstring>
+        <name>m_soundDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="144" bodystart="144" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea26" compoundref="enginebase_8h" startline="113" endline="113">EngineBase::setSoundDevice</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineBase_1EngineBasep6" prot="protected" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EngineBase::m_defaultSoundDevice</definition>
+        <argsstring></argsstring>
+        <name>m_defaultSoundDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginebase.h" line="145" bodystart="145" bodyend="-1"/>
+        <referencedby refid="classEngineBase_1EngineBasea27" compoundref="enginebase_8h" startline="114" endline="114">EngineBase::setDefaultSoundDevice</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::init</definition>
+        <argsstring>(bool &amp;, int, bool)</argsstring>
+        <name>init</name>
+        <reimplements refid="classEngineBase_1EngineBasea2">init</reimplements>
+        <param>
+          <type>bool &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="33" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool DummyEngine::initMixer</definition>
+        <argsstring>(bool)</argsstring>
+        <name>initMixer</name>
+        <reimplements refid="classEngineBase_1EngineBasea3">initMixer</reimplements>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize mixer. <parameterlist kind="param"><parametername>hardware</parametername>
+<parameterdescription>
+<para>True for soundcard hardware mixing </para></parameterdescription></parameterlist>
+<simplesect kind="return"><para>True if using hardware mixing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="34" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool DummyEngine::canDecode</definition>
+        <argsstring>(const KURL &amp;, mode_t, mode_t)</argsstring>
+        <name>canDecode</name>
+        <reimplements refid="classEngineBase_1EngineBasea4">canDecode</reimplements>
+        <param>
+          <type>const KURL &amp;</type>
+        </param>
+        <param>
+          <type>mode_t</type>
+        </param>
+        <param>
+          <type>mode_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="35" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined3" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual long</type>
+        <definition>virtual long DummyEngine::length</definition>
+        <argsstring>() const </argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="36" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined4" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual long</type>
+        <definition>virtual long DummyEngine::position</definition>
+        <argsstring>() const </argsstring>
+        <name>position</name>
+        <reimplements refid="classEngineBase_1EngineBasea7">position</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Time position in ms </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="37" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined5" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual <ref refid="classEngineBase_1EngineBasew7" kindref="member">EngineState</ref></type>
+        <definition>virtual EngineState DummyEngine::state</definition>
+        <argsstring>() const </argsstring>
+        <name>state</name>
+        <reimplements refid="classEngineBase_1EngineBasea8">state</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="38" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined6" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>virtual bool</type>
+        <definition>virtual bool DummyEngine::isStream</definition>
+        <argsstring>() const </argsstring>
+        <name>isStream</name>
+        <reimplements refid="classEngineBase_1EngineBasea12">isStream</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="39" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::play</definition>
+        <argsstring>(const KURL &amp;)</argsstring>
+        <name>play</name>
+        <reimplements refid="classEngineBase_1EngineBasei0">play</reimplements>
+        <param>
+          <type>const KURL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="40" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <reimplements refid="classEngineBase_1EngineBasei1">play</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="41" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classEngineBase_1EngineBasei2">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="42" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <reimplements refid="classEngineBase_1EngineBasei3">pause</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="43" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::seek</definition>
+        <argsstring>(long)</argsstring>
+        <name>seek</name>
+        <reimplements refid="classEngineBase_1EngineBasei5">seek</reimplements>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="45" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classDummyEngine_1DummyEngined12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual void</type>
+        <definition>virtual void DummyEngine::setVolume</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setVolume</name>
+        <reimplements refid="classEngineBase_1EngineBasei4">setVolume</reimplements>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parametername>percent</parametername>
+<parameterdescription>
+<para>Set volume in range 0 to 100. </para></parameterdescription></parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="46" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="384">
+        <label>DummyEngine</label>
+        <link refid="classDummyEngine"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>EngineBase</label>
+        <link refid="classEngineBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="386">
+        <label>DummyEngine</label>
+        <link refid="classDummyEngine"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>EngineBase</label>
+        <link refid="classEngineBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/enginecontroller.cpp" line="29" bodystart="28" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classEngineBase_1EngineBasea17" prot="public" virt="virtual"><scope>DummyEngine</scope><name>activeEffects</name></member>
+      <member refid="classEngineBase_1EngineBasea16" prot="public" virt="virtual"><scope>DummyEngine</scope><name>availableEffects</name></member>
+      <member refid="classDummyEngine_1DummyEngined2" prot="private" virt="virtual"><scope>DummyEngine</scope><name>canDecode</name></member>
+      <member refid="classEngineBase_1EngineBaseb0" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>closeMixerHW</name></member>
+      <member refid="classEngineBase_1EngineBasei6" prot="public" virt="virtual"><scope>DummyEngine</scope><name>configureDecoder</name></member>
+      <member refid="classEngineBase_1EngineBasea22" prot="public" virt="virtual"><scope>DummyEngine</scope><name>configureEffect</name></member>
+      <member refid="classEngineBase_1EngineBasea20" prot="public" virt="virtual"><scope>DummyEngine</scope><name>createEffect</name></member>
+      <member refid="classEngineBase_1EngineBasea23" prot="public" virt="virtual"><scope>DummyEngine</scope><name>decoderConfigurable</name></member>
+      <member refid="classDummyEngine_1DummyEnginea0" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>DummyEngine</name></member>
+      <member refid="classEngineBase_1EngineBasea19" prot="public" virt="virtual"><scope>DummyEngine</scope><name>effectConfigurable</name></member>
+      <member refid="classEngineBase_1EngineBasea18" prot="public" virt="virtual"><scope>DummyEngine</scope><name>effectNameForId</name></member>
+      <member refid="classEngineBase_1EngineBasew7EngineBasew0" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Empty</name></member>
+      <member refid="classEngineBase_1EngineBasel0" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>endOfTrack</name></member>
+      <member refid="classEngineBase_1EngineBasea0" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>EngineBase</name></member>
+      <member refid="classEngineBase_1EngineBaseb3" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>EngineBase</name></member>
+      <member refid="classEngineBase_1EngineBasew7" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>EngineState</name></member>
+      <member refid="classEngineBase_1EngineBasea6" prot="public" virt="virtual"><scope>DummyEngine</scope><name>getOutputsList</name></member>
+      <member refid="classEngineBase_1EngineBasew7EngineBasew1" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Idle</name></member>
+      <member refid="classDummyEngine_1DummyEngined0" prot="private" virt="virtual"><scope>DummyEngine</scope><name>init</name></member>
+      <member refid="classDummyEngine_1DummyEngined1" prot="private" virt="virtual"><scope>DummyEngine</scope><name>initMixer</name></member>
+      <member refid="classEngineBase_1EngineBaseb1" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>initMixerHW</name></member>
+      <member refid="classEngineBase_1EngineBasea11" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>isMixerHardware</name></member>
+      <member refid="classDummyEngine_1DummyEngined6" prot="private" virt="virtual"><scope>DummyEngine</scope><name>isStream</name></member>
+      <member refid="classDummyEngine_1DummyEngined3" prot="private" virt="virtual"><scope>DummyEngine</scope><name>length</name></member>
+      <member refid="classEngineBase_1EngineBasea9" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>loaded</name></member>
+      <member refid="classEngineBase_1EngineBasep6" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_defaultSoundDevice</name></member>
+      <member refid="classEngineBase_1EngineBasep0" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_mixerHW</name></member>
+      <member refid="classEngineBase_1EngineBasep3" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_restoreEffects</name></member>
+      <member refid="classEngineBase_1EngineBasep5" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_soundDevice</name></member>
+      <member refid="classEngineBase_1EngineBasep4" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_soundOutput</name></member>
+      <member refid="classEngineBase_1EngineBasep1" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_volume</name></member>
+      <member refid="classEngineBase_1EngineBasep2" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>m_xfadeLength</name></member>
+      <member refid="classEngineBase_1EngineBasei7" prot="public" virt="virtual"><scope>DummyEngine</scope><name>newStreamData</name></member>
+      <member refid="classEngineBase_1EngineBasew8EngineBasew6" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>NoStreaming</name></member>
+      <member refid="classEngineBase_1EngineBaseb4" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>operator=</name></member>
+      <member refid="classDummyEngine_1DummyEngined10" prot="private" virt="virtual"><scope>DummyEngine</scope><name>pause</name></member>
+      <member refid="classEngineBase_1EngineBasew7EngineBasew3" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Paused</name></member>
+      <member refid="classDummyEngine_1DummyEngined7" prot="private" virt="virtual"><scope>DummyEngine</scope><name>play</name></member>
+      <member refid="classDummyEngine_1DummyEngined8" prot="private" virt="virtual"><scope>DummyEngine</scope><name>play</name></member>
+      <member refid="classEngineBase_1EngineBasew7EngineBasew2" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Playing</name></member>
+      <member refid="classDummyEngine_1DummyEngined4" prot="private" virt="virtual"><scope>DummyEngine</scope><name>position</name></member>
+      <member refid="classEngineBase_1EngineBasea21" prot="public" virt="virtual"><scope>DummyEngine</scope><name>removeEffect</name></member>
+      <member refid="classEngineBase_1EngineBasea14" prot="public" virt="virtual"><scope>DummyEngine</scope><name>scope</name></member>
+      <member refid="classDummyEngine_1DummyEngined11" prot="private" virt="virtual"><scope>DummyEngine</scope><name>seek</name></member>
+      <member refid="classEngineBase_1EngineBasea27" prot="public" virt="virtual"><scope>DummyEngine</scope><name>setDefaultSoundDevice</name></member>
+      <member refid="classEngineBase_1EngineBasea15" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>setRestoreEffects</name></member>
+      <member refid="classEngineBase_1EngineBasea26" prot="public" virt="virtual"><scope>DummyEngine</scope><name>setSoundDevice</name></member>
+      <member refid="classEngineBase_1EngineBasea25" prot="public" virt="virtual"><scope>DummyEngine</scope><name>setSoundOutput</name></member>
+      <member refid="classDummyEngine_1DummyEngined12" prot="private" virt="virtual"><scope>DummyEngine</scope><name>setVolume</name></member>
+      <member refid="classEngineBase_1EngineBaseb2" prot="protected" virt="non-virtual"><scope>DummyEngine</scope><name>setVolumeHW</name></member>
+      <member refid="classEngineBase_1EngineBasea24" prot="public" virt="virtual"><scope>DummyEngine</scope><name>setXfadeLength</name></member>
+      <member refid="classEngineBase_1EngineBasew8EngineBasew5" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Signal</name></member>
+      <member refid="classEngineBase_1EngineBasew8EngineBasew4" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>Socket</name></member>
+      <member refid="classDummyEngine_1DummyEngined5" prot="private" virt="virtual"><scope>DummyEngine</scope><name>state</name></member>
+      <member refid="classDummyEngine_1DummyEngined9" prot="private" virt="virtual"><scope>DummyEngine</scope><name>stop</name></member>
+      <member refid="classEngineBase_1EngineBasel1" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>stopped</name></member>
+      <member refid="classEngineBase_1EngineBasew8" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>StreamingMode</name></member>
+      <member refid="classEngineBase_1EngineBasea5" prot="public" virt="virtual"><scope>DummyEngine</scope><name>streamingMode</name></member>
+      <member refid="classEngineBase_1EngineBasea13" prot="public" virt="virtual"><scope>DummyEngine</scope><name>supportsXFade</name></member>
+      <member refid="classEngineBase_1EngineBasea10" prot="public" virt="non-virtual"><scope>DummyEngine</scope><name>volume</name></member>
+      <member refid="classEngineBase_1EngineBasea1" prot="public" virt="virtual"><scope>DummyEngine</scope><name>~EngineBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

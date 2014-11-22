@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classEngineController" kind="class" prot="public">
+    <compoundname>EngineController</compoundname>
+    <basecompoundref refid="classEngineSubject" prot="public" virt="non-virtual">EngineSubject</basecompoundref>
+    <includes refid="enginecontroller_8h" local="no">enginecontroller.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEngineController_1EngineControllera0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>EngineController::~EngineController</definition>
+        <argsstring>()</argsstring>
+        <name>~EngineController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="37" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjecta0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::attach</definition>
+        <argsstring>(EngineObserver *observer)</argsstring>
+        <name>attach</name>
+        <param>
+          <type><ref refid="classEngineObserver" kindref="compound">EngineObserver</ref> *</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="48" bodystart="92" bodyend="97"/>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjecta1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::detach</definition>
+        <argsstring>(EngineObserver *observer)</argsstring>
+        <name>detach</name>
+        <param>
+          <type><ref refid="classEngineObserver" kindref="compound">EngineObserver</ref> *</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="49" bodystart="100" bodyend="103"/>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::previous</definition>
+        <argsstring>()</argsstring>
+        <name>previous</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="50" bodystart="83" bodyend="86"/>
+        <references refid="classEngineController_1EngineControllerl1" compoundref="enginecontroller_8moc" startline="155" endline="158">orderPrevious</references>
+        <referencedby refid="classMyplayer_1Myplayeri5" compoundref="Myplayer_8cpp" startline="148" endline="157">Myplayer::previous</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="51" bodystart="90" bodyend="94"/>
+        <references refid="classEngineController_1EngineControllerl0" compoundref="enginecontroller_8moc" startline="149" endline="152">orderNext</references>
+        <referencedby refid="classMyplayer_1Myplayeri4" compoundref="Myplayer_8cpp" startline="134" endline="146">Myplayer::next</referencedby>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::play</definition>
+        <argsstring>(const MetaBundle &amp;bundle)</argsstring>
+        <name>play</name>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="52" bodystart="111" bodyend="133"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">instance</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">pause</references>
+        <references refid="classEngineBase_1EngineBasei0">EngineBase::play</references>
+        <references refid="classEngineBase_1EngineBasea8">EngineBase::state</references>
+        <references refid="classEngineSubject_1EngineSubjectb2" compoundref="engineobserver_8cpp" startline="44" endline="53">EngineSubject::stateChangedNotify</references>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">Myplayer::handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri10" compoundref="Myplayer_8cpp" startline="205" endline="226">Myplayer::handlePrevious</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">Myplayer::play</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::play</definition>
+        <argsstring>(bool test, const MetaBundle &amp;bundle)</argsstring>
+        <name>play</name>
+        <param>
+          <type>bool</type>
+          <declname>test</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="54" bodystart="136" bodyend="147"/>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineSubject_1EngineSubjectb3" compoundref="engineobserver_8cpp" startline="56" endline="65">EngineSubject::newMetaDataNotify</references>
+        <references refid="classEngineBase_1EngineBasei0">EngineBase::play</references>
+        <references refid="classEngineSubject_1EngineSubjectb2" compoundref="engineobserver_8cpp" startline="44" endline="53">EngineSubject::stateChangedNotify</references>
+        <references refid="classMetaBundle_1MetaBundlea9" compoundref="metabundle_8h" startline="58" endline="58">MetaBundle::url</references>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="55" bodystart="150" bodyend="160"/>
+        <references refid="classEngineBase_1EngineBasea9" compoundref="enginebase_8h" startline="73" endline="73">EngineBase::loaded</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineBase_1EngineBasei3">EngineBase::pause</references>
+        <references refid="classEngineBase_1EngineBasei0">EngineBase::play</references>
+        <references refid="classEngineBase_1EngineBasea8">EngineBase::state</references>
+        <references refid="classEngineSubject_1EngineSubjectb2" compoundref="engineobserver_8cpp" startline="44" endline="53">EngineSubject::stateChangedNotify</references>
+        <referencedby refid="classMyplayer_1Myplayeri2" compoundref="Myplayer_8cpp" startline="106" endline="110">Myplayer::pause</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">play</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="56" bodystart="164" bodyend="169"/>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineBase_1EngineBasea8">EngineBase::state</references>
+        <references refid="classEngineSubject_1EngineSubjectb2" compoundref="engineobserver_8cpp" startline="44" endline="53">EngineSubject::stateChangedNotify</references>
+        <references refid="classEngineBase_1EngineBasei2">EngineBase::stop</references>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">Myplayer::handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri4" compoundref="Myplayer_8cpp" startline="134" endline="146">Myplayer::next</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">Myplayer::play</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri5" compoundref="Myplayer_8cpp" startline="148" endline="157">Myplayer::previous</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri3" compoundref="Myplayer_8cpp" startline="99" endline="104">Myplayer::stop</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::playPause</definition>
+        <argsstring>()</argsstring>
+        <name>playPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="57" bodystart="98" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EngineController::increaseVolume</definition>
+        <argsstring>(int ticks=100/25)</argsstring>
+        <name>increaseVolume</name>
+        <param>
+          <type>int</type>
+          <declname>ticks</declname>
+          <defval>100/25</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="59" bodystart="173" bodyend="176"/>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">setVolume</references>
+        <references refid="classEngineBase_1EngineBasea10" compoundref="enginebase_8h" startline="79" endline="79">EngineBase::volume</references>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EngineController::decreaseVolume</definition>
+        <argsstring>(int ticks=100/25)</argsstring>
+        <name>decreaseVolume</name>
+        <param>
+          <type>int</type>
+          <declname>ticks</declname>
+          <defval>100/25</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="60" bodystart="180" bodyend="183"/>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">setVolume</references>
+        <references refid="classEngineBase_1EngineBasea10" compoundref="enginebase_8h" startline="79" endline="79">EngineBase::volume</references>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControlleri9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EngineController::setVolume</definition>
+        <argsstring>(int percent)</argsstring>
+        <name>setVolume</name>
+        <param>
+          <type>int</type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="61" bodystart="193" bodyend="208"/>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classAmarokConfig_1AmarokConfige51" compoundref="amarokconfig_8h" startline="499" endline="503">AmarokConfig::setMasterVolume</references>
+        <references refid="classEngineBase_1EngineBasei4">EngineBase::setVolume</references>
+        <references refid="classEngineBase_1EngineBasea10" compoundref="enginebase_8h" startline="79" endline="79">EngineBase::volume</references>
+        <references refid="classEngineSubject_1EngineSubjectb4" compoundref="engineobserver_8cpp" startline="68" endline="77">EngineSubject::volumeChangedNotify</references>
+        <referencedby refid="classEngineController_1EngineControlleri8" compoundref="enginecontroller_8cpp" startline="180" endline="183">decreaseVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri7" compoundref="enginecontroller_8cpp" startline="173" endline="176">increaseVolume</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">Myplayer::setVolume</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEngineController_1EngineControllerl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::orderNext</definition>
+        <argsstring>()</argsstring>
+        <name>orderNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="64" bodystart="149" bodyend="152"/>
+        <referencedby refid="classEngineController_1EngineControlleri1" compoundref="enginecontroller_8cpp" startline="90" endline="94">next</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classEngineController_1EngineControllerl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::orderPrevious</definition>
+        <argsstring>()</argsstring>
+        <name>orderPrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="65" bodystart="155" bodyend="158"/>
+        <referencedby refid="classEngineController_1EngineControlleri0" compoundref="enginecontroller_8cpp" startline="83" endline="86">previous</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classEngineController_1EngineControllerl2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::orderCurrent</definition>
+        <argsstring>()</argsstring>
+        <name>orderCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="66" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEngineController_1EngineControllerl3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::TrackPosition</definition>
+        <argsstring>(int)</argsstring>
+        <name>TrackPosition</name>
+        <param>
+          <type>int</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="68" bodystart="167" bodyend="170"/>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classEngineController_1EngineControllere0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEngineController" kindref="compound">EngineController</ref> *</type>
+        <definition>EngineController * EngineController::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="41" bodystart="53" bodyend="59"/>
+        <referencedby refid="classEngineController_1EngineControllere1" compoundref="enginecontroller_8h" startline="43" endline="43">engine</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri9" compoundref="Myplayer_8cpp" startline="160" endline="203">Myplayer::handleNext</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri10" compoundref="Myplayer_8cpp" startline="205" endline="226">Myplayer::handlePrevious</referencedby>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri4" compoundref="Myplayer_8cpp" startline="134" endline="146">Myplayer::next</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri2" compoundref="Myplayer_8cpp" startline="106" endline="110">Myplayer::pause</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri0" compoundref="Myplayer_8cpp" startline="61" endline="75">Myplayer::play</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">play</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri5" compoundref="Myplayer_8cpp" startline="148" endline="157">Myplayer::previous</referencedby>
+        <referencedby refid="classEngineController_1EngineControllere2" compoundref="enginecontroller_8cpp" startline="186" endline="191">setEngine</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri8" compoundref="Myplayer_8cpp" startline="124" endline="132">Myplayer::setVolume</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri3" compoundref="Myplayer_8cpp" startline="99" endline="104">Myplayer::stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineController_1EngineControllere1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classEngineBase" kindref="compound">EngineBase</ref> *</type>
+        <definition>EngineBase* EngineController::engine</definition>
+        <argsstring>()</argsstring>
+        <name>engine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="43" bodystart="43" bodyend="43"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">instance</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <referencedby refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" compoundref="analyzerbase_8cpp" startline="94" endline="121">Analyzer::Base&lt; W &gt;::drawFrame</referencedby>
+        <referencedby refid="classMyplayer_1Myplayeri14" compoundref="Myplayer_8cpp" startline="243" endline="251">Myplayer::handleSlider</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineController_1EngineControllere2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::setEngine</definition>
+        <argsstring>(EngineBase *)</argsstring>
+        <name>setEngine</name>
+        <param>
+          <type><ref refid="classEngineBase" kindref="compound">EngineBase</ref> *</type>
+          <defname>engine</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="44" bodystart="186" bodyend="191"/>
+        <references refid="classEngineController_1EngineControllere0" compoundref="enginecontroller_8cpp" startline="53" endline="59">instance</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <referencedby refid="classMyplayer_1Myplayera0" compoundref="Myplayer_8cpp" startline="31" endline="53">Myplayer::Myplayer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::stateChangedNotify</definition>
+        <argsstring>(EngineBase::EngineState)</argsstring>
+        <name>stateChangedNotify</name>
+        <param>
+          <type><ref refid="classEngineBase_1EngineBasew7" kindref="member">EngineBase::EngineState</ref></type>
+          <defname>state</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="54" bodystart="44" bodyend="53"/>
+        <references refid="classEngineObserver_1EngineObservera2" compoundref="engineobserver_8h" startline="34" endline="34">EngineObserver::engineStateChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">pause</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">play</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::newMetaDataNotify</definition>
+        <argsstring>(const MetaBundle &amp;, bool)</argsstring>
+        <name>newMetaDataNotify</name>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <defname>bundle</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>trackChanged</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="55" bodystart="56" bodyend="65"/>
+        <references refid="classEngineObserver_1EngineObservera3" compoundref="engineobserver_8h" startline="35" endline="35">EngineObserver::engineNewMetaData</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri3" compoundref="enginecontroller_8cpp" startline="136" endline="147">play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::volumeChangedNotify</definition>
+        <argsstring>(int)</argsstring>
+        <name>volumeChangedNotify</name>
+        <param>
+          <type>int</type>
+          <defname>percent</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="56" bodystart="68" bodyend="77"/>
+        <references refid="classEngineObserver_1EngineObservera4" compoundref="engineobserver_8h" startline="36" endline="36">EngineObserver::engineVolumeChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">setVolume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::trackPositionChangedNotify</definition>
+        <argsstring>(long)</argsstring>
+        <name>trackPositionChangedNotify</name>
+        <param>
+          <type>long</type>
+          <defname>position</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="57" bodystart="80" bodyend="89"/>
+        <references refid="classEngineObserver_1EngineObservera5" compoundref="engineobserver_8h" startline="37" endline="37">EngineObserver::engineTrackPositionChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">EngineSubject::Observers</references>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEngineController_1EngineControllerd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EngineController::EngineController</definition>
+        <argsstring>()</argsstring>
+        <name>EngineController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="75" bodystart="61" bodyend="75"/>
+        <references refid="enginecontroller_8cpp_1a0">dummyEngine</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineController_1EngineControllerr3" compoundref="enginecontroller_8h" startline="83">m_pMainTimer</references>
+        <references refid="classEngineController_1EngineControllerv0" compoundref="enginecontroller_8h" startline="78">MAIN_TIMER</references>
+        <references refid="classEngineBase_1EngineBasei4">EngineBase::setVolume</references>
+        <references refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEngineController_1EngineControllerr0" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classEngineBase" kindref="compound">EngineBase</ref> *</type>
+        <definition>EngineBase* EngineController::m_pEngine</definition>
+        <argsstring></argsstring>
+        <name>m_pEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="80" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classEngineController_1EngineControlleri8" compoundref="enginecontroller_8cpp" startline="180" endline="183">decreaseVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControllere1" compoundref="enginecontroller_8h" startline="43" endline="43">engine</referencedby>
+        <referencedby refid="classEngineController_1EngineControllerd0" compoundref="enginecontroller_8cpp" startline="61" endline="75">EngineController</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri7" compoundref="enginecontroller_8cpp" startline="173" endline="176">increaseVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">pause</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">play</referencedby>
+        <referencedby refid="classEngineController_1EngineControllere2" compoundref="enginecontroller_8cpp" startline="186" endline="191">setEngine</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">setVolume</referencedby>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">stop</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineController_1EngineControllerr1" prot="private" static="no" volatile="no" mutable="no">
+        <type><ref refid="classMetaBundle" kindref="compound">MetaBundle</ref></type>
+        <definition>MetaBundle EngineController::m_bundle</definition>
+        <argsstring></argsstring>
+        <name>m_bundle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="81" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineController_1EngineControllerr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EngineController::m_proxyError</definition>
+        <argsstring></argsstring>
+        <name>m_proxyError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="82" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineController_1EngineControllerr3" prot="private" static="no" volatile="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* EngineController::m_pMainTimer</definition>
+        <argsstring></argsstring>
+        <name>m_pMainTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="83" bodystart="83" bodyend="-1"/>
+        <referencedby refid="classEngineController_1EngineControllerd0" compoundref="enginecontroller_8cpp" startline="61" endline="75">EngineController</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classEngineController_1EngineControllerr4" prot="private" static="no" volatile="no" mutable="no">
+        <type>long</type>
+        <definition>long EngineController::m_delayTime</definition>
+        <argsstring></argsstring>
+        <name>m_delayTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="84" bodystart="84" bodyend="-1"/>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classEngineController_1EngineControllerk0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::slotMainTimer</definition>
+        <argsstring>()</argsstring>
+        <name>slotMainTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="71" bodystart="220" bodyend="257"/>
+        <references refid="classAmarokConfig_1AmarokConfige56" compoundref="amarokconfig_8h" startline="547" endline="550">AmarokConfig::crossfade</references>
+        <references refid="classAmarokConfig_1AmarokConfige58" compoundref="amarokconfig_8h" startline="566" endline="569">AmarokConfig::crossfadeLength</references>
+        <references refid="classEngineBase_1EngineBasea12">EngineBase::isStream</references>
+        <references refid="classMetaBundle_1MetaBundlea5" compoundref="metabundle_8h" startline="54" endline="54">MetaBundle::length</references>
+        <references refid="classEngineController_1EngineControllerr1" compoundref="enginecontroller_8h" startline="81">m_bundle</references>
+        <references refid="classEngineController_1EngineControllerr4" compoundref="enginecontroller_8h" startline="84">m_delayTime</references>
+        <references refid="classEngineController_1EngineControllerr0" compoundref="enginecontroller_8h" startline="80">m_pEngine</references>
+        <references refid="classEngineController_1EngineControllerv0" compoundref="enginecontroller_8h" startline="78">MAIN_TIMER</references>
+        <references refid="classEngineController_1EngineControlleri1" compoundref="enginecontroller_8cpp" startline="90" endline="94">next</references>
+        <references refid="classEngineBase_1EngineBasea7">EngineBase::position</references>
+        <references refid="classEngineBase_1EngineBasea8">EngineBase::state</references>
+        <references refid="classEngineBase_1EngineBasea13" compoundref="enginebase_8h" startline="93" endline="93">EngineBase::supportsXFade</references>
+        <references refid="classAmarokConfig_1AmarokConfige34" compoundref="amarokconfig_8h" startline="338" endline="341">AmarokConfig::trackDelayLength</references>
+        <references refid="classEngineController_1EngineControllerl3" compoundref="enginecontroller_8moc" startline="167" endline="170">TrackPosition</references>
+        <references refid="classEngineSubject_1EngineSubjectb5" compoundref="engineobserver_8cpp" startline="80" endline="89">EngineSubject::trackPositionChangedNotify</references>
+        <referencedby refid="classEngineController_1EngineControllerd0" compoundref="enginecontroller_8cpp" startline="61" endline="75">EngineController</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classEngineController_1EngineControllerk1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineController::newMetaData</definition>
+        <argsstring>(const MetaBundle &amp;)</argsstring>
+        <name>newMetaData</name>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <defname>bundle</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="72" bodystart="211" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classEngineController_1EngineControllerv0" prot="private" static="yes" volatile="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EngineController::MAIN_TIMER</definition>
+        <argsstring></argsstring>
+        <name>MAIN_TIMER</name>
+        <initializer> 150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="78" bodystart="78" bodyend="-1"/>
+        <referencedby refid="classEngineController_1EngineControllerd0" compoundref="enginecontroller_8cpp" startline="61" endline="75">EngineController</referencedby>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">slotMainTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class captures amaroK specific behaviour for some common features. Accessing the engine directly is perfectly legal but on your own risk. TODO: Hide proxy stuff! </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="392">
+        <label>EngineController</label>
+        <link refid="classEngineController"/>
+        <childnode refid="393" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>EngineSubject</label>
+        <link refid="classEngineSubject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="394">
+        <label>EngineController</label>
+        <link refid="classEngineController"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="396" relation="usage">
+          <edgelabel>m_bundle</edgelabel>
+        </childnode>
+        <childnode refid="397" relation="usage">
+          <edgelabel>m_pEngine</edgelabel>
+        </childnode>
+      </node>
+      <node id="395">
+        <label>EngineSubject</label>
+        <link refid="classEngineSubject"/>
+      </node>
+      <node id="396">
+        <label>MetaBundle</label>
+        <link refid="classMetaBundle"/>
+      </node>
+      <node id="397">
+        <label>EngineBase</label>
+        <link refid="classEngineBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/enginecontroller.h" line="34" bodystart="33" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classEngineSubject_1EngineSubjecta0" prot="public" virt="non-virtual"><scope>EngineController</scope><name>attach</name></member>
+      <member refid="classEngineController_1EngineControlleri8" prot="public" virt="non-virtual"><scope>EngineController</scope><name>decreaseVolume</name></member>
+      <member refid="classEngineSubject_1EngineSubjecta1" prot="public" virt="non-virtual"><scope>EngineController</scope><name>detach</name></member>
+      <member refid="classEngineController_1EngineControllere1" prot="public" virt="non-virtual"><scope>EngineController</scope><name>engine</name></member>
+      <member refid="classEngineController_1EngineControllerd0" prot="private" virt="non-virtual"><scope>EngineController</scope><name>EngineController</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb0" prot="protected" virt="non-virtual"><scope>EngineController</scope><name>EngineSubject</name></member>
+      <member refid="classEngineController_1EngineControlleri7" prot="public" virt="non-virtual"><scope>EngineController</scope><name>increaseVolume</name></member>
+      <member refid="classEngineController_1EngineControllere0" prot="public" virt="non-virtual"><scope>EngineController</scope><name>instance</name></member>
+      <member refid="classEngineController_1EngineControllerr1" prot="private" virt="non-virtual"><scope>EngineController</scope><name>m_bundle</name></member>
+      <member refid="classEngineController_1EngineControllerr4" prot="private" virt="non-virtual"><scope>EngineController</scope><name>m_delayTime</name></member>
+      <member refid="classEngineController_1EngineControllerr0" prot="private" virt="non-virtual"><scope>EngineController</scope><name>m_pEngine</name></member>
+      <member refid="classEngineController_1EngineControllerr3" prot="private" virt="non-virtual"><scope>EngineController</scope><name>m_pMainTimer</name></member>
+      <member refid="classEngineController_1EngineControllerr2" prot="private" virt="non-virtual"><scope>EngineController</scope><name>m_proxyError</name></member>
+      <member refid="classEngineController_1EngineControllerv0" prot="private" virt="non-virtual"><scope>EngineController</scope><name>MAIN_TIMER</name></member>
+      <member refid="classEngineController_1EngineControllerk1" prot="private" virt="non-virtual"><scope>EngineController</scope><name>newMetaData</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb3" prot="protected" virt="non-virtual"><scope>EngineController</scope><name>newMetaDataNotify</name></member>
+      <member refid="classEngineController_1EngineControlleri1" prot="public" virt="non-virtual"><scope>EngineController</scope><name>next</name></member>
+      <member refid="classEngineController_1EngineControllerl2" prot="public" virt="non-virtual"><scope>EngineController</scope><name>orderCurrent</name></member>
+      <member refid="classEngineController_1EngineControllerl0" prot="public" virt="non-virtual"><scope>EngineController</scope><name>orderNext</name></member>
+      <member refid="classEngineController_1EngineControllerl1" prot="public" virt="non-virtual"><scope>EngineController</scope><name>orderPrevious</name></member>
+      <member refid="classEngineController_1EngineControlleri4" prot="public" virt="non-virtual"><scope>EngineController</scope><name>pause</name></member>
+      <member refid="classEngineController_1EngineControlleri2" prot="public" virt="non-virtual"><scope>EngineController</scope><name>play</name></member>
+      <member refid="classEngineController_1EngineControlleri3" prot="public" virt="non-virtual"><scope>EngineController</scope><name>play</name></member>
+      <member refid="classEngineController_1EngineControlleri6" prot="public" virt="non-virtual"><scope>EngineController</scope><name>playPause</name></member>
+      <member refid="classEngineController_1EngineControlleri0" prot="public" virt="non-virtual"><scope>EngineController</scope><name>previous</name></member>
+      <member refid="classEngineController_1EngineControllere2" prot="public" virt="non-virtual"><scope>EngineController</scope><name>setEngine</name></member>
+      <member refid="classEngineController_1EngineControlleri9" prot="public" virt="non-virtual"><scope>EngineController</scope><name>setVolume</name></member>
+      <member refid="classEngineController_1EngineControllerk0" prot="private" virt="non-virtual"><scope>EngineController</scope><name>slotMainTimer</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb2" prot="protected" virt="non-virtual"><scope>EngineController</scope><name>stateChangedNotify</name></member>
+      <member refid="classEngineController_1EngineControlleri5" prot="public" virt="non-virtual"><scope>EngineController</scope><name>stop</name></member>
+      <member refid="classEngineController_1EngineControllerl3" prot="public" virt="non-virtual"><scope>EngineController</scope><name>TrackPosition</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb5" prot="protected" virt="non-virtual"><scope>EngineController</scope><name>trackPositionChangedNotify</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb4" prot="protected" virt="non-virtual"><scope>EngineController</scope><name>volumeChangedNotify</name></member>
+      <member refid="classEngineController_1EngineControllera0" prot="public" virt="virtual"><scope>EngineController</scope><name>~EngineController</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb1" prot="protected" virt="virtual"><scope>EngineController</scope><name>~EngineSubject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="plugin_8h" kind="file">
+    <compoundname>plugin.h</compoundname>
+    <includedby refid="plugin_8cpp" local="no">plugin.cpp</includedby>
+    <includedby refid="pluginmanager_8cpp" local="yes">pluginmanager.cpp</includedby>
+    <invincdepgraph>
+      <node id="4397">
+        <label>pluginmanager.cpp</label>
+        <link refid="pluginmanager_8cpp"/>
+      </node>
+      <node id="4396">
+        <label>plugin.cpp</label>
+        <link refid="plugin_8cpp"/>
+      </node>
+      <node id="4395">
+        <label>plugin.h</label>
+        <link refid="plugin.h"/>
+        <childnode refid="4396" relation="include">
+        </childnode>
+        <childnode refid="4397" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPlugin">Plugin</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="plugin_8h_1a0" prot="public" static="no">
+        <name>AMAROK_EXPORT_PLUGIN</name>
+        <param><defname>classname</defname></param>
+        <initializer>extern &quot;C&quot; { \
+         amaroK::Plugin* create_plugin() { return new classname; } \
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size doesn&apos;t matter! </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/plugin.h" line="17" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Mark<sp/>Kretschmann<sp/>(C)<sp/>Copyright<sp/>2004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright:<sp/>See<sp/>COPYING<sp/>file<sp/>that<sp/>comes<sp/>with<sp/>this<sp/>distribution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AMAROK_PLUGIN_H</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>AMAROK_PLUGIN_H</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="14" refid="plugin_8h_1a0" refkind="member"><highlight class="preprocessor">#define<sp/>AMAROK_EXPORT_PLUGIN(<sp/>classname<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>extern<sp/>&quot;C&quot;<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>amaroK::Plugin*<sp/>create_plugin()<sp/>{<sp/>return<sp/>new<sp/>classname;<sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classPlugin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPlugin" kindref="compound">Plugin</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPlugin_1Plugina0" kindref="member">Plugin</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classPlugin_1Plugina1" kindref="member">~Plugin</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>AMAROK_PLUGIN_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/plugin.h"/>
+  </compounddef>
+</doxygen>

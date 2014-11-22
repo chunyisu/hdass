@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classQGLWidget" kind="class" prot="public">
+    <compoundname>QGLWidget</compoundname>
+    <derivedcompoundref refid="classAnalyzer_1_1Base" prot="public" virt="non-virtual">Analyzer::Base&lt; QGLWidget &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="524">
+        <label>Analyzer::Base3D</label>
+        <link refid="classAnalyzer_1_1Base3D"/>
+        <childnode refid="523" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="523">
+        <label>Analyzer::Base&lt; QGLWidget &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+        <childnode refid="522" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>QGLWidget</label>
+        <link refid="classQGLWidget"/>
+      </node>
+    </inheritancegraph>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="40"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

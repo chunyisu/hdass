@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classArtsEngine_1_1ArtsConfigWidget" kind="class" prot="private">
+    <compoundname>ArtsEngine::ArtsConfigWidget</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArtsEngine::ArtsConfigWidget::ArtsConfigWidget</definition>
+        <argsstring>(Arts::Object object)</argsstring>
+        <name>ArtsConfigWidget</name>
+        <param>
+          <type>Arts::Object</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="103" bodystart="812" bodyend="834"/>
+        <references refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr0" compoundref="artsengine_8h" startline="106">m_gui</references>
+        <references refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr1" compoundref="artsengine_8h" startline="107">m_pArtsWidget</references>
+      </memberdef>
+      <memberdef kind="function" id="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArtsEngine::ArtsConfigWidget::~ArtsConfigWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~ArtsConfigWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="104" bodystart="837" bodyend="841"/>
+        <references refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr0" compoundref="artsengine_8h" startline="106">m_gui</references>
+        <references refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr1" compoundref="artsengine_8h" startline="107">m_pArtsWidget</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>Arts::Widget</type>
+        <definition>Arts::Widget ArtsEngine::ArtsConfigWidget::m_gui</definition>
+        <argsstring></argsstring>
+        <name>m_gui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="106" bodystart="106" bodyend="-1"/>
+        <referencedby refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta0" compoundref="artsengine_8cpp" startline="812" endline="834">ArtsConfigWidget</referencedby>
+        <referencedby refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta1" compoundref="artsengine_8cpp" startline="837" endline="841">~ArtsConfigWidget</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>KArtsWidget *</type>
+        <definition>KArtsWidget* ArtsEngine::ArtsConfigWidget::m_pArtsWidget</definition>
+        <argsstring></argsstring>
+        <name>m_pArtsWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/artsengine.h" line="107" bodystart="107" bodyend="-1"/>
+        <referencedby refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta0" compoundref="artsengine_8cpp" startline="812" endline="834">ArtsConfigWidget</referencedby>
+        <referencedby refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta1" compoundref="artsengine_8cpp" startline="837" endline="841">~ArtsConfigWidget</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>ArtsEngine::ArtsConfigWidget</label>
+        <link refid="classArtsEngine_1_1ArtsConfigWidget"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>ArtsEngine::ArtsConfigWidget</label>
+        <link refid="classArtsEngine_1_1ArtsConfigWidget"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/artsengine.h" line="101" bodystart="100" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta0" prot="public" virt="non-virtual"><scope>ArtsEngine::ArtsConfigWidget</scope><name>ArtsConfigWidget</name></member>
+      <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr0" prot="private" virt="non-virtual"><scope>ArtsEngine::ArtsConfigWidget</scope><name>m_gui</name></member>
+      <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr1" prot="private" virt="non-virtual"><scope>ArtsEngine::ArtsConfigWidget</scope><name>m_pArtsWidget</name></member>
+      <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta1" prot="public" virt="non-virtual"><scope>ArtsEngine::ArtsConfigWidget</scope><name>~ArtsConfigWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

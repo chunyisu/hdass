@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classhdassImageDetial" kind="class" prot="public">
+    <compoundname>hdassImageDetial</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="hdassimagedetial_8h" local="no">hdassimagedetial.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhdassImageDetial_1hdassImageDetiala0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hdassImageDetial::hdassImageDetial</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>hdassImageDetial</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="34" bodystart="28" bodyend="32"/>
+        <references refid="classhdassImageDetial_1hdassImageDetiala1" compoundref="hdassimagedetial_8cpp" startline="43" endline="50">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classhdassImageDetial_1hdassImageDetiala1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassImageDetial::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="35" bodystart="43" bodyend="50"/>
+        <references refid="classhdassImageDetial_1hdassImageDetialo0" compoundref="hdassimagedetial_8h" startline="37">currentImage</references>
+        <referencedby refid="classhdassImageDetial_1hdassImageDetiala0" compoundref="hdassimagedetial_8cpp" startline="28" endline="32">hdassImageDetial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhdassImageDetial_1hdassImageDetiala2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hdassImageDetial::~hdassImageDetial</definition>
+        <argsstring>()</argsstring>
+        <name>~hdassImageDetial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="36" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhdassImageDetial_1hdassImageDetialo0" prot="public" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap hdassImageDetial::currentImage</definition>
+        <argsstring></argsstring>
+        <name>currentImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="37" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classhdassImageDetial_1hdassImageDetiali0" compoundref="hdassimagedetial_8cpp" startline="63" endline="98">slotSetImage</referencedby>
+        <referencedby refid="classhdassImageDetial_1hdassImageDetiala1" compoundref="hdassimagedetial_8cpp" startline="43" endline="50">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classhdassImageDetial_1hdassImageDetialo1" prot="public" static="no" volatile="no" mutable="no">
+        <type>QPtrList&lt; QPixmap &gt;</type>
+        <definition>QPtrList&lt;QPixmap&gt; hdassImageDetial::AlbumList</definition>
+        <argsstring></argsstring>
+        <name>AlbumList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="38" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classhdassImageDetial_1hdassImageDetiali0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassImageDetial::slotSetImage</definition>
+        <argsstring>(KURL url)</argsstring>
+        <name>slotSetImage</name>
+        <param>
+          <type>KURL</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="40" bodystart="63" bodyend="98"/>
+        <references refid="classhdassImageDetial_1hdassImageDetialo0" compoundref="hdassimagedetial_8h" startline="37">currentImage</references>
+      </memberdef>
+      <memberdef kind="slot" id="classhdassImageDetial_1hdassImageDetiali1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void hdassImageDetial::slotResize</definition>
+        <argsstring>(int wdith, int height)</argsstring>
+        <name>slotResize</name>
+        <param>
+          <type>int</type>
+          <declname>wdith</declname>
+          <defname>width</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="41" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>root </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="465">
+        <label>hdassImageDetial</label>
+        <link refid="classhdassImageDetial"/>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="467">
+        <label>hdassImageDetial</label>
+        <link refid="classhdassImageDetial"/>
+        <childnode refid="468" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/hdassimagedetial.h" line="31" bodystart="30" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classhdassImageDetial_1hdassImageDetialo1" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>AlbumList</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetialo0" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>currentImage</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetiala0" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>hdassImageDetial</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetiali1" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>slotResize</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetiali0" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>slotSetImage</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetiala1" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>xSetup</name></member>
+      <member refid="classhdassImageDetial_1hdassImageDetiala2" prot="public" virt="non-virtual"><scope>hdassImageDetial</scope><name>~hdassImageDetial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

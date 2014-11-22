@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classmediamanagement" kind="class" prot="public">
+    <compoundname>mediamanagement</compoundname>
+    <basecompoundref refid="classQWidget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="mediamanagement_8h" local="no">mediamanagement.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmediamanagement_1mediamanagementa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mediamanagement::mediamanagement</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>mediamanagement</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="37" bodystart="22" bodyend="26"/>
+        <references refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="classmediamanagement_1mediamanagementa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mediamanagement::~mediamanagement</definition>
+        <argsstring>()</argsstring>
+        <name>~mediamanagement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="38" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDirectoryView" kindref="compound">DirectoryView</ref> *</type>
+        <definition>DirectoryView* mediamanagement::imgDir</definition>
+        <argsstring></argsstring>
+        <name>imgDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="39" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">slotMkdir</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento1" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDirectoryView" kindref="compound">DirectoryView</ref> *</type>
+        <definition>DirectoryView* mediamanagement::musicDir</definition>
+        <argsstring></argsstring>
+        <name>musicDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="40" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">slotMkdir</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref> *</type>
+        <definition>QtFileIconView* mediamanagement::imgFIV</definition>
+        <argsstring></argsstring>
+        <name>imgFIV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="41" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento3" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQtFileIconView" kindref="compound">QtFileIconView</ref> *</type>
+        <definition>QtFileIconView* mediamanagement::musicFIV</definition>
+        <argsstring></argsstring>
+        <name>musicFIV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="42" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento4" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDirectory" kindref="compound">Directory</ref> *</type>
+        <definition>Directory* mediamanagement::musicroot</definition>
+        <argsstring></argsstring>
+        <name>musicroot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">slotMkdir</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento5" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDirectory" kindref="compound">Directory</ref> *</type>
+        <definition>Directory * mediamanagement::imgroot</definition>
+        <argsstring></argsstring>
+        <name>imgroot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">slotMkdir</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagemento6" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classImageDetial" kindref="compound">ImageDetial</ref> *</type>
+        <definition>ImageDetial* mediamanagement::imgdetial</definition>
+        <argsstring></argsstring>
+        <name>imgdetial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="44" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+        <referencedby refid="classHDASS08_1HDASS08a1" compoundref="hdass08_8cpp" startline="42" endline="119">HDASS08::xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotChangeMode</definition>
+        <argsstring>(int)</argsstring>
+        <name>slotChangeMode</name>
+        <param>
+          <type>int</type>
+          <defname>mode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="46" bodystart="85" bodyend="107"/>
+        <references refid="classmediamanagement_1mediamanagementr0" compoundref="mediamanagement_8h" startline="58">imagesplitter</references>
+        <references refid="classmediamanagement_1mediamanagemento6" compoundref="mediamanagement_8h" startline="44">imgdetial</references>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+        <references refid="classmediamanagement_1mediamanagementr1" compoundref="mediamanagement_8h" startline="58">musicsplitter</references>
+        <referencedby refid="classmediamanagement_1mediamanagementi6" compoundref="mediamanagement_8cpp" startline="248" endline="251">slotBackToManagement</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi5" compoundref="mediamanagement_8cpp" startline="240" endline="247">slotShowImage</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotDeleteItem</definition>
+        <argsstring>()</argsstring>
+        <name>slotDeleteItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="47" bodystart="108" bodyend="194"/>
+        <references refid="classDirectory_1Directorya4" compoundref="dirview_8cpp" startline="199" endline="210">Directory::fullName</references>
+        <references refid="classmediamanagement_1mediamanagemento0" compoundref="mediamanagement_8h" startline="39">imgDir</references>
+        <references refid="classmediamanagement_1mediamanagemento2" compoundref="mediamanagement_8h" startline="41">imgFIV</references>
+        <references refid="classmediamanagement_1mediamanagemento5" compoundref="mediamanagement_8h" startline="43">imgroot</references>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+        <references refid="classmediamanagement_1mediamanagemento1" compoundref="mediamanagement_8h" startline="40">musicDir</references>
+        <references refid="classmediamanagement_1mediamanagemento3" compoundref="mediamanagement_8h" startline="42">musicFIV</references>
+        <references refid="classmediamanagement_1mediamanagemento4" compoundref="mediamanagement_8h" startline="43">musicroot</references>
+        <references refid="classQtFileIconView_1QtFileIconViewi4" compoundref="qfileiconview_8cpp" startline="658" endline="678">QtFileIconView::slotDeletCurrItem</references>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotMkdir</definition>
+        <argsstring>(QString dirname)</argsstring>
+        <name>slotMkdir</name>
+        <param>
+          <type>QString</type>
+          <declname>dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="48" bodystart="195" bodyend="212"/>
+        <references refid="classmediamanagement_1mediamanagemento0" compoundref="mediamanagement_8h" startline="39">imgDir</references>
+        <references refid="classmediamanagement_1mediamanagemento5" compoundref="mediamanagement_8h" startline="43">imgroot</references>
+        <references refid="classDirectory_1Directorya9" compoundref="dirview_8cpp" startline="222" endline="229">Directory::Mkdir</references>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+        <references refid="classmediamanagement_1mediamanagemento1" compoundref="mediamanagement_8h" startline="40">musicDir</references>
+        <references refid="classmediamanagement_1mediamanagemento4" compoundref="mediamanagement_8h" startline="43">musicroot</references>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotCut</definition>
+        <argsstring>()</argsstring>
+        <name>slotCut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="49" bodystart="225" bodyend="235"/>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotPaste</definition>
+        <argsstring>()</argsstring>
+        <name>slotPaste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="50" bodystart="214" bodyend="224"/>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotShowImage</definition>
+        <argsstring>(KURL url)</argsstring>
+        <name>slotShowImage</name>
+        <param>
+          <type>KURL</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="51" bodystart="240" bodyend="247"/>
+        <references refid="classmediamanagement_1mediamanagementl0" compoundref="mediamanagement_8moc" startline="107" endline="110">signalImageDetial</references>
+        <references refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</references>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classmediamanagement_1mediamanagementi6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::slotBackToManagement</definition>
+        <argsstring>()</argsstring>
+        <name>slotBackToManagement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="52" bodystart="248" bodyend="251"/>
+        <references refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classmediamanagement_1mediamanagementl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::signalImageDetial</definition>
+        <argsstring>()</argsstring>
+        <name>signalImageDetial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="54" bodystart="107" bodyend="110"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi5" compoundref="mediamanagement_8cpp" startline="240" endline="247">slotShowImage</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classmediamanagement_1mediamanagementl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::signalShowKeyboard</definition>
+        <argsstring>()</argsstring>
+        <name>signalShowKeyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="55" bodystart="113" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmediamanagement_1mediamanagementd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mediamanagement::xSetup</definition>
+        <argsstring>()</argsstring>
+        <name>xSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="57" bodystart="33" bodyend="84"/>
+        <references refid="classmediamanagement_1mediamanagementr0" compoundref="mediamanagement_8h" startline="58">imagesplitter</references>
+        <references refid="classmediamanagement_1mediamanagemento6" compoundref="mediamanagement_8h" startline="44">imgdetial</references>
+        <references refid="classmediamanagement_1mediamanagemento0" compoundref="mediamanagement_8h" startline="39">imgDir</references>
+        <references refid="classmediamanagement_1mediamanagemento2" compoundref="mediamanagement_8h" startline="41">imgFIV</references>
+        <references refid="classmediamanagement_1mediamanagemento5" compoundref="mediamanagement_8h" startline="43">imgroot</references>
+        <references refid="classmediamanagement_1mediamanagementr2" compoundref="mediamanagement_8h" startline="59">Mode</references>
+        <references refid="classmediamanagement_1mediamanagemento1" compoundref="mediamanagement_8h" startline="40">musicDir</references>
+        <references refid="classmediamanagement_1mediamanagemento3" compoundref="mediamanagement_8h" startline="42">musicFIV</references>
+        <references refid="classmediamanagement_1mediamanagemento4" compoundref="mediamanagement_8h" startline="43">musicroot</references>
+        <references refid="classmediamanagement_1mediamanagementr1" compoundref="mediamanagement_8h" startline="58">musicsplitter</references>
+        <references refid="classDirectory_1Directorya5" compoundref="dirview_8cpp" startline="142" endline="189">Directory::setOpen</references>
+        <references refid="classmediamanagement_1mediamanagementi5" compoundref="mediamanagement_8cpp" startline="240" endline="247">slotShowImage</references>
+        <referencedby refid="classmediamanagement_1mediamanagementa0" compoundref="mediamanagement_8cpp" startline="22" endline="26">mediamanagement</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagementr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QSplitter *</type>
+        <definition>QSplitter* mediamanagement::imagesplitter</definition>
+        <argsstring></argsstring>
+        <name>imagesplitter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="58" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagementr1" prot="private" static="no" volatile="no" mutable="no">
+        <type>QSplitter *</type>
+        <definition>QSplitter * mediamanagement::musicsplitter</definition>
+        <argsstring></argsstring>
+        <name>musicsplitter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="58" bodystart="58" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmediamanagement_1mediamanagementr2" prot="private" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int mediamanagement::Mode</definition>
+        <argsstring></argsstring>
+        <name>Mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="59" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classmediamanagement_1mediamanagementi0" compoundref="mediamanagement_8cpp" startline="85" endline="107">slotChangeMode</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi3" compoundref="mediamanagement_8cpp" startline="225" endline="235">slotCut</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">slotDeleteItem</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi2" compoundref="mediamanagement_8cpp" startline="195" endline="212">slotMkdir</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementi4" compoundref="mediamanagement_8cpp" startline="214" endline="224">slotPaste</referencedby>
+        <referencedby refid="classmediamanagement_1mediamanagementd0" compoundref="mediamanagement_8cpp" startline="33" endline="84">xSetup</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>root </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="495">
+        <label>mediamanagement</label>
+        <link refid="classmediamanagement"/>
+        <childnode refid="496" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="496">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="497">
+        <label>mediamanagement</label>
+        <link refid="classmediamanagement"/>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+        <childnode refid="499" relation="usage">
+          <edgelabel>musicroot</edgelabel>
+          <edgelabel>imgroot</edgelabel>
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>imgdetial</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>musicDir</edgelabel>
+          <edgelabel>imgDir</edgelabel>
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>imgFIV</edgelabel>
+          <edgelabel>musicFIV</edgelabel>
+        </childnode>
+      </node>
+      <node id="504">
+        <label>QtFileIconViewItem</label>
+        <link refid="classQtFileIconViewItem"/>
+      </node>
+      <node id="500">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="501" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="501">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="503">
+        <label>QtFileIconView</label>
+        <link refid="classQtFileIconView"/>
+        <childnode refid="504" relation="usage">
+          <edgelabel>openItem</edgelabel>
+        </childnode>
+      </node>
+      <node id="502">
+        <label>DirectoryView</label>
+        <link refid="classDirectoryView"/>
+      </node>
+      <node id="499">
+        <label>Directory</label>
+        <link refid="classDirectory"/>
+        <childnode refid="499" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/mediamanagement.h" line="34" bodystart="33" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classmediamanagement_1mediamanagementr0" prot="private" virt="non-virtual"><scope>mediamanagement</scope><name>imagesplitter</name></member>
+      <member refid="classmediamanagement_1mediamanagemento6" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>imgdetial</name></member>
+      <member refid="classmediamanagement_1mediamanagemento0" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>imgDir</name></member>
+      <member refid="classmediamanagement_1mediamanagemento2" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>imgFIV</name></member>
+      <member refid="classmediamanagement_1mediamanagemento5" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>imgroot</name></member>
+      <member refid="classmediamanagement_1mediamanagementa0" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>mediamanagement</name></member>
+      <member refid="classmediamanagement_1mediamanagementr2" prot="private" virt="non-virtual"><scope>mediamanagement</scope><name>Mode</name></member>
+      <member refid="classmediamanagement_1mediamanagemento1" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>musicDir</name></member>
+      <member refid="classmediamanagement_1mediamanagemento3" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>musicFIV</name></member>
+      <member refid="classmediamanagement_1mediamanagemento4" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>musicroot</name></member>
+      <member refid="classmediamanagement_1mediamanagementr1" prot="private" virt="non-virtual"><scope>mediamanagement</scope><name>musicsplitter</name></member>
+      <member refid="classmediamanagement_1mediamanagementl0" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>signalImageDetial</name></member>
+      <member refid="classmediamanagement_1mediamanagementl1" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>signalShowKeyboard</name></member>
+      <member refid="classmediamanagement_1mediamanagementi6" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotBackToManagement</name></member>
+      <member refid="classmediamanagement_1mediamanagementi0" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotChangeMode</name></member>
+      <member refid="classmediamanagement_1mediamanagementi3" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotCut</name></member>
+      <member refid="classmediamanagement_1mediamanagementi1" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotDeleteItem</name></member>
+      <member refid="classmediamanagement_1mediamanagementi2" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotMkdir</name></member>
+      <member refid="classmediamanagement_1mediamanagementi4" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotPaste</name></member>
+      <member refid="classmediamanagement_1mediamanagementi5" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>slotShowImage</name></member>
+      <member refid="classmediamanagement_1mediamanagementd0" prot="private" virt="non-virtual"><scope>mediamanagement</scope><name>xSetup</name></member>
+      <member refid="classmediamanagement_1mediamanagementa1" prot="public" virt="non-virtual"><scope>mediamanagement</scope><name>~mediamanagement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classMyBrowser" kind="class" prot="public">
+    <compoundname>MyBrowser</compoundname>
+    <includes refid="MyBrowser_8h" local="no">MyBrowser.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MyBrowser::MyBrowser</definition>
+        <argsstring>(QWidget *parentWidget=0)</argsstring>
+        <name>MyBrowser</name>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parentWidget</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="34" bodystart="28" bodyend="37"/>
+        <references refid="classMyBrowser_1MyBrowseri0" compoundref="MyBrowser_8cpp" startline="95" endline="103">handleHome</references>
+        <references refid="classMyBrowser_1MyBrowsero0" compoundref="MyBrowser_8h" startline="43">history</references>
+        <references refid="classMyBrowser_1MyBrowsero3" compoundref="MyBrowser_8h" startline="46">home</references>
+        <references refid="classMyBrowser_1MyBrowsero1" compoundref="MyBrowser_8h" startline="44">it_history</references>
+      </memberdef>
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MyBrowser::~MyBrowser</definition>
+        <argsstring>()</argsstring>
+        <name>~MyBrowser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="35" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::urlSelected</definition>
+        <argsstring>(const QString &amp;url, int button, int state, const QString &amp;_target, KParts::URLArgs args=KParts::URLArgs())</argsstring>
+        <name>urlSelected</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>_target</declname>
+        </param>
+        <param>
+          <type>KParts::URLArgs</type>
+          <declname>args</declname>
+          <defval>KParts::URLArgs()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="37" bodystart="45" bodyend="64"/>
+        <references refid="classMyBrowser_1MyBrowsera5" compoundref="MyBrowser_8cpp" startline="84" endline="91">getFile</references>
+        <references refid="classMyBrowser_1MyBrowsera4" compoundref="MyBrowser_8cpp" startline="75" endline="82">removeHistory</references>
+        <references refid="classMyBrowser_1MyBrowsera3" compoundref="MyBrowser_8cpp" startline="66" endline="73">saveHistory</references>
+      </memberdef>
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::saveHistory</definition>
+        <argsstring>(const KURL &amp;)</argsstring>
+        <name>saveHistory</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <defname>url</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="39" bodystart="66" bodyend="73"/>
+        <references refid="classMyBrowser_1MyBrowsero0" compoundref="MyBrowser_8h" startline="43">history</references>
+        <references refid="classMyBrowser_1MyBrowsero1" compoundref="MyBrowser_8h" startline="44">it_history</references>
+        <referencedby refid="classMyBrowser_1MyBrowseri0" compoundref="MyBrowser_8cpp" startline="95" endline="103">handleHome</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowseri4" compoundref="MyBrowser_8cpp" startline="139" endline="155">handleURL</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera2" compoundref="MyBrowser_8cpp" startline="45" endline="64">urlSelected</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::removeHistory</definition>
+        <argsstring>()</argsstring>
+        <name>removeHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="40" bodystart="75" bodyend="82"/>
+        <references refid="classMyBrowser_1MyBrowsero0" compoundref="MyBrowser_8h" startline="43">history</references>
+        <references refid="classMyBrowser_1MyBrowsero1" compoundref="MyBrowser_8h" startline="44">it_history</references>
+        <referencedby refid="classMyBrowser_1MyBrowseri4" compoundref="MyBrowser_8cpp" startline="139" endline="155">handleURL</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera2" compoundref="MyBrowser_8cpp" startline="45" endline="64">urlSelected</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMyBrowser_1MyBrowsera5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::getFile</definition>
+        <argsstring>(KURL &amp;)</argsstring>
+        <name>getFile</name>
+        <param>
+          <type>KURL &amp;</type>
+          <defname>url</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="41" bodystart="84" bodyend="91"/>
+        <references refid="classMyBrowser_1MyBrowsero2" compoundref="MyBrowser_8h" startline="45">getfile</references>
+        <references refid="classMyBrowser_1MyBrowseri5" compoundref="MyBrowser_8cpp" startline="157" endline="163">handleCloseconnect</references>
+        <referencedby refid="classMyBrowser_1MyBrowseri4" compoundref="MyBrowser_8cpp" startline="139" endline="155">handleURL</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera2" compoundref="MyBrowser_8cpp" startline="45" endline="64">urlSelected</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMyBrowser_1MyBrowsero0" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List</type>
+        <definition>KURL::List MyBrowser::history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="43" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classMyBrowser_1MyBrowseri2" compoundref="MyBrowser_8cpp" startline="105" endline="116">handleNext</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowseri3" compoundref="MyBrowser_8cpp" startline="118" endline="129">handlePrevious</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera0" compoundref="MyBrowser_8cpp" startline="28" endline="37">MyBrowser</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera4" compoundref="MyBrowser_8cpp" startline="75" endline="82">removeHistory</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera3" compoundref="MyBrowser_8cpp" startline="66" endline="73">saveHistory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyBrowser_1MyBrowsero1" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL::List::Iterator</type>
+        <definition>KURL::List::Iterator MyBrowser::it_history</definition>
+        <argsstring></argsstring>
+        <name>it_history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="44" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classMyBrowser_1MyBrowseri2" compoundref="MyBrowser_8cpp" startline="105" endline="116">handleNext</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowseri3" compoundref="MyBrowser_8cpp" startline="118" endline="129">handlePrevious</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera0" compoundref="MyBrowser_8cpp" startline="28" endline="37">MyBrowser</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera4" compoundref="MyBrowser_8cpp" startline="75" endline="82">removeHistory</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera3" compoundref="MyBrowser_8cpp" startline="66" endline="73">saveHistory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyBrowser_1MyBrowsero2" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classDownFile" kindref="compound">DownFile</ref> *</type>
+        <definition>DownFile* MyBrowser::getfile</definition>
+        <argsstring></argsstring>
+        <name>getfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="45" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classMyBrowser_1MyBrowsera5" compoundref="MyBrowser_8cpp" startline="84" endline="91">getFile</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowseri5" compoundref="MyBrowser_8cpp" startline="157" endline="163">handleCloseconnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMyBrowser_1MyBrowsero3" prot="public" static="no" volatile="no" mutable="no">
+        <type>KURL</type>
+        <definition>KURL MyBrowser::home</definition>
+        <argsstring></argsstring>
+        <name>home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="46" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classMyBrowser_1MyBrowseri0" compoundref="MyBrowser_8cpp" startline="95" endline="103">handleHome</referencedby>
+        <referencedby refid="classMyBrowser_1MyBrowsera0" compoundref="MyBrowser_8cpp" startline="28" endline="37">MyBrowser</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handleHome</definition>
+        <argsstring>()</argsstring>
+        <name>handleHome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="55" bodystart="95" bodyend="103"/>
+        <references refid="classMyBrowser_1MyBrowsero3" compoundref="MyBrowser_8h" startline="46">home</references>
+        <references refid="classMyBrowser_1MyBrowsera3" compoundref="MyBrowser_8cpp" startline="66" endline="73">saveHistory</references>
+        <referencedby refid="classMyBrowser_1MyBrowsera0" compoundref="MyBrowser_8cpp" startline="28" endline="37">MyBrowser</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handleRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>handleRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="56" bodystart="131" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handleNext</definition>
+        <argsstring>()</argsstring>
+        <name>handleNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="57" bodystart="105" bodyend="116"/>
+        <references refid="classMyBrowser_1MyBrowsero0" compoundref="MyBrowser_8h" startline="43">history</references>
+        <references refid="classMyBrowser_1MyBrowsero1" compoundref="MyBrowser_8h" startline="44">it_history</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handlePrevious</definition>
+        <argsstring>()</argsstring>
+        <name>handlePrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="58" bodystart="118" bodyend="129"/>
+        <references refid="classMyBrowser_1MyBrowsero0" compoundref="MyBrowser_8h" startline="43">history</references>
+        <references refid="classMyBrowser_1MyBrowsero1" compoundref="MyBrowser_8h" startline="44">it_history</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handleURL</definition>
+        <argsstring>(const KURL &amp;, const KParts::URLArgs &amp;)</argsstring>
+        <name>handleURL</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <defname>uurl</defname>
+        </param>
+        <param>
+          <type>const KParts::URLArgs &amp;</type>
+          <defname>args</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="59" bodystart="139" bodyend="155"/>
+        <references refid="classMyBrowser_1MyBrowsera5" compoundref="MyBrowser_8cpp" startline="84" endline="91">getFile</references>
+        <references refid="classMyBrowser_1MyBrowsera4" compoundref="MyBrowser_8cpp" startline="75" endline="82">removeHistory</references>
+        <references refid="classMyBrowser_1MyBrowsera3" compoundref="MyBrowser_8cpp" startline="66" endline="73">saveHistory</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMyBrowser_1MyBrowseri5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyBrowser::handleCloseconnect</definition>
+        <argsstring>(bool)</argsstring>
+        <name>handleCloseconnect</name>
+        <param>
+          <type>bool</type>
+          <defname>error</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="60" bodystart="157" bodyend="163"/>
+        <references refid="classMyBrowser_1MyBrowsero2" compoundref="MyBrowser_8h" startline="45">getfile</references>
+        <referencedby refid="classMyBrowser_1MyBrowsera5" compoundref="MyBrowser_8cpp" startline="84" endline="91">getFile</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="509">
+        <label>DownFile</label>
+        <link refid="classDownFile"/>
+        <childnode refid="510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="508">
+        <label>MyBrowser</label>
+        <link refid="classMyBrowser"/>
+        <childnode refid="509" relation="usage">
+          <edgelabel>getfile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/MyBrowser.h" line="31" bodystart="30" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classMyBrowser_1MyBrowsero2" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>getfile</name></member>
+      <member refid="classMyBrowser_1MyBrowsera5" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>getFile</name></member>
+      <member refid="classMyBrowser_1MyBrowseri5" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handleCloseconnect</name></member>
+      <member refid="classMyBrowser_1MyBrowseri0" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handleHome</name></member>
+      <member refid="classMyBrowser_1MyBrowseri2" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handleNext</name></member>
+      <member refid="classMyBrowser_1MyBrowseri3" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handlePrevious</name></member>
+      <member refid="classMyBrowser_1MyBrowseri1" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handleRefresh</name></member>
+      <member refid="classMyBrowser_1MyBrowseri4" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>handleURL</name></member>
+      <member refid="classMyBrowser_1MyBrowsero0" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>history</name></member>
+      <member refid="classMyBrowser_1MyBrowsero3" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>home</name></member>
+      <member refid="classMyBrowser_1MyBrowsero1" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>it_history</name></member>
+      <member refid="classMyBrowser_1MyBrowsera0" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>MyBrowser</name></member>
+      <member refid="classMyBrowser_1MyBrowsera4" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>removeHistory</name></member>
+      <member refid="classMyBrowser_1MyBrowsera3" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>saveHistory</name></member>
+      <member refid="classMyBrowser_1MyBrowsera2" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>urlSelected</name></member>
+      <member refid="classMyBrowser_1MyBrowsera1" prot="public" virt="non-virtual"><scope>MyBrowser</scope><name>~MyBrowser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

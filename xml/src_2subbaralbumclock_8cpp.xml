@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="src_2subbaralbumclock_8cpp" kind="file">
+    <compoundname>src/subbaralbumclock.cpp</compoundname>
+    <includes refid="src_2subbaralbumclock_8h" local="yes">subbaralbumclock.h</includes>
+    <includes refid="subbaralbumclock_8moc" local="yes">subbaralbumclock.moc</includes>
+    <incdepgraph>
+      <node id="4569">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="4556">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="4557" relation="include">
+        </childnode>
+        <childnode refid="4558" relation="include">
+        </childnode>
+        <childnode refid="4559" relation="include">
+        </childnode>
+        <childnode refid="4561" relation="include">
+        </childnode>
+      </node>
+      <node id="4560">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4564">
+        <label>qstring.h</label>
+      </node>
+      <node id="4559">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="4560" relation="include">
+        </childnode>
+      </node>
+      <node id="4563">
+        <label>qobject.h</label>
+      </node>
+      <node id="4566">
+        <label>subbaralbumclock.moc</label>
+        <link refid="subbaralbumclock_8moc"/>
+        <childnode refid="4556" relation="include">
+        </childnode>
+        <childnode refid="4567" relation="include">
+        </childnode>
+        <childnode refid="4568" relation="include">
+        </childnode>
+        <childnode refid="4569" relation="include">
+        </childnode>
+      </node>
+      <node id="4565">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="4568">
+        <label>qapplication.h</label>
+      </node>
+      <node id="4561">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="4562" relation="include">
+        </childnode>
+      </node>
+      <node id="4562">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="4563" relation="include">
+        </childnode>
+        <childnode refid="4564" relation="include">
+        </childnode>
+        <childnode refid="4565" relation="include">
+        </childnode>
+      </node>
+      <node id="4555">
+        <label>src/subbaralbumclock.cpp</label>
+        <link refid="src/subbaralbumclock.cpp"/>
+        <childnode refid="4556" relation="include">
+        </childnode>
+        <childnode refid="4566" relation="include">
+        </childnode>
+      </node>
+      <node id="4557">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4567">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="4558">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="src_2subbaralbumclock_8h" kindref="compound">subbaralbumclock.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classSubBarAlbumClock_1SubBarAlbumClocka0" refkind="member"><highlight class="normal"><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka0" kindref="member">SubBarAlbumClock::SubBarAlbumClock</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>:<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>(parent,<sp/>name)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka2" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classSubBarAlbumClock_1SubBarAlbumClocka1" refkind="member"><highlight class="normal"><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka1" kindref="member">SubBarAlbumClock::~SubBarAlbumClock</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32" refid="classSubBarAlbumClock_1SubBarAlbumClocka2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocka2" kindref="member">SubBarAlbumClock::xSetup</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Setup<sp/>Background;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/>pixBackground.load(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/SubBarBackground.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/>setBackgroundPixmap(pixBackground);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//InitBtn<sp/>Graphic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[0]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Album.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[1]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Album-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[2]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Clock.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[3]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Clock-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[4]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Previous.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[5]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Previous-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[6]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Play.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[7]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Play-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[8]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Pause.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[9]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Pause-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[10]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Next.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/>btnGraphic[11]=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/Bar-Album-Btn-Next-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Init<sp/>Btn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classSkinButton" kindref="compound">SkinButton</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[0],btnGraphic[1]);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>-&gt;setGeometry(457,0,80,80);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[4],btnGraphic[5]);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>-&gt;setGeometry(175,0,60,80);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[6],btnGraphic[7]);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>-&gt;setGeometry(240,0,80,80);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SkinButton(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[10],btnGraphic[11]);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>-&gt;setGeometry(323,0,60,80);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarAlbumClock_1SubBarAlbumClocki0" kindref="member">slotChangeMode</ref>()));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/>QObject::connect(<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>,SIGNAL(pressed()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classSubBarAlbumClock_1SubBarAlbumClocki1" kindref="member">slotChangePlayNPauseBtnGraphic</ref>()));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>slideshowstate=AlbumControl::GO;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classSubBarAlbumClock_1SubBarAlbumClocki0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocki0" kindref="member">SubBarAlbumClock::slotChangeMode</ref>()</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>+3<sp/>make<sp/>the<sp/>value<sp/>init<sp/>form<sp/>em_dispaly_album<sp/>(3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//qWarning(&quot;~~~~~~~~%d&quot;,GlobalSetting.intHDASS_ALBUMCLOCK_STATE);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" kindref="member">intHDASS_ALBUMCLOCK_STATE</ref>++;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" kindref="member">intHDASS_ALBUMCLOCK_STATE</ref>%=2;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" kindref="member">intHDSS_DISPLAY_STATE</ref>=<ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" kindref="member">intHDASS_ALBUMCLOCK_STATE</ref>+3;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockd0" kindref="member">ChangeButtonGraphic</ref>(<ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" kindref="member">intHDASS_ALBUMCLOCK_STATE</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classSubBarAlbumClock_1SubBarAlbumClockd0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockd0" kindref="member">SubBarAlbumClock::ChangeButtonGraphic</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Mode)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>qWarning(</highlight><highlight class="stringliteral">&quot;~~~~~~~~%d&quot;</highlight><highlight class="normal">,<ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" kindref="member">intHDSS_DISPLAY_STATE</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockl0" kindref="member">signalAlbumClockModeChangeToDispalyArea</ref>(<ref refid="global__define_8h_1a2" kindref="member">GlobalSetting</ref>.<ref refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" kindref="member">intHDSS_DISPLAY_STATE</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Mode)</highlight><highlight class="comment">//Album</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[0],btnGraphic[1]);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="comment">//Clock</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kindref="member">SubBarBtnAlbumClock</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[2],btnGraphic[3]);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classSubBarAlbumClock_1SubBarAlbumClocki1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocki1" kindref="member">SubBarAlbumClock::slotChangePlayNPauseBtnGraphic</ref>()</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classSubBarAlbumClock_1SubBarAlbumClockr2" kindref="member">slideshowstate</ref>==<ref refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" kindref="member">SubBarAlbumClock::STOP</ref>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockr2" kindref="member">slideshowstate</ref>=<ref refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" kindref="member">SubBarAlbumClock::GO</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[6],btnGraphic[7]);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClockr2" kindref="member">slideshowstate</ref>=<ref refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" kindref="member">SubBarAlbumClock::STOP</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>-&gt;<ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(btnGraphic[8],btnGraphic[9]);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="subbaralbumclock_8moc" kindref="compound">subbaralbumclock.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/subbaralbumclock.cpp"/>
+  </compounddef>
+</doxygen>

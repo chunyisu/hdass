@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classQWidget" kind="class" prot="public">
+    <compoundname>QWidget</compoundname>
+    <derivedcompoundref refid="classAnalyzer_1_1Base" prot="public" virt="non-virtual">Analyzer::Base&lt; QWidget &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classArtsEngine_1_1ArtsConfigWidget" prot="public" virt="non-virtual">ArtsEngine::ArtsConfigWidget</derivedcompoundref>
+    <derivedcompoundref refid="classDisplayArea" prot="public" virt="non-virtual">DisplayArea</derivedcompoundref>
+    <derivedcompoundref refid="classDownFile" prot="public" virt="non-virtual">DownFile</derivedcompoundref>
+    <derivedcompoundref refid="classFunction__Control__Area" prot="public" virt="non-virtual">Function_Control_Area</derivedcompoundref>
+    <derivedcompoundref refid="classFunctionBar" prot="public" virt="non-virtual">FunctionBar</derivedcompoundref>
+    <derivedcompoundref refid="classhdassAlbum" prot="public" virt="non-virtual">hdassAlbum</derivedcompoundref>
+    <derivedcompoundref refid="classhdassClock" prot="public" virt="non-virtual">hdassClock</derivedcompoundref>
+    <derivedcompoundref refid="classhdassImageDetial" prot="public" virt="non-virtual">hdassImageDetial</derivedcompoundref>
+    <derivedcompoundref refid="classInfoArea" prot="public" virt="non-virtual">InfoArea</derivedcompoundref>
+    <derivedcompoundref refid="classkeyboard" prot="public" virt="non-virtual">keyboard</derivedcompoundref>
+    <derivedcompoundref refid="classKStartupLogo" prot="public" virt="non-virtual">KStartupLogo</derivedcompoundref>
+    <derivedcompoundref refid="classmediamanagement" prot="public" virt="non-virtual">mediamanagement</derivedcompoundref>
+    <derivedcompoundref refid="classMyplayer" prot="public" virt="non-virtual">Myplayer</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarAlbumClock" prot="public" virt="non-virtual">SubBarAlbumClock</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarAlbumClock" prot="public" virt="non-virtual">SubBarAlbumClock</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarClose" prot="public" virt="non-virtual">SubBarClose</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarInternet" prot="public" virt="non-virtual">SubBarInternet</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarManagement" prot="public" virt="non-virtual">SubBarManagement</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarPlayer" prot="public" virt="non-virtual">SubBarPlayer</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarPlayer" prot="public" virt="non-virtual">SubBarPlayer</derivedcompoundref>
+    <derivedcompoundref refid="classSubBarSetting" prot="public" virt="non-virtual">SubBarSetting</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="549">
+        <label>mediamanagement</label>
+        <link refid="classmediamanagement"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>Analyzer::Base&lt; QWidget &gt;</label>
+        <link refid="classAnalyzer_1_1Base"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>Function_Control_Area</label>
+        <link refid="classFunction__Control__Area"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>hdassClock</label>
+        <link refid="classhdassClock"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>ArtsEngine::ArtsConfigWidget</label>
+        <link refid="classArtsEngine_1_1ArtsConfigWidget"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>Analyzer::Base2D</label>
+        <link refid="classAnalyzer_1_1Base2D"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>SubBarPlayer</label>
+        <link refid="classSubBarPlayer"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>hdassImageDetial</label>
+        <link refid="classhdassImageDetial"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="539">
+        <label>DownFile</label>
+        <link refid="classDownFile"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="554">
+        <label>SubBarManagement</label>
+        <link refid="classSubBarManagement"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>SubBarInternet</label>
+        <link refid="classSubBarInternet"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="543">
+        <label>ImageDetial</label>
+        <link refid="classImageDetial"/>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="533">
+        <label>QWidget</label>
+        <link refid="classQWidget"/>
+      </node>
+      <node id="550">
+        <label>Myplayer</label>
+        <link refid="classMyplayer"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>Sonogram</label>
+        <link refid="classSonogram"/>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="552">
+        <label>SubBarClose</label>
+        <link refid="classSubBarClose"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>SubBarAlbumClock</label>
+        <link refid="classSubBarAlbumClock"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="542">
+        <label>hdassAlbum</label>
+        <link refid="classhdassAlbum"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="538">
+        <label>DisplayArea</label>
+        <link refid="classDisplayArea"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>KStartupLogo</label>
+        <link refid="classKStartupLogo"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>FunctionBar</label>
+        <link refid="classFunctionBar"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>SubBarSetting</label>
+        <link refid="classSubBarSetting"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="547">
+        <label>keyboard</label>
+        <link refid="classkeyboard"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>InfoArea</label>
+        <link refid="classInfoArea"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/root/kde_application/hdass08/src/analyzerbase.h" line="40"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

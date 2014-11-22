@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classQtFileIconView" kind="class" prot="public">
+    <compoundname>QtFileIconView</compoundname>
+    <includes refid="qfileiconview_8h" local="no">qfileiconview.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classQtFileIconView_1QtFileIconVieww2" prot="public" static="no">
+        <name>ViewMode</name>
+        <enumvalue id="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0" prot="public">
+          <name>Large</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww1" prot="public">
+          <name>Small</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="68" bodystart="68" bodyend="68"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa2" compoundref="qfileiconview_8h" startline="71" endline="71">viewMode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QtFileIconView::QtFileIconView</definition>
+        <argsstring>(const QString &amp;dir, QWidget *parent=0, const char *name=0,FloderType type=Music)</argsstring>
+        <name>QtFileIconView</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classQWidget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="qfileiconview_8h_1a3" kindref="member">FloderType</ref></type>
+          <declname>type</declname>
+          <defval>Music</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="67" bodystart="272" bodyend="301"/>
+        <references refid="qfileiconview_8cpp_1a2" compoundref="qfileiconview_8cpp" startline="30" endline="36">cleanup</references>
+        <references refid="qfileiconview_8cpp_1a0" compoundref="qfileiconview_8cpp" startline="28">iconFileLarge</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj1" compoundref="qfileiconview_8cpp" startline="679" endline="684">itemClicked</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj0" compoundref="qfileiconview_8cpp" startline="441" endline="477">itemDoubleClicked</references>
+        <references refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0">Large</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp5" compoundref="qfileiconview_8h" startline="126">openItem</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj2" compoundref="qfileiconview_8cpp" startline="516" endline="544">slotDropped</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp4" compoundref="qfileiconview_8h" startline="125">vm</references>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::setViewMode</definition>
+        <argsstring>(ViewMode m)</argsstring>
+        <name>setViewMode</name>
+        <param>
+          <type><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="70" bodystart="646" bodyend="657"/>
+        <references refid="classQtFileIconView_1QtFileIconViewj13" compoundref="qfileiconview_8h" startline="108" endline="110">arrangeItemsInGrid</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema9" compoundref="qfileiconview_8cpp" startline="138" endline="143">QtFileIconViewItem::viewModeChanged</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp4" compoundref="qfileiconview_8h" startline="125">vm</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj3" compoundref="qfileiconview_8cpp" startline="546" endline="549">viewLarge</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj4" compoundref="qfileiconview_8cpp" startline="551" endline="554">viewSmall</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewa2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref></type>
+        <definition>ViewMode QtFileIconView::viewMode</definition>
+        <argsstring>() const </argsstring>
+        <name>viewMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="71" bodystart="71" bodyend="71"/>
+        <references refid="classQtFileIconView_1QtFileIconVieww2" compoundref="qfileiconview_8h" startline="68" endline="68">ViewMode</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp4" compoundref="qfileiconview_8h" startline="125">vm</references>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::setOpenItem</definition>
+        <argsstring>(QtFileIconViewItem *i)</argsstring>
+        <name>setOpenItem</name>
+        <param>
+          <type><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref> *</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="72" bodystart="72" bodyend="74"/>
+        <references refid="classQtFileIconView_1QtFileIconViewp5" compoundref="qfileiconview_8h" startline="126">openItem</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewi0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::setDirectory</definition>
+        <argsstring>(const QString &amp;dir)</argsstring>
+        <name>setDirectory</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="77" bodystart="316" bodyend="320"/>
+        <references refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj15" compoundref="qfileiconview_8cpp" startline="303" endline="314">openFolder</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewi1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::setDirectory</definition>
+        <argsstring>(const QDir &amp;dir)</argsstring>
+        <name>setDirectory</name>
+        <param>
+          <type>const QDir &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="78" bodystart="322" bodyend="326"/>
+        <references refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewi2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::newDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>newDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="79" bodystart="328" bodyend="347"/>
+        <references refid="classQtFileIconView_1QtFileIconViewp1" compoundref="qfileiconview_8h" startline="122">newFolderNum</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb2" compoundref="qfileiconview_8cpp" startline="507" endline="514">keyPressEvent</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewi3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QDir</type>
+        <definition>QDir QtFileIconView::currentDir</definition>
+        <argsstring>()</argsstring>
+        <name>currentDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="80" bodystart="349" bodyend="352"/>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewi4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::slotDeletCurrItem</definition>
+        <argsstring>()</argsstring>
+        <name>slotDeletCurrItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="81" bodystart="658" bodyend="678"/>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema3" compoundref="qfileiconview_8h" startline="154" endline="154">QtFileIconViewItem::filename</references>
+        <referencedby refid="classmediamanagement_1mediamanagementi1" compoundref="mediamanagement_8cpp" startline="108" endline="194">mediamanagement::slotDeleteItem</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::directoryChanged</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>directoryChanged</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="83" bodystart="247" bodyend="250"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::startReadDir</definition>
+        <argsstring>(int dirs)</argsstring>
+        <name>startReadDir</name>
+        <param>
+          <type>int</type>
+          <declname>dirs</declname>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="84" bodystart="253" bodyend="256"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::readNextDir</definition>
+        <argsstring>()</argsstring>
+        <name>readNextDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="85" bodystart="259" bodyend="262"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::readDirDone</definition>
+        <argsstring>()</argsstring>
+        <name>readDirDone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="86" bodystart="265" bodyend="268"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::enableUp</definition>
+        <argsstring>()</argsstring>
+        <name>enableUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="87" bodystart="271" bodyend="274"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::disableUp</definition>
+        <argsstring>()</argsstring>
+        <name>disableUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="88" bodystart="277" bodyend="280"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::enableMkdir</definition>
+        <argsstring>()</argsstring>
+        <name>enableMkdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="89" bodystart="283" bodyend="286"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::disableMkdir</definition>
+        <argsstring>()</argsstring>
+        <name>disableMkdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="90" bodystart="289" bodyend="292"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::signalAddFileToList</definition>
+        <argsstring>(KURL::List list, HDASS_ACTION_TYPE act)</argsstring>
+        <name>signalAddFileToList</name>
+        <param>
+          <type>KURL::List</type>
+          <declname>list</declname>
+          <defname>t0</defname>
+        </param>
+        <param>
+          <type><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref></type>
+          <declname>act</declname>
+          <defname>t1</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="91" bodystart="298" bodyend="309"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj0" compoundref="qfileiconview_8cpp" startline="441" endline="477">itemDoubleClicked</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classQtFileIconView_1QtFileIconViewl9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::signalShowTheDetialofImage</definition>
+        <argsstring>(KURL url)</argsstring>
+        <name>signalShowTheDetialofImage</name>
+        <param>
+          <type>KURL</type>
+          <declname>url</declname>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="92" bodystart="312" bodyend="322"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj0" compoundref="qfileiconview_8cpp" startline="441" endline="477">itemDoubleClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::readDir</definition>
+        <argsstring>(const QDir &amp;dir)</argsstring>
+        <name>readDir</name>
+        <param>
+          <type>const QDir &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="116" bodystart="376" bodyend="439"/>
+        <references refid="classQtFileIconView_1QtFileIconViewl0" compoundref="qfileiconview_8moc_8cc" startline="247" endline="250">directoryChanged</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl7" compoundref="qfileiconview_8moc_8cc" startline="289" endline="292">disableMkdir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl5" compoundref="qfileiconview_8moc_8cc" startline="277" endline="280">disableUp</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl6" compoundref="qfileiconview_8moc_8cc" startline="283" endline="286">enableMkdir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl4" compoundref="qfileiconview_8moc_8cc" startline="271" endline="274">enableUp</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp6" compoundref="qfileiconview_8h" startline="127">flodertype</references>
+        <references refid="qfileiconview_8cpp_1a4" compoundref="qfileiconview_8cpp" startline="354" endline="374">isRoot</references>
+        <references refid="qfileiconview_8h_1a3a1">Music</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl3" compoundref="qfileiconview_8moc_8cc" startline="265" endline="268">readDirDone</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl2" compoundref="qfileiconview_8moc_8cc" startline="259" endline="262">readNextDir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl1" compoundref="qfileiconview_8moc_8cc" startline="253" endline="256">startReadDir</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj0" compoundref="qfileiconview_8cpp" startline="441" endline="477">itemDoubleClicked</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewi0" compoundref="qfileiconview_8cpp" startline="316" endline="320">setDirectory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewb1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual QDragObject *</type>
+        <definition>QDragObject * QtFileIconView::dragObject</definition>
+        <argsstring>()</argsstring>
+        <name>dragObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="117" bodystart="479" bodyend="505"/>
+        <references refid="classQtFileIconDrag_1QtFileIconDraga3" compoundref="qfileiconview_8cpp" startline="78" endline="90">QtFileIconDrag::append</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema3" compoundref="qfileiconview_8h" startline="154" endline="154">QtFileIconViewItem::filename</references>
+      </memberdef>
+      <memberdef kind="function" id="classQtFileIconView_1QtFileIconViewb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual void</type>
+        <definition>void QtFileIconView::keyPressEvent</definition>
+        <argsstring>(QKeyEvent *e)</argsstring>
+        <name>keyPressEvent</name>
+        <param>
+          <type>QKeyEvent *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="119" bodystart="507" bodyend="514"/>
+        <references refid="classQtFileIconView_1QtFileIconViewi2" compoundref="qfileiconview_8cpp" startline="328" endline="347">newDirectory</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp0" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QDir</type>
+        <definition>QDir QtFileIconView::viewDir</definition>
+        <argsstring></argsstring>
+        <name>viewDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="121" bodystart="121" bodyend="-1"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewi3" compoundref="qfileiconview_8cpp" startline="349" endline="352">currentDir</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj0" compoundref="qfileiconview_8cpp" startline="441" endline="477">itemDoubleClicked</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewi2" compoundref="qfileiconview_8cpp" startline="328" endline="347">newDirectory</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewi0" compoundref="qfileiconview_8cpp" startline="316" endline="320">setDirectory</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj2" compoundref="qfileiconview_8cpp" startline="516" endline="544">slotDropped</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp1" prot="protected" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int QtFileIconView::newFolderNum</definition>
+        <argsstring></argsstring>
+        <name>newFolderNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="122" bodystart="122" bodyend="-1"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewi2" compoundref="qfileiconview_8cpp" startline="328" endline="347">newDirectory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp2" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QSize</type>
+        <definition>QSize QtFileIconView::sz</definition>
+        <argsstring></argsstring>
+        <name>sz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="123" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp3" prot="protected" static="no" volatile="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap QtFileIconView::pix</definition>
+        <argsstring></argsstring>
+        <name>pix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="124" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp4" prot="protected" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQtFileIconView_1QtFileIconVieww2" kindref="member">ViewMode</ref></type>
+        <definition>ViewMode QtFileIconView::vm</definition>
+        <argsstring></argsstring>
+        <name>vm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="125" bodystart="125" bodyend="-1"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa1" compoundref="qfileiconview_8cpp" startline="646" endline="657">setViewMode</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa2" compoundref="qfileiconview_8h" startline="71" endline="71">viewMode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp5" prot="protected" static="no" volatile="no" mutable="no">
+        <type><ref refid="classQtFileIconViewItem" kindref="compound">QtFileIconViewItem</ref> *</type>
+        <definition>QtFileIconViewItem* QtFileIconView::openItem</definition>
+        <argsstring></argsstring>
+        <name>openItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="126" bodystart="126" bodyend="-1"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj15" compoundref="qfileiconview_8cpp" startline="303" endline="314">openFolder</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa3" compoundref="qfileiconview_8h" startline="72" endline="74">setOpenItem</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj2" compoundref="qfileiconview_8cpp" startline="516" endline="544">slotDropped</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classQtFileIconView_1QtFileIconViewp6" prot="protected" static="no" volatile="no" mutable="no">
+        <type><ref refid="qfileiconview_8h_1a3" kindref="member">FloderType</ref></type>
+        <definition>FloderType QtFileIconView::flodertype</definition>
+        <argsstring></argsstring>
+        <name>flodertype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="127" bodystart="127" bodyend="-1"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::itemDoubleClicked</definition>
+        <argsstring>(QIconViewItem *i)</argsstring>
+        <name>itemDoubleClicked</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="94" bodystart="441" bodyend="477"/>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema3" compoundref="qfileiconview_8h" startline="154" endline="154">QtFileIconViewItem::filename</references>
+        <references refid="enum_8h_1a24a20">mm_append</references>
+        <references refid="classQtFileIconView_1QtFileIconViewb0" compoundref="qfileiconview_8cpp" startline="376" endline="439">readDir</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl8" compoundref="qfileiconview_8moc_8cc" startline="298" endline="309">signalAddFileToList</references>
+        <references refid="classQtFileIconView_1QtFileIconViewl9" compoundref="qfileiconview_8moc_8cc" startline="312" endline="322">signalShowTheDetialofImage</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema2" compoundref="qfileiconview_8h" startline="152" endline="153">QtFileIconViewItem::type</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::itemClicked</definition>
+        <argsstring>(QIconViewItem *i)</argsstring>
+        <name>itemClicked</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="95" bodystart="679" bodyend="684"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::slotDropped</definition>
+        <argsstring>(QDropEvent *e, const QValueList&lt; QIconDragItem &gt; &amp;)</argsstring>
+        <name>slotDropped</name>
+        <param>
+          <type>QDropEvent *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; QIconDragItem &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="96" bodystart="516" bodyend="544"/>
+        <references refid="classQtFileIconView_1QtFileIconViewp5" compoundref="qfileiconview_8h" startline="126">openItem</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItemp4" compoundref="qfileiconview_8h" startline="176">QtFileIconViewItem::timer</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp0" compoundref="qfileiconview_8h" startline="121">viewDir</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::viewLarge</definition>
+        <argsstring>()</argsstring>
+        <name>viewLarge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="98" bodystart="546" bodyend="549"/>
+        <references refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0">Large</references>
+        <references refid="classQtFileIconView_1QtFileIconViewa1" compoundref="qfileiconview_8cpp" startline="646" endline="657">setViewMode</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::viewSmall</definition>
+        <argsstring>()</argsstring>
+        <name>viewSmall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="99" bodystart="551" bodyend="554"/>
+        <references refid="classQtFileIconView_1QtFileIconViewa1" compoundref="qfileiconview_8cpp" startline="646" endline="657">setViewMode</references>
+        <references refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww1">Small</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::viewBottom</definition>
+        <argsstring>()</argsstring>
+        <name>viewBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="100" bodystart="556" bodyend="559"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::viewRight</definition>
+        <argsstring>()</argsstring>
+        <name>viewRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="101" bodystart="561" bodyend="564"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::flowEast</definition>
+        <argsstring>()</argsstring>
+        <name>flowEast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="102" bodystart="566" bodyend="571"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::flowSouth</definition>
+        <argsstring>()</argsstring>
+        <name>flowSouth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="103" bodystart="573" bodyend="578"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::itemTextTruncate</definition>
+        <argsstring>()</argsstring>
+        <name>itemTextTruncate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="104" bodystart="590" bodyend="593"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj10" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::itemTextWordWrap</definition>
+        <argsstring>()</argsstring>
+        <name>itemTextWordWrap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="105" bodystart="595" bodyend="598"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj11" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::sortAscending</definition>
+        <argsstring>()</argsstring>
+        <name>sortAscending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="106" bodystart="580" bodyend="583"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj12" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::sortDescending</definition>
+        <argsstring>()</argsstring>
+        <name>sortDescending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="107" bodystart="585" bodyend="588"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj13" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::arrangeItemsInGrid</definition>
+        <argsstring>()</argsstring>
+        <name>arrangeItemsInGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="108" bodystart="108" bodyend="110"/>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa1" compoundref="qfileiconview_8cpp" startline="646" endline="657">setViewMode</referencedby>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewj14" compoundref="qfileiconview_8cpp" startline="600" endline="644">slotRightPressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj14" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::slotRightPressed</definition>
+        <argsstring>(QIconViewItem *item)</argsstring>
+        <name>slotRightPressed</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="112" bodystart="600" bodyend="644"/>
+        <references refid="classQtFileIconView_1QtFileIconViewj13" compoundref="qfileiconview_8h" startline="108" endline="110">arrangeItemsInGrid</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj7" compoundref="qfileiconview_8cpp" startline="566" endline="571">flowEast</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj8" compoundref="qfileiconview_8cpp" startline="573" endline="578">flowSouth</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj9" compoundref="qfileiconview_8cpp" startline="590" endline="593">itemTextTruncate</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj10" compoundref="qfileiconview_8cpp" startline="595" endline="598">itemTextWordWrap</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj11" compoundref="qfileiconview_8cpp" startline="580" endline="583">sortAscending</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj12" compoundref="qfileiconview_8cpp" startline="585" endline="588">sortDescending</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj5" compoundref="qfileiconview_8cpp" startline="556" endline="559">viewBottom</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj3" compoundref="qfileiconview_8cpp" startline="546" endline="549">viewLarge</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj6" compoundref="qfileiconview_8cpp" startline="561" endline="564">viewRight</references>
+        <references refid="classQtFileIconView_1QtFileIconViewj4" compoundref="qfileiconview_8cpp" startline="551" endline="554">viewSmall</references>
+        <referencedby refid="classQtFileIconView_1QtFileIconViewa0" compoundref="qfileiconview_8cpp" startline="272" endline="301">QtFileIconView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classQtFileIconView_1QtFileIconViewj15" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtFileIconView::openFolder</definition>
+        <argsstring>()</argsstring>
+        <name>openFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="113" bodystart="303" bodyend="314"/>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItemp0" compoundref="qfileiconview_8h" startline="172">QtFileIconViewItem::itemFileName</references>
+        <references refid="classQtFileIconView_1QtFileIconViewp5" compoundref="qfileiconview_8h" startline="126">openItem</references>
+        <references refid="classQtFileIconView_1QtFileIconViewi0" compoundref="qfileiconview_8cpp" startline="316" endline="320">setDirectory</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItemp4" compoundref="qfileiconview_8h" startline="176">QtFileIconViewItem::timer</references>
+        <references refid="classQtFileIconViewItem_1QtFileIconViewItema2" compoundref="qfileiconview_8h" startline="152" endline="153">QtFileIconViewItem::type</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="530">
+        <label>QtFileIconViewItem</label>
+        <link refid="classQtFileIconViewItem"/>
+      </node>
+      <node id="529">
+        <label>QtFileIconView</label>
+        <link refid="classQtFileIconView"/>
+        <childnode refid="530" relation="usage">
+          <edgelabel>openItem</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/kde_application/hdass08/src/qfileiconview.h" line="63" bodystart="62" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classQtFileIconView_1QtFileIconViewj13" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>arrangeItemsInGrid</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewi3" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>currentDir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl0" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>directoryChanged</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl7" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>disableMkdir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl5" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>disableUp</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewb1" prot="protected" virt="virtual"><scope>QtFileIconView</scope><name>dragObject</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl6" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>enableMkdir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl4" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>enableUp</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp6" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>flodertype</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj7" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>flowEast</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj8" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>flowSouth</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj1" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>itemClicked</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj0" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>itemDoubleClicked</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj9" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>itemTextTruncate</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj10" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>itemTextWordWrap</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewb2" prot="protected" virt="virtual"><scope>QtFileIconView</scope><name>keyPressEvent</name></member>
+      <member refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>Large</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewi2" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>newDirectory</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp1" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>newFolderNum</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj15" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>openFolder</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp5" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>openItem</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp3" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>pix</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewa0" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>QtFileIconView</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewb0" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>readDir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl3" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>readDirDone</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl2" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>readNextDir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewi0" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>setDirectory</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewi1" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>setDirectory</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewa3" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>setOpenItem</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewa1" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>setViewMode</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl8" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>signalAddFileToList</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl9" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>signalShowTheDetialofImage</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewi4" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>slotDeletCurrItem</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj2" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>slotDropped</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj14" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>slotRightPressed</name></member>
+      <member refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww1" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>Small</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj11" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>sortAscending</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj12" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>sortDescending</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewl1" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>startReadDir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp2" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>sz</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj5" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>viewBottom</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp0" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>viewDir</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj3" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>viewLarge</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewa2" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>viewMode</name></member>
+      <member refid="classQtFileIconView_1QtFileIconVieww2" prot="public" virt="non-virtual"><scope>QtFileIconView</scope><name>ViewMode</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj6" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>viewRight</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewj4" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>viewSmall</name></member>
+      <member refid="classQtFileIconView_1QtFileIconViewp4" prot="protected" virt="non-virtual"><scope>QtFileIconView</scope><name>vm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

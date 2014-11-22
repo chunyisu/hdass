@@ -1,0 +1,125 @@
+\section{amarokarts.cc File Reference}
+\label{amarokarts_8cc}\index{amarokarts.cc@{amarokarts.cc}}
+
+
+{\tt \#include \char`\"{}amarokarts.h\char`\"{}}\par
+
+
+Include dependency graph for amarokarts.cc:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{amarokarts_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void {\bf \_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-00} (void $\ast$object, Arts::Buffer $\ast$, Arts::Buffer $\ast$result)
+\item 
+void {\bf \_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-01} (void $\ast$object, Arts::Buffer $\ast$request, Arts::Buffer $\ast$)
+\item 
+void {\bf \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-00} (void $\ast$object, Arts::Buffer $\ast$, Arts::Buffer $\ast$result)
+\item 
+void {\bf \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-01} (void $\ast$object, Arts::Buffer $\ast$, Arts::Buffer $\ast$result)
+\item 
+void {\bf \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-02} (void $\ast$object, Arts::Buffer $\ast$request, Arts::Buffer $\ast$)
+\item 
+Arts::IDLFile\-Reg {\bf IDLFile\-Reg\_\-amarokarts} (\char`\"{}amarokarts\char`\"{},\char`\"{}IDLFile:00000001000000000000000000000000020000001b416d61726f6b3a3a5379\char`\"{}\char`\"{}6e74685f53544552454f5f5846414445000000000100000012417274733a3a53796e74\char`\"{}\char`\"{}684d6f64756c650000000000000000070000000b70657263656e746167650000000006\char`\"{}\char`\"{}666c6f61740000000013000000000000000b696e76616c7565315f6c0000000006666c\char`\"{}\char`\"{}6f61740000000009000000000000000b696e76616c7565315f720000000006666c6f61\char`\"{}\char`\"{}740000000009000000000000000b696e76616c7565325f6c0000000006666c6f617400\char`\"{}\char`\"{}00000009000000000000000b696e76616c7565325f720000000006666c6f6174000000\char`\"{}\char`\"{}0009000000000000000b6f757476616c75655f6c0000000006666c6f6174000000000a\char`\"{}\char`\"{}000000000000000b6f757476616c75655f720000000006666c6f6174000000000a0000\char`\"{}\char`\"{}0000000000000000000000000011416d61726f6b3a3a52617753636f70650000000001\char`\"{}\char`\"{}00000013417274733a3a53746572656f45666665637400000000010000000673636f70\char`\"{}\char`\"{}6500000000072a666c6f61740000000002000000000000000000000001000000076275\char`\"{}\char`\"{}6666657200000000056c6f6e67000000001300000000000000000000000000000000\char`\"{})
+\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\index{amarokarts.cc@{amarokarts.cc}!_dispatch_Amarok_RawScope_00@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-00}}
+\index{_dispatch_Amarok_RawScope_00@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-00}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-00 (void $\ast$ {\em object}, Arts::Buffer $\ast$, Arts::Buffer $\ast$ {\em result})\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a2}
+
+
+
+
+Definition at line 336 of file amarokarts.cc.
+
+Referenced by Amarok::Raw\-Scope\_\-skel::\_\-build\-Method\-Table().
+
+
+
+\footnotesize\begin{verbatim}337 {
+338         std::vector<float> *_returnCode = ((Amarok::RawScope_skel *)object)->scope();
+339         result->writeFloatSeq(*_returnCode);
+340         delete _returnCode;
+341 }
+\end{verbatim}\normalsize 
+\index{amarokarts.cc@{amarokarts.cc}!_dispatch_Amarok_RawScope_01@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-01}}
+\index{_dispatch_Amarok_RawScope_01@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-01}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-01 (void $\ast$ {\em object}, Arts::Buffer $\ast$, Arts::Buffer $\ast$ {\em result})\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a3}
+
+
+
+
+Definition at line 344 of file amarokarts.cc.
+
+Referenced by Amarok::Raw\-Scope\_\-skel::\_\-build\-Method\-Table().
+
+
+
+\footnotesize\begin{verbatim}345 {
+346         result->writeLong(((Amarok::RawScope_skel *)object)->buffer());
+347 }
+\end{verbatim}\normalsize 
+\index{amarokarts.cc@{amarokarts.cc}!_dispatch_Amarok_RawScope_02@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-02}}
+\index{_dispatch_Amarok_RawScope_02@{\_\-dispatch\_\-Amarok\_\-RawScope\_\-02}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void \_\-dispatch\_\-Amarok\_\-Raw\-Scope\_\-02 (void $\ast$ {\em object}, Arts::Buffer $\ast$ {\em request}, Arts::Buffer $\ast$)\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a4}
+
+
+
+
+Definition at line 350 of file amarokarts.cc.
+
+Referenced by Amarok::Raw\-Scope\_\-skel::\_\-build\-Method\-Table().
+
+
+
+\footnotesize\begin{verbatim}351 {
+352         long newValue = request->readLong();
+353         ((Amarok::RawScope_skel *)object)->buffer(newValue);
+354 }
+\end{verbatim}\normalsize 
+\index{amarokarts.cc@{amarokarts.cc}!_dispatch_Amarok_Synth_STEREO_XFADE_00@{\_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-00}}
+\index{_dispatch_Amarok_Synth_STEREO_XFADE_00@{\_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-00}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void \_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-00 (void $\ast$ {\em object}, Arts::Buffer $\ast$, Arts::Buffer $\ast$ {\em result})\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a0}
+
+
+
+
+Definition at line 139 of file amarokarts.cc.
+
+Referenced by Amarok::Synth\_\-STEREO\_\-XFADE\_\-skel::\_\-build\-Method\-Table().
+
+
+
+\footnotesize\begin{verbatim}140 {
+141         result->writeFloat(((Amarok::Synth_STEREO_XFADE_skel *)object)->percentage());
+142 }
+\end{verbatim}\normalsize 
+\index{amarokarts.cc@{amarokarts.cc}!_dispatch_Amarok_Synth_STEREO_XFADE_01@{\_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-01}}
+\index{_dispatch_Amarok_Synth_STEREO_XFADE_01@{\_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-01}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void \_\-dispatch\_\-Amarok\_\-Synth\_\-STEREO\_\-XFADE\_\-01 (void $\ast$ {\em object}, Arts::Buffer $\ast$ {\em request}, Arts::Buffer $\ast$)\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a1}
+
+
+
+
+Definition at line 145 of file amarokarts.cc.
+
+Referenced by Amarok::Synth\_\-STEREO\_\-XFADE\_\-skel::\_\-build\-Method\-Table().
+
+
+
+\footnotesize\begin{verbatim}146 {
+147         float newValue = request->readFloat();
+148         ((Amarok::Synth_STEREO_XFADE_skel *)object)->percentage(newValue);
+149 }
+\end{verbatim}\normalsize 
+\index{amarokarts.cc@{amarokarts.cc}!IDLFileReg_amarokarts@{IDLFileReg\_\-amarokarts}}
+\index{IDLFileReg_amarokarts@{IDLFileReg\_\-amarokarts}!amarokarts.cc@{amarokarts.cc}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Arts::IDLFile\-Reg IDLFile\-Reg\_\-amarokarts (\char`\"{}amarokarts\char`\"{}, \char`\"{}IDLFile:00000001000000000000000000000000020000001b416d61726f6b3a3a5379\char`\"{}\char`\"{}6e74685f53544552454f5f5846414445000000000100000012417274733a3a53796e74\char`\"{}\char`\"{}684d6f64756c650000000000000000070000000b70657263656e746167650000000006\char`\"{}\char`\"{}666c6f61740000000013000000000000000b696e76616c7565315f6c0000000006666c\char`\"{}\char`\"{}6f61740000000009000000000000000b696e76616c7565315f720000000006666c6f61\char`\"{}\char`\"{}740000000009000000000000000b696e76616c7565325f6c0000000006666c6f617400\char`\"{}\char`\"{}00000009000000000000000b696e76616c7565325f720000000006666c6f6174000000\char`\"{}\char`\"{}0009000000000000000b6f757476616c75655f6c0000000006666c6f6174000000000a\char`\"{}\char`\"{}000000000000000b6f757476616c75655f720000000006666c6f6174000000000a0000\char`\"{}\char`\"{}0000000000000000000000000011416d61726f6b3a3a52617753636f70650000000001\char`\"{}\char`\"{}00000013417274733a3a53746572656f45666665637400000000010000000673636f70\char`\"{}\char`\"{}6500000000072a666c6f61740000000002000000000000000000000001000000076275\char`\"{}\char`\"{}6666657200000000056c6f6e67000000001300000000000000000000000000000000\char`\"{})\hspace{0.3cm}{\tt  [static]}}\label{amarokarts_8cc_a5}
+
+

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classPlugin" kind="class" prot="public">
+    <compoundname>Plugin</compoundname>
+    <includes refid="plugin_8h" local="no">plugin.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPlugin_1Plugina0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Plugin::Plugin</definition>
+        <argsstring>()</argsstring>
+        <name>Plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/plugin.h" line="24" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlugin_1Plugina1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>Plugin::~Plugin</definition>
+        <argsstring>()</argsstring>
+        <name>~Plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/plugin.h" line="25" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/plugin.h" line="22" bodystart="21" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classPlugin_1Plugina0" prot="public" virt="non-virtual"><scope>Plugin</scope><name>Plugin</name></member>
+      <member refid="classPlugin_1Plugina1" prot="public" virt="virtual"><scope>Plugin</scope><name>~Plugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

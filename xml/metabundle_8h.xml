@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="metabundle_8h" kind="file">
+    <compoundname>metabundle.h</compoundname>
+    <includes local="no">kurl.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includedby refid="enginecontroller_8h" local="yes">enginecontroller.h</includedby>
+    <includedby refid="Myplayer_8h" local="yes">Myplayer.h</includedby>
+    <includedby refid="enginecontroller_8cpp" local="yes">enginecontroller.cpp</includedby>
+    <includedby refid="metabundle_8cpp" local="yes">metabundle.cpp</includedby>
+    <includedby refid="Myplayer_8cpp" local="yes">Myplayer.cpp</includedby>
+    <incdepgraph>
+      <node id="4223">
+        <label>kurl.h</label>
+      </node>
+      <node id="4222">
+        <label>metabundle.h</label>
+        <link refid="metabundle.h"/>
+        <childnode refid="4223" relation="include">
+        </childnode>
+        <childnode refid="4224" relation="include">
+        </childnode>
+      </node>
+      <node id="4224">
+        <label>klocale.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4233">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4234" relation="include">
+        </childnode>
+        <childnode refid="4236" relation="include">
+        </childnode>
+        <childnode refid="4235" relation="include">
+        </childnode>
+      </node>
+      <node id="4231">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="4232" relation="include">
+        </childnode>
+        <childnode refid="4244" relation="include">
+        </childnode>
+        <childnode refid="4230" relation="include">
+        </childnode>
+        <childnode refid="4245" relation="include">
+        </childnode>
+      </node>
+      <node id="4230">
+        <label>Myplayer.cpp</label>
+        <link refid="Myplayer_8cpp"/>
+      </node>
+      <node id="4225">
+        <label>metabundle.h</label>
+        <link refid="metabundle.h"/>
+        <childnode refid="4226" relation="include">
+        </childnode>
+        <childnode refid="4231" relation="include">
+        </childnode>
+        <childnode refid="4228" relation="include">
+        </childnode>
+        <childnode refid="4246" relation="include">
+        </childnode>
+        <childnode refid="4230" relation="include">
+        </childnode>
+      </node>
+      <node id="4245">
+        <label>subbarplayer.h</label>
+        <link refid="subbarplayer_8h"/>
+        <childnode refid="4243" relation="include">
+        </childnode>
+      </node>
+      <node id="4227">
+        <label>enginecontroller.moc</label>
+        <link refid="enginecontroller_8moc"/>
+        <childnode refid="4228" relation="include">
+        </childnode>
+      </node>
+      <node id="4238">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4239">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4235">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="4240">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4234">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="4235" relation="include">
+        </childnode>
+      </node>
+      <node id="4243">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="4232">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="4233" relation="include">
+        </childnode>
+        <childnode refid="4241" relation="include">
+        </childnode>
+        <childnode refid="4242" relation="include">
+        </childnode>
+      </node>
+      <node id="4228">
+        <label>enginecontroller.cpp</label>
+        <link refid="enginecontroller_8cpp"/>
+      </node>
+      <node id="4226">
+        <label>enginecontroller.h</label>
+        <link refid="enginecontroller_8h"/>
+        <childnode refid="4227" relation="include">
+        </childnode>
+        <childnode refid="4229" relation="include">
+        </childnode>
+        <childnode refid="4228" relation="include">
+        </childnode>
+        <childnode refid="4230" relation="include">
+        </childnode>
+      </node>
+      <node id="4241">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="4242" relation="include">
+        </childnode>
+        <childnode refid="4243" relation="include">
+        </childnode>
+      </node>
+      <node id="4236">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4237" relation="include">
+        </childnode>
+        <childnode refid="4238" relation="include">
+        </childnode>
+        <childnode refid="4239" relation="include">
+        </childnode>
+        <childnode refid="4240" relation="include">
+        </childnode>
+      </node>
+      <node id="4229">
+        <label>analyzerbase.cpp</label>
+        <link refid="analyzerbase_8cpp"/>
+      </node>
+      <node id="4244">
+        <label>Myplayer.moc</label>
+        <link refid="Myplayer_8moc"/>
+        <childnode refid="4230" relation="include">
+        </childnode>
+      </node>
+      <node id="4246">
+        <label>metabundle.cpp</label>
+        <link refid="metabundle_8cpp"/>
+      </node>
+      <node id="4237">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4238" relation="include">
+        </childnode>
+      </node>
+      <node id="4242">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMetaBundle">MetaBundle</innerclass>
+    <innernamespace refid="namespaceTagLib">TagLib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//Maintainer:<sp/>Max<sp/>Howell<sp/>&lt;max.howell@methylblue.com&gt;,<sp/>(C)<sp/>2004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//Copyright:<sp/><sp/>See<sp/>COPYING<sp/>file<sp/>that<sp/>comes<sp/>with<sp/>this<sp/>distribution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>METABUNDLE_H</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>METABUNDLE_H</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//inline<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//inline<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//class<sp/>PlaylistItem;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">KFileMetaInfo;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespaceTagLib" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">TagLib<sp/>{<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AudioProperties;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Tag;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>PRETTY_TITLE_CACHE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>This<sp/>class<sp/>is<sp/>not<sp/>very<sp/>complete,<sp/>it<sp/>fits<sp/>our<sp/>needs<sp/>as<sp/>they<sp/>stand<sp/>currently</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>If<sp/>it<sp/>doesn&apos;t<sp/>work<sp/>for<sp/>you<sp/>in<sp/>some<sp/>way,<sp/>extend<sp/>it<sp/>sensibly<sp/>:)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classMetaBundle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMetaBundle" kindref="compound">MetaBundle</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for<sp/>the<sp/>audioproperties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classMetaBundle_1MetaBundles0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundles0" kindref="member">Undetermined</ref><sp/>=<sp/>-2;</highlight></codeline>
+<codeline lineno="29" refid="classMetaBundle_1MetaBundles1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundles1" kindref="member">Irrelevant</ref><sp/><sp/><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="30" refid="classMetaBundle_1MetaBundles2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundles2" kindref="member">Unavailable</ref><sp/><sp/>=<sp/><sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//these<sp/>shouldn&apos;t<sp/>be<sp/>used<sp/>if<sp/>possible!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classMetaBundle_1MetaBundlea0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMetaBundle_1MetaBundlea0" kindref="member">MetaBundle</ref>()<sp/>{<sp/><ref refid="classMetaBundle_1MetaBundled0" kindref="member">init</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="34" refid="classMetaBundle_1MetaBundlea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMetaBundle_1MetaBundlea0" kindref="member">MetaBundle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL<sp/>&amp;u<sp/>)<sp/>:<sp/><ref refid="classMetaBundle_1MetaBundler0" kindref="member">m_url</ref>(<sp/>u<sp/>)<sp/>{<sp/><ref refid="classMetaBundle_1MetaBundlea4" kindref="member">readTags</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TitleProxy:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMetaBundle_1MetaBundlea0" kindref="member">MetaBundle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>title,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>streamUrl,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>bitrate,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>genre,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>streamName,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL&amp;<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PlaylistItems:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>MetaBundle(<sp/>const<sp/>PlaylistItem<sp/>*item<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//From<sp/>tags:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMetaBundle_1MetaBundlea0" kindref="member">MetaBundle</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL<sp/>&amp;url,<sp/>TagLib::Tag<sp/>*tag,<sp/>TagLib::AudioProperties<sp/>*ap<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMetaBundle" kindref="compound">MetaBundle</ref><sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea4" kindref="member">readTags</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>audioProperties<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classMetaBundle_1MetaBundlea5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea5" kindref="member">length</ref>()<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler9" kindref="member">m_length</ref><sp/>&gt;<sp/>0<sp/>?<sp/><ref refid="classMetaBundle_1MetaBundler9" kindref="member">m_length</ref><sp/>:<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="55" refid="classMetaBundle_1MetaBundlea6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea6" kindref="member">bitrate</ref>()<sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler8" kindref="member">m_bitrate</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="56" refid="classMetaBundle_1MetaBundlea7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea7" kindref="member">sampleRate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler10" kindref="member">m_sampleRate</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea8" kindref="member">exist</ref>();</highlight></codeline>
+<codeline lineno="58" refid="classMetaBundle_1MetaBundlea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL<sp/><sp/><sp/><sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea9" kindref="member">url</ref>()<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler0" kindref="member">m_url</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="59" refid="classMetaBundle_1MetaBundlea10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea10" kindref="member">title</ref>()<sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler1" kindref="member">m_title</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="60" refid="classMetaBundle_1MetaBundlea11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea11" kindref="member">artist</ref>()<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler2" kindref="member">m_artist</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="61" refid="classMetaBundle_1MetaBundlea12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea12" kindref="member">album</ref>()<sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler3" kindref="member">m_album</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="62" refid="classMetaBundle_1MetaBundlea13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea13" kindref="member">year</ref>()<sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler4" kindref="member">m_year</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="63" refid="classMetaBundle_1MetaBundlea14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea14" kindref="member">comment</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler5" kindref="member">m_comment</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="64" refid="classMetaBundle_1MetaBundlea15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea15" kindref="member">genre</ref>()<sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler6" kindref="member">m_genre</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="65" refid="classMetaBundle_1MetaBundlea16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<ref refid="classMetaBundle_1MetaBundlea16" kindref="member">track</ref>()<sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler7" kindref="member">m_track</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea17" kindref="member">prettyTitle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68" refid="classMetaBundle_1MetaBundlea18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea18" kindref="member">prettyURL</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler0" kindref="member">m_url</ref>.prettyURL();<sp/>}</highlight></codeline>
+<codeline lineno="69" refid="classMetaBundle_1MetaBundlea19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea19" kindref="member">prettyBitrate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea19" kindref="member">prettyBitrate</ref>(<sp/><ref refid="classMetaBundle_1MetaBundler8" kindref="member">m_bitrate</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="70" refid="classMetaBundle_1MetaBundlea20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea20" kindref="member">prettyLength</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundlea20" kindref="member">prettyLength</ref>(<sp/><ref refid="classMetaBundle_1MetaBundler9" kindref="member">m_length</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="71" refid="classMetaBundle_1MetaBundlea21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea21" kindref="member">prettySampleRate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundleh0" kindref="member">prettyGeneric</ref>(<sp/>i18n(<sp/></highlight><highlight class="stringliteral">&quot;SampleRate&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;%1<sp/>Hz&quot;</highlight><highlight class="normal"><sp/>),<sp/><ref refid="classMetaBundle_1MetaBundler10" kindref="member">m_sampleRate</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*inline<sp/>*/</highlight><highlight class="normal">QString<sp/><ref refid="classMetaBundle_1MetaBundlea19" kindref="member">prettyBitrate</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea20" kindref="member">prettyLength</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlee2" kindref="member">prettyTime</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>showHours<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="76" refid="classMetaBundle_1MetaBundlee3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlee3" kindref="member">zeroPad</ref>(<sp/>uint<sp/>i<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>i<sp/>&lt;<sp/>10<sp/>)<sp/>?<sp/>QString(<sp/></highlight><highlight class="stringliteral">&quot;0%1&quot;</highlight><highlight class="normal"><sp/>).arg(<sp/>i<sp/>)<sp/>:<sp/>QString::number(<sp/>i<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundlea17" kindref="member">prettyTitle</ref>(<sp/>QString<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="80" refid="classMetaBundle_1MetaBundler0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>KURL<sp/><sp/><sp/><sp/><ref refid="classMetaBundle_1MetaBundler0" kindref="member">m_url</ref>;</highlight></codeline>
+<codeline lineno="81" refid="classMetaBundle_1MetaBundler1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler1" kindref="member">m_title</ref>;</highlight></codeline>
+<codeline lineno="82" refid="classMetaBundle_1MetaBundler2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler2" kindref="member">m_artist</ref>;</highlight></codeline>
+<codeline lineno="83" refid="classMetaBundle_1MetaBundler3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler3" kindref="member">m_album</ref>;</highlight></codeline>
+<codeline lineno="84" refid="classMetaBundle_1MetaBundler4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler4" kindref="member">m_year</ref>;</highlight></codeline>
+<codeline lineno="85" refid="classMetaBundle_1MetaBundler5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler5" kindref="member">m_comment</ref>;</highlight></codeline>
+<codeline lineno="86" refid="classMetaBundle_1MetaBundler6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler6" kindref="member">m_genre</ref>;</highlight></codeline>
+<codeline lineno="87" refid="classMetaBundle_1MetaBundler7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classMetaBundle_1MetaBundler7" kindref="member">m_track</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#ifdef<sp/>PRETTY_TITLE_CACHE</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>QString<sp/>m_prettyTitleCache;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight></codeline>
+<codeline lineno="92"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classMetaBundle_1MetaBundler8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler8" kindref="member">m_bitrate</ref>;</highlight></codeline>
+<codeline lineno="94" refid="classMetaBundle_1MetaBundler9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler9" kindref="member">m_length</ref>;</highlight></codeline>
+<codeline lineno="95" refid="classMetaBundle_1MetaBundler10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler10" kindref="member">m_sampleRate</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*inline<sp/>*/</highlight><highlight class="normal">QString<sp/><ref refid="classMetaBundle_1MetaBundleh0" kindref="member">prettyGeneric</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundled0" kindref="member">init</ref>(<sp/>TagLib::AudioProperties<sp/>*ap<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundled0" kindref="member">init</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KFileMetaInfo&amp;<sp/>info<sp/>);</highlight></codeline>
+<codeline lineno="101" refid="classMetaBundle_1MetaBundler11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMetaBundle_1MetaBundler11" kindref="member">exists</ref>;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/metabundle.h"/>
+  </compounddef>
+</doxygen>

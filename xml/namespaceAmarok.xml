@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="namespaceAmarok" kind="namespace">
+    <compoundname>Amarok</compoundname>
+    <innerclass refid="classAmarok_1_1Synth__STEREO__XFADE__base">Amarok::Synth_STEREO_XFADE_base</innerclass>
+    <innerclass refid="classAmarok_1_1Synth__STEREO__XFADE__stub">Amarok::Synth_STEREO_XFADE_stub</innerclass>
+    <innerclass refid="classAmarok_1_1Synth__STEREO__XFADE__skel">Amarok::Synth_STEREO_XFADE_skel</innerclass>
+    <innerclass refid="classAmarok_1_1Synth__STEREO__XFADE">Amarok::Synth_STEREO_XFADE</innerclass>
+    <innerclass refid="classAmarok_1_1RawScope__base">Amarok::RawScope_base</innerclass>
+    <innerclass refid="classAmarok_1_1RawScope__stub">Amarok::RawScope_stub</innerclass>
+    <innerclass refid="classAmarok_1_1RawScope__skel">Amarok::RawScope_skel</innerclass>
+    <innerclass refid="classAmarok_1_1RawScope">Amarok::RawScope</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/kde_application/hdass08/src/amarokarts.h" line="11"/>
+  </compounddef>
+</doxygen>

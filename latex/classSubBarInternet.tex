@@ -1,0 +1,222 @@
+\section{Sub\-Bar\-Internet Class Reference}
+\label{classSubBarInternet}\index{SubBarInternet@{SubBarInternet}}
+{\tt \#include $<$subbarinternet.h$>$}
+
+Inheritance diagram for Sub\-Bar\-Internet:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=94pt]{classSubBarInternet__inherit__graph}
+\end{center}
+\end{figure}
+Collaboration diagram for Sub\-Bar\-Internet:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{classSubBarInternet__coll__graph}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+\begin{Desc}
+\item[Author:]sonicat \end{Desc}
+
+
+
+
+Definition at line 29 of file subbarinternet.h.\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Sub\-Bar\-Internet} ({\bf QWidget} $\ast$parent=0, const char $\ast$name=0)
+\item 
+{\bf $\sim$Sub\-Bar\-Internet} ()
+\item 
+void {\bf x\-Setup} ()
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Btn\-Internet\_\-Home}
+\item 
+{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Btn\-Internet\_\-Previous}
+\item 
+{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Btn\-Internet\_\-Next}
+\item 
+{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Btn\-Internet\_\-Search}
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+QPixmap {\bf pix\-Background}
+\item 
+QPixmap $\ast$ {\bf Btn\-Graphic} [8]
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{SubBarInternet@{Sub\-Bar\-Internet}!SubBarInternet@{SubBarInternet}}
+\index{SubBarInternet@{SubBarInternet}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Sub\-Bar\-Internet::Sub\-Bar\-Internet ({\bf QWidget} $\ast$ {\em parent} = 0, const char $\ast$ {\em name} = 0)}\label{classSubBarInternet_SubBarInterneta0}
+
+
+
+
+Definition at line 21 of file subbarinternet.cpp.
+
+References x\-Setup().
+
+
+
+\footnotesize\begin{verbatim}22  : QWidget(parent, name)
+23 {
+24     xSetup();
+25 }
+\end{verbatim}\normalsize 
+
+
+Here is the call graph for this function:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classSubBarInternet_SubBarInterneta0_cgraph}
+\end{center}
+\end{figure}
+\index{SubBarInternet@{Sub\-Bar\-Internet}!~SubBarInternet@{$\sim$SubBarInternet}}
+\index{~SubBarInternet@{$\sim$SubBarInternet}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Sub\-Bar\-Internet::$\sim${\bf Sub\-Bar\-Internet} ()}\label{classSubBarInternet_SubBarInterneta1}
+
+
+
+
+Definition at line 28 of file subbarinternet.cpp.
+
+
+
+\footnotesize\begin{verbatim}29 {
+30 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{SubBarInternet@{Sub\-Bar\-Internet}!xSetup@{xSetup}}
+\index{xSetup@{xSetup}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Sub\-Bar\-Internet::x\-Setup ()}\label{classSubBarInternet_SubBarInterneta2}
+
+
+
+
+Definition at line 32 of file subbarinternet.cpp.
+
+References Skin\-Button::set\-Pixmaps(), Sub\-Bar\-Btn\-Internet\_\-Home, Sub\-Bar\-Btn\-Internet\_\-Next, Sub\-Bar\-Btn\-Internet\_\-Previous, and Sub\-Bar\-Btn\-Internet\_\-Search.
+
+Referenced by Sub\-Bar\-Internet().
+
+
+
+\footnotesize\begin{verbatim}33 {
+34    //DAVID Setup Background;
+35    pixBackground.load("/root/kde_application/hdass08/skin/SubBarBackground.png");
+36    setBackgroundPixmap(pixBackground);
+37    
+38    //DAVID Load BtnGraphic
+39    BtnGraphic[0]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Home.png");
+40    BtnGraphic[1]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Home-Active.png");
+41    BtnGraphic[2]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Previous.png");
+42    BtnGraphic[3]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Previous-Active.png");
+43    BtnGraphic[4]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Next.png");
+44    BtnGraphic[5]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Next-Active.png");
+45    BtnGraphic[6]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Search.png");
+46    BtnGraphic[7]=new QPixmap("/root/kde_application/hdass08/skin/Bar-Internet-Btn-Search-Active.png");
+47    
+48    //DAVID Internet Button
+49    SubBarBtnInternet_Home          =new SkinButton(this);
+50    SubBarBtnInternet_Previous      =new SkinButton(this);
+51    SubBarBtnInternet_Next            =new SkinButton(this);
+52    SubBarBtnInternet_Search        =new SkinButton(this);
+53    
+54    SubBarBtnInternet_Home->setPixmaps(BtnGraphic[0],BtnGraphic[1]);
+55    SubBarBtnInternet_Home->setGeometry(5,-1,80,80);
+56    SubBarBtnInternet_Home->show();
+57    
+58    SubBarBtnInternet_Previous->setPixmaps(BtnGraphic[2],BtnGraphic[3]);
+59    SubBarBtnInternet_Previous->setGeometry(84,0,60,80);
+60    SubBarBtnInternet_Previous->show();
+61    
+62    SubBarBtnInternet_Next->setPixmaps(BtnGraphic[4],BtnGraphic[5]);
+63    SubBarBtnInternet_Next->setGeometry(144,0,60,80);
+64    SubBarBtnInternet_Next->show();
+65    
+66    SubBarBtnInternet_Search->setPixmaps(BtnGraphic[6],BtnGraphic[7]);
+67    SubBarBtnInternet_Search->setGeometry(207,0,60,80);
+68    SubBarBtnInternet_Search->show();
+69    
+70 
+71 
+72   
+73 }
+\end{verbatim}\normalsize 
+
+
+Here is the call graph for this function:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classSubBarInternet_SubBarInterneta2_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\index{SubBarInternet@{Sub\-Bar\-Internet}!BtnGraphic@{BtnGraphic}}
+\index{BtnGraphic@{BtnGraphic}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf Sub\-Bar\-Internet::Btn\-Graphic}[8]\hspace{0.3cm}{\tt  [private]}}\label{classSubBarInternet_SubBarInternetr1}
+
+
+
+
+Definition at line 40 of file subbarinternet.h.\index{SubBarInternet@{Sub\-Bar\-Internet}!pixBackground@{pixBackground}}
+\index{pixBackground@{pixBackground}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap {\bf Sub\-Bar\-Internet::pix\-Background}\hspace{0.3cm}{\tt  [private]}}\label{classSubBarInternet_SubBarInternetr0}
+
+
+
+
+Definition at line 39 of file subbarinternet.h.\index{SubBarInternet@{Sub\-Bar\-Internet}!SubBarBtnInternet_Home@{SubBarBtnInternet\_\-Home}}
+\index{SubBarBtnInternet_Home@{SubBarBtnInternet\_\-Home}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Skin\-Button}$\ast$ {\bf Sub\-Bar\-Internet::Sub\-Bar\-Btn\-Internet\_\-Home}}\label{classSubBarInternet_SubBarInterneto0}
+
+
+
+
+Definition at line 37 of file subbarinternet.h.
+
+Referenced by x\-Setup(), and HDASS08::x\-Setup().\index{SubBarInternet@{Sub\-Bar\-Internet}!SubBarBtnInternet_Next@{SubBarBtnInternet\_\-Next}}
+\index{SubBarBtnInternet_Next@{SubBarBtnInternet\_\-Next}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Internet::Sub\-Bar\-Btn\-Internet\_\-Next}}\label{classSubBarInternet_SubBarInterneto2}
+
+
+
+
+Definition at line 37 of file subbarinternet.h.
+
+Referenced by x\-Setup(), and HDASS08::x\-Setup().\index{SubBarInternet@{Sub\-Bar\-Internet}!SubBarBtnInternet_Previous@{SubBarBtnInternet\_\-Previous}}
+\index{SubBarBtnInternet_Previous@{SubBarBtnInternet\_\-Previous}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Internet::Sub\-Bar\-Btn\-Internet\_\-Previous}}\label{classSubBarInternet_SubBarInterneto1}
+
+
+
+
+Definition at line 37 of file subbarinternet.h.
+
+Referenced by x\-Setup(), and HDASS08::x\-Setup().\index{SubBarInternet@{Sub\-Bar\-Internet}!SubBarBtnInternet_Search@{SubBarBtnInternet\_\-Search}}
+\index{SubBarBtnInternet_Search@{SubBarBtnInternet\_\-Search}!SubBarInternet@{Sub\-Bar\-Internet}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}{\bf Skin\-Button} $\ast$ {\bf Sub\-Bar\-Internet::Sub\-Bar\-Btn\-Internet\_\-Search}}\label{classSubBarInternet_SubBarInterneto3}
+
+
+
+
+Definition at line 37 of file subbarinternet.h.
+
+Referenced by x\-Setup().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf subbarinternet.h}\item 
+{\bf subbarinternet.cpp}\end{CompactItemize}

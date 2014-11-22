@@ -1,0 +1,195 @@
+\section{Skin\-Button Class Reference}
+\label{classSkinButton}\index{SkinButton@{SkinButton}}
+{\tt \#include $<$skinbutton.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Skin\-Button} (QPixmap $\ast$pixmap, QPixmap $\ast$active, {\bf QWidget} $\ast$parent=0, const char $\ast$name=0, WFlags f=0)
+\item 
+{\bf Skin\-Button} ({\bf QWidget} $\ast$parent=0, const char $\ast$name=0, WFlags f=0)
+\item 
+void {\bf set\-Pixmaps} (QPixmap $\ast$regular, QPixmap $\ast$active)
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+bool {\bf Down}
+\end{CompactItemize}
+\subsection*{Protected Slots}
+\begin{CompactItemize}
+\item 
+void {\bf slot\-Pressed} ()
+\item 
+void {\bf slot\-Released} ()
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+virtual void {\bf draw\-Button} (QPainter $\ast$p)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+QPixmap $\ast$ {\bf pix\-Regular}
+\item 
+QPixmap $\ast$ {\bf pix\-Active}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{SkinButton@{Skin\-Button}!SkinButton@{SkinButton}}
+\index{SkinButton@{SkinButton}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Skin\-Button::Skin\-Button (QPixmap $\ast$ {\em pixmap}, QPixmap $\ast$ {\em active}, {\bf QWidget} $\ast$ {\em parent} = 0, const char $\ast$ {\em name} = 0, WFlags {\em f} = 0)}\label{classSkinButton_SkinButtona0}
+
+
+
+
+Definition at line 13 of file skinbutton.cpp.
+
+References slot\-Pressed(), and slot\-Released().
+
+
+
+\footnotesize\begin{verbatim}15         : QButton(parent, name, f), pixRegular(pixmap), pixActive(active)
+16 {
+17         setPixmap(*pixmap);
+18         QObject::connect(this, SIGNAL(pressed()), SLOT(slotPressed()));
+19         QObject::connect(this, SIGNAL(released()), SLOT(slotReleased()));
+20 }
+\end{verbatim}\normalsize 
+\index{SkinButton@{Skin\-Button}!SkinButton@{SkinButton}}
+\index{SkinButton@{SkinButton}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Skin\-Button::Skin\-Button ({\bf QWidget} $\ast$ {\em parent} = 0, const char $\ast$ {\em name} = 0, WFlags {\em f} = 0)}\label{classSkinButton_SkinButtona1}
+
+
+
+
+Definition at line 6 of file skinbutton.cpp.
+
+References slot\-Pressed(), and slot\-Released().
+
+
+
+\footnotesize\begin{verbatim}7         : QButton(parent, name, f), pixRegular(NULL), pixActive(NULL),Down(false)
+8 {
+9         QObject::connect(this, SIGNAL(pressed()), SLOT(slotPressed()));
+10         QObject::connect(this, SIGNAL(released()), SLOT(slotReleased()));
+11 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{SkinButton@{Skin\-Button}!drawButton@{drawButton}}
+\index{drawButton@{drawButton}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Skin\-Button::draw\-Button (QPainter $\ast$ {\em p})\hspace{0.3cm}{\tt  [protected, virtual]}}\label{classSkinButton_SkinButtonb0}
+
+
+
+
+Definition at line 22 of file skinbutton.cpp.
+
+
+
+\footnotesize\begin{verbatim}23 {
+24         const QPixmap *pm = pixmap();
+25         if(pm) p->drawPixmap(0, 0, *pm);
+26 }
+\end{verbatim}\normalsize 
+\index{SkinButton@{Skin\-Button}!setPixmaps@{setPixmaps}}
+\index{setPixmaps@{setPixmaps}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Skin\-Button::set\-Pixmaps (QPixmap $\ast$ {\em regular}, QPixmap $\ast$ {\em active})}\label{classSkinButton_SkinButtona2}
+
+
+
+
+Definition at line 40 of file skinbutton.cpp.
+
+References pix\-Active, and pix\-Regular.
+
+Referenced by Sub\-Bar\-Player::Change\-Btn\-Play\-Pause\-Graphic(), Sub\-Bar\-Album\-Clock::Change\-Button\-Graphic(), Sub\-Bar\-Management::slot\-Change\-Btn\-Image(), Sub\-Bar\-Album\-Clock::slot\-Change\-Play\-NPause\-Btn\-Graphic(), Sub\-Bar\-Player::x\-Setup(), Sub\-Bar\-Management::x\-Setup(), Sub\-Bar\-Internet::x\-Setup(), Sub\-Bar\-Album\-Clock::x\-Setup(), Info\-Area::x\-Setup(), and Function\_\-Control\_\-Area::x\-Setup().
+
+
+
+\footnotesize\begin{verbatim}41 {
+42         pixRegular = regular; 
+43         pixActive= active; 
+44         setPixmap(*pixRegular); 
+45 }
+\end{verbatim}\normalsize 
+\index{SkinButton@{Skin\-Button}!slotPressed@{slotPressed}}
+\index{slotPressed@{slotPressed}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Skin\-Button::slot\-Pressed ()\hspace{0.3cm}{\tt  [protected, slot]}}\label{classSkinButton_SkinButtonj0}
+
+
+
+
+Definition at line 28 of file skinbutton.cpp.
+
+References Down, and pix\-Active.
+
+Referenced by Skin\-Button().
+
+
+
+\footnotesize\begin{verbatim}29 {
+30         setPixmap(*pixActive);
+31         Down=true;
+32 }
+\end{verbatim}\normalsize 
+\index{SkinButton@{Skin\-Button}!slotReleased@{slotReleased}}
+\index{slotReleased@{slotReleased}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Skin\-Button::slot\-Released ()\hspace{0.3cm}{\tt  [protected, slot]}}\label{classSkinButton_SkinButtonj1}
+
+
+
+
+Definition at line 34 of file skinbutton.cpp.
+
+References Down, and pix\-Regular.
+
+Referenced by Skin\-Button().
+
+
+
+\footnotesize\begin{verbatim}35 {
+36         setPixmap(*pixRegular);
+37         Down=false;
+38 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{SkinButton@{Skin\-Button}!Down@{Down}}
+\index{Down@{Down}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Skin\-Button::Down}}\label{classSkinButton_SkinButtono0}
+
+
+
+
+Definition at line 18 of file skinbutton.h.
+
+Referenced by slot\-Pressed(), and slot\-Released().\index{SkinButton@{Skin\-Button}!pixActive@{pixActive}}
+\index{pixActive@{pixActive}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf Skin\-Button::pix\-Active}\hspace{0.3cm}{\tt  [protected]}}\label{classSkinButton_SkinButtonp1}
+
+
+
+
+Definition at line 21 of file skinbutton.h.
+
+Referenced by set\-Pixmaps(), and slot\-Pressed().\index{SkinButton@{Skin\-Button}!pixRegular@{pixRegular}}
+\index{pixRegular@{pixRegular}!SkinButton@{Skin\-Button}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf Skin\-Button::pix\-Regular}\hspace{0.3cm}{\tt  [protected]}}\label{classSkinButton_SkinButtonp0}
+
+
+
+
+Definition at line 20 of file skinbutton.h.
+
+Referenced by set\-Pixmaps(), and slot\-Released().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf skinbutton.h}\item 
+{\bf skinbutton.cpp}\end{CompactItemize}

@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="hdass08_8cpp" kind="file">
+    <compoundname>hdass08.cpp</compoundname>
+    <includes refid="hdass08_8h" local="yes">hdass08.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">kmainwindow.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes refid="enum_8h" local="yes">enum.h</includes>
+    <includes local="no">qstring.h</includes>
+    <includes refid="hdass08_8moc" local="yes">hdass08.moc</includes>
+    <incdepgraph>
+      <node id="3310">
+        <label>qlistview.h</label>
+      </node>
+      <node id="3290">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="3269">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3271" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+        <childnode refid="3276" relation="include">
+        </childnode>
+        <childnode refid="3279" relation="include">
+        </childnode>
+        <childnode refid="3280" relation="include">
+        </childnode>
+        <childnode refid="3293" relation="include">
+        </childnode>
+        <childnode refid="3294" relation="include">
+        </childnode>
+        <childnode refid="3295" relation="include">
+        </childnode>
+      </node>
+      <node id="3283">
+        <label>qtimer.h</label>
+      </node>
+      <node id="3332">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="3317">
+        <label>qsplitter.h</label>
+      </node>
+      <node id="3303">
+        <label>qfile.h</label>
+      </node>
+      <node id="3276">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+        <childnode refid="3271" relation="include">
+        </childnode>
+      </node>
+      <node id="3299">
+        <label>qdatetime.h</label>
+      </node>
+      <node id="3309">
+        <label>infoarea.h</label>
+        <link refid="infoarea_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3310" relation="include">
+        </childnode>
+        <childnode refid="3311" relation="include">
+        </childnode>
+        <childnode refid="3312" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+        <childnode refid="3271" relation="include">
+        </childnode>
+        <childnode refid="3313" relation="include">
+        </childnode>
+        <childnode refid="3314" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+      </node>
+      <node id="3286">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="3287" relation="include">
+        </childnode>
+        <childnode refid="3289" relation="include">
+        </childnode>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+      </node>
+      <node id="3322">
+        <label>qiconview.h</label>
+      </node>
+      <node id="3311">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="3313">
+        <label>hdassplaylistitem.h</label>
+        <link refid="src_2hdassplaylistitem_8h"/>
+        <childnode refid="3310" relation="include">
+        </childnode>
+      </node>
+      <node id="3278">
+        <label>qbutton.h</label>
+      </node>
+      <node id="3274">
+        <label>qstring.h</label>
+      </node>
+      <node id="3328">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3277">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="3278" relation="include">
+        </childnode>
+      </node>
+      <node id="3282">
+        <label>qslider.h</label>
+      </node>
+      <node id="3273">
+        <label>qobject.h</label>
+      </node>
+      <node id="3285">
+        <label>kurl.h</label>
+      </node>
+      <node id="3300">
+        <label>MyBrowser.h</label>
+        <link refid="MyBrowser_8h"/>
+        <childnode refid="3301" relation="include">
+        </childnode>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3306" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+      </node>
+      <node id="3314">
+        <label>hdassplaylist.h</label>
+        <link refid="hdassplaylist_8h"/>
+        <childnode refid="3273" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3303" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+      </node>
+      <node id="3287">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3288" relation="include">
+        </childnode>
+      </node>
+      <node id="3268">
+        <label>kmainwindow.h</label>
+      </node>
+      <node id="3302">
+        <label>qhttp.h</label>
+      </node>
+      <node id="3321">
+        <label>qiconset.h</label>
+      </node>
+      <node id="3295">
+        <label>subbarclose.h</label>
+        <link refid="subbarclose_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+      </node>
+      <node id="3293">
+        <label>subbarmanagement.h</label>
+        <link refid="subbarmanagement_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+      </node>
+      <node id="3323">
+        <label>imagedetial.h</label>
+        <link refid="imagedetial_8h"/>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3307" relation="include">
+        </childnode>
+      </node>
+      <node id="3308">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="3297">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+        <childnode refid="3298" relation="include">
+        </childnode>
+        <childnode refid="3300" relation="include">
+        </childnode>
+        <childnode refid="3307" relation="include">
+        </childnode>
+        <childnode refid="3309" relation="include">
+        </childnode>
+        <childnode refid="3315" relation="include">
+        </childnode>
+      </node>
+      <node id="3275">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="3318">
+        <label>qdir.h</label>
+      </node>
+      <node id="3265">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08.cpp"/>
+        <childnode refid="3266" relation="include">
+        </childnode>
+        <childnode refid="3312" relation="include">
+        </childnode>
+        <childnode refid="3268" relation="include">
+        </childnode>
+        <childnode refid="3288" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3329" relation="include">
+        </childnode>
+      </node>
+      <node id="3284">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="3304">
+        <label>kio/jobclasses.h</label>
+      </node>
+      <node id="3298">
+        <label>hdassclock.h</label>
+        <link refid="hdassclock_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3299" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+      </node>
+      <node id="3331">
+        <label>qapplication.h</label>
+      </node>
+      <node id="3305">
+        <label>kio/job.h</label>
+      </node>
+      <node id="3288">
+        <label>klocale.h</label>
+      </node>
+      <node id="3320">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview_8h"/>
+        <childnode refid="3321" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3316" relation="include">
+        </childnode>
+        <childnode refid="3318" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3322" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+      </node>
+      <node id="3291">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="3301">
+        <label>DownFile.h</label>
+        <link refid="DownFile_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3302" relation="include">
+        </childnode>
+        <childnode refid="3303" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3304" relation="include">
+        </childnode>
+        <childnode refid="3305" relation="include">
+        </childnode>
+      </node>
+      <node id="3289">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="3290" relation="include">
+        </childnode>
+        <childnode refid="3291" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3292" relation="include">
+        </childnode>
+      </node>
+      <node id="3292">
+        <label>vector</label>
+      </node>
+      <node id="3281">
+        <label>qvariant.h</label>
+      </node>
+      <node id="3294">
+        <label>subbarsetting.h</label>
+        <link refid="subbarsetting_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+      </node>
+      <node id="3271">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="3272" relation="include">
+        </childnode>
+      </node>
+      <node id="3279">
+        <label>subbarinternet.h</label>
+        <link refid="subbarinternet_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+      </node>
+      <node id="3272">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="3273" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+      </node>
+      <node id="3312">
+        <label>qlabel.h</label>
+      </node>
+      <node id="3319">
+        <label>dirview.h</label>
+        <link refid="dirview_8h"/>
+        <childnode refid="3310" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3303" relation="include">
+        </childnode>
+        <childnode refid="3316" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+      </node>
+      <node id="3270">
+        <label>qwidget.h</label>
+      </node>
+      <node id="3280">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="3281" relation="include">
+        </childnode>
+        <childnode refid="3282" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+        <childnode refid="3284" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3286" relation="include">
+        </childnode>
+        <childnode refid="3289" relation="include">
+        </childnode>
+      </node>
+      <node id="3296">
+        <label>function_control_area.h</label>
+        <link refid="function__control__area_8h"/>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+        <childnode refid="3271" relation="include">
+        </childnode>
+        <childnode refid="3273" relation="include">
+        </childnode>
+      </node>
+      <node id="3306">
+        <label>khtml_part.h</label>
+      </node>
+      <node id="3330">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="3266">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3268" relation="include">
+        </childnode>
+        <childnode refid="3269" relation="include">
+        </childnode>
+        <childnode refid="3296" relation="include">
+        </childnode>
+        <childnode refid="3297" relation="include">
+        </childnode>
+        <childnode refid="3314" relation="include">
+        </childnode>
+        <childnode refid="3324" relation="include">
+        </childnode>
+      </node>
+      <node id="3325">
+        <label>keyboard_key.h</label>
+        <link refid="keyboard__key_8h"/>
+        <childnode refid="3284" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+      </node>
+      <node id="3316">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="3315">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement_8h"/>
+        <childnode refid="3316" relation="include">
+        </childnode>
+        <childnode refid="3317" relation="include">
+        </childnode>
+        <childnode refid="3318" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3319" relation="include">
+        </childnode>
+        <childnode refid="3320" relation="include">
+        </childnode>
+        <childnode refid="3323" relation="include">
+        </childnode>
+      </node>
+      <node id="3324">
+        <label>keyboard.h</label>
+        <link refid="keyboard_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3325" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3326" relation="include">
+        </childnode>
+        <childnode refid="3327" relation="include">
+        </childnode>
+        <childnode refid="3328" relation="include">
+        </childnode>
+        <childnode refid="3312" relation="include">
+        </childnode>
+        <childnode refid="3308" relation="include">
+        </childnode>
+      </node>
+      <node id="3307">
+        <label>hdassalbum.h</label>
+        <link refid="hdassalbum_8h"/>
+        <childnode refid="3270" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+        <childnode refid="3308" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3303" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+      </node>
+      <node id="3326">
+        <label>qbitmap.h</label>
+      </node>
+      <node id="3327">
+        <label>stdio.h</label>
+      </node>
+      <node id="3267">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="3329">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="3266" relation="include">
+        </childnode>
+        <childnode refid="3330" relation="include">
+        </childnode>
+        <childnode refid="3331" relation="include">
+        </childnode>
+        <childnode refid="3332" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>sonicat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>is87098@cis.nctu.edu.tw<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hdass08_8h" kindref="compound">hdass08.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kmainwindow.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="enum_8h" kindref="compound">enum.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classHDASS08_1HDASS08a0" refkind="member"><highlight class="normal"><ref refid="classHDASS08_1HDASS08a0" kindref="member">HDASS08::HDASS08</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>KMainWindow(<sp/>0,<sp/>&quot;<ref refid="classHDASS08" kindref="compound">HDASS08</ref>&quot;,WStyle_NoBorder<sp/>|<sp/>WStyle_Customize<sp/><sp/>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/></highlight><highlight class="comment">//DAVID<sp/>Setting<sp/>BackGround<sp/>pixmap</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>pixBackground.load(</highlight><highlight class="stringliteral">&quot;/home/sonicat/hdass08/skin-background.jpg&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>setBackgroundPixmap(pixBackground);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08a1" kindref="member">xSetup</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classHDASS08_1HDASS08a2" refkind="member"><highlight class="normal"><ref refid="classHDASS08_1HDASS08a2" kindref="member">HDASS08::~HDASS08</ref>()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classHDASS08_1HDASS08a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHDASS08_1HDASS08a1" kindref="member">HDASS08::xSetup</ref>()</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Init<sp/>PlayList<sp/>Here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classhdassplaylist" kindref="compound">hdassplaylist</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;PlayList&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Show<sp/>the<sp/>Function<sp/>Control<sp/>Widget<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref><sp/>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classDisplayArea" kindref="compound">DisplayArea</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;DisplayArea&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;setGeometry(0,0,800,600);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classFunction__Control__Area" kindref="compound">Function_Control_Area</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;ControlArea&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>-&gt;setGeometry(665,465,135,135);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classFunctionBar" kindref="compound">FunctionBar</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;FunctionBar&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;setGeometry(0,520,665,80);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref><sp/>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classkeyboard" kindref="compound">keyboard</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;HDASS_KEYBOARD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>-&gt;move(100,100);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o5" kindref="member">strKeyboardString</ref>=QString();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>,SIGNAL(signalChangeFunc(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)),<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>,SLOT(slotChangeFunctionSubBar(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>,SIGNAL(signalBackToManagement()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotBackToManagement()));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro0" kindref="member">BarAC</ref>,SIGNAL(signalAlbumClockModeChangeToDispalyArea(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>,SLOT(slotDisplayModeChange(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>,SIGNAL(siganlChangeDisplayAreaMode(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>,SLOT(slotDisplayModeChange(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Handle<sp/>the<sp/>connection<sp/>between<sp/>Bar<sp/>and<sp/>Display<sp/>Buttons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro2" kindref="member">BarInternet</ref>-&gt;<ref refid="classSubBarInternet_1SubBarInterneto2" kindref="member">SubBarBtnInternet_Next</ref>,<sp/>SIGNAL(clicked()),<sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao1" kindref="member">Browser</ref>,<sp/>SLOT(handleNext()));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro2" kindref="member">BarInternet</ref>-&gt;<ref refid="classSubBarInternet_1SubBarInterneto1" kindref="member">SubBarBtnInternet_Previous</ref>,<sp/>SIGNAL(clicked()),<sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao1" kindref="member">Browser</ref>,<sp/>SLOT(handlePrevious()));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro2" kindref="member">BarInternet</ref>-&gt;<ref refid="classSubBarInternet_1SubBarInterneto0" kindref="member">SubBarBtnInternet_Home</ref>,<sp/>SIGNAL(clicked()),<sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao1" kindref="member">Browser</ref>,<sp/>SLOT(handleHome()));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Handle<sp/>the<sp/>connection<sp/>betwwen<sp/>Album<sp/>Control<sp/>Buttons<sp/>and<sp/>all<sp/>theirs<sp/>corresponding<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro0" kindref="member">BarAC</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao2" kindref="member">Album</ref>,SLOT(slotPreviousImage()));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro0" kindref="member">BarAC</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao2" kindref="member">Album</ref>,SLOT(slotNextImage()));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro0" kindref="member">BarAC</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao2" kindref="member">Album</ref>,SLOT(slotPlayNStop()));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Handle<sp/>the<sp/>connection<sp/>between<sp/><sp/>ImageDetail<sp/>Control<sp/>Buttons<sp/>and<sp/>their<sp/><sp/>corresopnding<sp/>functions<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro1" kindref="member">BarID</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kindref="member">SubBarBtnPrevious</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>-&gt;<ref refid="classmediamanagement_1mediamanagemento6" kindref="member">imgdetial</ref>,SLOT(slotPreviousImage()));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro1" kindref="member">BarID</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kindref="member">SubBarBtnNext</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>-&gt;<ref refid="classmediamanagement_1mediamanagemento6" kindref="member">imgdetial</ref>,SLOT(slotNextImage()));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro1" kindref="member">BarID</ref>-&gt;<ref refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kindref="member">SubBarBtnPlayNPause</ref>,SIGNAL(pressed()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>-&gt;<ref refid="classmediamanagement_1mediamanagemento6" kindref="member">imgdetial</ref>,SLOT(slotPlayNStop()));</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Handle<sp/>the<sp/>connection<sp/>between<sp/>Volume<sp/>Buttons<sp/>and<sp/>the<sp/>Myplayer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>-&gt;<ref refid="classInfoArea_1InfoAreao0" kindref="member">IABtnVolumeUp</ref>,<sp/>SIGNAL(pressed()),<sp/><ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>-&gt;<ref refid="classSubBarPlayer_1SubBarPlayero4" kindref="member">m_player</ref>,<sp/>SLOT(increase_volume()));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>-&gt;<ref refid="classInfoArea_1InfoAreao1" kindref="member">IABtnVolumeDown</ref>,<sp/>SIGNAL(pressed()),<sp/><ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>-&gt;<ref refid="classSubBarPlayer_1SubBarPlayero4" kindref="member">m_player</ref>,<sp/>SLOT(decrease_volume()));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SIGNAL(signalReadList()),<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SLOT(slotPLRequest()));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SIGNAL(signalPLSend(KURL::List<sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SLOT(slotReadListFromPlayList(KURL::List<sp/>)));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>,SIGNAL(signalRequestPL()),<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SLOT(slotPLRequest()));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SIGNAL(signalPLSend(KURL::List<sp/>)),<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>,SLOT(insertMedia(KURL::List<sp/>)));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SIGNAL(signalRemoveList(KURL::List,<sp/><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref><sp/>)),<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SLOT(slotReciveList(KURL::List,<sp/><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref><sp/>)));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>-&gt;<ref refid="classmediamanagement_1mediamanagemento3" kindref="member">musicFIV</ref>,SIGNAL(signalAddFileToList(KURL::List,<sp/><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref><sp/>)),<ref refid="classHDASS08_1HDASS08o3" kindref="member">HDASS_PLAY_LIST</ref>,SLOT(slotReciveList(KURL::List,<sp/><ref refid="enum_8h_1a24" kindref="member">HDASS_ACTION_TYPE</ref><sp/>)));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>,SIGNAL(signalManagementModeChange(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotChangeMode(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>)));</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>,SIGNAL(<ref refid="classHDASS08_1HDASS08l0" kindref="member">signalMkdir</ref>()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classHDASS08_1HDASS08i1" kindref="member">slotKeyboardShow</ref>()));</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>,SIGNAL(singalPasteFUNC_MEDIAM()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotPaste()));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>,SIGNAL(signalCutFUNC_MEDIAM()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotCut()));</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro4" kindref="member">BarManagement</ref>,SIGNAL(signalDeleteItem()),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotDeleteItem()));</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>-&gt;<ref refid="classmediamanagement_1mediamanagemento2" kindref="member">imgFIV</ref>,SIGNAL(signalShowTheDetialofImage(KURL<sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao2" kindref="member">Album</ref>,SLOT(slotShowFloder(KURL<sp/>)));</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SIGNAL(signalImageDetial()),<ref refid="classHDASS08_1HDASS08o0" kindref="member">ControlArea</ref>,SLOT(slotShowImageDetial()));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SIGNAL(signalPlayItem(QString)),<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>-&gt;<ref refid="classSubBarPlayer_1SubBarPlayero4" kindref="member">m_player</ref>,SLOT(play(QString)));</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SIGNAL(singalPlayItem()),<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>,SLOT(slotClickFromPlayList()));</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o1" kindref="member">Bar</ref>-&gt;<ref refid="classFunctionBar_1FunctionBaro3" kindref="member">BarPlayer</ref>-&gt;<ref refid="classSubBarPlayer_1SubBarPlayero4" kindref="member">m_player</ref>,SIGNAL(trackMessage(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QString,<sp/>QString,<sp/>QString<sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>,SLOT(slotHadleSongInfo(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QString,<sp/>QString,<sp/>QString<sp/>)));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>,SIGNAL(signalEnter()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classHDASS08_1HDASS08i2" kindref="member">slotKeyboardHide</ref>()));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>,SIGNAL(signalString(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classHDASS08_1HDASS08i3" kindref="member">slotKeyboardString</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>QObject::connect(<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SIGNAL(signalShowKeyboard()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classHDASS08_1HDASS08i1" kindref="member">slotKeyboardShow</ref>()));</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>QObject::connect(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SIGNAL(<ref refid="classHDASS08_1HDASS08l0" kindref="member">signalMkdir</ref>(QString<sp/>)),<ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao4" kindref="member">Media</ref>,SLOT(slotMkdir(QString<sp/>)));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o2" kindref="member">Display</ref>-&gt;<ref refid="classDisplayArea_1DisplayAreao3" kindref="member">IA</ref>-&gt;<ref refid="classInfoArea_1InfoAreai1" kindref="member">ReadList</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120" refid="classHDASS08_1HDASS08i0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHDASS08_1HDASS08i0" kindref="member">HDASS08::slotShow</ref>()</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;show();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124" refid="classHDASS08_1HDASS08i1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHDASS08_1HDASS08i1" kindref="member">HDASS08::slotKeyboardShow</ref>()</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Set<sp/>Disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Display-&gt;setEnabled(false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//ControlArea-&gt;setEnabled(false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Bar-&gt;setEnabled(false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133" refid="classHDASS08_1HDASS08i2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHDASS08_1HDASS08i2" kindref="member">HDASS08::slotKeyboardHide</ref>()</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o4" kindref="member">HDASS_KEYBOARD</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Display-&gt;setEnabled(true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//ControlArea-&gt;setEnabled(true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Bar-&gt;setEnabled(true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classHDASS08_1HDASS08l0" kindref="member">signalMkdir</ref>(<ref refid="classHDASS08_1HDASS08o5" kindref="member">strKeyboardString</ref>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142" refid="classHDASS08_1HDASS08i3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHDASS08_1HDASS08i3" kindref="member">HDASS08::slotKeyboardString</ref>(QString<sp/>s)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="classHDASS08_1HDASS08o5" kindref="member">strKeyboardString</ref>=s;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>qWarning(<ref refid="classHDASS08_1HDASS08o5" kindref="member">strKeyboardString</ref>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hdass08_8moc" kindref="compound">hdass08.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/hdass08.cpp"/>
+  </compounddef>
+</doxygen>

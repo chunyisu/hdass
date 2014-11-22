@@ -1,0 +1,1889 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.3.6">
+  <compound refid="classAmarokConfig" kind="class"><name>AmarokConfig</name>
+    <member refid="classAmarokConfig_1AmarokConfiga0" kind="function"><name>~AmarokConfig</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige0" kind="function"><name>self</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige1" kind="function"><name>setVersion</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige2" kind="function"><name>version</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige3" kind="function"><name>setPlayerPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige4" kind="function"><name>playerPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige5" kind="function"><name>setPlaylistWindowPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige6" kind="function"><name>playlistWindowPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige7" kind="function"><name>setPlaylistWindowSize</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige8" kind="function"><name>playlistWindowSize</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige9" kind="function"><name>setSavePlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige10" kind="function"><name>savePlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige11" kind="function"><name>setFollowSymlinks</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige12" kind="function"><name>followSymlinks</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige13" kind="function"><name>setTimeDisplayRemaining</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige14" kind="function"><name>timeDisplayRemaining</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige15" kind="function"><name>setRepeatTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige16" kind="function"><name>repeatTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige17" kind="function"><name>setRepeatPlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige18" kind="function"><name>repeatPlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige19" kind="function"><name>setRandomMode</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige20" kind="function"><name>randomMode</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige21" kind="function"><name>setShowMetaInfo</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige22" kind="function"><name>showMetaInfo</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige23" kind="function"><name>setShowTrayIcon</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige24" kind="function"><name>showTrayIcon</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige25" kind="function"><name>setShowPlayerWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige26" kind="function"><name>showPlayerWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige27" kind="function"><name>setShowStatusBar</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige28" kind="function"><name>showStatusBar</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige29" kind="function"><name>setShowWelcomeTab</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige30" kind="function"><name>showWelcomeTab</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige31" kind="function"><name>setDirectoriesRecursively</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige32" kind="function"><name>directoriesRecursively</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige33" kind="function"><name>setTrackDelayLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige34" kind="function"><name>trackDelayLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige35" kind="function"><name>setHidePlaylistWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige36" kind="function"><name>hidePlaylistWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige37" kind="function"><name>setPlaylistWindowEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige38" kind="function"><name>playlistWindowEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige39" kind="function"><name>setUndoLevels</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige40" kind="function"><name>undoLevels</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige41" kind="function"><name>setCurrentAnalyzer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige42" kind="function"><name>currentAnalyzer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige43" kind="function"><name>setRememberEffects</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige44" kind="function"><name>rememberEffects</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige45" kind="function"><name>setPlaylistWindowSplitter</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige46" kind="function"><name>playlistWindowSplitter</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige47" kind="function"><name>setPlaylistFollowActive</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige48" kind="function"><name>playlistFollowActive</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige49" kind="function"><name>setShowSplashscreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige50" kind="function"><name>showSplashscreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige51" kind="function"><name>setMasterVolume</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige52" kind="function"><name>masterVolume</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige53" kind="function"><name>setHardwareMixer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige54" kind="function"><name>hardwareMixer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige55" kind="function"><name>setCrossfade</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige56" kind="function"><name>crossfade</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige57" kind="function"><name>setCrossfadeLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige58" kind="function"><name>crossfadeLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige59" kind="function"><name>setSoundSystem</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige60" kind="function"><name>soundSystem</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige61" kind="function"><name>setSoundOutput</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige62" kind="function"><name>soundOutput</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige63" kind="function"><name>setSoundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige64" kind="function"><name>soundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige65" kind="function"><name>setCustomSoundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige66" kind="function"><name>customSoundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige67" kind="function"><name>setTitleStreaming</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige68" kind="function"><name>titleStreaming</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige69" kind="function"><name>setOsdEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige70" kind="function"><name>osdEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige71" kind="function"><name>setOsdFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige72" kind="function"><name>osdFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige73" kind="function"><name>setOsdDrawShadow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige74" kind="function"><name>osdDrawShadow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige75" kind="function"><name>setOsdUseCustomColors</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige76" kind="function"><name>osdUseCustomColors</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige77" kind="function"><name>setOsdTextColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige78" kind="function"><name>osdTextColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige79" kind="function"><name>setOsdBackgroundColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige80" kind="function"><name>osdBackgroundColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige81" kind="function"><name>setOsdDuration</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige82" kind="function"><name>osdDuration</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige83" kind="function"><name>setOsdXOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige84" kind="function"><name>osdXOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige85" kind="function"><name>setOsdYOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige86" kind="function"><name>osdYOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige87" kind="function"><name>setOsdScreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige88" kind="function"><name>osdScreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige89" kind="function"><name>setOsdAlignment</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige90" kind="function"><name>osdAlignment</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige91" kind="function"><name>setUseCustomFonts</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige92" kind="function"><name>useCustomFonts</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige93" kind="function"><name>setPlaylistWindowFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige94" kind="function"><name>playlistWindowFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige95" kind="function"><name>setPlayerWidgetFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige96" kind="function"><name>playerWidgetFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige97" kind="function"><name>setPlayerWidgetScrollFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige98" kind="function"><name>playerWidgetScrollFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige99" kind="function"><name>setSchemeAmarok</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige100" kind="function"><name>schemeAmarok</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige101" kind="function"><name>setSchemeKDE</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige102" kind="function"><name>schemeKDE</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige103" kind="function"><name>setSchemeCustom</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige104" kind="function"><name>schemeCustom</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige105" kind="function"><name>setPlaylistWindowFgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige106" kind="function"><name>playlistWindowFgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige107" kind="function"><name>setPlaylistWindowBgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige108" kind="function"><name>playlistWindowBgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige109" kind="function"><name>setResumePlayback</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige110" kind="function"><name>resumePlayback</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige111" kind="function"><name>setResumeTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige112" kind="function"><name>resumeTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige113" kind="function"><name>setResumeTime</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige114" kind="function"><name>resumeTime</name></member>
+    <member refid="classAmarokConfig_1AmarokConfige115" kind="function"><name>writeConfig</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigb0" kind="function"><name>AmarokConfig</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp0" kind="variable"><name>mVersion</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp1" kind="variable"><name>mPlayerPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp2" kind="variable"><name>mPlaylistWindowPos</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp3" kind="variable"><name>mPlaylistWindowSize</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp4" kind="variable"><name>mSavePlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp5" kind="variable"><name>mFollowSymlinks</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp6" kind="variable"><name>mTimeDisplayRemaining</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp7" kind="variable"><name>mRepeatTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp8" kind="variable"><name>mRepeatPlaylist</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp9" kind="variable"><name>mRandomMode</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp10" kind="variable"><name>mShowMetaInfo</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp11" kind="variable"><name>mShowTrayIcon</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp12" kind="variable"><name>mShowPlayerWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp13" kind="variable"><name>mShowStatusBar</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp14" kind="variable"><name>mShowWelcomeTab</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp15" kind="variable"><name>mDirectoriesRecursively</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp16" kind="variable"><name>mTrackDelayLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp17" kind="variable"><name>mHidePlaylistWindow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp18" kind="variable"><name>mPlaylistWindowEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp19" kind="variable"><name>mUndoLevels</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp20" kind="variable"><name>mCurrentAnalyzer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp21" kind="variable"><name>mRememberEffects</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp22" kind="variable"><name>mPlaylistWindowSplitter</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp23" kind="variable"><name>mPlaylistFollowActive</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp24" kind="variable"><name>mShowSplashscreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp25" kind="variable"><name>mMasterVolume</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp26" kind="variable"><name>mHardwareMixer</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp27" kind="variable"><name>mCrossfade</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp28" kind="variable"><name>mCrossfadeLength</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp29" kind="variable"><name>mSoundSystem</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp30" kind="variable"><name>mSoundOutput</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp31" kind="variable"><name>mSoundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp32" kind="variable"><name>mCustomSoundDevice</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp33" kind="variable"><name>mTitleStreaming</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp34" kind="variable"><name>mOsdEnabled</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp35" kind="variable"><name>mOsdFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp36" kind="variable"><name>mOsdDrawShadow</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp37" kind="variable"><name>mOsdUseCustomColors</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp38" kind="variable"><name>mOsdTextColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp39" kind="variable"><name>mOsdBackgroundColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp40" kind="variable"><name>mOsdDuration</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp41" kind="variable"><name>mOsdXOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp42" kind="variable"><name>mOsdYOffset</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp43" kind="variable"><name>mOsdScreen</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp44" kind="variable"><name>mOsdAlignment</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp45" kind="variable"><name>mUseCustomFonts</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp46" kind="variable"><name>mPlaylistWindowFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp47" kind="variable"><name>mPlayerWidgetFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp48" kind="variable"><name>mPlayerWidgetScrollFont</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp49" kind="variable"><name>mSchemeAmarok</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp50" kind="variable"><name>mSchemeKDE</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp51" kind="variable"><name>mSchemeCustom</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp52" kind="variable"><name>mPlaylistWindowFgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp53" kind="variable"><name>mPlaylistWindowBgColor</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp54" kind="variable"><name>mResumePlayback</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp55" kind="variable"><name>mResumeTrack</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigp56" kind="variable"><name>mResumeTime</name></member>
+    <member refid="classAmarokConfig_1AmarokConfigt0" kind="variable"><name>mSelf</name></member>
+  </compound>
+  <compound refid="classAmarokConfig_1_1EnumOsdAlignment" kind="class"><name>AmarokConfig::EnumOsdAlignment</name>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5" kind="enum"><name>@0</name></member>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw0" kind="enumvalue"><name>Left</name></member>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw1" kind="enumvalue"><name>Middle</name></member>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw2" kind="enumvalue"><name>Center</name></member>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw3" kind="enumvalue"><name>Right</name></member>
+    <member refid="classAmarokConfig_1_1EnumOsdAlignment_1AmarokConfig_1_1EnumOsdAlignmentw5AmarokConfig_1_1EnumOsdAlignmentw4" kind="enumvalue"><name>COUNT</name></member>
+  </compound>
+  <compound refid="classArtsEngine" kind="class"><name>ArtsEngine</name>
+    <member refid="classEngineBase_1EngineBasew7" kind="enum"><name>EngineState</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew0" kind="enumvalue"><name>Empty</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew1" kind="enumvalue"><name>Idle</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew2" kind="enumvalue"><name>Playing</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew3" kind="enumvalue"><name>Paused</name></member>
+    <member refid="classEngineBase_1EngineBasew8" kind="enum"><name>StreamingMode</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew4" kind="enumvalue"><name>Socket</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew5" kind="enumvalue"><name>Signal</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew6" kind="enumvalue"><name>NoStreaming</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea0" kind="function"><name>ArtsEngine</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea1" kind="function"><name>~ArtsEngine</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea2" kind="function"><name>init</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea3" kind="function"><name>initMixer</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea4" kind="function"><name>canDecode</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea5" kind="function"><name>streamingMode</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea6" kind="function"><name>position</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea7" kind="function"><name>state</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea8" kind="function"><name>isStream</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea9" kind="function"><name>scope</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea10" kind="function"><name>availableEffects</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea11" kind="function"><name>activeEffects</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea12" kind="function"><name>effectNameForId</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea13" kind="function"><name>effectConfigurable</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea14" kind="function"><name>createEffect</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea15" kind="function"><name>removeEffect</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea16" kind="function"><name>configureEffect</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea17" kind="function"><name>decoderConfigurable</name></member>
+    <member refid="classArtsEngine_1ArtsEnginea18" kind="function"><name>supportsXFade</name></member>
+    <member refid="classEngineBase_1EngineBasea6" kind="function"><name>getOutputsList</name></member>
+    <member refid="classEngineBase_1EngineBasea9" kind="function"><name>loaded</name></member>
+    <member refid="classEngineBase_1EngineBasea10" kind="function"><name>volume</name></member>
+    <member refid="classEngineBase_1EngineBasea11" kind="function"><name>isMixerHardware</name></member>
+    <member refid="classEngineBase_1EngineBasea15" kind="function"><name>setRestoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea23" kind="function"><name>decoderConfigurable</name></member>
+    <member refid="classEngineBase_1EngineBasea24" kind="function"><name>setXfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasea25" kind="function"><name>setSoundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasea26" kind="function"><name>setSoundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasea27" kind="function"><name>setDefaultSoundDevice</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei0" kind="slot"><name>play</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei1" kind="slot"><name>play</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei2" kind="slot"><name>stop</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei3" kind="slot"><name>pause</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei4" kind="slot"><name>seek</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei5" kind="slot"><name>setVolume</name></member>
+    <member refid="classArtsEngine_1ArtsEnginei6" kind="slot"><name>configureDecoder</name></member>
+    <member refid="classEngineBase_1EngineBasei7" kind="slot"><name>newStreamData</name></member>
+    <member refid="classEngineBase_1EngineBasel0" kind="signal"><name>endOfTrack</name></member>
+    <member refid="classEngineBase_1EngineBasel1" kind="signal"><name>stopped</name></member>
+    <member refid="classEngineBase_1EngineBaseb0" kind="function"><name>closeMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb1" kind="function"><name>initMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb2" kind="function"><name>setVolumeHW</name></member>
+    <member refid="classEngineBase_1EngineBasep0" kind="variable"><name>m_mixerHW</name></member>
+    <member refid="classEngineBase_1EngineBasep1" kind="variable"><name>m_volume</name></member>
+    <member refid="classEngineBase_1EngineBasep2" kind="variable"><name>m_xfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasep3" kind="variable"><name>m_restoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasep4" kind="variable"><name>m_soundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasep5" kind="variable"><name>m_soundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasep6" kind="variable"><name>m_defaultSoundDevice</name></member>
+    <member refid="classArtsEngine_1ArtsEngined0" kind="function"><name>startXfade</name></member>
+    <member refid="classArtsEngine_1ArtsEngined1" kind="function"><name>timerEvent</name></member>
+    <member refid="classArtsEngine_1ArtsEngined2" kind="function"><name>loadEffects</name></member>
+    <member refid="classArtsEngine_1ArtsEngined3" kind="function"><name>saveEffects</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer0" kind="variable"><name>m_pArtsDispatcher</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer1" kind="variable"><name>m_pPlayObject</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer2" kind="variable"><name>m_pPlayObjectXfade</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer3" kind="variable"><name>m_server</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer4" kind="variable"><name>m_globalEffectStack</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer5" kind="variable"><name>m_effectStack</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer6" kind="variable"><name>m_volumeControl</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer7" kind="variable"><name>m_amanPlay</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer8" kind="variable"><name>m_scope</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer9" kind="variable"><name>m_xfade</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer10" kind="variable"><name>m_scopeId</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer11" kind="variable"><name>m_scopeSize</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer12" kind="variable"><name>m_volumeId</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer13" kind="variable"><name>m_effectMap</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer14" kind="variable"><name>m_xfadeFadeout</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer15" kind="variable"><name>m_xfadeValue</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer16" kind="variable"><name>m_xfadeCurrent</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer17" kind="variable"><name>m_pDecoderConfigWidget</name></member>
+    <member refid="classArtsEngine_1ArtsEnginer18" kind="variable"><name>m_pConnectTimer</name></member>
+    <member refid="classArtsEngine_1ArtsEnginek0" kind="slot"><name>connectPlayObject</name></member>
+    <member refid="classArtsEngine_1ArtsEnginek1" kind="slot"><name>connectTimeout</name></member>
+    <member refid="classArtsEngine_1ArtsEnginev0" kind="variable"><name>ARTS_TIMER</name></member>
+    <member refid="classArtsEngine_1ArtsEnginev1" kind="variable"><name>TIMEOUT</name></member>
+  </compound>
+  <compound refid="classArtsEngine_1_1ArtsConfigWidget" kind="class"><name>ArtsEngine::ArtsConfigWidget</name>
+    <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta0" kind="function"><name>ArtsConfigWidget</name></member>
+    <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgeta1" kind="function"><name>~ArtsConfigWidget</name></member>
+    <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr0" kind="variable"><name>m_gui</name></member>
+    <member refid="classArtsEngine_1_1ArtsConfigWidget_1ArtsEngine_1_1ArtsConfigWidgetr1" kind="variable"><name>m_pArtsWidget</name></member>
+  </compound>
+  <compound refid="structArtsEngine_1_1EffectContainer" kind="struct"><name>ArtsEngine::EffectContainer</name>
+    <member refid="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero0" kind="variable"><name>effect</name></member>
+    <member refid="structArtsEngine_1_1EffectContainer_1ArtsEngine_1_1EffectContainero1" kind="variable"><name>widget</name></member>
+  </compound>
+  <compound refid="classAnalyzer_1_1Base" kind="class"><name>Analyzer::Base</name>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kind="function"><name>timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" kind="function"><name>height</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb0" kind="function"><name>Base</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kind="function"><name>drawFrame</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kind="function"><name>transform</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kind="function"><name>analyze</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kind="function"><name>paused</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kind="function"><name>demo</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" kind="function"><name>changeTimeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kind="variable"><name>m_timer</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" kind="variable"><name>m_timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" kind="variable"><name>m_height</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kind="variable"><name>m_fht</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Based0" kind="function"><name>event</name></member>
+  </compound>
+  <compound refid="classAnalyzer_1_1Base2D" kind="class"><name>Analyzer::Base2D</name>
+    <member refid="classAnalyzer_1_1Base2D_1Sonograma6" kind="function"><name>background</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonograma7" kind="function"><name>canvas</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kind="function"><name>timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" kind="function"><name>height</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db0" kind="function"><name>Base2D</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Db1" kind="function"><name>init</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb0" kind="function"><name>canvas</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb1" kind="function"><name>eraseCanvas</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb2" kind="function"><name>paintEvent</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb3" kind="function"><name>resizeEvent</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb4" kind="function"><name>paletteChange</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb5" kind="function"><name>polish</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kind="function"><name>drawFrame</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kind="function"><name>transform</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kind="function"><name>analyze</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kind="function"><name>paused</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kind="function"><name>demo</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" kind="function"><name>changeTimeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kind="variable"><name>m_timer</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" kind="variable"><name>m_timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" kind="variable"><name>m_height</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kind="variable"><name>m_fht</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr0" kind="variable"><name>m_background</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dr1" kind="variable"><name>m_canvas</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Analyzer_1_1Base2Dk0" kind="slot"><name>draw</name></member>
+  </compound>
+  <compound refid="classAnalyzer_1_1Base3D" kind="class"><name>Analyzer::Base3D</name>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kind="function"><name>timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" kind="function"><name>height</name></member>
+    <member refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Db0" kind="function"><name>Base3D</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kind="function"><name>drawFrame</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb2" kind="function"><name>transform</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb3" kind="function"><name>analyze</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kind="function"><name>paused</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb5" kind="function"><name>demo</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" kind="function"><name>changeTimeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kind="variable"><name>m_timer</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" kind="variable"><name>m_timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" kind="variable"><name>m_height</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kind="variable"><name>m_fht</name></member>
+    <member refid="classAnalyzer_1_1Base3D_1Analyzer_1_1Base3Dk0" kind="slot"><name>draw</name></member>
+  </compound>
+  <compound refid="classDirectory" kind="class"><name>Directory</name>
+    <member refid="classDirectory_1Directorya0" kind="function"><name>Directory</name></member>
+    <member refid="classDirectory_1Directorya1" kind="function"><name>Directory</name></member>
+    <member refid="classDirectory_1Directorya2" kind="function"><name>Directory</name></member>
+    <member refid="classDirectory_1Directorya3" kind="function"><name>text</name></member>
+    <member refid="classDirectory_1Directorya4" kind="function"><name>fullName</name></member>
+    <member refid="classDirectory_1Directorya5" kind="function"><name>setOpen</name></member>
+    <member refid="classDirectory_1Directorya6" kind="function"><name>setup</name></member>
+    <member refid="classDirectory_1Directorya7" kind="function"><name>pixmap</name></member>
+    <member refid="classDirectory_1Directorya8" kind="function"><name>setPixmap</name></member>
+    <member refid="classDirectory_1Directorya9" kind="function"><name>Mkdir</name></member>
+    <member refid="classDirectory_1Directoryr0" kind="variable"><name>f</name></member>
+    <member refid="classDirectory_1Directoryr1" kind="variable"><name>p</name></member>
+    <member refid="classDirectory_1Directoryr2" kind="variable"><name>readable</name></member>
+    <member refid="classDirectory_1Directoryr3" kind="variable"><name>showDirsOnly</name></member>
+    <member refid="classDirectory_1Directoryr4" kind="variable"><name>pix</name></member>
+  </compound>
+  <compound refid="classDirectoryView" kind="class"><name>DirectoryView</name>
+    <member refid="classDirectoryView_1DirectoryViewa0" kind="function"><name>DirectoryView</name></member>
+    <member refid="classDirectoryView_1DirectoryViewa1" kind="function"><name>showDirsOnly</name></member>
+    <member refid="classDirectoryView_1DirectoryViewi0" kind="slot"><name>setDir</name></member>
+    <member refid="classDirectoryView_1DirectoryViewl0" kind="signal"><name>folderSelected</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb0" kind="function"><name>contentsDragEnterEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb1" kind="function"><name>contentsDragMoveEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb2" kind="function"><name>contentsDragLeaveEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb3" kind="function"><name>contentsDropEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb4" kind="function"><name>contentsMouseMoveEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb5" kind="function"><name>contentsMousePressEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewb6" kind="function"><name>contentsMouseReleaseEvent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewj0" kind="slot"><name>slotFolderSelected</name></member>
+    <member refid="classDirectoryView_1DirectoryViewj1" kind="slot"><name>openFolder</name></member>
+    <member refid="classDirectoryView_1DirectoryViewd0" kind="function"><name>fullPath</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr0" kind="variable"><name>dirsOnly</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr1" kind="variable"><name>oldCurrent</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr2" kind="variable"><name>dropItem</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr3" kind="variable"><name>autoopen_timer</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr4" kind="variable"><name>presspos</name></member>
+    <member refid="classDirectoryView_1DirectoryViewr5" kind="variable"><name>mousePressed</name></member>
+  </compound>
+  <compound refid="classDisplayArea" kind="class"><name>DisplayArea</name>
+    <member refid="classDisplayArea_1DisplayAreaa0" kind="function"><name>DisplayArea</name></member>
+    <member refid="classDisplayArea_1DisplayAreaa1" kind="function"><name>~DisplayArea</name></member>
+    <member refid="classDisplayArea_1DisplayAreaa2" kind="function"><name>xSetup</name></member>
+    <member refid="classDisplayArea_1DisplayAreao0" kind="variable"><name>Clock</name></member>
+    <member refid="classDisplayArea_1DisplayAreao1" kind="variable"><name>Browser</name></member>
+    <member refid="classDisplayArea_1DisplayAreao2" kind="variable"><name>Album</name></member>
+    <member refid="classDisplayArea_1DisplayAreao3" kind="variable"><name>IA</name></member>
+    <member refid="classDisplayArea_1DisplayAreao4" kind="variable"><name>Media</name></member>
+    <member refid="classDisplayArea_1DisplayAreai0" kind="slot"><name>slotDisplayModeChange</name></member>
+  </compound>
+  <compound refid="classDownFile" kind="class"><name>DownFile</name>
+    <member refid="classDownFile_1DownFilea0" kind="function"><name>DownFile</name></member>
+    <member refid="classDownFile_1DownFilea1" kind="function"><name>~DownFile</name></member>
+    <member refid="classDownFile_1DownFileo0" kind="variable"><name>http</name></member>
+    <member refid="classDownFile_1DownFileo1" kind="variable"><name>downloadfile</name></member>
+    <member refid="classDownFile_1DownFilei0" kind="slot"><name>handleDone</name></member>
+    <member refid="classDownFile_1DownFilel0" kind="signal"><name>Finished</name></member>
+  </compound>
+  <compound refid="classDummyEngine" kind="class"><name>DummyEngine</name>
+    <member refid="classEngineBase_1EngineBasew7" kind="enum"><name>EngineState</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew0" kind="enumvalue"><name>Empty</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew1" kind="enumvalue"><name>Idle</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew2" kind="enumvalue"><name>Playing</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew3" kind="enumvalue"><name>Paused</name></member>
+    <member refid="classEngineBase_1EngineBasew8" kind="enum"><name>StreamingMode</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew4" kind="enumvalue"><name>Socket</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew5" kind="enumvalue"><name>Signal</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew6" kind="enumvalue"><name>NoStreaming</name></member>
+    <member refid="classDummyEngine_1DummyEnginea0" kind="function"><name>DummyEngine</name></member>
+    <member refid="classEngineBase_1EngineBasea5" kind="function"><name>streamingMode</name></member>
+    <member refid="classEngineBase_1EngineBasea6" kind="function"><name>getOutputsList</name></member>
+    <member refid="classEngineBase_1EngineBasea9" kind="function"><name>loaded</name></member>
+    <member refid="classEngineBase_1EngineBasea10" kind="function"><name>volume</name></member>
+    <member refid="classEngineBase_1EngineBasea11" kind="function"><name>isMixerHardware</name></member>
+    <member refid="classEngineBase_1EngineBasea13" kind="function"><name>supportsXFade</name></member>
+    <member refid="classEngineBase_1EngineBasea14" kind="function"><name>scope</name></member>
+    <member refid="classEngineBase_1EngineBasea15" kind="function"><name>setRestoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea16" kind="function"><name>availableEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea17" kind="function"><name>activeEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea18" kind="function"><name>effectNameForId</name></member>
+    <member refid="classEngineBase_1EngineBasea19" kind="function"><name>effectConfigurable</name></member>
+    <member refid="classEngineBase_1EngineBasea20" kind="function"><name>createEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea21" kind="function"><name>removeEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea22" kind="function"><name>configureEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea23" kind="function"><name>decoderConfigurable</name></member>
+    <member refid="classEngineBase_1EngineBasea24" kind="function"><name>setXfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasea25" kind="function"><name>setSoundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasea26" kind="function"><name>setSoundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasea27" kind="function"><name>setDefaultSoundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasei6" kind="slot"><name>configureDecoder</name></member>
+    <member refid="classEngineBase_1EngineBasei7" kind="slot"><name>newStreamData</name></member>
+    <member refid="classEngineBase_1EngineBasel0" kind="signal"><name>endOfTrack</name></member>
+    <member refid="classEngineBase_1EngineBasel1" kind="signal"><name>stopped</name></member>
+    <member refid="classEngineBase_1EngineBaseb0" kind="function"><name>closeMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb1" kind="function"><name>initMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb2" kind="function"><name>setVolumeHW</name></member>
+    <member refid="classEngineBase_1EngineBasep0" kind="variable"><name>m_mixerHW</name></member>
+    <member refid="classEngineBase_1EngineBasep1" kind="variable"><name>m_volume</name></member>
+    <member refid="classEngineBase_1EngineBasep2" kind="variable"><name>m_xfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasep3" kind="variable"><name>m_restoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasep4" kind="variable"><name>m_soundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasep5" kind="variable"><name>m_soundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasep6" kind="variable"><name>m_defaultSoundDevice</name></member>
+    <member refid="classDummyEngine_1DummyEngined0" kind="function"><name>init</name></member>
+    <member refid="classDummyEngine_1DummyEngined1" kind="function"><name>initMixer</name></member>
+    <member refid="classDummyEngine_1DummyEngined2" kind="function"><name>canDecode</name></member>
+    <member refid="classDummyEngine_1DummyEngined3" kind="function"><name>length</name></member>
+    <member refid="classDummyEngine_1DummyEngined4" kind="function"><name>position</name></member>
+    <member refid="classDummyEngine_1DummyEngined5" kind="function"><name>state</name></member>
+    <member refid="classDummyEngine_1DummyEngined6" kind="function"><name>isStream</name></member>
+    <member refid="classDummyEngine_1DummyEngined7" kind="function"><name>play</name></member>
+    <member refid="classDummyEngine_1DummyEngined8" kind="function"><name>play</name></member>
+    <member refid="classDummyEngine_1DummyEngined9" kind="function"><name>stop</name></member>
+    <member refid="classDummyEngine_1DummyEngined10" kind="function"><name>pause</name></member>
+    <member refid="classDummyEngine_1DummyEngined11" kind="function"><name>seek</name></member>
+    <member refid="classDummyEngine_1DummyEngined12" kind="function"><name>setVolume</name></member>
+  </compound>
+  <compound refid="classEngineBase" kind="class"><name>EngineBase</name>
+    <member refid="classEngineBase_1EngineBasew7" kind="enum"><name>EngineState</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew0" kind="enumvalue"><name>Empty</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew1" kind="enumvalue"><name>Idle</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew2" kind="enumvalue"><name>Playing</name></member>
+    <member refid="classEngineBase_1EngineBasew7EngineBasew3" kind="enumvalue"><name>Paused</name></member>
+    <member refid="classEngineBase_1EngineBasew8" kind="enum"><name>StreamingMode</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew4" kind="enumvalue"><name>Socket</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew5" kind="enumvalue"><name>Signal</name></member>
+    <member refid="classEngineBase_1EngineBasew8EngineBasew6" kind="enumvalue"><name>NoStreaming</name></member>
+    <member refid="classEngineBase_1EngineBasea0" kind="function"><name>EngineBase</name></member>
+    <member refid="classEngineBase_1EngineBasea1" kind="function"><name>~EngineBase</name></member>
+    <member refid="classEngineBase_1EngineBasea2" kind="function"><name>init</name></member>
+    <member refid="classEngineBase_1EngineBasea3" kind="function"><name>initMixer</name></member>
+    <member refid="classEngineBase_1EngineBasea4" kind="function"><name>canDecode</name></member>
+    <member refid="classEngineBase_1EngineBasea5" kind="function"><name>streamingMode</name></member>
+    <member refid="classEngineBase_1EngineBasea6" kind="function"><name>getOutputsList</name></member>
+    <member refid="classEngineBase_1EngineBasea7" kind="function"><name>position</name></member>
+    <member refid="classEngineBase_1EngineBasea8" kind="function"><name>state</name></member>
+    <member refid="classEngineBase_1EngineBasea9" kind="function"><name>loaded</name></member>
+    <member refid="classEngineBase_1EngineBasea10" kind="function"><name>volume</name></member>
+    <member refid="classEngineBase_1EngineBasea11" kind="function"><name>isMixerHardware</name></member>
+    <member refid="classEngineBase_1EngineBasea12" kind="function"><name>isStream</name></member>
+    <member refid="classEngineBase_1EngineBasea13" kind="function"><name>supportsXFade</name></member>
+    <member refid="classEngineBase_1EngineBasea14" kind="function"><name>scope</name></member>
+    <member refid="classEngineBase_1EngineBasea15" kind="function"><name>setRestoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea16" kind="function"><name>availableEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea17" kind="function"><name>activeEffects</name></member>
+    <member refid="classEngineBase_1EngineBasea18" kind="function"><name>effectNameForId</name></member>
+    <member refid="classEngineBase_1EngineBasea19" kind="function"><name>effectConfigurable</name></member>
+    <member refid="classEngineBase_1EngineBasea20" kind="function"><name>createEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea21" kind="function"><name>removeEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea22" kind="function"><name>configureEffect</name></member>
+    <member refid="classEngineBase_1EngineBasea23" kind="function"><name>decoderConfigurable</name></member>
+    <member refid="classEngineBase_1EngineBasea24" kind="function"><name>setXfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasea25" kind="function"><name>setSoundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasea26" kind="function"><name>setSoundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasea27" kind="function"><name>setDefaultSoundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasei0" kind="slot"><name>play</name></member>
+    <member refid="classEngineBase_1EngineBasei1" kind="slot"><name>play</name></member>
+    <member refid="classEngineBase_1EngineBasei2" kind="slot"><name>stop</name></member>
+    <member refid="classEngineBase_1EngineBasei3" kind="slot"><name>pause</name></member>
+    <member refid="classEngineBase_1EngineBasei4" kind="slot"><name>setVolume</name></member>
+    <member refid="classEngineBase_1EngineBasei5" kind="slot"><name>seek</name></member>
+    <member refid="classEngineBase_1EngineBasei6" kind="slot"><name>configureDecoder</name></member>
+    <member refid="classEngineBase_1EngineBasei7" kind="slot"><name>newStreamData</name></member>
+    <member refid="classEngineBase_1EngineBasel0" kind="signal"><name>endOfTrack</name></member>
+    <member refid="classEngineBase_1EngineBasel1" kind="signal"><name>stopped</name></member>
+    <member refid="classEngineBase_1EngineBaseb0" kind="function"><name>closeMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb1" kind="function"><name>initMixerHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb2" kind="function"><name>setVolumeHW</name></member>
+    <member refid="classEngineBase_1EngineBaseb3" kind="function"><name>EngineBase</name></member>
+    <member refid="classEngineBase_1EngineBaseb4" kind="function"><name>operator=</name></member>
+    <member refid="classEngineBase_1EngineBasep0" kind="variable"><name>m_mixerHW</name></member>
+    <member refid="classEngineBase_1EngineBasep1" kind="variable"><name>m_volume</name></member>
+    <member refid="classEngineBase_1EngineBasep2" kind="variable"><name>m_xfadeLength</name></member>
+    <member refid="classEngineBase_1EngineBasep3" kind="variable"><name>m_restoreEffects</name></member>
+    <member refid="classEngineBase_1EngineBasep4" kind="variable"><name>m_soundOutput</name></member>
+    <member refid="classEngineBase_1EngineBasep5" kind="variable"><name>m_soundDevice</name></member>
+    <member refid="classEngineBase_1EngineBasep6" kind="variable"><name>m_defaultSoundDevice</name></member>
+  </compound>
+  <compound refid="classEngineController" kind="class"><name>EngineController</name>
+    <member refid="classEngineController_1EngineControllera0" kind="function"><name>~EngineController</name></member>
+    <member refid="classEngineSubject_1EngineSubjecta0" kind="function"><name>attach</name></member>
+    <member refid="classEngineSubject_1EngineSubjecta1" kind="function"><name>detach</name></member>
+    <member refid="classEngineController_1EngineControlleri0" kind="slot"><name>previous</name></member>
+    <member refid="classEngineController_1EngineControlleri1" kind="slot"><name>next</name></member>
+    <member refid="classEngineController_1EngineControlleri2" kind="slot"><name>play</name></member>
+    <member refid="classEngineController_1EngineControlleri3" kind="slot"><name>play</name></member>
+    <member refid="classEngineController_1EngineControlleri4" kind="slot"><name>pause</name></member>
+    <member refid="classEngineController_1EngineControlleri5" kind="slot"><name>stop</name></member>
+    <member refid="classEngineController_1EngineControlleri6" kind="slot"><name>playPause</name></member>
+    <member refid="classEngineController_1EngineControlleri7" kind="slot"><name>increaseVolume</name></member>
+    <member refid="classEngineController_1EngineControlleri8" kind="slot"><name>decreaseVolume</name></member>
+    <member refid="classEngineController_1EngineControlleri9" kind="slot"><name>setVolume</name></member>
+    <member refid="classEngineController_1EngineControllerl0" kind="signal"><name>orderNext</name></member>
+    <member refid="classEngineController_1EngineControllerl1" kind="signal"><name>orderPrevious</name></member>
+    <member refid="classEngineController_1EngineControllerl2" kind="signal"><name>orderCurrent</name></member>
+    <member refid="classEngineController_1EngineControllerl3" kind="signal"><name>TrackPosition</name></member>
+    <member refid="classEngineController_1EngineControllere0" kind="function"><name>instance</name></member>
+    <member refid="classEngineController_1EngineControllere1" kind="function"><name>engine</name></member>
+    <member refid="classEngineController_1EngineControllere2" kind="function"><name>setEngine</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb2" kind="function"><name>stateChangedNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb3" kind="function"><name>newMetaDataNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb4" kind="function"><name>volumeChangedNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb5" kind="function"><name>trackPositionChangedNotify</name></member>
+    <member refid="classEngineController_1EngineControllerd0" kind="function"><name>EngineController</name></member>
+    <member refid="classEngineController_1EngineControllerr0" kind="variable"><name>m_pEngine</name></member>
+    <member refid="classEngineController_1EngineControllerr1" kind="variable"><name>m_bundle</name></member>
+    <member refid="classEngineController_1EngineControllerr2" kind="variable"><name>m_proxyError</name></member>
+    <member refid="classEngineController_1EngineControllerr3" kind="variable"><name>m_pMainTimer</name></member>
+    <member refid="classEngineController_1EngineControllerr4" kind="variable"><name>m_delayTime</name></member>
+    <member refid="classEngineController_1EngineControllerk0" kind="slot"><name>slotMainTimer</name></member>
+    <member refid="classEngineController_1EngineControllerk1" kind="slot"><name>newMetaData</name></member>
+    <member refid="classEngineController_1EngineControllerv0" kind="variable"><name>MAIN_TIMER</name></member>
+  </compound>
+  <compound refid="classEngineObserver" kind="class"><name>EngineObserver</name>
+    <member refid="classEngineObserver_1EngineObservera0" kind="function"><name>EngineObserver</name></member>
+    <member refid="classEngineObserver_1EngineObservera1" kind="function"><name>~EngineObserver</name></member>
+    <member refid="classEngineObserver_1EngineObservera2" kind="function"><name>engineStateChanged</name></member>
+    <member refid="classEngineObserver_1EngineObservera3" kind="function"><name>engineNewMetaData</name></member>
+    <member refid="classEngineObserver_1EngineObservera4" kind="function"><name>engineVolumeChanged</name></member>
+    <member refid="classEngineObserver_1EngineObservera5" kind="function"><name>engineTrackPositionChanged</name></member>
+  </compound>
+  <compound refid="classEngineSubject" kind="class"><name>EngineSubject</name>
+    <member refid="classEngineSubject_1EngineSubjecta0" kind="function"><name>attach</name></member>
+    <member refid="classEngineSubject_1EngineSubjecta1" kind="function"><name>detach</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb0" kind="function"><name>EngineSubject</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb1" kind="function"><name>~EngineSubject</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb2" kind="function"><name>stateChangedNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb3" kind="function"><name>newMetaDataNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb4" kind="function"><name>volumeChangedNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectb5" kind="function"><name>trackPositionChangedNotify</name></member>
+    <member refid="classEngineSubject_1EngineSubjectr0" kind="variable"><name>Observers</name></member>
+  </compound>
+  <compound refid="classAnalyzer_1_1Factory" kind="class"><name>Analyzer::Factory</name>
+    <member refid="classAnalyzer_1_1Factory_1Analyzer_1_1Factorye0" kind="function"><name>createAnalyzer</name></member>
+  </compound>
+  <compound refid="classFHT" kind="class"><name>FHT</name>
+    <member refid="classFHT_1FHTa0" kind="function"><name>FHT</name></member>
+    <member refid="classFHT_1FHTa1" kind="function"><name>~FHT</name></member>
+    <member refid="classFHT_1FHTa2" kind="function"><name>sizeExp</name></member>
+    <member refid="classFHT_1FHTa3" kind="function"><name>size</name></member>
+    <member refid="classFHT_1FHTa4" kind="function"><name>copy</name></member>
+    <member refid="classFHT_1FHTa5" kind="function"><name>clear</name></member>
+    <member refid="classFHT_1FHTa6" kind="function"><name>scale</name></member>
+    <member refid="classFHT_1FHTa7" kind="function"><name>ewma</name></member>
+    <member refid="classFHT_1FHTa8" kind="function"><name>pattern</name></member>
+    <member refid="classFHT_1FHTa9" kind="function"><name>logSpectrum</name></member>
+    <member refid="classFHT_1FHTa10" kind="function"><name>semiLogSpectrum</name></member>
+    <member refid="classFHT_1FHTa11" kind="function"><name>spectrum</name></member>
+    <member refid="classFHT_1FHTa12" kind="function"><name>power</name></member>
+    <member refid="classFHT_1FHTa13" kind="function"><name>power2</name></member>
+    <member refid="classFHT_1FHTa14" kind="function"><name>transform8</name></member>
+    <member refid="classFHT_1FHTa15" kind="function"><name>transform</name></member>
+    <member refid="classFHT_1FHTd0" kind="function"><name>makeCasTable</name></member>
+    <member refid="classFHT_1FHTd1" kind="function"><name>_transform</name></member>
+    <member refid="classFHT_1FHTr0" kind="variable"><name>m_exp2</name></member>
+    <member refid="classFHT_1FHTr1" kind="variable"><name>m_num</name></member>
+    <member refid="classFHT_1FHTr2" kind="variable"><name>m_buf</name></member>
+    <member refid="classFHT_1FHTr3" kind="variable"><name>m_tab</name></member>
+    <member refid="classFHT_1FHTr4" kind="variable"><name>m_log</name></member>
+  </compound>
+  <compound refid="classFileItem" kind="class"><name>FileItem</name>
+    <member refid="classFileItem_1FileItema0" kind="function"><name>FileItem</name></member>
+    <member refid="classFileItem_1FileItema1" kind="function"><name>pixmap</name></member>
+    <member refid="classFileItem_1FileItema2" kind="function"><name>setPixmap</name></member>
+    <member refid="classFileItem_1FileItemr0" kind="variable"><name>pix</name></member>
+  </compound>
+  <compound refid="classFunction__Control__Area" kind="class"><name>Function_Control_Area</name>
+    <member refid="classFunction__Control__Area_1Function__Control__Areaa0" kind="function"><name>Function_Control_Area</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areaa1" kind="function"><name>xSetup</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areaa2" kind="function"><name>~Function_Control_Area</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao0" kind="variable"><name>fun_btn_internet</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao1" kind="variable"><name>fun_btn_player</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao2" kind="variable"><name>fun_btn_management</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao3" kind="variable"><name>fun_btn_albumclock</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao4" kind="variable"><name>fun_btn_setting</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao5" kind="variable"><name>fun_btn_close</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areao6" kind="variable"><name>fun_btn_imagedetial</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areai0" kind="slot"><name>slotProcessChangeFunc</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areai1" kind="slot"><name>slotChangeButton</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areai2" kind="slot"><name>slotImageDetial</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areai3" kind="slot"><name>slotShowImageDetial</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areal0" kind="signal"><name>signalChangeFunc</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Areal1" kind="signal"><name>signalBackToManagement</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Arear0" kind="variable"><name>btnGraphic</name></member>
+    <member refid="classFunction__Control__Area_1Function__Control__Arear1" kind="variable"><name>pixBackground</name></member>
+  </compound>
+  <compound refid="classFunctionBar" kind="class"><name>FunctionBar</name>
+    <member refid="classFunctionBar_1FunctionBara0" kind="function"><name>FunctionBar</name></member>
+    <member refid="classFunctionBar_1FunctionBara1" kind="function"><name>~FunctionBar</name></member>
+    <member refid="classFunctionBar_1FunctionBara2" kind="function"><name>xSetup</name></member>
+    <member refid="classFunctionBar_1FunctionBaro0" kind="variable"><name>BarAC</name></member>
+    <member refid="classFunctionBar_1FunctionBaro1" kind="variable"><name>BarID</name></member>
+    <member refid="classFunctionBar_1FunctionBaro2" kind="variable"><name>BarInternet</name></member>
+    <member refid="classFunctionBar_1FunctionBaro3" kind="variable"><name>BarPlayer</name></member>
+    <member refid="classFunctionBar_1FunctionBaro4" kind="variable"><name>BarManagement</name></member>
+    <member refid="classFunctionBar_1FunctionBaro5" kind="variable"><name>BarSetting</name></member>
+    <member refid="classFunctionBar_1FunctionBaro6" kind="variable"><name>BarClose</name></member>
+    <member refid="classFunctionBar_1FunctionBari0" kind="slot"><name>slotChangeFunctionSubBar</name></member>
+    <member refid="classFunctionBar_1FunctionBarl0" kind="signal"><name>siganlChangeDisplayAreaMode</name></member>
+    <member refid="classFunctionBar_1FunctionBarr0" kind="variable"><name>pixBackground</name></member>
+  </compound>
+  <compound refid="classHDASS08" kind="class"><name>HDASS08</name>
+    <member refid="classHDASS08_1HDASS08a0" kind="function"><name>HDASS08</name></member>
+    <member refid="classHDASS08_1HDASS08a1" kind="function"><name>xSetup</name></member>
+    <member refid="classHDASS08_1HDASS08a2" kind="function"><name>~HDASS08</name></member>
+    <member refid="classHDASS08_1HDASS08o0" kind="variable"><name>ControlArea</name></member>
+    <member refid="classHDASS08_1HDASS08o1" kind="variable"><name>Bar</name></member>
+    <member refid="classHDASS08_1HDASS08o2" kind="variable"><name>Display</name></member>
+    <member refid="classHDASS08_1HDASS08o3" kind="variable"><name>HDASS_PLAY_LIST</name></member>
+    <member refid="classHDASS08_1HDASS08o4" kind="variable"><name>HDASS_KEYBOARD</name></member>
+    <member refid="classHDASS08_1HDASS08o5" kind="variable"><name>strKeyboardString</name></member>
+    <member refid="classHDASS08_1HDASS08i0" kind="slot"><name>slotShow</name></member>
+    <member refid="classHDASS08_1HDASS08i1" kind="slot"><name>slotKeyboardShow</name></member>
+    <member refid="classHDASS08_1HDASS08i2" kind="slot"><name>slotKeyboardHide</name></member>
+    <member refid="classHDASS08_1HDASS08i3" kind="slot"><name>slotKeyboardString</name></member>
+    <member refid="classHDASS08_1HDASS08l0" kind="signal"><name>signalMkdir</name></member>
+    <member refid="classHDASS08_1HDASS08r0" kind="variable"><name>pixBackground</name></member>
+  </compound>
+  <compound refid="classhdassAlbum" kind="class"><name>hdassAlbum</name>
+    <member refid="classhdassAlbum_1hdassAlbuma0" kind="function"><name>hdassAlbum</name></member>
+    <member refid="classhdassAlbum_1hdassAlbuma1" kind="function"><name>~hdassAlbum</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala2" kind="function"><name>xSetup</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala3" kind="function"><name>SlideShow</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala4" kind="function"><name>DrawImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo0" kind="variable"><name>it</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo1" kind="variable"><name>AlbumList</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo2" kind="variable"><name>FloderList</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo3" kind="variable"><name>PixList</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali1" kind="slot"><name>AddImageToAlbum</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali2" kind="slot"><name>RemoveImageFromAlbum</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali3" kind="slot"><name>ChangeMode</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali4" kind="slot"><name>slotNextImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali5" kind="slot"><name>slotPreviousImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali6" kind="slot"><name>slotPlayNStop</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali7" kind="slot"><name>slotModeChange</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali8" kind="slot"><name>slotSetSwitchingTime</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumy2" kind="enum"><name>AlbumMode</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumy2hdassAlbumy0" kind="enumvalue"><name>Album</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumy2hdassAlbumy1" kind="enumvalue"><name>Clock</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumd0" kind="function"><name>ReadAlbumList</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumd1" kind="function"><name>SaveAlbumList</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumr0" kind="variable"><name>switchtime</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumr1" kind="variable"><name>AlbumListFileName</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumr2" kind="variable"><name>AlbumFile</name></member>
+    <member refid="classhdassAlbum_1hdassAlbumr3" kind="variable"><name>timer</name></member>
+  </compound>
+  <compound refid="classhdassClock" kind="class"><name>hdassClock</name>
+    <member refid="classhdassClock_1hdassClocka0" kind="function"><name>hdassClock</name></member>
+    <member refid="classhdassClock_1hdassClocka1" kind="function"><name>xSetup</name></member>
+    <member refid="classhdassClock_1hdassClocka2" kind="function"><name>~hdassClock</name></member>
+    <member refid="classhdassClock_1hdassClocki0" kind="slot"><name>setTime</name></member>
+    <member refid="classhdassClock_1hdassClockb0" kind="function"><name>updateMask</name></member>
+    <member refid="classhdassClock_1hdassClockb1" kind="function"><name>paintEvent</name></member>
+    <member refid="classhdassClock_1hdassClockb2" kind="function"><name>drawClock</name></member>
+    <member refid="classhdassClock_1hdassClockr0" kind="variable"><name>clickPos</name></member>
+    <member refid="classhdassClock_1hdassClockr1" kind="variable"><name>time</name></member>
+    <member refid="classhdassClock_1hdassClockr2" kind="variable"><name>internalTimer</name></member>
+    <member refid="classhdassClock_1hdassClockr3" kind="variable"><name>pixBackground</name></member>
+    <member refid="classhdassClock_1hdassClockk0" kind="slot"><name>timeout</name></member>
+  </compound>
+  <compound refid="classHDASSGlobalSetting" kind="class"><name>HDASSGlobalSetting</name>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga0" kind="function"><name>HDASSGlobalSetting</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga1" kind="function"><name>~HDASSGlobalSetting</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga2" kind="function"><name>xSetup</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettinga3" kind="function"><name>ReadingInitState</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo0" kind="variable"><name>intHDASS_FUNCTION_STATE</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo1" kind="variable"><name>intHDASS_ALBUMCLOCK_STATE</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo2" kind="variable"><name>intHDSS_DISPLAY_STATE</name></member>
+    <member refid="classHDASSGlobalSetting_1HDASSGlobalSettingo3" kind="variable"><name>ListFileName</name></member>
+  </compound>
+  <compound refid="classhdassImageDetial" kind="class"><name>hdassImageDetial</name>
+    <member refid="classhdassImageDetial_1hdassImageDetiala0" kind="function"><name>hdassImageDetial</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetiala1" kind="function"><name>xSetup</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetiala2" kind="function"><name>~hdassImageDetial</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetialo0" kind="variable"><name>currentImage</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetialo1" kind="variable"><name>AlbumList</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetiali0" kind="slot"><name>slotSetImage</name></member>
+    <member refid="classhdassImageDetial_1hdassImageDetiali1" kind="slot"><name>slotResize</name></member>
+  </compound>
+  <compound refid="classhdassplaylist" kind="class"><name>hdassplaylist</name>
+    <member refid="classhdassplaylist_1hdassplaylista0" kind="function"><name>hdassplaylist</name></member>
+    <member refid="classhdassplaylist_1hdassplaylista1" kind="function"><name>~hdassplaylist</name></member>
+    <member refid="classhdassplaylist_1hdassplaylista2" kind="function"><name>xSetup</name></member>
+    <member refid="classhdassplaylist_1hdassplaylista3" kind="function"><name>ReadListFile</name></member>
+    <member refid="classhdassplaylist_1hdassplaylisto0" kind="variable"><name>List</name></member>
+    <member refid="classhdassplaylist_1hdassplaylisto1" kind="variable"><name>url_list</name></member>
+    <member refid="classhdassplaylist_1hdassplaylisto2" kind="variable"><name>url_list_cut_buffer</name></member>
+    <member refid="classhdassplaylist_1hdassplaylisti0" kind="slot"><name>slotPLRequest</name></member>
+    <member refid="classhdassplaylist_1hdassplaylisti1" kind="slot"><name>slotReciveList</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistl0" kind="signal"><name>signalPLSend</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistd0" kind="function"><name>RemoveList</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistd1" kind="function"><name>CutList</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistd2" kind="function"><name>PasteList</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistd3" kind="function"><name>SaveList</name></member>
+    <member refid="classhdassplaylist_1hdassplaylistd4" kind="function"><name>AppendList</name></member>
+  </compound>
+  <compound refid="classHDASSPlayListItem" kind="class"><name>HDASSPlayListItem</name>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema0" kind="function"><name>HDASSPlayListItem</name></member>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema1" kind="function"><name>~HDASSPlayListItem</name></member>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema2" kind="function"><name>setup</name></member>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema3" kind="function"><name>HDASSPlayListItem</name></member>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema4" kind="function"><name>~HDASSPlayListItem</name></member>
+    <member refid="classHDASSPlayListItem_1HDASSPlayListItema5" kind="function"><name>setup</name></member>
+  </compound>
+  <compound refid="classImageDetial" kind="class"><name>ImageDetial</name>
+    <member refid="classImageDetial_1ImageDetiala0" kind="function"><name>ImageDetial</name></member>
+    <member refid="classImageDetial_1ImageDetiala1" kind="function"><name>~ImageDetial</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala2" kind="function"><name>xSetup</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala3" kind="function"><name>SlideShow</name></member>
+    <member refid="classhdassAlbum_1ImageDetiala4" kind="function"><name>DrawImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo0" kind="variable"><name>it</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo1" kind="variable"><name>AlbumList</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo2" kind="variable"><name>FloderList</name></member>
+    <member refid="classhdassAlbum_1ImageDetialo3" kind="variable"><name>PixList</name></member>
+    <member refid="classImageDetial_1ImageDetiali0" kind="slot"><name>slotShowFloder</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali1" kind="slot"><name>AddImageToAlbum</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali2" kind="slot"><name>RemoveImageFromAlbum</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali3" kind="slot"><name>ChangeMode</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali4" kind="slot"><name>slotNextImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali5" kind="slot"><name>slotPreviousImage</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali6" kind="slot"><name>slotPlayNStop</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali7" kind="slot"><name>slotModeChange</name></member>
+    <member refid="classhdassAlbum_1ImageDetiali8" kind="slot"><name>slotSetSwitchingTime</name></member>
+  </compound>
+  <compound refid="classInfoArea" kind="class"><name>InfoArea</name>
+    <member refid="classInfoArea_1InfoAreaa0" kind="function"><name>InfoArea</name></member>
+    <member refid="classInfoArea_1InfoAreaa1" kind="function"><name>xSetup</name></member>
+    <member refid="classInfoArea_1InfoAreaa2" kind="function"><name>~InfoArea</name></member>
+    <member refid="classInfoArea_1InfoAreao0" kind="variable"><name>IABtnVolumeUp</name></member>
+    <member refid="classInfoArea_1InfoAreao1" kind="variable"><name>IABtnVolumeDown</name></member>
+    <member refid="classInfoArea_1InfoAreao2" kind="variable"><name>IABtnPlayListDelete</name></member>
+    <member refid="classInfoArea_1InfoAreao3" kind="variable"><name>m_pAnalyzer</name></member>
+    <member refid="classInfoArea_1InfoAreao4" kind="variable"><name>PlayList</name></member>
+    <member refid="classInfoArea_1InfoAreao5" kind="variable"><name>curr_list</name></member>
+    <member refid="classInfoArea_1InfoAreai0" kind="slot"><name>slotReadListFromPlayList</name></member>
+    <member refid="classInfoArea_1InfoAreai1" kind="slot"><name>ReadList</name></member>
+    <member refid="classInfoArea_1InfoAreai2" kind="slot"><name>slotDeleteItems</name></member>
+    <member refid="classInfoArea_1InfoAreai3" kind="slot"><name>slotDoubleClicked</name></member>
+    <member refid="classInfoArea_1InfoAreai4" kind="slot"><name>slotHadleSongInfo</name></member>
+    <member refid="classInfoArea_1InfoAreal0" kind="signal"><name>signalReadList</name></member>
+    <member refid="classInfoArea_1InfoAreal1" kind="signal"><name>signalRemoveList</name></member>
+    <member refid="classInfoArea_1InfoAreal2" kind="signal"><name>signalPlayItem</name></member>
+    <member refid="classInfoArea_1InfoAreal3" kind="signal"><name>singalPlayItem</name></member>
+    <member refid="classInfoArea_1InfoAread0" kind="function"><name>InitPlayList</name></member>
+    <member refid="classInfoArea_1InfoAread1" kind="function"><name>InitSongInfo</name></member>
+    <member refid="classInfoArea_1InfoAread2" kind="function"><name>ShowSongInfo</name></member>
+    <member refid="classInfoArea_1InfoArear0" kind="variable"><name>pixBackground</name></member>
+    <member refid="classInfoArea_1InfoArear1" kind="variable"><name>BtnGraphic</name></member>
+    <member refid="classInfoArea_1InfoArear2" kind="variable"><name>Artist</name></member>
+    <member refid="classInfoArea_1InfoArear3" kind="variable"><name>Album</name></member>
+    <member refid="classInfoArea_1InfoArear4" kind="variable"><name>Length</name></member>
+    <member refid="classInfoArea_1InfoArear5" kind="variable"><name>Year</name></member>
+    <member refid="classInfoArea_1InfoArear6" kind="variable"><name>Title</name></member>
+    <member refid="classInfoArea_1InfoArear7" kind="variable"><name>BitRate</name></member>
+  </compound>
+  <compound refid="classkeyboard" kind="class"><name>keyboard</name>
+    <member refid="classkeyboard_1keyboarda0" kind="function"><name>keyboard</name></member>
+    <member refid="classkeyboard_1keyboarda1" kind="function"><name>~keyboard</name></member>
+    <member refid="classkeyboard_1keyboarda2" kind="function"><name>xSEtup</name></member>
+    <member refid="classkeyboard_1keyboardo0" kind="variable"><name>strString</name></member>
+    <member refid="classkeyboard_1keyboardi0" kind="slot"><name>slotReceiveChar</name></member>
+    <member refid="classkeyboard_1keyboardi1" kind="slot"><name>slotSendString</name></member>
+    <member refid="classkeyboard_1keyboardi2" kind="slot"><name>slotClearStr</name></member>
+    <member refid="classkeyboard_1keyboardi3" kind="slot"><name>slotEnter</name></member>
+    <member refid="classkeyboard_1keyboardi4" kind="slot"><name>slotBackSpace</name></member>
+    <member refid="classkeyboard_1keyboardi5" kind="slot"><name>slotChange</name></member>
+    <member refid="classkeyboard_1keyboardl0" kind="signal"><name>signalString</name></member>
+    <member refid="classkeyboard_1keyboardl1" kind="signal"><name>signalEnter</name></member>
+    <member refid="classkeyboard_1keyboardd0" kind="function"><name>InitKey</name></member>
+    <member refid="classkeyboard_1keyboardr0" kind="variable"><name>key_a</name></member>
+    <member refid="classkeyboard_1keyboardr1" kind="variable"><name>key_b</name></member>
+    <member refid="classkeyboard_1keyboardr2" kind="variable"><name>key_c</name></member>
+    <member refid="classkeyboard_1keyboardr3" kind="variable"><name>key_d</name></member>
+    <member refid="classkeyboard_1keyboardr4" kind="variable"><name>key_e</name></member>
+    <member refid="classkeyboard_1keyboardr5" kind="variable"><name>key_f</name></member>
+    <member refid="classkeyboard_1keyboardr6" kind="variable"><name>key_g</name></member>
+    <member refid="classkeyboard_1keyboardr7" kind="variable"><name>key_h</name></member>
+    <member refid="classkeyboard_1keyboardr8" kind="variable"><name>key_i</name></member>
+    <member refid="classkeyboard_1keyboardr9" kind="variable"><name>key_j</name></member>
+    <member refid="classkeyboard_1keyboardr10" kind="variable"><name>key_k</name></member>
+    <member refid="classkeyboard_1keyboardr11" kind="variable"><name>key_l</name></member>
+    <member refid="classkeyboard_1keyboardr12" kind="variable"><name>key_m</name></member>
+    <member refid="classkeyboard_1keyboardr13" kind="variable"><name>key_n</name></member>
+    <member refid="classkeyboard_1keyboardr14" kind="variable"><name>key_o</name></member>
+    <member refid="classkeyboard_1keyboardr15" kind="variable"><name>key_p</name></member>
+    <member refid="classkeyboard_1keyboardr16" kind="variable"><name>key_q</name></member>
+    <member refid="classkeyboard_1keyboardr17" kind="variable"><name>key_r</name></member>
+    <member refid="classkeyboard_1keyboardr18" kind="variable"><name>key_s</name></member>
+    <member refid="classkeyboard_1keyboardr19" kind="variable"><name>key_t</name></member>
+    <member refid="classkeyboard_1keyboardr20" kind="variable"><name>key_u</name></member>
+    <member refid="classkeyboard_1keyboardr21" kind="variable"><name>key_v</name></member>
+    <member refid="classkeyboard_1keyboardr22" kind="variable"><name>key_w</name></member>
+    <member refid="classkeyboard_1keyboardr23" kind="variable"><name>key_x</name></member>
+    <member refid="classkeyboard_1keyboardr24" kind="variable"><name>key_y</name></member>
+    <member refid="classkeyboard_1keyboardr25" kind="variable"><name>key_z</name></member>
+    <member refid="classkeyboard_1keyboardr26" kind="variable"><name>key_1</name></member>
+    <member refid="classkeyboard_1keyboardr27" kind="variable"><name>key_2</name></member>
+    <member refid="classkeyboard_1keyboardr28" kind="variable"><name>key_3</name></member>
+    <member refid="classkeyboard_1keyboardr29" kind="variable"><name>key_4</name></member>
+    <member refid="classkeyboard_1keyboardr30" kind="variable"><name>key_5</name></member>
+    <member refid="classkeyboard_1keyboardr31" kind="variable"><name>key_6</name></member>
+    <member refid="classkeyboard_1keyboardr32" kind="variable"><name>key_7</name></member>
+    <member refid="classkeyboard_1keyboardr33" kind="variable"><name>key_8</name></member>
+    <member refid="classkeyboard_1keyboardr34" kind="variable"><name>key_9</name></member>
+    <member refid="classkeyboard_1keyboardr35" kind="variable"><name>key_0</name></member>
+    <member refid="classkeyboard_1keyboardr36" kind="variable"><name>key_comma</name></member>
+    <member refid="classkeyboard_1keyboardr37" kind="variable"><name>key_space</name></member>
+    <member refid="classkeyboard_1keyboardr38" kind="variable"><name>key_enter</name></member>
+    <member refid="classkeyboard_1keyboardr39" kind="variable"><name>key_change</name></member>
+    <member refid="classkeyboard_1keyboardr40" kind="variable"><name>key_backspace</name></member>
+    <member refid="classkeyboard_1keyboardr41" kind="variable"><name>pixBackground</name></member>
+    <member refid="classkeyboard_1keyboardr42" kind="variable"><name>pixMask</name></member>
+    <member refid="classkeyboard_1keyboardr43" kind="variable"><name>Label</name></member>
+    <member refid="classkeyboard_1keyboardr44" kind="variable"><name>upper</name></member>
+    <member refid="classkeyboard_1keyboardr45" kind="variable"><name>key_list</name></member>
+  </compound>
+  <compound refid="classkeyboard__key" kind="class"><name>keyboard_key</name>
+    <member refid="classkeyboard__key_1keyboard__keyw4" kind="enum"><name>KEY_TYPE</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw0" kind="enumvalue"><name>KEY</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw1" kind="enumvalue"><name>CHANGE</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw2" kind="enumvalue"><name>ENTER</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyw4keyboard__keyw3" kind="enumvalue"><name>BACKSPACE</name></member>
+    <member refid="classkeyboard__key_1keyboard__keya0" kind="function"><name>keyboard_key</name></member>
+    <member refid="classkeyboard__key_1keyboard__keya1" kind="function"><name>~keyboard_key</name></member>
+    <member refid="classkeyboard__key_1keyboard__keya2" kind="function"><name>xSetup</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi0" kind="slot"><name>slotSetCase</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi1" kind="slot"><name>slotClicked</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi2" kind="slot"><name>slotPressed</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi3" kind="slot"><name>slotReleased</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi4" kind="slot"><name>slotEnter</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi5" kind="slot"><name>slotChange</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi6" kind="slot"><name>slotBackSpace</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyi7" kind="slot"><name>slotSetPixmap</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyl0" kind="signal"><name>signalSendChar</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyl1" kind="signal"><name>signalEnter</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyl2" kind="signal"><name>signalChange</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyl3" kind="signal"><name>signalBackSpace</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyb0" kind="function"><name>drawButton</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr0" kind="variable"><name>strCurChar</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr1" kind="variable"><name>strCharUp</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr2" kind="variable"><name>strCharLower</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr3" kind="variable"><name>upper</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr4" kind="variable"><name>pixBackground</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr5" kind="variable"><name>pixAcitve</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr6" kind="variable"><name>pixInactive</name></member>
+    <member refid="classkeyboard__key_1keyboard__keyr7" kind="variable"><name>key_type</name></member>
+  </compound>
+  <compound refid="classKStartupLogo" kind="class"><name>KStartupLogo</name>
+    <member refid="classKStartupLogo_1KStartupLogoa0" kind="function"><name>KStartupLogo</name></member>
+    <member refid="classKStartupLogo_1KStartupLogoa1" kind="function"><name>~KStartupLogo</name></member>
+    <member refid="classKStartupLogo_1KStartupLogoa2" kind="function"><name>setHideEnabled</name></member>
+    <member refid="classKStartupLogo_1KStartupLogoi0" kind="slot"><name>slotCloseLogo</name></member>
+    <member refid="classKStartupLogo_1KStartupLogol0" kind="signal"><name>signalTriggerMainWidget</name></member>
+    <member refid="classKStartupLogo_1KStartupLogob0" kind="function"><name>mousePressEvent</name></member>
+    <member refid="classKStartupLogo_1KStartupLogop0" kind="variable"><name>m_bReadyToHide</name></member>
+    <member refid="classKStartupLogo_1KStartupLogop1" kind="variable"><name>LogoCloseTimer</name></member>
+    <member refid="classKStartupLogo_1KStartupLogop2" kind="variable"><name>LogoCloseTime</name></member>
+  </compound>
+  <compound refid="classmediamanagement" kind="class"><name>mediamanagement</name>
+    <member refid="classmediamanagement_1mediamanagementa0" kind="function"><name>mediamanagement</name></member>
+    <member refid="classmediamanagement_1mediamanagementa1" kind="function"><name>~mediamanagement</name></member>
+    <member refid="classmediamanagement_1mediamanagemento0" kind="variable"><name>imgDir</name></member>
+    <member refid="classmediamanagement_1mediamanagemento1" kind="variable"><name>musicDir</name></member>
+    <member refid="classmediamanagement_1mediamanagemento2" kind="variable"><name>imgFIV</name></member>
+    <member refid="classmediamanagement_1mediamanagemento3" kind="variable"><name>musicFIV</name></member>
+    <member refid="classmediamanagement_1mediamanagemento4" kind="variable"><name>musicroot</name></member>
+    <member refid="classmediamanagement_1mediamanagemento5" kind="variable"><name>imgroot</name></member>
+    <member refid="classmediamanagement_1mediamanagemento6" kind="variable"><name>imgdetial</name></member>
+    <member refid="classmediamanagement_1mediamanagementi0" kind="slot"><name>slotChangeMode</name></member>
+    <member refid="classmediamanagement_1mediamanagementi1" kind="slot"><name>slotDeleteItem</name></member>
+    <member refid="classmediamanagement_1mediamanagementi2" kind="slot"><name>slotMkdir</name></member>
+    <member refid="classmediamanagement_1mediamanagementi3" kind="slot"><name>slotCut</name></member>
+    <member refid="classmediamanagement_1mediamanagementi4" kind="slot"><name>slotPaste</name></member>
+    <member refid="classmediamanagement_1mediamanagementi5" kind="slot"><name>slotShowImage</name></member>
+    <member refid="classmediamanagement_1mediamanagementi6" kind="slot"><name>slotBackToManagement</name></member>
+    <member refid="classmediamanagement_1mediamanagementl0" kind="signal"><name>signalImageDetial</name></member>
+    <member refid="classmediamanagement_1mediamanagementl1" kind="signal"><name>signalShowKeyboard</name></member>
+    <member refid="classmediamanagement_1mediamanagementd0" kind="function"><name>xSetup</name></member>
+    <member refid="classmediamanagement_1mediamanagementr0" kind="variable"><name>imagesplitter</name></member>
+    <member refid="classmediamanagement_1mediamanagementr1" kind="variable"><name>musicsplitter</name></member>
+    <member refid="classmediamanagement_1mediamanagementr2" kind="variable"><name>Mode</name></member>
+  </compound>
+  <compound refid="classMetaBundle" kind="class"><name>MetaBundle</name>
+    <member refid="classMetaBundle_1MetaBundlea0" kind="function"><name>MetaBundle</name></member>
+    <member refid="classMetaBundle_1MetaBundlea1" kind="function"><name>MetaBundle</name></member>
+    <member refid="classMetaBundle_1MetaBundlea2" kind="function"><name>MetaBundle</name></member>
+    <member refid="classMetaBundle_1MetaBundlea3" kind="function"><name>MetaBundle</name></member>
+    <member refid="classMetaBundle_1MetaBundlea4" kind="function"><name>readTags</name></member>
+    <member refid="classMetaBundle_1MetaBundlea5" kind="function"><name>length</name></member>
+    <member refid="classMetaBundle_1MetaBundlea6" kind="function"><name>bitrate</name></member>
+    <member refid="classMetaBundle_1MetaBundlea7" kind="function"><name>sampleRate</name></member>
+    <member refid="classMetaBundle_1MetaBundlea8" kind="function"><name>exist</name></member>
+    <member refid="classMetaBundle_1MetaBundlea9" kind="function"><name>url</name></member>
+    <member refid="classMetaBundle_1MetaBundlea10" kind="function"><name>title</name></member>
+    <member refid="classMetaBundle_1MetaBundlea11" kind="function"><name>artist</name></member>
+    <member refid="classMetaBundle_1MetaBundlea12" kind="function"><name>album</name></member>
+    <member refid="classMetaBundle_1MetaBundlea13" kind="function"><name>year</name></member>
+    <member refid="classMetaBundle_1MetaBundlea14" kind="function"><name>comment</name></member>
+    <member refid="classMetaBundle_1MetaBundlea15" kind="function"><name>genre</name></member>
+    <member refid="classMetaBundle_1MetaBundlea16" kind="function"><name>track</name></member>
+    <member refid="classMetaBundle_1MetaBundlea17" kind="function"><name>prettyTitle</name></member>
+    <member refid="classMetaBundle_1MetaBundlea18" kind="function"><name>prettyURL</name></member>
+    <member refid="classMetaBundle_1MetaBundlea19" kind="function"><name>prettyBitrate</name></member>
+    <member refid="classMetaBundle_1MetaBundlea20" kind="function"><name>prettyLength</name></member>
+    <member refid="classMetaBundle_1MetaBundlea21" kind="function"><name>prettySampleRate</name></member>
+    <member refid="classMetaBundle_1MetaBundlee0" kind="function"><name>prettyBitrate</name></member>
+    <member refid="classMetaBundle_1MetaBundlee1" kind="function"><name>prettyLength</name></member>
+    <member refid="classMetaBundle_1MetaBundlee2" kind="function"><name>prettyTime</name></member>
+    <member refid="classMetaBundle_1MetaBundlee3" kind="function"><name>zeroPad</name></member>
+    <member refid="classMetaBundle_1MetaBundlee4" kind="function"><name>prettyTitle</name></member>
+    <member refid="classMetaBundle_1MetaBundles0" kind="variable"><name>Undetermined</name></member>
+    <member refid="classMetaBundle_1MetaBundles1" kind="variable"><name>Irrelevant</name></member>
+    <member refid="classMetaBundle_1MetaBundles2" kind="variable"><name>Unavailable</name></member>
+    <member refid="classMetaBundle_1MetaBundled0" kind="function"><name>init</name></member>
+    <member refid="classMetaBundle_1MetaBundled1" kind="function"><name>init</name></member>
+    <member refid="classMetaBundle_1MetaBundler0" kind="variable"><name>m_url</name></member>
+    <member refid="classMetaBundle_1MetaBundler1" kind="variable"><name>m_title</name></member>
+    <member refid="classMetaBundle_1MetaBundler2" kind="variable"><name>m_artist</name></member>
+    <member refid="classMetaBundle_1MetaBundler3" kind="variable"><name>m_album</name></member>
+    <member refid="classMetaBundle_1MetaBundler4" kind="variable"><name>m_year</name></member>
+    <member refid="classMetaBundle_1MetaBundler5" kind="variable"><name>m_comment</name></member>
+    <member refid="classMetaBundle_1MetaBundler6" kind="variable"><name>m_genre</name></member>
+    <member refid="classMetaBundle_1MetaBundler7" kind="variable"><name>m_track</name></member>
+    <member refid="classMetaBundle_1MetaBundler8" kind="variable"><name>m_bitrate</name></member>
+    <member refid="classMetaBundle_1MetaBundler9" kind="variable"><name>m_length</name></member>
+    <member refid="classMetaBundle_1MetaBundler10" kind="variable"><name>m_sampleRate</name></member>
+    <member refid="classMetaBundle_1MetaBundler11" kind="variable"><name>exists</name></member>
+    <member refid="classMetaBundle_1MetaBundleh0" kind="function"><name>prettyGeneric</name></member>
+  </compound>
+  <compound refid="classMyBrowser" kind="class"><name>MyBrowser</name>
+    <member refid="classMyBrowser_1MyBrowsera0" kind="function"><name>MyBrowser</name></member>
+    <member refid="classMyBrowser_1MyBrowsera1" kind="function"><name>~MyBrowser</name></member>
+    <member refid="classMyBrowser_1MyBrowsera2" kind="function"><name>urlSelected</name></member>
+    <member refid="classMyBrowser_1MyBrowsera3" kind="function"><name>saveHistory</name></member>
+    <member refid="classMyBrowser_1MyBrowsera4" kind="function"><name>removeHistory</name></member>
+    <member refid="classMyBrowser_1MyBrowsera5" kind="function"><name>getFile</name></member>
+    <member refid="classMyBrowser_1MyBrowsero0" kind="variable"><name>history</name></member>
+    <member refid="classMyBrowser_1MyBrowsero1" kind="variable"><name>it_history</name></member>
+    <member refid="classMyBrowser_1MyBrowsero2" kind="variable"><name>getfile</name></member>
+    <member refid="classMyBrowser_1MyBrowsero3" kind="variable"><name>home</name></member>
+    <member refid="classMyBrowser_1MyBrowseri0" kind="slot"><name>handleHome</name></member>
+    <member refid="classMyBrowser_1MyBrowseri1" kind="slot"><name>handleRefresh</name></member>
+    <member refid="classMyBrowser_1MyBrowseri2" kind="slot"><name>handleNext</name></member>
+    <member refid="classMyBrowser_1MyBrowseri3" kind="slot"><name>handlePrevious</name></member>
+    <member refid="classMyBrowser_1MyBrowseri4" kind="slot"><name>handleURL</name></member>
+    <member refid="classMyBrowser_1MyBrowseri5" kind="slot"><name>handleCloseconnect</name></member>
+  </compound>
+  <compound refid="classMyplayer" kind="class"><name>Myplayer</name>
+    <member refid="classMyplayer_1Myplayera0" kind="function"><name>Myplayer</name></member>
+    <member refid="classMyplayer_1Myplayera1" kind="function"><name>~Myplayer</name></member>
+    <member refid="classMyplayer_1Myplayera2" kind="function"><name>handleMessage</name></member>
+    <member refid="classMyplayer_1Myplayeri0" kind="slot"><name>play</name></member>
+    <member refid="classMyplayer_1Myplayeri1" kind="slot"><name>play</name></member>
+    <member refid="classMyplayer_1Myplayeri2" kind="slot"><name>pause</name></member>
+    <member refid="classMyplayer_1Myplayeri3" kind="slot"><name>stop</name></member>
+    <member refid="classMyplayer_1Myplayeri4" kind="slot"><name>next</name></member>
+    <member refid="classMyplayer_1Myplayeri5" kind="slot"><name>previous</name></member>
+    <member refid="classMyplayer_1Myplayeri6" kind="slot"><name>increase_volume</name></member>
+    <member refid="classMyplayer_1Myplayeri7" kind="slot"><name>decrease_volume</name></member>
+    <member refid="classMyplayer_1Myplayeri8" kind="slot"><name>setVolume</name></member>
+    <member refid="classMyplayer_1Myplayeri9" kind="slot"><name>handleNext</name></member>
+    <member refid="classMyplayer_1Myplayeri10" kind="slot"><name>handlePrevious</name></member>
+    <member refid="classMyplayer_1Myplayeri11" kind="slot"><name>handlePosition</name></member>
+    <member refid="classMyplayer_1Myplayeri12" kind="slot"><name>handleRepeat</name></member>
+    <member refid="classMyplayer_1Myplayeri13" kind="slot"><name>handleRandom</name></member>
+    <member refid="classMyplayer_1Myplayeri14" kind="slot"><name>handleSlider</name></member>
+    <member refid="classMyplayer_1Myplayeri15" kind="slot"><name>handlePlayItem</name></member>
+    <member refid="classMyplayer_1Myplayeri16" kind="slot"><name>initlist</name></member>
+    <member refid="classMyplayer_1Myplayeri17" kind="slot"><name>add</name></member>
+    <member refid="classMyplayer_1Myplayeri18" kind="slot"><name>clearMedia</name></member>
+    <member refid="classMyplayer_1Myplayeri19" kind="slot"><name>removeMedia</name></member>
+    <member refid="classMyplayer_1Myplayerl0" kind="signal"><name>trackMessage</name></member>
+    <member refid="classMyplayer_1Myplayerl1" kind="signal"><name>volumeMessage</name></member>
+    <member refid="classMyplayer_1Myplayerl2" kind="signal"><name>positionMessage</name></member>
+    <member refid="classMyplayer_1Myplayery3" kind="enum"><name>PLAYSTATE</name></member>
+    <member refid="classMyplayer_1Myplayery3Myplayery0" kind="enumvalue"><name>Idle</name></member>
+    <member refid="classMyplayer_1Myplayery3Myplayery1" kind="enumvalue"><name>Pause</name></member>
+    <member refid="classMyplayer_1Myplayery3Myplayery2" kind="enumvalue"><name>Go</name></member>
+    <member refid="classMyplayer_1Myplayerd0" kind="function"><name>savePlaylist</name></member>
+    <member refid="classMyplayer_1Myplayerd1" kind="function"><name>restorePlaylist</name></member>
+    <member refid="classMyplayer_1Myplayerr0" kind="variable"><name>m_list</name></member>
+    <member refid="classMyplayer_1Myplayerr1" kind="variable"><name>it</name></member>
+    <member refid="classMyplayer_1Myplayerr2" kind="variable"><name>m_Vol</name></member>
+    <member refid="classMyplayer_1Myplayerr3" kind="variable"><name>m_repeat</name></member>
+    <member refid="classMyplayer_1Myplayerr4" kind="variable"><name>m_random</name></member>
+    <member refid="classMyplayer_1Myplayerr5" kind="variable"><name>state</name></member>
+  </compound>
+  <compound refid="classPlugin" kind="class"><name>Plugin</name>
+    <member refid="classPlugin_1Plugina0" kind="function"><name>Plugin</name></member>
+    <member refid="classPlugin_1Plugina1" kind="function"><name>~Plugin</name></member>
+  </compound>
+  <compound refid="classPluginManager" kind="class"><name>PluginManager</name>
+    <member refid="classPluginManager_1PluginManagere0" kind="function"><name>query</name></member>
+    <member refid="classPluginManager_1PluginManagere1" kind="function"><name>createFromQuery</name></member>
+    <member refid="classPluginManager_1PluginManagere2" kind="function"><name>createFromService</name></member>
+    <member refid="classPluginManager_1PluginManagere3" kind="function"><name>unload</name></member>
+    <member refid="classPluginManager_1PluginManagere4" kind="function"><name>getService</name></member>
+    <member refid="classPluginManager_1PluginManagere5" kind="function"><name>dump</name></member>
+    <member refid="classPluginManager_1PluginManagers0" kind="variable"><name>FrameworkVersion</name></member>
+    <member refid="classPluginManager_1PluginManagerh0" kind="function"><name>lookupPlugin</name></member>
+    <member refid="classPluginManager_1PluginManagerv0" kind="variable"><name>m_store</name></member>
+  </compound>
+  <compound refid="structPluginManager_1_1StoreItem" kind="struct"><name>PluginManager::StoreItem</name>
+    <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo0" kind="variable"><name>plugin</name></member>
+    <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo1" kind="variable"><name>library</name></member>
+    <member refid="structPluginManager_1_1StoreItem_1PluginManager_1_1StoreItemo2" kind="variable"><name>service</name></member>
+  </compound>
+  <compound refid="classQGLWidget" kind="class"><name>QGLWidget</name>
+  </compound>
+  <compound refid="classQtFileIconDrag" kind="class"><name>QtFileIconDrag</name>
+    <member refid="classQtFileIconDrag_1QtFileIconDraga0" kind="function"><name>QtFileIconDrag</name></member>
+    <member refid="classQtFileIconDrag_1QtFileIconDraga1" kind="function"><name>format</name></member>
+    <member refid="classQtFileIconDrag_1QtFileIconDraga2" kind="function"><name>encodedData</name></member>
+    <member refid="classQtFileIconDrag_1QtFileIconDraga3" kind="function"><name>append</name></member>
+    <member refid="classQtFileIconDrag_1QtFileIconDrage0" kind="function"><name>canDecode</name></member>
+    <member refid="classQtFileIconDrag_1QtFileIconDragr0" kind="variable"><name>urls</name></member>
+  </compound>
+  <compound refid="classQtFileIconView" kind="class"><name>QtFileIconView</name>
+    <member refid="classQtFileIconView_1QtFileIconVieww2" kind="enum"><name>ViewMode</name></member>
+    <member refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww0" kind="enumvalue"><name>Large</name></member>
+    <member refid="classQtFileIconView_1QtFileIconVieww2QtFileIconVieww1" kind="enumvalue"><name>Small</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewa0" kind="function"><name>QtFileIconView</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewa1" kind="function"><name>setViewMode</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewa2" kind="function"><name>viewMode</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewa3" kind="function"><name>setOpenItem</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewi0" kind="slot"><name>setDirectory</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewi1" kind="slot"><name>setDirectory</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewi2" kind="slot"><name>newDirectory</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewi3" kind="slot"><name>currentDir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewi4" kind="slot"><name>slotDeletCurrItem</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl0" kind="signal"><name>directoryChanged</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl1" kind="signal"><name>startReadDir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl2" kind="signal"><name>readNextDir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl3" kind="signal"><name>readDirDone</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl4" kind="signal"><name>enableUp</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl5" kind="signal"><name>disableUp</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl6" kind="signal"><name>enableMkdir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl7" kind="signal"><name>disableMkdir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl8" kind="signal"><name>signalAddFileToList</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewl9" kind="signal"><name>signalShowTheDetialofImage</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewb0" kind="function"><name>readDir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewb1" kind="function"><name>dragObject</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewb2" kind="function"><name>keyPressEvent</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp0" kind="variable"><name>viewDir</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp1" kind="variable"><name>newFolderNum</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp2" kind="variable"><name>sz</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp3" kind="variable"><name>pix</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp4" kind="variable"><name>vm</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp5" kind="variable"><name>openItem</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewp6" kind="variable"><name>flodertype</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj0" kind="slot"><name>itemDoubleClicked</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj1" kind="slot"><name>itemClicked</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj2" kind="slot"><name>slotDropped</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj3" kind="slot"><name>viewLarge</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj4" kind="slot"><name>viewSmall</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj5" kind="slot"><name>viewBottom</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj6" kind="slot"><name>viewRight</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj7" kind="slot"><name>flowEast</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj8" kind="slot"><name>flowSouth</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj9" kind="slot"><name>itemTextTruncate</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj10" kind="slot"><name>itemTextWordWrap</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj11" kind="slot"><name>sortAscending</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj12" kind="slot"><name>sortDescending</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj13" kind="slot"><name>arrangeItemsInGrid</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj14" kind="slot"><name>slotRightPressed</name></member>
+    <member refid="classQtFileIconView_1QtFileIconViewj15" kind="slot"><name>openFolder</name></member>
+  </compound>
+  <compound refid="classQtFileIconViewItem" kind="class"><name>QtFileIconViewItem</name>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemw4" kind="enum"><name>ItemType</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw0" kind="enumvalue"><name>File</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw1" kind="enumvalue"><name>Dir</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw2" kind="enumvalue"><name>Link</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemw4QtFileIconViewItemw3" kind="enumvalue"><name>Image</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema0" kind="function"><name>QtFileIconViewItem</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema1" kind="function"><name>~QtFileIconViewItem</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema2" kind="function"><name>type</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema3" kind="function"><name>filename</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema4" kind="function"><name>acceptDrop</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema5" kind="function"><name>setText</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema6" kind="function"><name>pixmap</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema7" kind="function"><name>dragEntered</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema8" kind="function"><name>dragLeft</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema9" kind="function"><name>viewModeChanged</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItema10" kind="function"><name>paintItem</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemo0" kind="variable"><name>img</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemo1" kind="variable"><name>p_img</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemb0" kind="function"><name>dropped</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp0" kind="variable"><name>itemFileName</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp1" kind="variable"><name>itemFileInfo</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp2" kind="variable"><name>itemType</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp3" kind="variable"><name>checkSetText</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp4" kind="variable"><name>timer</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp5" kind="variable"><name>vm</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemp6" kind="variable"><name>PixIndex</name></member>
+    <member refid="classQtFileIconViewItem_1QtFileIconViewItemn0" kind="friend"><name>QtFileIconView</name></member>
+  </compound>
+  <compound refid="classQWidget" kind="class"><name>QWidget</name>
+  </compound>
+  <compound refid="classAmarok_1_1RawScope" kind="class"><name>Amarok::RawScope</name>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopew0" kind="typedef"><name>_base_class</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea0" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea1" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea2" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea3" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea4" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea5" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea6" kind="function"><name>operator=</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea7" kind="function"><name>operator Arts::StereoEffect</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea8" kind="function"><name>operator Arts::SynthModule</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea9" kind="function"><name>_base</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea10" kind="function"><name>autoSuspend</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea11" kind="function"><name>start</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea12" kind="function"><name>stop</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea13" kind="function"><name>streamInit</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea14" kind="function"><name>streamStart</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea15" kind="function"><name>streamEnd</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea16" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea17" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopea18" kind="function"><name>scope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopee0" kind="function"><name>null</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopee1" kind="function"><name>_from_base</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopeb0" kind="function"><name>RawScope</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScoped0" kind="function"><name>_method_call</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScoper0" kind="variable"><name>_cache</name></member>
+    <member refid="classAmarok_1_1RawScope_1Amarok_1_1RawScopeh0" kind="function"><name>_Creator</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1RawScope__base" kind="class"><name>Amarok::RawScope_base</name>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba5" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba6" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela9" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela10" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela11" kind="function"><name>scope</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" kind="variable"><name>_IID</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1RawScope__skel" kind="class"><name>Amarok::RawScope_skel</name>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skela0" kind="function"><name>RawScope_skel</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skela1" kind="function"><name>_interfaceName</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skela2" kind="function"><name>_isCompatibleWith</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skela3" kind="function"><name>_buildMethodTable</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skela4" kind="function"><name>dispatch</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba5" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba6" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela9" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela10" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__skela11" kind="function"><name>scope</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skele0" kind="function"><name>_interfaceNameSkel</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" kind="variable"><name>_IID</name></member>
+    <member refid="classAmarok_1_1RawScope__skel_1Amarok_1_1RawScope__skelb0" kind="function"><name>buffer_changed</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1RawScope__stub" kind="class"><name>Amarok::RawScope_stub</name>
+    <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba0" kind="function"><name>RawScope_stub</name></member>
+    <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba1" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba2" kind="function"><name>buffer</name></member>
+    <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stuba3" kind="function"><name>scope</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba4" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba5" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba6" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stuba7" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1RawScope__base_1Amarok_1_1RawScope__stubs0" kind="variable"><name>_IID</name></member>
+    <member refid="classAmarok_1_1RawScope__stub_1Amarok_1_1RawScope__stubb0" kind="function"><name>RawScope_stub</name></member>
+  </compound>
+  <compound refid="classSkinButton" kind="class"><name>SkinButton</name>
+    <member refid="classSkinButton_1SkinButtona0" kind="function"><name>SkinButton</name></member>
+    <member refid="classSkinButton_1SkinButtona1" kind="function"><name>SkinButton</name></member>
+    <member refid="classSkinButton_1SkinButtona2" kind="function"><name>setPixmaps</name></member>
+    <member refid="classSkinButton_1SkinButtono0" kind="variable"><name>Down</name></member>
+    <member refid="classSkinButton_1SkinButtonb0" kind="function"><name>drawButton</name></member>
+    <member refid="classSkinButton_1SkinButtonp0" kind="variable"><name>pixRegular</name></member>
+    <member refid="classSkinButton_1SkinButtonp1" kind="variable"><name>pixActive</name></member>
+    <member refid="classSkinButton_1SkinButtonj0" kind="slot"><name>slotPressed</name></member>
+    <member refid="classSkinButton_1SkinButtonj1" kind="slot"><name>slotReleased</name></member>
+  </compound>
+  <compound refid="classSonogram" kind="class"><name>Sonogram</name>
+    <member refid="classSonogram_1Sonograma0" kind="function"><name>Sonogram</name></member>
+    <member refid="classSonogram_1Sonograma1" kind="function"><name>~Sonogram</name></member>
+    <member refid="classSonogram_1Sonograma2" kind="function"><name>init</name></member>
+    <member refid="classSonogram_1Sonograma3" kind="function"><name>analyze</name></member>
+    <member refid="classSonogram_1Sonograma4" kind="function"><name>transform</name></member>
+    <member refid="classSonogram_1Sonograma5" kind="function"><name>demo</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonograma6" kind="function"><name>background</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonograma7" kind="function"><name>canvas</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea0" kind="function"><name>timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basea1" kind="function"><name>height</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb0" kind="function"><name>canvas</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb1" kind="function"><name>eraseCanvas</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb2" kind="function"><name>paintEvent</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb3" kind="function"><name>resizeEvent</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb4" kind="function"><name>paletteChange</name></member>
+    <member refid="classAnalyzer_1_1Base2D_1Sonogramb5" kind="function"><name>polish</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb1" kind="function"><name>drawFrame</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb4" kind="function"><name>paused</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Baseb6" kind="function"><name>changeTimeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep0" kind="variable"><name>m_timer</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep1" kind="variable"><name>m_timeout</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep2" kind="variable"><name>m_height</name></member>
+    <member refid="classAnalyzer_1_1Base_1Analyzer_1_1Basep3" kind="variable"><name>m_fht</name></member>
+  </compound>
+  <compound refid="classSubBarAlbumClock" kind="class"><name>SubBarAlbumClock</name>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka0" kind="function"><name>SubBarAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka1" kind="function"><name>~SubBarAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka3" kind="function"><name>SubBarAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka4" kind="function"><name>~SubBarAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocka5" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocko0" kind="variable"><name>SubBarBtnAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocko1" kind="variable"><name>SubBarBtnPrevious</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocko2" kind="variable"><name>SubBarBtnPlayNPause</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocko3" kind="variable"><name>SubBarBtnNext</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocko4" kind="variable"><name>SubBarBtnAlbumClock</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocki0" kind="slot"><name>slotChangeMode</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocki1" kind="slot"><name>slotChangePlayNPauseBtnGraphic</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocki2" kind="slot"><name>slotChangeMode</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocki3" kind="slot"><name>slotChangePlayNPauseBtnGraphic</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockl0" kind="signal"><name>signalAlbumClockModeChangeToDispalyArea</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockl1" kind="signal"><name>signalAlbumClockModeChangeToDispalyArea</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky2" kind="enum"><name>SLIDESHOWSTATE</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" kind="enumvalue"><name>GO</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" kind="enumvalue"><name>STOP</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3" kind="enum"><name>SLIDESHOWSTATE</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky0" kind="enumvalue"><name>GO</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClocky3SubBarAlbumClocky1" kind="enumvalue"><name>STOP</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockd0" kind="function"><name>ChangeButtonGraphic</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockd1" kind="function"><name>ChangeButtonGraphic</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockr0" kind="variable"><name>btnGraphic</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockr1" kind="variable"><name>pixBackground</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockr2" kind="variable"><name>slideshowstate</name></member>
+    <member refid="classSubBarAlbumClock_1SubBarAlbumClockr3" kind="variable"><name>btnGraphic</name></member>
+  </compound>
+  <compound refid="classSubBarClose" kind="class"><name>SubBarClose</name>
+    <member refid="classSubBarClose_1SubBarClosea0" kind="function"><name>SubBarClose</name></member>
+    <member refid="classSubBarClose_1SubBarClosea1" kind="function"><name>~SubBarClose</name></member>
+    <member refid="classSubBarClose_1SubBarClosea2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarClose_1SubBarCloser0" kind="variable"><name>pixBackground</name></member>
+  </compound>
+  <compound refid="classSubBarInternet" kind="class"><name>SubBarInternet</name>
+    <member refid="classSubBarInternet_1SubBarInterneta0" kind="function"><name>SubBarInternet</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneta1" kind="function"><name>~SubBarInternet</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneta2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneto0" kind="variable"><name>SubBarBtnInternet_Home</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneto1" kind="variable"><name>SubBarBtnInternet_Previous</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneto2" kind="variable"><name>SubBarBtnInternet_Next</name></member>
+    <member refid="classSubBarInternet_1SubBarInterneto3" kind="variable"><name>SubBarBtnInternet_Search</name></member>
+    <member refid="classSubBarInternet_1SubBarInternetr0" kind="variable"><name>pixBackground</name></member>
+    <member refid="classSubBarInternet_1SubBarInternetr1" kind="variable"><name>BtnGraphic</name></member>
+  </compound>
+  <compound refid="classSubBarManagement" kind="class"><name>SubBarManagement</name>
+    <member refid="classSubBarManagement_1SubBarManagementa0" kind="function"><name>SubBarManagement</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementa1" kind="function"><name>~SubBarManagement</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementa2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarManagement_1SubBarManagemento0" kind="variable"><name>SubBtnMM_Floder</name></member>
+    <member refid="classSubBarManagement_1SubBarManagemento1" kind="variable"><name>SubBtnMM_Paste</name></member>
+    <member refid="classSubBarManagement_1SubBarManagemento2" kind="variable"><name>SubBtnMM_Cut</name></member>
+    <member refid="classSubBarManagement_1SubBarManagemento3" kind="variable"><name>SubBtnMM_Delete</name></member>
+    <member refid="classSubBarManagement_1SubBarManagemento4" kind="variable"><name>SubBtnMM_MusicNImage</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementi0" kind="slot"><name>slotBtnMkFloder</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementi1" kind="slot"><name>slotBtnPaste</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementi2" kind="slot"><name>slotBtnCut</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementi3" kind="slot"><name>slotBtnDelete</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementl0" kind="signal"><name>signalManagementModeChange</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementl1" kind="signal"><name>signalMkdir</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementl2" kind="signal"><name>singalPasteFUNC_MEDIAM</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementl3" kind="signal"><name>signalCutFUNC_MEDIAM</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementl4" kind="signal"><name>signalDeleteItem</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementy2" kind="enum"><name>MM_TYPE</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy0" kind="enumvalue"><name>em_mmimage</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementy2SubBarManagementy1" kind="enumvalue"><name>em_mmmusic</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementr0" kind="variable"><name>pixBackground</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementr1" kind="variable"><name>BtnGraphic</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementr2" kind="variable"><name>MMtype</name></member>
+    <member refid="classSubBarManagement_1SubBarManagementk0" kind="slot"><name>slotChangeBtnImage</name></member>
+  </compound>
+  <compound refid="classSubBarPlayer" kind="class"><name>SubBarPlayer</name>
+    <member refid="classSubBarPlayer_1SubBarPlayera0" kind="function"><name>SubBarPlayer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayera1" kind="function"><name>~SubBarPlayer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayera2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayera3" kind="function"><name>SubBarPlayer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayera4" kind="function"><name>~SubBarPlayer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayera5" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero0" kind="variable"><name>m_pAnalyzer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero1" kind="variable"><name>playerPosition</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero2" kind="variable"><name>forwardTimer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero3" kind="variable"><name>backwardTimer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero4" kind="variable"><name>m_player</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero5" kind="variable"><name>receive_list</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero6" kind="variable"><name>SubBtnPlayer_PlayNPause</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero7" kind="variable"><name>SubBtnPlayer_Backword</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero8" kind="variable"><name>SubBtn_Forward</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero9" kind="variable"><name>testBtn</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero10" kind="variable"><name>m_pAnalyzer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero11" kind="variable"><name>playerPosition</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero12" kind="variable"><name>forwardTimer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero13" kind="variable"><name>backwardTimer</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero14" kind="variable"><name>m_player</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayero15" kind="variable"><name>SubBtnPlayer_PlayNPause</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri0" kind="slot"><name>handlePosition</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri1" kind="slot"><name>handleVolume</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri2" kind="slot"><name>handleSliderReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri3" kind="slot"><name>handleSliderPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri4" kind="slot"><name>handleNextPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri5" kind="slot"><name>handleNextReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri6" kind="slot"><name>handlePreviousPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri7" kind="slot"><name>handlePreviousReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri8" kind="slot"><name>handleForward</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri9" kind="slot"><name>handleBackward</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri10" kind="slot"><name>handleMessage</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri11" kind="slot"><name>insertMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri12" kind="slot"><name>removeMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri13" kind="slot"><name>initMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri14" kind="slot"><name>ChangeBtnPlayPauseGraphic</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri15" kind="slot"><name>slotReceivePL</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri16" kind="slot"><name>slotReadList</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri17" kind="slot"><name>slotClickFromPlayList</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri18" kind="slot"><name>handlePosition</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri19" kind="slot"><name>handleVolume</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri20" kind="slot"><name>handleSliderReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri21" kind="slot"><name>handleSliderPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri22" kind="slot"><name>handleNextPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri23" kind="slot"><name>handleNextReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri24" kind="slot"><name>handlePreviousPressed</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri25" kind="slot"><name>handlePreviousReleased</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri26" kind="slot"><name>handleForward</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri27" kind="slot"><name>handleBackward</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri28" kind="slot"><name>handleMessage</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri29" kind="slot"><name>insertMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri30" kind="slot"><name>removeMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri31" kind="slot"><name>initMedia</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri32" kind="slot"><name>ChangeBtnPlayPauseGraphic</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri33" kind="slot"><name>slotReceivePL</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri34" kind="slot"><name>slotReadList</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayeri35" kind="slot"><name>slotClickFromPlayList</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerl0" kind="signal"><name>signalRequestPL</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerl1" kind="signal"><name>signalRequestPL</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery2" kind="enum"><name>PLAYSTATE</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" kind="enumvalue"><name>PAUSE</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" kind="enumvalue"><name>GO</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery3" kind="enum"><name>PLAYSTATE</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery0" kind="enumvalue"><name>PAUSE</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayery3SubBarPlayery1" kind="enumvalue"><name>GO</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerr0" kind="variable"><name>pixBackground</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerr1" kind="variable"><name>BtnGraphic</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerr2" kind="variable"><name>state</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerr3" kind="variable"><name>slider</name></member>
+    <member refid="classSubBarPlayer_1SubBarPlayerr4" kind="variable"><name>BtnGraphic</name></member>
+  </compound>
+  <compound refid="classSubBarSetting" kind="class"><name>SubBarSetting</name>
+    <member refid="classSubBarSetting_1SubBarSettinga0" kind="function"><name>SubBarSetting</name></member>
+    <member refid="classSubBarSetting_1SubBarSettinga1" kind="function"><name>~SubBarSetting</name></member>
+    <member refid="classSubBarSetting_1SubBarSettinga2" kind="function"><name>xSetup</name></member>
+    <member refid="classSubBarSetting_1SubBarSettingr0" kind="variable"><name>pixBackground</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1Synth__STEREO__XFADE" kind="class"><name>Amarok::Synth_STEREO_XFADE</name>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEw0" kind="typedef"><name>_base_class</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa0" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa1" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa2" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa3" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa4" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa5" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa6" kind="function"><name>operator=</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa7" kind="function"><name>operator Arts::SynthModule</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa8" kind="function"><name>_base</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa9" kind="function"><name>autoSuspend</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa10" kind="function"><name>start</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa11" kind="function"><name>stop</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa12" kind="function"><name>streamInit</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa13" kind="function"><name>streamStart</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa14" kind="function"><name>streamEnd</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa15" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEa16" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe0" kind="function"><name>null</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEe1" kind="function"><name>_from_base</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEb0" kind="function"><name>Synth_STEREO_XFADE</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEd0" kind="function"><name>_method_call</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEr0" kind="variable"><name>_cache</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE_1Amarok_1_1Synth__STEREO__XFADEh0" kind="function"><name>_Creator</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1Synth__STEREO__XFADE__base" kind="class"><name>Amarok::Synth_STEREO_XFADE_base</name>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba4" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba5" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela9" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela10" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" kind="variable"><name>_IID</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1Synth__STEREO__XFADE__skel" kind="class"><name>Amarok::Synth_STEREO_XFADE_skel</name>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skela0" kind="function"><name>Synth_STEREO_XFADE_skel</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skela1" kind="function"><name>_interfaceName</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skela2" kind="function"><name>_isCompatibleWith</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skela3" kind="function"><name>_buildMethodTable</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skela4" kind="function"><name>dispatch</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba4" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba5" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela9" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__skela10" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skele0" kind="function"><name>_interfaceNameSkel</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" kind="variable"><name>_IID</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelb0" kind="function"><name>percentage_changed</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp0" kind="variable"><name>invalue1_l</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp1" kind="variable"><name>invalue1_r</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp2" kind="variable"><name>invalue2_l</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp3" kind="variable"><name>invalue2_r</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp4" kind="variable"><name>outvalue_l</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__skel_1Amarok_1_1Synth__STEREO__XFADE__skelp5" kind="variable"><name>outvalue_r</name></member>
+  </compound>
+  <compound refid="classAmarok_1_1Synth__STEREO__XFADE__stub" kind="class"><name>Amarok::Synth_STEREO_XFADE_stub</name>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba0" kind="function"><name>Synth_STEREO_XFADE_stub</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba1" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stuba2" kind="function"><name>percentage</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba3" kind="function"><name>_copy</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba4" kind="function"><name>_defaultPortsIn</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba5" kind="function"><name>_defaultPortsOut</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stuba6" kind="function"><name>_cast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube0" kind="function"><name>_create</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube1" kind="function"><name>_fromString</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube2" kind="function"><name>_fromReference</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stube3" kind="function"><name>_fromDynamicCast</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__base_1Amarok_1_1Synth__STEREO__XFADE__stubs0" kind="variable"><name>_IID</name></member>
+    <member refid="classAmarok_1_1Synth__STEREO__XFADE__stub_1Amarok_1_1Synth__STEREO__XFADE__stubb0" kind="function"><name>Synth_STEREO_XFADE_stub</name></member>
+  </compound>
+  <compound refid="namespaceAmarok" kind="namespace"><name>Amarok</name>
+  </compound>
+  <compound refid="namespaceAnalyzer" kind="namespace"><name>Analyzer</name>
+    <member refid="namespaceAnalyzer_1a0" kind="typedef"><name>Scope</name></member>
+    <member refid="namespaceAnalyzer_1a1" kind="function"><name>interpolate</name></member>
+    <member refid="namespaceAnalyzer_1a2" kind="function"><name>initSin</name></member>
+  </compound>
+  <compound refid="namespaceKDE" kind="namespace"><name>KDE</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespaceTagLib" kind="namespace"><name>TagLib</name>
+  </compound>
+  <compound refid="amarokarts_8cc" kind="file"><name>amarokarts.cc</name>
+    <member refid="amarokarts_8cc_1a0" kind="function"><name>_dispatch_Amarok_Synth_STEREO_XFADE_00</name></member>
+    <member refid="amarokarts_8cc_1a1" kind="function"><name>_dispatch_Amarok_Synth_STEREO_XFADE_01</name></member>
+    <member refid="amarokarts_8cc_1a2" kind="function"><name>_dispatch_Amarok_RawScope_00</name></member>
+    <member refid="amarokarts_8cc_1a3" kind="function"><name>_dispatch_Amarok_RawScope_01</name></member>
+    <member refid="amarokarts_8cc_1a4" kind="function"><name>_dispatch_Amarok_RawScope_02</name></member>
+    <member refid="amarokarts_8cc_1a5" kind="function"><name>IDLFileReg_amarokarts</name></member>
+  </compound>
+  <compound refid="amarokarts_8h" kind="file"><name>amarokarts.h</name>
+  </compound>
+  <compound refid="amarokconfig_8cpp" kind="file"><name>amarokconfig.cpp</name>
+    <member refid="amarokconfig_8cpp_1a0" kind="variable"><name>staticDeleter</name></member>
+  </compound>
+  <compound refid="amarokconfig_8h" kind="file"><name>amarokconfig.h</name>
+  </compound>
+  <compound refid="analyzerbase_8cpp" kind="file"><name>analyzerbase.cpp</name>
+  </compound>
+  <compound refid="analyzerbase_8h" kind="file"><name>analyzerbase.h</name>
+    <member refid="analyzerbase_8h_1a0" kind="define"><name>QGLWidget</name></member>
+  </compound>
+  <compound refid="analyzerbase_8moc" kind="file"><name>analyzerbase.moc</name>
+    <member refid="analyzerbase_8moc_1a0" kind="function"><name>cleanUp_Analyzer__Base2D</name></member>
+    <member refid="analyzerbase_8moc_1a1" kind="function"><name>cleanUp_Analyzer__Base3D</name></member>
+  </compound>
+  <compound refid="artsengine_8cpp" kind="file"><name>artsengine.cpp</name>
+  </compound>
+  <compound refid="artsengine_8h" kind="file"><name>artsengine.h</name>
+  </compound>
+  <compound refid="artsengine_8moc" kind="file"><name>artsengine.moc</name>
+    <member refid="artsengine_8moc_1a0" kind="function"><name>cleanUp_ArtsEngine</name></member>
+  </compound>
+  <compound refid="asd_8cpp" kind="file"><name>asd.cpp</name>
+  </compound>
+  <compound refid="config_8h" kind="file"><name>config.h</name>
+    <member refid="config_8h_1a0" kind="define"><name>HAVE_CRYPT</name></member>
+    <member refid="config_8h_1a1" kind="define"><name>HAVE_DLFCN_H</name></member>
+    <member refid="config_8h_1a2" kind="define"><name>HAVE_INTTYPES_H</name></member>
+    <member refid="config_8h_1a3" kind="define"><name>HAVE_LIBJPEG</name></member>
+    <member refid="config_8h_1a4" kind="define"><name>HAVE_LIBPNG</name></member>
+    <member refid="config_8h_1a5" kind="define"><name>HAVE_LIBPTHREAD</name></member>
+    <member refid="config_8h_1a6" kind="define"><name>HAVE_LIBZ</name></member>
+    <member refid="config_8h_1a7" kind="define"><name>HAVE_MEMORY_H</name></member>
+    <member refid="config_8h_1a8" kind="define"><name>HAVE_RES_INIT</name></member>
+    <member refid="config_8h_1a9" kind="define"><name>HAVE_SGI_STL</name></member>
+    <member refid="config_8h_1a10" kind="define"><name>HAVE_SNPRINTF</name></member>
+    <member refid="config_8h_1a11" kind="define"><name>HAVE_STDINT_H</name></member>
+    <member refid="config_8h_1a12" kind="define"><name>HAVE_STDLIB_H</name></member>
+    <member refid="config_8h_1a13" kind="define"><name>HAVE_STRINGS_H</name></member>
+    <member refid="config_8h_1a14" kind="define"><name>HAVE_STRING_H</name></member>
+    <member refid="config_8h_1a15" kind="define"><name>HAVE_SYS_STAT_H</name></member>
+    <member refid="config_8h_1a16" kind="define"><name>HAVE_SYS_TYPES_H</name></member>
+    <member refid="config_8h_1a17" kind="define"><name>HAVE_UNISTD_H</name></member>
+    <member refid="config_8h_1a18" kind="define"><name>HAVE_VSNPRINTF</name></member>
+    <member refid="config_8h_1a19" kind="define"><name>KDELIBSUFF</name></member>
+    <member refid="config_8h_1a20" kind="define"><name>KDEMAXPATHLEN</name></member>
+    <member refid="config_8h_1a21" kind="define"><name>PACKAGE</name></member>
+    <member refid="config_8h_1a22" kind="define"><name>PACKAGE_BUGREPORT</name></member>
+    <member refid="config_8h_1a23" kind="define"><name>PACKAGE_NAME</name></member>
+    <member refid="config_8h_1a24" kind="define"><name>PACKAGE_STRING</name></member>
+    <member refid="config_8h_1a25" kind="define"><name>PACKAGE_TARNAME</name></member>
+    <member refid="config_8h_1a26" kind="define"><name>PACKAGE_VERSION</name></member>
+    <member refid="config_8h_1a27" kind="define"><name>SIZEOF_CHAR_P</name></member>
+    <member refid="config_8h_1a28" kind="define"><name>SIZEOF_INT</name></member>
+    <member refid="config_8h_1a29" kind="define"><name>SIZEOF_LONG</name></member>
+    <member refid="config_8h_1a30" kind="define"><name>SIZEOF_SHORT</name></member>
+    <member refid="config_8h_1a31" kind="define"><name>SIZEOF_SIZE_T</name></member>
+    <member refid="config_8h_1a32" kind="define"><name>SIZEOF_UNSIGNED_LONG</name></member>
+    <member refid="config_8h_1a33" kind="define"><name>STDC_HEADERS</name></member>
+    <member refid="config_8h_1a34" kind="define"><name>VERSION</name></member>
+    <member refid="config_8h_1a35" kind="define"><name>ksize_t</name></member>
+    <member refid="config_8h_1a36" kind="function"><name>strlcat</name></member>
+    <member refid="config_8h_1a37" kind="function"><name>strlcpy</name></member>
+  </compound>
+  <compound refid="dirview_8cpp" kind="file"><name>dirview.cpp</name>
+    <member refid="dirview_8cpp_1a0" kind="variable"><name>folder_locked</name></member>
+    <member refid="dirview_8cpp_1a1" kind="variable"><name>pix_file</name></member>
+    <member refid="dirview_8cpp_1a2" kind="variable"><name>folderLocked</name></member>
+    <member refid="dirview_8cpp_1a3" kind="variable"><name>folderClosed</name></member>
+    <member refid="dirview_8cpp_1a4" kind="variable"><name>folderOpen</name></member>
+    <member refid="dirview_8cpp_1a5" kind="variable"><name>fileNormal</name></member>
+    <member refid="dirview_8cpp_1a6" kind="variable"><name>autoopenTime</name></member>
+  </compound>
+  <compound refid="dirview_8h" kind="file"><name>dirview.h</name>
+  </compound>
+  <compound refid="dirview_8moc_8cc" kind="file"><name>dirview.moc.cc</name>
+    <member refid="dirview_8moc_8cc_1a0" kind="function"><name>cleanUp_DirectoryView</name></member>
+  </compound>
+  <compound refid="displayarea_8cpp" kind="file"><name>displayarea.cpp</name>
+  </compound>
+  <compound refid="displayarea_8h" kind="file"><name>displayarea.h</name>
+  </compound>
+  <compound refid="displayarea_8moc" kind="file"><name>displayarea.moc</name>
+    <member refid="displayarea_8moc_1a0" kind="function"><name>cleanUp_DisplayArea</name></member>
+  </compound>
+  <compound refid="DownFile_8cpp" kind="file"><name>DownFile.cpp</name>
+  </compound>
+  <compound refid="DownFile_8h" kind="file"><name>DownFile.h</name>
+  </compound>
+  <compound refid="DownFile_8moc" kind="file"><name>DownFile.moc</name>
+    <member refid="DownFile_8moc_1a0" kind="function"><name>cleanUp_DownFile</name></member>
+  </compound>
+  <compound refid="enginebase_8cpp" kind="file"><name>enginebase.cpp</name>
+  </compound>
+  <compound refid="enginebase_8h" kind="file"><name>enginebase.h</name>
+  </compound>
+  <compound refid="enginebase_8moc" kind="file"><name>enginebase.moc</name>
+    <member refid="enginebase_8moc_1a0" kind="function"><name>cleanUp_EngineBase</name></member>
+  </compound>
+  <compound refid="enginecontroller_8cpp" kind="file"><name>enginecontroller.cpp</name>
+    <member refid="enginecontroller_8cpp_1a0" kind="variable"><name>dummyEngine</name></member>
+  </compound>
+  <compound refid="enginecontroller_8h" kind="file"><name>enginecontroller.h</name>
+  </compound>
+  <compound refid="enginecontroller_8moc" kind="file"><name>enginecontroller.moc</name>
+    <member refid="enginecontroller_8moc_1a0" kind="function"><name>cleanUp_EngineController</name></member>
+  </compound>
+  <compound refid="engineobserver_8cpp" kind="file"><name>engineobserver.cpp</name>
+  </compound>
+  <compound refid="engineobserver_8h" kind="file"><name>engineobserver.h</name>
+  </compound>
+  <compound refid="enum_8h" kind="file"><name>enum.h</name>
+    <member refid="enum_8h_1a21" kind="enum"><name>HDASS_FUNCTION_STATE</name></member>
+    <member refid="enum_8h_1a21a0" kind="enumvalue"><name>em_internet</name></member>
+    <member refid="enum_8h_1a21a1" kind="enumvalue"><name>em_player</name></member>
+    <member refid="enum_8h_1a21a2" kind="enumvalue"><name>em_management</name></member>
+    <member refid="enum_8h_1a21a3" kind="enumvalue"><name>em_albumclock</name></member>
+    <member refid="enum_8h_1a21a4" kind="enumvalue"><name>em_setting</name></member>
+    <member refid="enum_8h_1a21a5" kind="enumvalue"><name>em_close</name></member>
+    <member refid="enum_8h_1a21a6" kind="enumvalue"><name>em_imagedetial</name></member>
+    <member refid="enum_8h_1a22" kind="enum"><name>HDASS_ALBUMCLOCK_STATE</name></member>
+    <member refid="enum_8h_1a22a7" kind="enumvalue"><name>em_album</name></member>
+    <member refid="enum_8h_1a22a8" kind="enumvalue"><name>em_clock</name></member>
+    <member refid="enum_8h_1a23" kind="enum"><name>HDASS_DISPLAY_MODE</name></member>
+    <member refid="enum_8h_1a23a9" kind="enumvalue"><name>em_display_internet</name></member>
+    <member refid="enum_8h_1a23a10" kind="enumvalue"><name>em_display_player</name></member>
+    <member refid="enum_8h_1a23a11" kind="enumvalue"><name>em_display_management</name></member>
+    <member refid="enum_8h_1a23a12" kind="enumvalue"><name>em_display_album</name></member>
+    <member refid="enum_8h_1a23a13" kind="enumvalue"><name>em_display_clock</name></member>
+    <member refid="enum_8h_1a23a14" kind="enumvalue"><name>em_display_search</name></member>
+    <member refid="enum_8h_1a23a15" kind="enumvalue"><name>em_display_setting</name></member>
+    <member refid="enum_8h_1a23a16" kind="enumvalue"><name>em_display_close</name></member>
+    <member refid="enum_8h_1a24" kind="enum"><name>HDASS_ACTION_TYPE</name></member>
+    <member refid="enum_8h_1a24a17" kind="enumvalue"><name>em_remove</name></member>
+    <member refid="enum_8h_1a24a18" kind="enumvalue"><name>em_cut</name></member>
+    <member refid="enum_8h_1a24a19" kind="enumvalue"><name>em_paste</name></member>
+    <member refid="enum_8h_1a24a20" kind="enumvalue"><name>mm_append</name></member>
+  </compound>
+  <compound refid="fht_8cpp" kind="file"><name>fht.cpp</name>
+    <member refid="fht_8cpp_1a0" kind="function"><name>sind</name></member>
+  </compound>
+  <compound refid="fht_8h" kind="file"><name>fht.h</name>
+  </compound>
+  <compound refid="function__control__area_8cpp" kind="file"><name>function_control_area.cpp</name>
+  </compound>
+  <compound refid="function__control__area_8h" kind="file"><name>function_control_area.h</name>
+  </compound>
+  <compound refid="function__control__area_8moc" kind="file"><name>function_control_area.moc</name>
+    <member refid="function__control__area_8moc_1a0" kind="function"><name>cleanUp_Function_Control_Area</name></member>
+  </compound>
+  <compound refid="functionbar_8cpp" kind="file"><name>functionbar.cpp</name>
+  </compound>
+  <compound refid="functionbar_8h" kind="file"><name>functionbar.h</name>
+  </compound>
+  <compound refid="functionbar_8moc" kind="file"><name>functionbar.moc</name>
+    <member refid="functionbar_8moc_1a0" kind="function"><name>cleanUp_FunctionBar</name></member>
+  </compound>
+  <compound refid="global__define_8h" kind="file"><name>global_define.h</name>
+    <member refid="global__define_8h_1a0" kind="define"><name>TRACE</name></member>
+    <member refid="global__define_8h_1a1" kind="define"><name>MAX_PLAYLIST_NUM</name></member>
+    <member refid="global__define_8h_1a2" kind="variable"><name>GlobalSetting</name></member>
+  </compound>
+  <compound refid="hdass08_8cpp" kind="file"><name>hdass08.cpp</name>
+  </compound>
+  <compound refid="hdass08_8h" kind="file"><name>hdass08.h</name>
+  </compound>
+  <compound refid="hdass08_8moc" kind="file"><name>hdass08.moc</name>
+    <member refid="hdass08_8moc_1a0" kind="function"><name>cleanUp_HDASS08</name></member>
+  </compound>
+  <compound refid="hdassalbum_8cpp" kind="file"><name>hdassalbum.cpp</name>
+  </compound>
+  <compound refid="hdassalbum_8h" kind="file"><name>hdassalbum.h</name>
+  </compound>
+  <compound refid="hdassalbum_8moc" kind="file"><name>hdassalbum.moc</name>
+    <member refid="hdassalbum_8moc_1a0" kind="function"><name>cleanUp_hdassAlbum</name></member>
+  </compound>
+  <compound refid="hdassclock_8cpp" kind="file"><name>hdassclock.cpp</name>
+  </compound>
+  <compound refid="hdassclock_8h" kind="file"><name>hdassclock.h</name>
+  </compound>
+  <compound refid="hdassclock_8moc" kind="file"><name>hdassclock.moc</name>
+    <member refid="hdassclock_8moc_1a0" kind="function"><name>cleanUp_hdassClock</name></member>
+  </compound>
+  <compound refid="hdassglobalsetting_8cpp" kind="file"><name>hdassglobalsetting.cpp</name>
+  </compound>
+  <compound refid="hdassglobalsetting_8h" kind="file"><name>hdassglobalsetting.h</name>
+  </compound>
+  <compound refid="hdassglobalsetting_8moc" kind="file"><name>hdassglobalsetting.moc</name>
+    <member refid="hdassglobalsetting_8moc_1a0" kind="function"><name>cleanUp_HDASSGlobalSetting</name></member>
+  </compound>
+  <compound refid="hdassimagedetial_8cpp" kind="file"><name>hdassimagedetial.cpp</name>
+  </compound>
+  <compound refid="hdassimagedetial_8h" kind="file"><name>hdassimagedetial.h</name>
+  </compound>
+  <compound refid="hdassimagedetial_8moc" kind="file"><name>hdassimagedetial.moc</name>
+    <member refid="hdassimagedetial_8moc_1a0" kind="function"><name>cleanUp_hdassImageDetial</name></member>
+  </compound>
+  <compound refid="hdassplaylist_8cpp" kind="file"><name>hdassplaylist.cpp</name>
+  </compound>
+  <compound refid="hdassplaylist_8h" kind="file"><name>hdassplaylist.h</name>
+  </compound>
+  <compound refid="hdassplaylist_8moc" kind="file"><name>hdassplaylist.moc</name>
+    <member refid="hdassplaylist_8moc_1a0" kind="function"><name>cleanUp_hdassplaylist</name></member>
+  </compound>
+  <compound refid="hdassplaylistitem_8cpp" kind="file"><name>hdassplaylistitem.cpp</name>
+  </compound>
+  <compound refid="src_2hdassplaylistitem_8cpp" kind="file"><name>src/hdassplaylistitem.cpp</name>
+  </compound>
+  <compound refid="hdassplaylistitem_8h" kind="file"><name>hdassplaylistitem.h</name>
+  </compound>
+  <compound refid="src_2hdassplaylistitem_8h" kind="file"><name>src/hdassplaylistitem.h</name>
+  </compound>
+  <compound refid="imagedetial_8cpp" kind="file"><name>imagedetial.cpp</name>
+  </compound>
+  <compound refid="imagedetial_8h" kind="file"><name>imagedetial.h</name>
+  </compound>
+  <compound refid="imagedetial_8moc" kind="file"><name>imagedetial.moc</name>
+    <member refid="imagedetial_8moc_1a0" kind="function"><name>cleanUp_ImageDetial</name></member>
+  </compound>
+  <compound refid="infoarea_8cpp" kind="file"><name>infoarea.cpp</name>
+  </compound>
+  <compound refid="infoarea_8h" kind="file"><name>infoarea.h</name>
+  </compound>
+  <compound refid="infoarea_8moc" kind="file"><name>infoarea.moc</name>
+    <member refid="infoarea_8moc_1a0" kind="function"><name>cleanUp_InfoArea</name></member>
+  </compound>
+  <compound refid="keyboard_8cpp" kind="file"><name>keyboard.cpp</name>
+    <member refid="keyboard_8cpp_1a0" kind="define"><name>KEYNUMS</name></member>
+    <member refid="keyboard_8cpp_1a1" kind="variable"><name>KeyPos</name></member>
+  </compound>
+  <compound refid="keyboard_8h" kind="file"><name>keyboard.h</name>
+  </compound>
+  <compound refid="keyboard_8moc" kind="file"><name>keyboard.moc</name>
+    <member refid="keyboard_8moc_1a0" kind="function"><name>cleanUp_keyboard</name></member>
+  </compound>
+  <compound refid="keyboard__key_8cpp" kind="file"><name>keyboard_key.cpp</name>
+  </compound>
+  <compound refid="keyboard__key_8h" kind="file"><name>keyboard_key.h</name>
+  </compound>
+  <compound refid="keyboard__key_8moc" kind="file"><name>keyboard_key.moc</name>
+    <member refid="keyboard__key_8moc_1a0" kind="function"><name>cleanUp_keyboard_key</name></member>
+  </compound>
+  <compound refid="keyboard__key__rest_8cpp" kind="file"><name>keyboard_key_rest.cpp</name>
+  </compound>
+  <compound refid="kstartuplogo_8cpp" kind="file"><name>kstartuplogo.cpp</name>
+  </compound>
+  <compound refid="kstartuplogo_8h" kind="file"><name>kstartuplogo.h</name>
+  </compound>
+  <compound refid="kstartuplogo_8moc" kind="file"><name>kstartuplogo.moc</name>
+    <member refid="kstartuplogo_8moc_1a0" kind="function"><name>cleanUp_KStartupLogo</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a5" kind="function"><name>HDASS_INIT</name></member>
+    <member refid="main_8cpp_1a6" kind="function"><name>main</name></member>
+    <member refid="main_8cpp_1a0" kind="variable"><name>intHDASS_FUNCTION_STATE</name></member>
+    <member refid="main_8cpp_1a1" kind="variable"><name>GlobalSetting</name></member>
+    <member refid="main_8cpp_1a2" kind="variable"><name>description</name></member>
+    <member refid="main_8cpp_1a3" kind="variable"><name>version</name></member>
+    <member refid="main_8cpp_1a4" kind="variable"><name>options</name></member>
+  </compound>
+  <compound refid="main_8h" kind="file"><name>main.h</name>
+    <member refid="main_8h_1a0" kind="variable"><name>mainWin</name></member>
+  </compound>
+  <compound refid="mediamanagement_8cpp" kind="file"><name>mediamanagement.cpp</name>
+  </compound>
+  <compound refid="mediamanagement_8h" kind="file"><name>mediamanagement.h</name>
+  </compound>
+  <compound refid="mediamanagement_8moc" kind="file"><name>mediamanagement.moc</name>
+    <member refid="mediamanagement_8moc_1a0" kind="function"><name>cleanUp_mediamanagement</name></member>
+  </compound>
+  <compound refid="metabundle_8cpp" kind="file"><name>metabundle.cpp</name>
+    <member refid="metabundle_8cpp_1a0" kind="variable"><name>bitrateStore</name></member>
+  </compound>
+  <compound refid="metabundle_8h" kind="file"><name>metabundle.h</name>
+  </compound>
+  <compound refid="MyBrowser_8cpp" kind="file"><name>MyBrowser.cpp</name>
+  </compound>
+  <compound refid="MyBrowser_8h" kind="file"><name>MyBrowser.h</name>
+  </compound>
+  <compound refid="MyBrowser_8moc" kind="file"><name>MyBrowser.moc</name>
+    <member refid="MyBrowser_8moc_1a0" kind="function"><name>cleanUp_MyBrowser</name></member>
+  </compound>
+  <compound refid="Myplayer_8cpp" kind="file"><name>Myplayer.cpp</name>
+  </compound>
+  <compound refid="Myplayer_8h" kind="file"><name>Myplayer.h</name>
+  </compound>
+  <compound refid="Myplayer_8moc" kind="file"><name>Myplayer.moc</name>
+    <member refid="Myplayer_8moc_1a0" kind="function"><name>cleanUp_Myplayer</name></member>
+  </compound>
+  <compound refid="plugin_8cpp" kind="file"><name>plugin.cpp</name>
+  </compound>
+  <compound refid="plugin_8h" kind="file"><name>plugin.h</name>
+    <member refid="plugin_8h_1a0" kind="define"><name>AMAROK_EXPORT_PLUGIN</name></member>
+  </compound>
+  <compound refid="pluginmanager_8cpp" kind="file"><name>pluginmanager.cpp</name>
+  </compound>
+  <compound refid="pluginmanager_8h" kind="file"><name>pluginmanager.h</name>
+  </compound>
+  <compound refid="qfileiconview_8cpp" kind="file"><name>qfileiconview.cpp</name>
+    <member refid="qfileiconview_8cpp_1a2" kind="function"><name>cleanup</name></member>
+    <member refid="qfileiconview_8cpp_1a3" kind="function"><name>addBorder</name></member>
+    <member refid="qfileiconview_8cpp_1a4" kind="function"><name>isRoot</name></member>
+    <member refid="qfileiconview_8cpp_1a0" kind="variable"><name>iconFileLarge</name></member>
+    <member refid="qfileiconview_8cpp_1a1" kind="variable"><name>ArrayImage</name></member>
+  </compound>
+  <compound refid="qfileiconview_8h" kind="file"><name>qfileiconview.h</name>
+    <member refid="qfileiconview_8h_1a3" kind="enum"><name>FloderType</name></member>
+    <member refid="qfileiconview_8h_1a3a0" kind="enumvalue"><name>Image</name></member>
+    <member refid="qfileiconview_8h_1a3a1" kind="enumvalue"><name>Music</name></member>
+    <member refid="qfileiconview_8h_1a2" kind="function"><name>addBorder</name></member>
+  </compound>
+  <compound refid="qfileiconview_8moc_8cc" kind="file"><name>qfileiconview.moc.cc</name>
+    <member refid="qfileiconview_8moc_8cc_1a0" kind="function"><name>cleanUp_QtFileIconDrag</name></member>
+    <member refid="qfileiconview_8moc_8cc_1a1" kind="function"><name>cleanUp_QtFileIconView</name></member>
+  </compound>
+  <compound refid="skinbutton_8cpp" kind="file"><name>skinbutton.cpp</name>
+  </compound>
+  <compound refid="skinbutton_8h" kind="file"><name>skinbutton.h</name>
+  </compound>
+  <compound refid="skinbutton_8moc_8cc" kind="file"><name>skinbutton.moc.cc</name>
+    <member refid="skinbutton_8moc_8cc_1a0" kind="function"><name>cleanUp_SkinButton</name></member>
+  </compound>
+  <compound refid="sonogram_8cpp" kind="file"><name>sonogram.cpp</name>
+  </compound>
+  <compound refid="sonogram_8h" kind="file"><name>sonogram.h</name>
+  </compound>
+  <compound refid="src_2subbaralbumclock_8cpp" kind="file"><name>src/subbaralbumclock.cpp</name>
+  </compound>
+  <compound refid="subbaralbumclock_8cpp" kind="file"><name>subbaralbumclock.cpp</name>
+  </compound>
+  <compound refid="src_2subbaralbumclock_8h" kind="file"><name>src/subbaralbumclock.h</name>
+  </compound>
+  <compound refid="subbaralbumclock_8h" kind="file"><name>subbaralbumclock.h</name>
+  </compound>
+  <compound refid="subbaralbumclock_8moc" kind="file"><name>subbaralbumclock.moc</name>
+    <member refid="subbaralbumclock_8moc_1a0" kind="function"><name>cleanUp_SubBarAlbumClock</name></member>
+  </compound>
+  <compound refid="subbarclose_8cpp" kind="file"><name>subbarclose.cpp</name>
+  </compound>
+  <compound refid="subbarclose_8h" kind="file"><name>subbarclose.h</name>
+  </compound>
+  <compound refid="subbarclose_8moc" kind="file"><name>subbarclose.moc</name>
+    <member refid="subbarclose_8moc_1a0" kind="function"><name>cleanUp_SubBarClose</name></member>
+  </compound>
+  <compound refid="subbarinternet_8cpp" kind="file"><name>subbarinternet.cpp</name>
+  </compound>
+  <compound refid="subbarinternet_8h" kind="file"><name>subbarinternet.h</name>
+  </compound>
+  <compound refid="subbarinternet_8moc" kind="file"><name>subbarinternet.moc</name>
+    <member refid="subbarinternet_8moc_1a0" kind="function"><name>cleanUp_SubBarInternet</name></member>
+  </compound>
+  <compound refid="subbarmanagement_8cpp" kind="file"><name>subbarmanagement.cpp</name>
+  </compound>
+  <compound refid="subbarmanagement_8h" kind="file"><name>subbarmanagement.h</name>
+  </compound>
+  <compound refid="subbarmanagement_8moc" kind="file"><name>subbarmanagement.moc</name>
+    <member refid="subbarmanagement_8moc_1a0" kind="function"><name>cleanUp_SubBarManagement</name></member>
+  </compound>
+  <compound refid="src_2subbarplayer_8cpp" kind="file"><name>src/subbarplayer.cpp</name>
+  </compound>
+  <compound refid="subbarplayer_8cpp" kind="file"><name>subbarplayer.cpp</name>
+  </compound>
+  <compound refid="src_2subbarplayer_8h" kind="file"><name>src/subbarplayer.h</name>
+  </compound>
+  <compound refid="subbarplayer_8h" kind="file"><name>subbarplayer.h</name>
+  </compound>
+  <compound refid="subbarplayer_8moc" kind="file"><name>subbarplayer.moc</name>
+    <member refid="subbarplayer_8moc_1a0" kind="function"><name>cleanUp_SubBarPlayer</name></member>
+  </compound>
+  <compound refid="subbarsetting_8cpp" kind="file"><name>subbarsetting.cpp</name>
+  </compound>
+  <compound refid="subbarsetting_8h" kind="file"><name>subbarsetting.h</name>
+  </compound>
+  <compound refid="subbarsetting_8moc" kind="file"><name>subbarsetting.moc</name>
+    <member refid="subbarsetting_8moc_1a0" kind="function"><name>cleanUp_SubBarSetting</name></member>
+  </compound>
+</doxygenindex>

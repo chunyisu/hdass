@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="main_8h" kind="file">
+    <compoundname>main.h</compoundname>
+    <includes refid="hdass08_8h" local="yes">hdass08.h</includes>
+    <incdepgraph>
+      <node id="4109">
+        <label>qlistview.h</label>
+      </node>
+      <node id="4089">
+        <label>config.h</label>
+        <link refid="config_8h"/>
+      </node>
+      <node id="4068">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4070" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+        <childnode refid="4075" relation="include">
+        </childnode>
+        <childnode refid="4078" relation="include">
+        </childnode>
+        <childnode refid="4079" relation="include">
+        </childnode>
+        <childnode refid="4092" relation="include">
+        </childnode>
+        <childnode refid="4093" relation="include">
+        </childnode>
+        <childnode refid="4094" relation="include">
+        </childnode>
+      </node>
+      <node id="4082">
+        <label>qtimer.h</label>
+      </node>
+      <node id="4116">
+        <label>qsplitter.h</label>
+      </node>
+      <node id="4102">
+        <label>qfile.h</label>
+      </node>
+      <node id="4075">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+        <childnode refid="4070" relation="include">
+        </childnode>
+      </node>
+      <node id="4098">
+        <label>qdatetime.h</label>
+      </node>
+      <node id="4108">
+        <label>infoarea.h</label>
+        <link refid="infoarea_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4109" relation="include">
+        </childnode>
+        <childnode refid="4110" relation="include">
+        </childnode>
+        <childnode refid="4111" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+        <childnode refid="4070" relation="include">
+        </childnode>
+        <childnode refid="4112" relation="include">
+        </childnode>
+        <childnode refid="4113" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+      </node>
+      <node id="4085">
+        <label>Myplayer.h</label>
+        <link refid="Myplayer_8h"/>
+        <childnode refid="4086" relation="include">
+        </childnode>
+        <childnode refid="4088" relation="include">
+        </childnode>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+      </node>
+      <node id="4121">
+        <label>qiconview.h</label>
+      </node>
+      <node id="4110">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="4112">
+        <label>hdassplaylistitem.h</label>
+        <link refid="src_2hdassplaylistitem_8h"/>
+        <childnode refid="4109" relation="include">
+        </childnode>
+      </node>
+      <node id="4077">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4073">
+        <label>qstring.h</label>
+      </node>
+      <node id="4127">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4076">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton_8h"/>
+        <childnode refid="4077" relation="include">
+        </childnode>
+      </node>
+      <node id="4081">
+        <label>qslider.h</label>
+      </node>
+      <node id="4072">
+        <label>qobject.h</label>
+      </node>
+      <node id="4084">
+        <label>kurl.h</label>
+      </node>
+      <node id="4099">
+        <label>MyBrowser.h</label>
+        <link refid="MyBrowser_8h"/>
+        <childnode refid="4100" relation="include">
+        </childnode>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4105" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+      </node>
+      <node id="4113">
+        <label>hdassplaylist.h</label>
+        <link refid="hdassplaylist_8h"/>
+        <childnode refid="4072" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4102" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+      </node>
+      <node id="4086">
+        <label>metabundle.h</label>
+        <link refid="metabundle_8h"/>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4087" relation="include">
+        </childnode>
+      </node>
+      <node id="4067">
+        <label>kmainwindow.h</label>
+      </node>
+      <node id="4101">
+        <label>qhttp.h</label>
+      </node>
+      <node id="4120">
+        <label>qiconset.h</label>
+      </node>
+      <node id="4094">
+        <label>subbarclose.h</label>
+        <link refid="subbarclose_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+      </node>
+      <node id="4092">
+        <label>subbarmanagement.h</label>
+        <link refid="subbarmanagement_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+      </node>
+      <node id="4122">
+        <label>imagedetial.h</label>
+        <link refid="imagedetial_8h"/>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4106" relation="include">
+        </childnode>
+      </node>
+      <node id="4107">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="4096">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+        <childnode refid="4097" relation="include">
+        </childnode>
+        <childnode refid="4099" relation="include">
+        </childnode>
+        <childnode refid="4106" relation="include">
+        </childnode>
+        <childnode refid="4108" relation="include">
+        </childnode>
+        <childnode refid="4114" relation="include">
+        </childnode>
+      </node>
+      <node id="4074">
+        <label>enum.h</label>
+        <link refid="enum_8h"/>
+      </node>
+      <node id="4117">
+        <label>qdir.h</label>
+      </node>
+      <node id="4083">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="4103">
+        <label>kio/jobclasses.h</label>
+      </node>
+      <node id="4097">
+        <label>hdassclock.h</label>
+        <link refid="hdassclock_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4098" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+      </node>
+      <node id="4104">
+        <label>kio/job.h</label>
+      </node>
+      <node id="4087">
+        <label>klocale.h</label>
+      </node>
+      <node id="4119">
+        <label>qfileiconview.h</label>
+        <link refid="qfileiconview_8h"/>
+        <childnode refid="4120" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4115" relation="include">
+        </childnode>
+        <childnode refid="4117" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+        <childnode refid="4121" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+      </node>
+      <node id="4064">
+        <label>main.h</label>
+        <link refid="main.h"/>
+        <childnode refid="4065" relation="include">
+        </childnode>
+      </node>
+      <node id="4090">
+        <label>fht.h</label>
+        <link refid="fht_8h"/>
+      </node>
+      <node id="4100">
+        <label>DownFile.h</label>
+        <link refid="DownFile_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4101" relation="include">
+        </childnode>
+        <childnode refid="4102" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4103" relation="include">
+        </childnode>
+        <childnode refid="4104" relation="include">
+        </childnode>
+      </node>
+      <node id="4088">
+        <label>analyzerbase.h</label>
+        <link refid="analyzerbase_8h"/>
+        <childnode refid="4089" relation="include">
+        </childnode>
+        <childnode refid="4090" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4091" relation="include">
+        </childnode>
+      </node>
+      <node id="4091">
+        <label>vector</label>
+      </node>
+      <node id="4080">
+        <label>qvariant.h</label>
+      </node>
+      <node id="4093">
+        <label>subbarsetting.h</label>
+        <link refid="subbarsetting_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+      </node>
+      <node id="4070">
+        <label>global_define.h</label>
+        <link refid="global__define_8h"/>
+        <childnode refid="4071" relation="include">
+        </childnode>
+      </node>
+      <node id="4078">
+        <label>subbarinternet.h</label>
+        <link refid="subbarinternet_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+      </node>
+      <node id="4071">
+        <label>hdassglobalsetting.h</label>
+        <link refid="hdassglobalsetting_8h"/>
+        <childnode refid="4072" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4074" relation="include">
+        </childnode>
+      </node>
+      <node id="4111">
+        <label>qlabel.h</label>
+      </node>
+      <node id="4118">
+        <label>dirview.h</label>
+        <link refid="dirview_8h"/>
+        <childnode refid="4109" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4102" relation="include">
+        </childnode>
+        <childnode refid="4115" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+      </node>
+      <node id="4069">
+        <label>qwidget.h</label>
+      </node>
+      <node id="4079">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="4080" relation="include">
+        </childnode>
+        <childnode refid="4081" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+        <childnode refid="4083" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4085" relation="include">
+        </childnode>
+        <childnode refid="4088" relation="include">
+        </childnode>
+      </node>
+      <node id="4095">
+        <label>function_control_area.h</label>
+        <link refid="function__control__area_8h"/>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4076" relation="include">
+        </childnode>
+        <childnode refid="4070" relation="include">
+        </childnode>
+        <childnode refid="4072" relation="include">
+        </childnode>
+      </node>
+      <node id="4105">
+        <label>khtml_part.h</label>
+      </node>
+      <node id="4065">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4067" relation="include">
+        </childnode>
+        <childnode refid="4068" relation="include">
+        </childnode>
+        <childnode refid="4095" relation="include">
+        </childnode>
+        <childnode refid="4096" relation="include">
+        </childnode>
+        <childnode refid="4113" relation="include">
+        </childnode>
+        <childnode refid="4123" relation="include">
+        </childnode>
+      </node>
+      <node id="4124">
+        <label>keyboard_key.h</label>
+        <link refid="keyboard__key_8h"/>
+        <childnode refid="4083" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+      </node>
+      <node id="4115">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="4114">
+        <label>mediamanagement.h</label>
+        <link refid="mediamanagement_8h"/>
+        <childnode refid="4115" relation="include">
+        </childnode>
+        <childnode refid="4116" relation="include">
+        </childnode>
+        <childnode refid="4117" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4118" relation="include">
+        </childnode>
+        <childnode refid="4119" relation="include">
+        </childnode>
+        <childnode refid="4122" relation="include">
+        </childnode>
+      </node>
+      <node id="4123">
+        <label>keyboard.h</label>
+        <link refid="keyboard_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4124" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4125" relation="include">
+        </childnode>
+        <childnode refid="4126" relation="include">
+        </childnode>
+        <childnode refid="4127" relation="include">
+        </childnode>
+        <childnode refid="4111" relation="include">
+        </childnode>
+        <childnode refid="4107" relation="include">
+        </childnode>
+      </node>
+      <node id="4106">
+        <label>hdassalbum.h</label>
+        <link refid="hdassalbum_8h"/>
+        <childnode refid="4069" relation="include">
+        </childnode>
+        <childnode refid="4084" relation="include">
+        </childnode>
+        <childnode refid="4107" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4102" relation="include">
+        </childnode>
+        <childnode refid="4073" relation="include">
+        </childnode>
+        <childnode refid="4082" relation="include">
+        </childnode>
+      </node>
+      <node id="4125">
+        <label>qbitmap.h</label>
+      </node>
+      <node id="4126">
+        <label>stdio.h</label>
+      </node>
+      <node id="4066">
+        <label>qpixmap.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="main_8h_1a0" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="classHDASS08" kindref="compound">HDASS08</ref> *</type>
+        <definition>HDASS08* mainWin</definition>
+        <argsstring></argsstring>
+        <name>mainWin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/main.h" line="4" bodystart="4" bodyend="-1"/>
+        <referencedby refid="main_8cpp_1a6" compoundref="main_8cpp" startline="50" endline="91">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_HDASS_MAIN_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_HDASS_MAIN_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="hdass08_8h" kindref="compound">hdass08.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="main_8h_1a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="classHDASS08" kindref="compound">HDASS08</ref><sp/>*<ref refid="main_8h_1a0" kindref="member">mainWin</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/main.h"/>
+  </compounddef>
+</doxygen>

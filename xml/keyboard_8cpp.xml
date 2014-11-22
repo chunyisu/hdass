@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="keyboard_8cpp" kind="file">
+    <compoundname>keyboard.cpp</compoundname>
+    <includes refid="keyboard_8h" local="yes">keyboard.h</includes>
+    <includes refid="keyboard_8moc" local="yes">keyboard.moc</includes>
+    <incdepgraph>
+      <node id="3890">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="3887">
+        <label>keyboard.moc</label>
+        <link refid="keyboard_8moc"/>
+        <childnode refid="3876" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+        <childnode refid="3889" relation="include">
+        </childnode>
+        <childnode refid="3890" relation="include">
+        </childnode>
+      </node>
+      <node id="3878">
+        <label>qstring.h</label>
+      </node>
+      <node id="3884">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3886">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="3880">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="3889">
+        <label>qapplication.h</label>
+      </node>
+      <node id="3885">
+        <label>qlabel.h</label>
+      </node>
+      <node id="3877">
+        <label>qwidget.h</label>
+      </node>
+      <node id="3888">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="3879">
+        <label>keyboard_key.h</label>
+        <link refid="keyboard__key_8h"/>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+      </node>
+      <node id="3876">
+        <label>keyboard.h</label>
+        <link refid="keyboard_8h"/>
+        <childnode refid="3877" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+        <childnode refid="3882" relation="include">
+        </childnode>
+        <childnode refid="3883" relation="include">
+        </childnode>
+        <childnode refid="3884" relation="include">
+        </childnode>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+      </node>
+      <node id="3882">
+        <label>qbitmap.h</label>
+      </node>
+      <node id="3883">
+        <label>stdio.h</label>
+      </node>
+      <node id="3881">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="3875">
+        <label>keyboard.cpp</label>
+        <link refid="keyboard.cpp"/>
+        <childnode refid="3876" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="keyboard_8cpp_1a0" prot="public" static="no">
+        <name>KEYNUMS</name>
+        <initializer>41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard.cpp" line="21" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="keyboard_8cpp_1a1" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int KeyPos[KEYNUMS][2]</definition>
+        <argsstring>[KEYNUMS][2]</argsstring>
+        <name>KeyPos</name>
+        <initializer>
+    {
+     {60,64},
+     {120,64},
+     {180,64},
+     {240,64},
+     {300,64},
+     {360,64},
+     {420,64},
+     {480,64},
+     {540,64},
+     {600,64},
+     {31,123},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {60,177},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {85,232},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {0,0},
+     {122,290},
+     {440,290},
+     {551,238},
+     {556,14},
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/keyboard.cpp" line="66" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classkeyboard_1keyboardd0" compoundref="keyboard_8cpp" startline="103" endline="433">keyboard::InitKey</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005<sp/>by<sp/>root<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>root@colicoli.linux<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="keyboard_8h" kindref="compound">keyboard.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="keyboard_8cpp_1a0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>KEYNUMS<sp/>41</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="keyboard_8cpp_1a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[<ref refid="keyboard_8cpp_1a0" kindref="member">KEYNUMS</ref>][2]=</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{60,64},</highlight><highlight class="comment">//1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{120,64},</highlight><highlight class="comment">//2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{180,64},</highlight><highlight class="comment">//3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{240,64},</highlight><highlight class="comment">//4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{300,64},</highlight><highlight class="comment">//5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{360,64},</highlight><highlight class="comment">//6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{420,64},</highlight><highlight class="comment">//7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{480,64},</highlight><highlight class="comment">//8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{540,64},</highlight><highlight class="comment">//9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{600,64},</highlight><highlight class="comment">//0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{31,123},</highlight><highlight class="comment">//Q</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//W</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//E</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//R</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//T</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//Y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//U</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//I</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//O</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//P</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{60,177},</highlight><highlight class="comment">//A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//S</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//F</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//G</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//J</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//K</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{85,232},</highlight><highlight class="comment">//Z</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//V</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//N</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//M</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{0,0},</highlight><highlight class="comment">//,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{122,290},</highlight><highlight class="comment">//SAPCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{440,290},</highlight><highlight class="comment">//CHANGE<sp/>BUTTON</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{551,238},</highlight><highlight class="comment">//ENTER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{556,14},</highlight><highlight class="comment">//BACK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="67" refid="classkeyboard_1keyboarda0" refkind="member"><highlight class="normal"><ref refid="classkeyboard_1keyboarda0" kindref="member">keyboard::keyboard</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/>:<sp/><ref refid="classQWidget" kindref="compound">QWidget</ref>(parent,<sp/>name),strString(0)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboarda2" kindref="member">xSEtup</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classkeyboard_1keyboarda1" refkind="member"><highlight class="normal"><ref refid="classkeyboard_1keyboarda1" kindref="member">keyboard::~keyboard</ref>()</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77" refid="classkeyboard_1keyboarda2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboarda2" kindref="member">keyboard::xSEtup</ref>()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Set<sp/>Background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>pixBackground.load(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardBackground.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>setBackgroundPixmap(pixBackground);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><ref refid="classkeyboard_1keyboardr42" kindref="member">pixMask</ref>=QBitmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardMask.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>setMask(<ref refid="classkeyboard_1keyboardr42" kindref="member">pixMask</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>resize(pixBackground.size());</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="classkeyboard_1keyboardd0" kindref="member">InitKey</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="classkeyboard_1keyboardr44" kindref="member">upper</ref>=</highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88" refid="classkeyboard_1keyboardi0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi0" kindref="member">keyboard::slotReceiveChar</ref>(QString<sp/>str_char)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>=<ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>+str_char;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;setText(<ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classkeyboard_1keyboardi1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi1" kindref="member">keyboard::slotSendString</ref>()</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classkeyboard_1keyboardl0" kindref="member">signalString</ref>(<ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classkeyboard_1keyboardi2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi2" kindref="member">keyboard::slotClearStr</ref>()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>=QString();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103" refid="classkeyboard_1keyboardd0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardd0" kindref="member">keyboard::InitKey</ref>()</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>keypos=0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width=58;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//1-&gt;0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr26" kindref="member">key_1</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classkeyboard__key" kindref="compound">keyboard_key</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr26" kindref="member">key_1</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr26" kindref="member">key_1</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr26" kindref="member">key_1</ref>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr26" kindref="member">key_1</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr27" kindref="member">key_2</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;2&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;</highlight><highlight class="stringliteral">@&quot;);
+<sp/><sp/><sp/>key_2-&gt;move(KeyPos[0][0]+width*keypos,KeyPos[0][1]);
+<sp/><sp/><sp/>key_2-&gt;show();
+<sp/><sp/><sp/>key_list.append(key_2);
+<sp/><sp/><sp/>connect(key_2,SIGNAL(signalSendChar(QString<sp/>)),this,SLOT(slotReceiveChar(QString<sp/>)));
+<sp/><sp/><sp/>keypos++;
+<sp/><sp/><sp/>
+<sp/><sp/><sp/>key_3=new<sp/>keyboard_key(this,&quot;</highlight><highlight class="normal">A_a&quot;,</highlight><highlight class="stringliteral">&quot;3&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr28" kindref="member">key_3</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr28" kindref="member">key_3</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr28" kindref="member">key_3</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr28" kindref="member">key_3</ref>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr29" kindref="member">key_4</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;4&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;$&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr29" kindref="member">key_4</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr29" kindref="member">key_4</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr29" kindref="member">key_4</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr29" kindref="member">key_4</ref>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr30" kindref="member">key_5</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;5&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;%&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr30" kindref="member">key_5</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr30" kindref="member">key_5</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr30" kindref="member">key_5</ref>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr30" kindref="member">key_5</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr31" kindref="member">key_6</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;6&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;^&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr31" kindref="member">key_6</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr31" kindref="member">key_6</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr31" kindref="member">key_6</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr31" kindref="member">key_6</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr32" kindref="member">key_7</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;7&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&amp;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr32" kindref="member">key_7</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr32" kindref="member">key_7</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr32" kindref="member">key_7</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr32" kindref="member">key_7</ref>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr33" kindref="member">key_8</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;8&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr33" kindref="member">key_8</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr33" kindref="member">key_8</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr33" kindref="member">key_8</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr33" kindref="member">key_8</ref>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr34" kindref="member">key_9</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;9&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;(&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr34" kindref="member">key_9</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr34" kindref="member">key_9</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr34" kindref="member">key_9</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr34" kindref="member">key_9</ref>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr35" kindref="member">key_0</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr35" kindref="member">key_0</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[0][1]);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr35" kindref="member">key_0</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr35" kindref="member">key_0</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr35" kindref="member">key_0</ref>);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Q-&gt;P</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/>keypos=0;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr16" kindref="member">key_q</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Q&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;q&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr16" kindref="member">key_q</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr16" kindref="member">key_q</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr16" kindref="member">key_q</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr16" kindref="member">key_q</ref>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr22" kindref="member">key_w</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;W&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr22" kindref="member">key_w</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr22" kindref="member">key_w</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr22" kindref="member">key_w</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr22" kindref="member">key_w</ref>);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr4" kindref="member">key_e</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;E&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;e&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr4" kindref="member">key_e</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr4" kindref="member">key_e</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr4" kindref="member">key_e</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr4" kindref="member">key_e</ref>);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr17" kindref="member">key_r</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;R&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr17" kindref="member">key_r</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr17" kindref="member">key_r</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr17" kindref="member">key_r</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr17" kindref="member">key_r</ref>);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr19" kindref="member">key_t</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;T&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr19" kindref="member">key_t</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr19" kindref="member">key_t</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr19" kindref="member">key_t</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr19" kindref="member">key_t</ref>);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr24" kindref="member">key_y</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Y&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;y&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr24" kindref="member">key_y</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr24" kindref="member">key_y</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr24" kindref="member">key_y</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr24" kindref="member">key_y</ref>);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr20" kindref="member">key_u</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;U&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;u&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr20" kindref="member">key_u</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr20" kindref="member">key_u</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr20" kindref="member">key_u</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr20" kindref="member">key_u</ref>);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr8" kindref="member">key_i</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;I&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;i&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr8" kindref="member">key_i</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr8" kindref="member">key_i</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr8" kindref="member">key_i</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr8" kindref="member">key_i</ref>);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr14" kindref="member">key_o</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;O&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;o&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr14" kindref="member">key_o</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr14" kindref="member">key_o</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr14" kindref="member">key_o</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr14" kindref="member">key_o</ref>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr15" kindref="member">key_p</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;P&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;p&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr15" kindref="member">key_p</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[10][1]);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr15" kindref="member">key_p</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr15" kindref="member">key_p</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr15" kindref="member">key_p</ref>);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//A-&gt;L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/>keypos=0;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr0" kindref="member">key_a</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;a&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr0" kindref="member">key_a</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr0" kindref="member">key_a</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr0" kindref="member">key_a</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr0" kindref="member">key_a</ref>);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr18" kindref="member">key_s</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;S&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;s&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr18" kindref="member">key_s</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr18" kindref="member">key_s</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr18" kindref="member">key_s</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr18" kindref="member">key_s</ref>);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;D&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;d&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr5" kindref="member">key_f</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;F&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;f&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr5" kindref="member">key_f</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr5" kindref="member">key_f</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr5" kindref="member">key_f</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr3" kindref="member">key_d</ref>);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr6" kindref="member">key_g</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;G&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;g&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr6" kindref="member">key_g</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr6" kindref="member">key_g</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr6" kindref="member">key_g</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr6" kindref="member">key_g</ref>);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr7" kindref="member">key_h</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;H&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;h&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr7" kindref="member">key_h</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr7" kindref="member">key_h</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr7" kindref="member">key_h</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr7" kindref="member">key_h</ref>);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr9" kindref="member">key_j</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;J&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;j&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr9" kindref="member">key_j</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr9" kindref="member">key_j</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr9" kindref="member">key_j</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr9" kindref="member">key_j</ref>);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr10" kindref="member">key_k</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;K&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;k&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr10" kindref="member">key_k</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr10" kindref="member">key_k</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr10" kindref="member">key_k</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr10" kindref="member">key_k</ref>);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr11" kindref="member">key_l</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;L&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;l&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr11" kindref="member">key_l</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[20][1]);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr11" kindref="member">key_l</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr11" kindref="member">key_l</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr11" kindref="member">key_l</ref>);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Z-&gt;COMMA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/>keypos=0;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr25" kindref="member">key_z</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Z&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;z&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr25" kindref="member">key_z</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr25" kindref="member">key_z</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr25" kindref="member">key_z</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr25" kindref="member">key_z</ref>);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr23" kindref="member">key_x</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;X&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;x&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr23" kindref="member">key_x</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr23" kindref="member">key_x</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr23" kindref="member">key_x</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr23" kindref="member">key_x</ref>);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr2" kindref="member">key_c</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;c&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr2" kindref="member">key_c</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr2" kindref="member">key_c</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr2" kindref="member">key_c</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr2" kindref="member">key_c</ref>);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr21" kindref="member">key_v</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;V&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;v&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr21" kindref="member">key_v</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr21" kindref="member">key_v</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr21" kindref="member">key_v</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr21" kindref="member">key_v</ref>);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr1" kindref="member">key_b</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;B&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;b&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr1" kindref="member">key_b</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr1" kindref="member">key_b</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr1" kindref="member">key_b</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr1" kindref="member">key_b</ref>);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr13" kindref="member">key_n</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;N&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr13" kindref="member">key_n</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr13" kindref="member">key_n</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr13" kindref="member">key_n</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr13" kindref="member">key_n</ref>);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr12" kindref="member">key_m</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;M&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr12" kindref="member">key_m</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr12" kindref="member">key_m</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr12" kindref="member">key_m</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr12" kindref="member">key_m</ref>);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr36" kindref="member">key_comma</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr36" kindref="member">key_comma</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][0]+width*keypos,<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[29][1]);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr36" kindref="member">key_comma</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr36" kindref="member">key_comma</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.append(<ref refid="classkeyboard_1keyboardr36" kindref="member">key_comma</ref>);</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/>keypos++;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//SPACE<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixSpace=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Space.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixSpaceAcitve=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Space-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr37" kindref="member">key_space</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr37" kindref="member">key_space</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[37][0],<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[37][1]);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr37" kindref="member">key_space</ref>-&gt;<ref refid="classkeyboard__key_1keyboard__keyi7" kindref="member">slotSetPixmap</ref>(pixSpace,pixSpaceAcitve);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr37" kindref="member">key_space</ref>,SIGNAL(signalSendChar(QString<sp/>)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi0" kindref="member">slotReceiveChar</ref>(QString<sp/>)));</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr37" kindref="member">key_space</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//CHANGE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixChange=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Change.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixChangeActive=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Change-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr39" kindref="member">key_change</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,keyboard_key::CHANGE);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr39" kindref="member">key_change</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[38][0],<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[38][1]);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr39" kindref="member">key_change</ref>-&gt;<ref refid="classkeyboard__key_1keyboard__keyi7" kindref="member">slotSetPixmap</ref>(pixChange,pixChangeActive);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr39" kindref="member">key_change</ref>,SIGNAL(signalChange()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi5" kindref="member">slotChange</ref>()));</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr39" kindref="member">key_change</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//ENTER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixEnter=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Enter.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixEnterAcitve=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-Enter-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr38" kindref="member">key_enter</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,keyboard_key::ENTER);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr38" kindref="member">key_enter</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[39][0],<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[39][1]);</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr38" kindref="member">key_enter</ref>-&gt;<ref refid="classkeyboard__key_1keyboard__keyi7" kindref="member">slotSetPixmap</ref>(pixEnter,pixEnterAcitve);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr38" kindref="member">key_enter</ref>,SIGNAL(<ref refid="classkeyboard_1keyboardl1" kindref="member">signalEnter</ref>()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi3" kindref="member">slotEnter</ref>()));</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr38" kindref="member">key_enter</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//BACKSPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixBackSpace=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-BackSpace.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/>QPixmap<sp/>pixBackSpaceActive=QPixmap(</highlight><highlight class="stringliteral">&quot;/root/kde_application/hdass08/skin/KeyBoardKey-BackSpace-Active.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr40" kindref="member">key_backspace</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>keyboard_key(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;A_a&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,keyboard_key::BACKSPACE);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr40" kindref="member">key_backspace</ref>-&gt;move(<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[40][0],<ref refid="keyboard_8cpp_1a1" kindref="member">KeyPos</ref>[40][1]);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr40" kindref="member">key_backspace</ref>-&gt;<ref refid="classkeyboard__key_1keyboard__keyi7" kindref="member">slotSetPixmap</ref>(pixBackSpace,pixBackSpaceActive);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/>connect(<ref refid="classkeyboard_1keyboardr40" kindref="member">key_backspace</ref>,SIGNAL(signalBackSpace()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(<ref refid="classkeyboard_1keyboardi4" kindref="member">slotBackSpace</ref>()));</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr40" kindref="member">key_backspace</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//String<sp/>Label</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//QPixmap<sp/>pixLabel=QPixmap(&quot;/root/kde_application/hdass08/skin/KeyBoardLabel.png&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>=</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;setPaletteBackgroundColor(QColor(203,244,254));</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;resize(400,28);</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Label-&gt;setPixmap(pixLabel);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;move(88,17);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/>QFont<sp/>f(<sp/></highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,<sp/>16,<sp/>QFont::Bold<sp/>);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;setFont(<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;setAlignment(Qt::AlignCenter);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Label-&gt;setText(&quot;HAHAA&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr43" kindref="member">Label</ref>-&gt;show();</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi4" kindref="member">keyboard::slotBackSpace</ref>()</highlight></codeline>
+<codeline lineno="429"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!strString.isEmpty())</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/>qWarning(</highlight><highlight class="stringliteral">&quot;BackSpace&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/>strString.truncate(strString.length()-1);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/>Label-&gt;setText(strString);</highlight></codeline>
+<codeline lineno="435" refid="classkeyboard_1keyboardi4" refkind="member"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="437"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi3" kindref="member">keyboard::slotEnter</ref>()</highlight></codeline>
+<codeline lineno="439"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/>qWarning(</highlight><highlight class="stringliteral">&quot;Enter&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classkeyboard_1keyboardl0" kindref="member">signalString</ref>(<ref refid="classkeyboard_1keyboardo0" kindref="member">strString</ref>);</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classkeyboard_1keyboardl1" kindref="member">signalEnter</ref>();</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardi2" kindref="member">slotClearStr</ref>();</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="445" refid="classkeyboard_1keyboardi3" refkind="member"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classkeyboard_1keyboardi5" kindref="member">keyboard::slotChange</ref>()</highlight></codeline>
+<codeline lineno="448"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>qWarning(</highlight><highlight class="stringliteral">&quot;change&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classkeyboard__key" kindref="compound">keyboard_key</ref><sp/>*indexkey;</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//DAVID<sp/>Change<sp/>the<sp/>uppercase/lowercase;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(upper)</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/>upper=</highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="454" refid="classkeyboard_1keyboardi5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classkeyboard_1keyboardr44" kindref="member">upper</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(indexkey=<ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.first();indexkey;indexkey=<ref refid="classkeyboard_1keyboardr45" kindref="member">key_list</ref>.next())</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>indexkey-&gt;<ref refid="classkeyboard__key_1keyboard__keyi0" kindref="member">slotSetCase</ref>(upper);</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="461"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="keyboard_8moc" kindref="compound">keyboard.moc</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/keyboard.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="classEngineSubject" kind="class" prot="public">
+    <compoundname>EngineSubject</compoundname>
+    <derivedcompoundref refid="classEngineController" prot="public" virt="non-virtual">EngineController</derivedcompoundref>
+    <includes refid="engineobserver_8h" local="no">engineobserver.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjecta0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::attach</definition>
+        <argsstring>(EngineObserver *observer)</argsstring>
+        <name>attach</name>
+        <param>
+          <type><ref refid="classEngineObserver" kindref="compound">EngineObserver</ref> *</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="48" bodystart="92" bodyend="97"/>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjecta1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::detach</definition>
+        <argsstring>(EngineObserver *observer)</argsstring>
+        <name>detach</name>
+        <param>
+          <type><ref refid="classEngineObserver" kindref="compound">EngineObserver</ref> *</type>
+          <declname>observer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="49" bodystart="100" bodyend="103"/>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EngineSubject::EngineSubject</definition>
+        <argsstring>()</argsstring>
+        <name>EngineSubject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="52" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>EngineSubject::~EngineSubject</definition>
+        <argsstring>()</argsstring>
+        <name>~EngineSubject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="53" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::stateChangedNotify</definition>
+        <argsstring>(EngineBase::EngineState)</argsstring>
+        <name>stateChangedNotify</name>
+        <param>
+          <type><ref refid="classEngineBase_1EngineBasew7" kindref="member">EngineBase::EngineState</ref></type>
+          <defname>state</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="54" bodystart="44" bodyend="53"/>
+        <references refid="classEngineObserver_1EngineObservera2" compoundref="engineobserver_8h" startline="34" endline="34">EngineObserver::engineStateChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri4" compoundref="enginecontroller_8cpp" startline="150" endline="160">EngineController::pause</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri2" compoundref="enginecontroller_8cpp" startline="111" endline="133">EngineController::play</referencedby>
+        <referencedby refid="classEngineController_1EngineControlleri5" compoundref="enginecontroller_8cpp" startline="164" endline="169">EngineController::stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::newMetaDataNotify</definition>
+        <argsstring>(const MetaBundle &amp;, bool)</argsstring>
+        <name>newMetaDataNotify</name>
+        <param>
+          <type>const <ref refid="classMetaBundle" kindref="compound">MetaBundle</ref> &amp;</type>
+          <defname>bundle</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>trackChanged</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="55" bodystart="56" bodyend="65"/>
+        <references refid="classEngineObserver_1EngineObservera3" compoundref="engineobserver_8h" startline="35" endline="35">EngineObserver::engineNewMetaData</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri3" compoundref="enginecontroller_8cpp" startline="136" endline="147">EngineController::play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::volumeChangedNotify</definition>
+        <argsstring>(int)</argsstring>
+        <name>volumeChangedNotify</name>
+        <param>
+          <type>int</type>
+          <defname>percent</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="56" bodystart="68" bodyend="77"/>
+        <references refid="classEngineObserver_1EngineObservera4" compoundref="engineobserver_8h" startline="36" endline="36">EngineObserver::engineVolumeChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+        <referencedby refid="classEngineController_1EngineControlleri9" compoundref="enginecontroller_8cpp" startline="193" endline="208">EngineController::setVolume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classEngineSubject_1EngineSubjectb5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EngineSubject::trackPositionChangedNotify</definition>
+        <argsstring>(long)</argsstring>
+        <name>trackPositionChangedNotify</name>
+        <param>
+          <type>long</type>
+          <defname>position</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="57" bodystart="80" bodyend="89"/>
+        <references refid="classEngineObserver_1EngineObservera5" compoundref="engineobserver_8h" startline="37" endline="37">EngineObserver::engineTrackPositionChanged</references>
+        <references refid="classEngineSubject_1EngineSubjectr0" compoundref="engineobserver_8h" startline="60">Observers</references>
+        <referencedby refid="classEngineController_1EngineControllerk0" compoundref="enginecontroller_8cpp" startline="220" endline="257">EngineController::slotMainTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEngineSubject_1EngineSubjectr0" prot="private" static="no" volatile="no" mutable="no">
+        <type>QPtrList&lt; <ref refid="classEngineObserver" kindref="compound">EngineObserver</ref> &gt;</type>
+        <definition>QPtrList&lt;EngineObserver&gt; EngineSubject::Observers</definition>
+        <argsstring></argsstring>
+        <name>Observers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/kde_application/hdass08/src/engineobserver.h" line="60" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classEngineSubject_1EngineSubjecta0" compoundref="engineobserver_8cpp" startline="92" endline="97">attach</referencedby>
+        <referencedby refid="classEngineSubject_1EngineSubjecta1" compoundref="engineobserver_8cpp" startline="100" endline="103">detach</referencedby>
+        <referencedby refid="classEngineSubject_1EngineSubjectb3" compoundref="engineobserver_8cpp" startline="56" endline="65">newMetaDataNotify</referencedby>
+        <referencedby refid="classEngineSubject_1EngineSubjectb2" compoundref="engineobserver_8cpp" startline="44" endline="53">stateChangedNotify</referencedby>
+        <referencedby refid="classEngineSubject_1EngineSubjectb5" compoundref="engineobserver_8cpp" startline="80" endline="89">trackPositionChangedNotify</referencedby>
+        <referencedby refid="classEngineSubject_1EngineSubjectb4" compoundref="engineobserver_8cpp" startline="68" endline="77">volumeChangedNotify</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Inherited by <ref refid="classEngineController" kindref="compound">EngineController</ref>. Notify observer functionality is captured in this class. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="401">
+        <label>EngineController</label>
+        <link refid="classEngineController"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>EngineSubject</label>
+        <link refid="classEngineSubject"/>
+      </node>
+    </inheritancegraph>
+    <location file="/root/kde_application/hdass08/src/engineobserver.h" line="46" bodystart="45" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classEngineSubject_1EngineSubjecta0" prot="public" virt="non-virtual"><scope>EngineSubject</scope><name>attach</name></member>
+      <member refid="classEngineSubject_1EngineSubjecta1" prot="public" virt="non-virtual"><scope>EngineSubject</scope><name>detach</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb0" prot="protected" virt="non-virtual"><scope>EngineSubject</scope><name>EngineSubject</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb3" prot="protected" virt="non-virtual"><scope>EngineSubject</scope><name>newMetaDataNotify</name></member>
+      <member refid="classEngineSubject_1EngineSubjectr0" prot="private" virt="non-virtual"><scope>EngineSubject</scope><name>Observers</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb2" prot="protected" virt="non-virtual"><scope>EngineSubject</scope><name>stateChangedNotify</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb5" prot="protected" virt="non-virtual"><scope>EngineSubject</scope><name>trackPositionChangedNotify</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb4" prot="protected" virt="non-virtual"><scope>EngineSubject</scope><name>volumeChangedNotify</name></member>
+      <member refid="classEngineSubject_1EngineSubjectb1" prot="protected" virt="virtual"><scope>EngineSubject</scope><name>~EngineSubject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

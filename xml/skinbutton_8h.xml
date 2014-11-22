@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="skinbutton_8h" kind="file">
+    <compoundname>skinbutton.h</compoundname>
+    <includes local="no">qbutton.h</includes>
+    <includedby refid="infoarea_8h" local="yes">infoarea.h</includedby>
+    <includedby refid="function__control__area_8h" local="yes">function_control_area.h</includedby>
+    <includedby refid="src_2subbaralbumclock_8h" local="yes">subbaralbumclock.h</includedby>
+    <includedby refid="subbarinternet_8h" local="yes">subbarinternet.h</includedby>
+    <includedby refid="src_2subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <includedby refid="subbarmanagement_8h" local="yes">subbarmanagement.h</includedby>
+    <includedby refid="skinbutton_8moc_8cc" local="yes">skinbutton.moc.cc</includedby>
+    <includedby refid="skinbutton_8cpp" local="yes">skinbutton.cpp</includedby>
+    <includedby refid="subbaralbumclock_8h" local="yes">subbaralbumclock.h</includedby>
+    <includedby refid="subbarplayer_8h" local="yes">subbarplayer.h</includedby>
+    <incdepgraph>
+      <node id="4489">
+        <label>qbutton.h</label>
+      </node>
+      <node id="4488">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton.h"/>
+        <childnode refid="4489" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4506">
+        <label>functionbar.h</label>
+        <link refid="functionbar_8h"/>
+        <childnode refid="4507" relation="include">
+        </childnode>
+        <childnode refid="4495" relation="include">
+        </childnode>
+        <childnode refid="4508" relation="include">
+        </childnode>
+      </node>
+      <node id="4505">
+        <label>subbaralbumclock.h</label>
+        <link refid="src_2subbaralbumclock_8h"/>
+        <childnode refid="4506" relation="include">
+        </childnode>
+        <childnode refid="4509" relation="include">
+        </childnode>
+        <childnode refid="4510" relation="include">
+        </childnode>
+      </node>
+      <node id="4491">
+        <label>infoarea.h</label>
+        <link refid="infoarea_8h"/>
+        <childnode refid="4492" relation="include">
+        </childnode>
+        <childnode refid="4500" relation="include">
+        </childnode>
+        <childnode refid="4501" relation="include">
+        </childnode>
+      </node>
+      <node id="4513">
+        <label>subbarinternet.moc</label>
+        <link refid="subbarinternet_8moc"/>
+        <childnode refid="4514" relation="include">
+        </childnode>
+      </node>
+      <node id="4490">
+        <label>skinbutton.h</label>
+        <link refid="skinbutton.h"/>
+        <childnode refid="4491" relation="include">
+        </childnode>
+        <childnode refid="4502" relation="include">
+        </childnode>
+        <childnode refid="4505" relation="include">
+        </childnode>
+        <childnode refid="4512" relation="include">
+        </childnode>
+        <childnode refid="4515" relation="include">
+        </childnode>
+        <childnode refid="4519" relation="include">
+        </childnode>
+        <childnode refid="4522" relation="include">
+        </childnode>
+        <childnode refid="4523" relation="include">
+        </childnode>
+        <childnode refid="4524" relation="include">
+        </childnode>
+        <childnode refid="4525" relation="include">
+        </childnode>
+      </node>
+      <node id="4524">
+        <label>subbaralbumclock.h</label>
+        <link refid="subbaralbumclock_8h"/>
+        <childnode refid="4511" relation="include">
+        </childnode>
+      </node>
+      <node id="4509">
+        <label>subbaralbumclock.moc</label>
+        <link refid="subbaralbumclock_8moc"/>
+        <childnode refid="4510" relation="include">
+        </childnode>
+        <childnode refid="4511" relation="include">
+        </childnode>
+      </node>
+      <node id="4525">
+        <label>subbarplayer.h</label>
+        <link refid="subbarplayer_8h"/>
+        <childnode refid="4518" relation="include">
+        </childnode>
+      </node>
+      <node id="4519">
+        <label>subbarmanagement.h</label>
+        <link refid="subbarmanagement_8h"/>
+        <childnode refid="4506" relation="include">
+        </childnode>
+        <childnode refid="4520" relation="include">
+        </childnode>
+        <childnode refid="4521" relation="include">
+        </childnode>
+      </node>
+      <node id="4500">
+        <label>infoarea.moc</label>
+        <link refid="infoarea_8moc"/>
+        <childnode refid="4501" relation="include">
+        </childnode>
+      </node>
+      <node id="4520">
+        <label>subbarmanagement.moc</label>
+        <link refid="subbarmanagement_8moc"/>
+        <childnode refid="4521" relation="include">
+        </childnode>
+      </node>
+      <node id="4492">
+        <label>displayarea.h</label>
+        <link refid="displayarea_8h"/>
+        <childnode refid="4493" relation="include">
+        </childnode>
+        <childnode refid="4495" relation="include">
+        </childnode>
+        <childnode refid="4494" relation="include">
+        </childnode>
+      </node>
+      <node id="4497">
+        <label>hdass08.cpp</label>
+        <link refid="hdass08_8cpp"/>
+      </node>
+      <node id="4493">
+        <label>displayarea.moc</label>
+        <link refid="displayarea_8moc"/>
+        <childnode refid="4494" relation="include">
+        </childnode>
+      </node>
+      <node id="4504">
+        <label>function_control_area.cpp</label>
+        <link refid="function__control__area_8cpp"/>
+      </node>
+      <node id="4498">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4508">
+        <label>functionbar.cpp</label>
+        <link refid="functionbar_8cpp"/>
+      </node>
+      <node id="4499">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="4522">
+        <label>skinbutton.moc.cc</label>
+        <link refid="skinbutton_8moc_8cc"/>
+      </node>
+      <node id="4501">
+        <label>infoarea.cpp</label>
+        <link refid="infoarea_8cpp"/>
+      </node>
+      <node id="4507">
+        <label>functionbar.moc</label>
+        <link refid="functionbar_8moc"/>
+        <childnode refid="4508" relation="include">
+        </childnode>
+      </node>
+      <node id="4518">
+        <label>subbarplayer.cpp</label>
+        <link refid="subbarplayer_8cpp"/>
+      </node>
+      <node id="4512">
+        <label>subbarinternet.h</label>
+        <link refid="subbarinternet_8h"/>
+        <childnode refid="4506" relation="include">
+        </childnode>
+        <childnode refid="4513" relation="include">
+        </childnode>
+        <childnode refid="4514" relation="include">
+        </childnode>
+      </node>
+      <node id="4503">
+        <label>function_control_area.moc</label>
+        <link refid="function__control__area_8moc"/>
+        <childnode refid="4504" relation="include">
+        </childnode>
+      </node>
+      <node id="4510">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="src_2subbaralbumclock_8cpp"/>
+      </node>
+      <node id="4515">
+        <label>subbarplayer.h</label>
+        <link refid="src_2subbarplayer_8h"/>
+        <childnode refid="4506" relation="include">
+        </childnode>
+        <childnode refid="4516" relation="include">
+        </childnode>
+        <childnode refid="4517" relation="include">
+        </childnode>
+      </node>
+      <node id="4502">
+        <label>function_control_area.h</label>
+        <link refid="function__control__area_8h"/>
+        <childnode refid="4503" relation="include">
+        </childnode>
+        <childnode refid="4495" relation="include">
+        </childnode>
+        <childnode refid="4504" relation="include">
+        </childnode>
+      </node>
+      <node id="4514">
+        <label>subbarinternet.cpp</label>
+        <link refid="subbarinternet_8cpp"/>
+      </node>
+      <node id="4516">
+        <label>subbarplayer.moc</label>
+        <link refid="subbarplayer_8moc"/>
+        <childnode refid="4517" relation="include">
+        </childnode>
+        <childnode refid="4518" relation="include">
+        </childnode>
+      </node>
+      <node id="4495">
+        <label>hdass08.h</label>
+        <link refid="hdass08_8h"/>
+        <childnode refid="4496" relation="include">
+        </childnode>
+        <childnode refid="4497" relation="include">
+        </childnode>
+        <childnode refid="4498" relation="include">
+        </childnode>
+        <childnode refid="4499" relation="include">
+        </childnode>
+      </node>
+      <node id="4521">
+        <label>subbarmanagement.cpp</label>
+        <link refid="subbarmanagement_8cpp"/>
+      </node>
+      <node id="4494">
+        <label>displayarea.cpp</label>
+        <link refid="displayarea_8cpp"/>
+      </node>
+      <node id="4496">
+        <label>hdass08.moc</label>
+        <link refid="hdass08_8moc"/>
+        <childnode refid="4497" relation="include">
+        </childnode>
+      </node>
+      <node id="4517">
+        <label>subbarplayer.cpp</label>
+        <link refid="src_2subbarplayer_8cpp"/>
+      </node>
+      <node id="4511">
+        <label>subbaralbumclock.cpp</label>
+        <link refid="subbaralbumclock_8cpp"/>
+      </node>
+      <node id="4523">
+        <label>skinbutton.cpp</label>
+        <link refid="skinbutton_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSkinButton">SkinButton</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SKINBUTTON_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SKINBUTTON_H</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qbutton.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QPixmap;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QPainter;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classSkinButton" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSkinButton" kindref="compound">SkinButton</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QButton</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSkinButton_1SkinButtona0" kindref="member">SkinButton</ref>(QPixmap<sp/>*pixmap,<sp/>QPixmap<sp/>*active,<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0,<sp/>WFlags<sp/>f<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSkinButton_1SkinButtona0" kindref="member">SkinButton</ref>(<ref refid="classQWidget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>=<sp/>0,<sp/>WFlags<sp/>f<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="classSkinButton_1SkinButtona2" kindref="member">setPixmaps</ref>(QPixmap<sp/>*regular,<sp/>QPixmap<sp/>*active);</highlight></codeline>
+<codeline lineno="18" refid="classSkinButton_1SkinButtono0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classSkinButton_1SkinButtono0" kindref="member">Down</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="classSkinButton_1SkinButtonp0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPixmap<sp/>*<ref refid="classSkinButton_1SkinButtonp0" kindref="member">pixRegular</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classSkinButton_1SkinButtonp1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPixmap<sp/>*<ref refid="classSkinButton_1SkinButtonp1" kindref="member">pixActive</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSkinButton_1SkinButtonb0" kindref="member">drawButton</ref>(QPainter<sp/>*p);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSkinButton_1SkinButtonj0" kindref="member">slotPressed</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSkinButton_1SkinButtonj1" kindref="member">slotReleased</ref>();<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/root/kde_application/hdass08/src/skinbutton.h"/>
+  </compounddef>
+</doxygen>

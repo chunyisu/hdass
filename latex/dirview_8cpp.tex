@@ -1,0 +1,172 @@
+\section{dirview.cpp File Reference}
+\label{dirview_8cpp}\index{dirview.cpp@{dirview.cpp}}
+
+
+{\tt \#include \char`\"{}dirview.h\char`\"{}}\par
+{\tt \#include $<$qdir.h$>$}\par
+{\tt \#include $<$qfile.h$>$}\par
+{\tt \#include $<$qfileinfo.h$>$}\par
+{\tt \#include $<$qpixmap.h$>$}\par
+{\tt \#include $<$qevent.h$>$}\par
+{\tt \#include $<$qpoint.h$>$}\par
+{\tt \#include $<$qmessagebox.h$>$}\par
+{\tt \#include $<$qdragobject.h$>$}\par
+{\tt \#include $<$qmime.h$>$}\par
+{\tt \#include $<$qstrlist.h$>$}\par
+{\tt \#include $<$qstringlist.h$>$}\par
+{\tt \#include $<$qapplication.h$>$}\par
+{\tt \#include $<$qheader.h$>$}\par
+{\tt \#include $<$kdebug.h$>$}\par
+{\tt \#include $<$qurl.h$>$}\par
+{\tt \#include $<$kio/job.h$>$}\par
+
+
+Include dependency graph for dirview.cpp:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=420pt]{dirview_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+const char $\ast$ {\bf folder\_\-locked} [$\,$]
+\item 
+const char $\ast$ {\bf pix\_\-file} [$\,$]
+\item 
+QPixmap $\ast$ {\bf folder\-Locked} = 0
+\item 
+QPixmap $\ast$ {\bf folder\-Closed} = 0
+\item 
+QPixmap $\ast$ {\bf folder\-Open} = 0
+\item 
+QPixmap $\ast$ {\bf file\-Normal} = 0
+\item 
+const int {\bf autoopen\-Time} = 750
+\end{CompactItemize}
+
+
+\subsection{Variable Documentation}
+\index{dirview.cpp@{dirview.cpp}!autoopenTime@{autoopenTime}}
+\index{autoopenTime@{autoopenTime}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}const int {\bf autoopen\-Time} = 750\hspace{0.3cm}{\tt  [static]}}\label{dirview_8cpp_a6}
+
+
+
+
+Definition at line 278 of file dirview.cpp.
+
+Referenced by Directory\-View::contents\-Drag\-Enter\-Event(), and Directory\-View::contents\-Drag\-Move\-Event().\index{dirview.cpp@{dirview.cpp}!fileNormal@{fileNormal}}
+\index{fileNormal@{fileNormal}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf file\-Normal} = 0}\label{dirview_8cpp_a5}
+
+
+
+
+Definition at line 90 of file dirview.cpp.
+
+Referenced by Directory\-View::Directory\-View(), and Directory::set\-Open().\index{dirview.cpp@{dirview.cpp}!folder_locked@{folder\_\-locked}}
+\index{folder_locked@{folder\_\-locked}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf folder\_\-locked}[$\,$]\hspace{0.3cm}{\tt  [static]}}\label{dirview_8cpp_a0}
+
+
+{\bf Initial value:}
+
+\footnotesize\begin{verbatim}{
+    "16 16 10 1",
+    "h c #808080",
+    "b c #ffa858",
+    "f c #c0c0c0",
+    "e c #c05800",
+    "# c #000000",
+    "c c #ffdca8",
+    ". c None",
+    "a c #585858",
+    "g c #a0a0a4",
+    "d c #ffffff",
+    "..#a#...........",
+    ".#abc####.......",
+    ".#daa#eee#......",
+    ".#ddf#e##b#.....",
+    ".#dfd#e#bcb##...",
+    ".#fdccc#daaab#..",
+    ".#dfbbbccgfg#ba.",
+    ".#ffb#ebbfgg#ba.",
+    ".#ffbbe#bggg#ba.",
+    ".#fffbbebggg#ba.",
+    ".##hf#ebbggg#ba.",
+    "...###e#gggg#ba.",
+    ".....#e#gggg#ba.",
+    "......###ggg#b##",
+    ".........##g#b##",
+    "...........####."}
+\end{verbatim}\normalsize 
+
+
+Definition at line 32 of file dirview.cpp.
+
+Referenced by Directory\-View::Directory\-View().\index{dirview.cpp@{dirview.cpp}!folderClosed@{folderClosed}}
+\index{folderClosed@{folderClosed}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf folder\-Closed} = 0}\label{dirview_8cpp_a3}
+
+
+
+
+Definition at line 88 of file dirview.cpp.
+
+Referenced by Directory::Directory(), Directory\-View::Directory\-View(), and Directory::set\-Open().\index{dirview.cpp@{dirview.cpp}!folderLocked@{folderLocked}}
+\index{folderLocked@{folderLocked}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf folder\-Locked} = 0}\label{dirview_8cpp_a2}
+
+
+
+
+Definition at line 87 of file dirview.cpp.
+
+Referenced by Directory::Directory(), and Directory\-View::Directory\-View().\index{dirview.cpp@{dirview.cpp}!folderOpen@{folderOpen}}
+\index{folderOpen@{folderOpen}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QPixmap$\ast$ {\bf folder\-Open} = 0}\label{dirview_8cpp_a4}
+
+
+
+
+Definition at line 89 of file dirview.cpp.
+
+Referenced by Directory\-View::Directory\-View(), and Directory::set\-Open().\index{dirview.cpp@{dirview.cpp}!pix_file@{pix\_\-file}}
+\index{pix_file@{pix\_\-file}!dirview.cpp@{dirview.cpp}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf pix\_\-file}[$\,$]\hspace{0.3cm}{\tt  [static]}}\label{dirview_8cpp_a1}
+
+
+{\bf Initial value:}
+
+\footnotesize\begin{verbatim}{
+    "16 16 7 1",
+    "# c #000000",
+    "b c #ffffff",
+    "e c #000000",
+    "d c #404000",
+    "c c #c0c000",
+    "a c #ffffc0",
+    ". c None",
+    "................",
+    ".........#......",
+    "......#.#a##....",
+    ".....#b#bbba##..",
+    "....#b#bbbabbb#.",
+    "...#b#bba##bb#..",
+    "..#b#abb#bb##...",
+    ".#a#aab#bbbab##.",
+    "#a#aaa#bcbbbbbb#",
+    "#ccdc#bcbbcbbb#.",
+    ".##c#bcbbcabb#..",
+    "...#acbacbbbe...",
+    "..#aaaacaba#....",
+    "...##aaaaa#.....",
+    ".....##aa#......",
+    ".......##......."}
+\end{verbatim}\normalsize 
+
+
+Definition at line 61 of file dirview.cpp.
+
+Referenced by Directory\-View::Directory\-View().

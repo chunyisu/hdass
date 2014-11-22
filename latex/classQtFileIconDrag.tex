@@ -1,0 +1,152 @@
+\section{Qt\-File\-Icon\-Drag Class Reference}
+\label{classQtFileIconDrag}\index{QtFileIconDrag@{QtFileIconDrag}}
+{\tt \#include $<$qfileiconview.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+{\bf Qt\-File\-Icon\-Drag} ({\bf QWidget} $\ast$drag\-Source, const char $\ast$name=0)
+\item 
+const char $\ast$ {\bf format} (int i) const 
+\item 
+QByte\-Array {\bf encoded\-Data} (const char $\ast$mime) const 
+\item 
+void {\bf append} (const QIcon\-Drag\-Item \&item, const QRect \&pr, const QRect \&tr, const QString \&url)
+\end{CompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{CompactItemize}
+\item 
+bool {\bf can\-Decode} (QMime\-Source $\ast$e)
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+QString\-List {\bf urls}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!QtFileIconDrag@{QtFileIconDrag}}
+\index{QtFileIconDrag@{QtFileIconDrag}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}Qt\-File\-Icon\-Drag::Qt\-File\-Icon\-Drag ({\bf QWidget} $\ast$ {\em drag\-Source}, const char $\ast$ {\em name} = 0)}\label{classQtFileIconDrag_QtFileIconDraga0}
+
+
+
+
+Definition at line 44 of file qfileiconview.cpp.
+
+
+
+\footnotesize\begin{verbatim}45     : QIconDrag( dragSource, name )
+46 {
+47 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Function Documentation}
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!append@{append}}
+\index{append@{append}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void Qt\-File\-Icon\-Drag::append (const QIcon\-Drag\-Item \& {\em item}, const QRect \& {\em pr}, const QRect \& {\em tr}, const QString \& {\em url})}\label{classQtFileIconDrag_QtFileIconDraga3}
+
+
+
+
+Definition at line 78 of file qfileiconview.cpp.
+
+References urls.
+
+Referenced by Qt\-File\-Icon\-View::drag\-Object().
+
+
+
+\footnotesize\begin{verbatim}80 {
+81     QIconDrag::append( item, pr, tr );
+82     QString ourUrl = url;    
+83 #ifdef Q_WS_WIN
+84     if (ourUrl.length() > 2 && ourUrl[1] != ':') {
+85         QDir dir(ourUrl);
+86         ourUrl = dir.absPath();
+87     }
+88 #endif
+89     urls << QUriDrag::localFileToUri(ourUrl);
+90 }
+\end{verbatim}\normalsize 
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!canDecode@{canDecode}}
+\index{canDecode@{canDecode}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool Qt\-File\-Icon\-Drag::can\-Decode (QMime\-Source $\ast$ {\em e})\hspace{0.3cm}{\tt  [static]}}\label{classQtFileIconDrag_QtFileIconDrage0}
+
+
+
+
+Definition at line 72 of file qfileiconview.cpp.
+
+
+
+\footnotesize\begin{verbatim}73 {
+74     return e->provides( "application/x-qiconlist" ) ||
+75         e->provides( "text/uri-list" );
+76 }
+\end{verbatim}\normalsize 
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!encodedData@{encodedData}}
+\index{encodedData@{encodedData}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QByte\-Array Qt\-File\-Icon\-Drag::encoded\-Data (const char $\ast$ {\em mime}) const}\label{classQtFileIconDrag_QtFileIconDraga2}
+
+
+
+
+Definition at line 59 of file qfileiconview.cpp.
+
+References urls.
+
+
+
+\footnotesize\begin{verbatim}60 {
+61     QByteArray a;
+62     if ( QString( mime ) == "application/x-qiconlist" ) {
+63         a = QIconDrag::encodedData( mime );
+64     } else if ( QString( mime ) == "text/uri-list" ) {
+65         QString s = urls.join( "\r\n" );
+66         a.resize( s.length() );
+67         memcpy( a.data(), s.latin1(), s.length() );
+68     }
+69     return a;
+70 }
+\end{verbatim}\normalsize 
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!format@{format}}
+\index{format@{format}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Qt\-File\-Icon\-Drag::format (int {\em i}) const}\label{classQtFileIconDrag_QtFileIconDraga1}
+
+
+
+
+Definition at line 49 of file qfileiconview.cpp.
+
+
+
+\footnotesize\begin{verbatim}50 {
+51     if ( i == 0 )
+52         return "application/x-qiconlist";
+53     else if ( i == 1 )
+54         return "text/uri-list";
+55     else
+56         return 0;
+57 }
+\end{verbatim}\normalsize 
+
+
+\subsection{Member Data Documentation}
+\index{QtFileIconDrag@{Qt\-File\-Icon\-Drag}!urls@{urls}}
+\index{urls@{urls}!QtFileIconDrag@{Qt\-File\-Icon\-Drag}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}QString\-List {\bf Qt\-File\-Icon\-Drag::urls}\hspace{0.3cm}{\tt  [private]}}\label{classQtFileIconDrag_QtFileIconDragr0}
+
+
+
+
+Definition at line 47 of file qfileiconview.h.
+
+Referenced by append(), and encoded\-Data().
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+{\bf qfileiconview.h}\item 
+{\bf qfileiconview.cpp}\end{CompactItemize}
